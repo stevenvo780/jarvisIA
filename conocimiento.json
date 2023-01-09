@@ -1,0 +1,1542 @@
+[
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir explorador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir editor de código",
+    "output": "code"
+  },
+  {
+    "input": "busca información sobre Linux",
+    "output": "google-chrome \"información sobre Linux\""
+  },
+  {
+    "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "cuánto espacio libre hay en el disco",
+    "output": "df -h"
+  },
+  {
+    "input": "muestra los procesos en ejecución",
+    "output": "ps aux"
+  },
+  {
+    "input": "abrir gestor de paquetes",
+    "output": "aptitude"
+  },
+  {
+    "input": "instalar paquete",
+    "output": "apt-get install"
+  },
+  {
+    "input": "actualizar sistema",
+    "output": "apt-get update && apt-get upgrade"
+  },
+  {
+    "input": "abrir cliente de correo",
+    "output": "thunderbird"
+  },
+  {
+    "input": "enviar correo electrónico",
+    "output": "mutt"
+  },
+  {
+    "input": "abrir reproductor de música",
+    "output": "vlc"
+  },
+  {
+    "input": "abrir editor de imágenes",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir visualizador de PDF",
+    "output": "evince"
+  },
+  {
+    "input": "abrir navegador web",
+    "output": "google-chrome"
+  },
+  {
+    "input": "abrir gestor de descargas",
+    "output": "transmission-gtk"
+  },
+  {
+    "input": "abrir editor de texto",
+    "output": "gedit"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir panel de control",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir configuración de red",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir configuración de pantalla",
+    "output": "gnome-display-properties"
+  },
+  {
+    "input": "abrir configuración de sonido",
+    "output": "gnome-volume-control"
+  },
+  {
+    "input": "abrir configuración de teclado",
+    "output": "gnome-keyboard-properties"
+  },
+  {
+    "input": "abrir configuración de idioma",
+    "output": "gnome-language-selector"
+  },
+  {
+    "input": "abrir configuración de usuario",
+    "output": "gnome-about-me"
+  },
+  {
+    "input": "abrir configuración de privacidad",
+    "output": "gnome-privacy-settings"
+  },
+  {
+    "input": "abrir configuración de seguridad",
+    "output": "gnome-user-accounts"
+  },
+  {
+    "input": "abrir configuración de sistema",
+    "output": "gnome-system-settings"
+  },
+  {
+    "input": "abrir editor de video",
+    "output": "openshot"
+  },
+  {
+    "input": "abrir editor de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de grabación de audio y video",
+    "output": "cheese"
+  },
+  {
+    "input": "abrir gestor de proyectos",
+    "output": "gnome-todo"
+  },
+  {
+    "input": "abrir programa de mensajería",
+    "output": "pidgin"
+  },
+  {
+    "input": "abrir programa de chat",
+    "output": "hexchat"
+  },
+  {
+    "input": "abrir programa de videollamadas",
+    "output": "skype"
+  },
+  {
+    "input": "abrir programa de notas",
+    "output": "tomboy"
+  },
+  {
+    "input": "abrir programa de dibujo",
+    "output": "inkscape"
+  },
+  {
+    "input": "abrir programa de presentaciones",
+    "output": "libreoffice-impress"
+  },
+  {
+    "input": "abrir programa de hojas de cálculo",
+    "output": "libreoffice-calc"
+  },
+  {
+    "input": "abrir programa de procesamiento de texto",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de bases de datos",
+    "output": "libreoffice-base"
+  },
+  {
+    "input": "abrir programa de organización",
+    "output": "gnome-organizer"
+  },
+  {
+    "input": "abrir programa de diccionario",
+    "output": "goldendict"
+  },
+  {
+    "input": "abrir programa de traducción",
+    "output": "google-chrome \"traductor\""
+  },
+  {
+    "input": "abrir programa de anotaciones",
+    "output": "gnote"
+  },
+  {
+    "input": "abrir programa de planificación",
+    "output": "gnome-calendar"
+  },
+  {
+    "input": "abrir programa de gráficos",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de benchmark",
+    "output": "sysbench"
+  },
+  {
+    "input": "abrir programa de diagnóstico de hardware",
+    "output": "lshw"
+  },
+  {
+    "input": "abrir programa de inventario de hardware",
+    "output": "hardinfo"
+  },
+  {
+    "input": "abrir programa de monitorización de red",
+    "output": "gnome-system-log"
+  },
+  {
+    "input": "abrir programa de monitorización de rendimiento",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de temperatura",
+    "output": "sensors"
+  },
+  {
+    "input": "abrir programa de monitorización de consumo de energía",
+    "output": "gnome-power-statistics"
+  },
+  {
+    "input": "abrir programa de monitorización de disco",
+    "output": "baobab"
+  },
+  {
+    "input": "abrir programa de monitorización de memoria",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de procesos",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de monitorización de CPU",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de monitorización de uso de la red",
+    "output": "nethogs"
+  },
+  {
+    "input": "abrir aplicación de diccionario",
+    "output": "gnome-dictionary"
+  },
+  {
+    "input": "abrir gestor de tareas",
+    "output": "gnome-task-manager"
+  },
+  {
+    "input": "abrir programa de anotaciones",
+    "output": "gnote"
+  },
+  {
+    "input": "abrir editor de gráficos vectoriales",
+    "output": "inkscape"
+  },
+  {
+    "input": "abrir programa de dibujo técnico",
+    "output": "dia"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "planner"
+  },
+  {
+    "input": "abrir programa de diseño gráfico",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir programa de optimización de imágenes",
+    "output": "optipng"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "rstudio"
+  },
+  {
+    "input": "abrir programa de visualización de datos",
+    "output": "datawrapper"
+  },
+  {
+    "input": "abrir programa de edición de fotografías",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de gestión de base de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "kdenlive"
+  },
+  {
+    "input": "abrir programa de grabación de pantalla",
+    "output": "kazam"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de edición de archivos de texto",
+    "output": "leafpad"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de monitoreo de sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización del sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "file-roller"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio y video",
+    "output": "avidemux"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de creación de presentaciones",
+    "output": "libreoffice-impress"
+  },
+  {
+    "input": "abrir programa de creación de diagramas",
+    "output": "dia"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de optimización de imágenes",
+    "output": "optipng"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio y video",
+    "output": "avidemux"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de edición de archivos de texto",
+    "output": "leafpad"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "planner"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización del sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de monitoreo de sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "file-roller"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir explorador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir editor de código",
+    "output": "code"
+  },
+  {
+    "input": "busca información sobre Linux",
+    "output": "google-chrome \"información sobre Linux\""
+  },
+  {
+    "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "cuánto espacio libre hay en el disco",
+    "output": "df -h"
+  },
+  {
+    "input": "muestra los procesos en ejecución",
+    "output": "ps aux"
+  },
+  {
+    "input": "abrir gestor de paquetes",
+    "output": "aptitude"
+  },
+  {
+    "input": "instalar paquete",
+    "output": "apt-get install"
+  },
+  {
+    "input": "actualizar sistema",
+    "output": "apt-get update && apt-get upgrade"
+  },
+  {
+    "input": "abrir cliente de correo",
+    "output": "thunderbird"
+  },
+  {
+    "input": "enviar correo electrónico",
+    "output": "mutt"
+  },
+  {
+    "input": "abrir reproductor de música",
+    "output": "vlc"
+  },
+  {
+    "input": "abrir editor de imágenes",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir visualizador de PDF",
+    "output": "evince"
+  },
+  {
+    "input": "abrir navegador web",
+    "output": "google-chrome"
+  },
+  {
+    "input": "abrir gestor de descargas",
+    "output": "transmission-gtk"
+  },
+  {
+    "input": "abrir editor de texto",
+    "output": "gedit"
+  },
+  {
+    "input": "abrir terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir panel de control",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir configuración de red",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir configuración de pantalla",
+    "output": "gnome-display-properties"
+  },
+  {
+    "input": "abrir configuración de sonido",
+    "output": "gnome-volume-control"
+  },
+  {
+    "input": "abrir configuración de teclado",
+    "output": "gnome-keyboard-properties"
+  },
+  {
+    "input": "abrir configuración de idioma",
+    "output": "gnome-language-selector"
+  },
+  {
+    "input": "abrir configuración de usuario",
+    "output": "gnome-about-me"
+  },
+  {
+    "input": "abrir configuración de privacidad",
+    "output": "gnome-privacy-settings"
+  },
+  {
+    "input": "abrir programa de creación de gráficos",
+    "output": "graphviz"
+  },
+  {
+    "input": "abrir programa de gestión de bases de datos",
+    "output": "dbeaver"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "orange"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "lmms"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "openshot"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de gestión de tareas",
+    "output": "asana"
+  },
+  {
+    "input": "abrir programa de edición de archivos PDF",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "pgadmin4"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistema",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización de sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "ark"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "asana"
+  },
+  {
+    "input": "abrir programa de creación de sitios web",
+    "output": "bluefish"
+  },
+  {
+    "input": "abrir programa de creación de animaciones",
+    "output": "blender"
+  },
+  {
+    "input": "abrir programa de creación de juegos",
+    "output": "godot"
+  },
+  {
+    "input": "abrir programa de creación de diagramas",
+    "output": "yed"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones móviles",
+    "output": "android-studio"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones de escritorio",
+    "output": "pycharm"
+  },
+  {
+    "input": "abrir programa de creación de aplicaciones web",
+    "output": "webstorm"
+  },
+  {
+    "input": "abrir programa de edición de archivos de audio",
+    "output": "audacity"
+  },
+  {
+    "input": "abrir programa de edición de archivos de video",
+    "output": "kdenlive"
+  },
+  {
+    "input": "abrir programa de edición de archivos de imagen",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir programa de análisis de tráfico de red",
+    "output": "wireshark"
+  },
+  {
+    "input": "abrir programa de simulación de redes",
+    "output": "ns3"
+  },
+  {
+    "input": "abrir programa de análisis de vulnerabilidades",
+    "output": "nessus"
+  },
+  {
+    "input": "abrir programa de gestión de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "knime"
+  },
+  {
+    "input": "abrir programa de gestión de proyectos",
+    "output": "redmine"
+  },
+  {
+    "input": "abrir programa de edición de archivos PDF",
+    "output": "libreoffice-writer"
+  },
+  {
+    "input": "abrir programa de creación de bases de datos",
+    "output": "mongo-compass"
+  },
+  {
+    "input": "abrir programa de optimización de sistema",
+    "output": "ccleaner"
+  },
+  {
+    "input": "abrir programa de gestión de archivos comprimidos",
+    "output": "7zip"
+  },
+  {
+    "input": "abrir programa de creación de música",
+    "output": "lmms"
+  },
+  {
+    "input": "abrir programa de análisis de estadísticas",
+    "output": "rstudio"
+  },
+  {
+    "input": "abrir programa de análisis de datos financieros",
+    "output": "intrinio"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico",
+    "output": "google-analytics"
+  },
+  {
+    "input": "abrir programa de análisis de datos de redes sociales",
+    "output": "hootsuite"
+  },
+  {
+    "input": "abrir programa de análisis de datos de ventas",
+    "output": "salesforce"
+  },
+  {
+    "input": "abrir programa de análisis de datos de marketing",
+    "output": "hubspot"
+  },
+  {
+    "input": "abrir programa de análisis de datos de seguridad",
+    "output": "splunk"
+  },
+  {
+    "input": "abrir programa de análisis de datos de log",
+    "output": "logstash"
+  },
+  {
+    "input": "abrir programa de análisis de datos de IT",
+    "output": "zabbix"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico de red",
+    "output": "tcpdump"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo energético",
+    "output": "smartmeter"
+  },
+  {
+    "input": "abrir programa de análisis de datos de clima",
+    "output": "accuweather"
+  },
+  {
+    "input": "abrir programa de análisis de datos de salud",
+    "output": "fitbit"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico aéreo",
+    "output": "flightradar24"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico marítimo",
+    "output": "marinetraffic"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico terrestre",
+    "output": "waze"
+  },
+  {
+    "input": "abrir programa de análisis de datos de tráfico de carga",
+    "output": "freightos"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de alimentos",
+    "output": "myfitnesspal"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de energía",
+    "output": "homedash"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de gas",
+    "output": "energybillkiller"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de combustible",
+    "output": "fuelly"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de medicamentos",
+    "output": "goodrx"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de productos",
+    "output": "mint"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de servicios",
+    "output": "billshark"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de finanzas",
+    "output": "mint"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de tiempo",
+    "output": "toggl"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de actividad física",
+    "output": "strava"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de sueño",
+    "output": "sleepcycle"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de agua",
+    "output": "h2oconserve"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de papel",
+    "output": "forestandpaper"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de energía solar",
+    "output": "pvoutput"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de energía eólica",
+    "output": "windfinder"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de gas natural",
+    "output": "natgasweather"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de petróleo",
+    "output": "eia"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de carburante de aviación",
+    "output": "jetfuelprice"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de electricidad",
+    "output": "energysage"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de baterías",
+    "output": "batteryuniversity"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de teléfono móvil",
+    "output": "mydatamanager"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de internet",
+    "output": "glasswire"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de alimentos en restaurantes",
+    "output": "yelp"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de comestibles",
+    "output": "instacart"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de combustible de vehículos eléctricos",
+    "output": "plugless"
+  },
+  {
+    "input": "abrir programa de análisis de datos de consumo de vehículos compartidos",
+    "output": "zipcar"
+  },
+  {
+    "input": "abrir programa de monitoreo de red",
+    "output": "nmap"
+  },
+  {
+    "input": "abrir programa de gestión de contraseñas",
+    "output": "keepassx"
+  },
+  {
+    "input": "abrir programa de gestión de archivos",
+    "output": "mc"
+  },
+  {
+    "input": "abrir programa de gestión de discos",
+    "output": "gparted"
+  },
+  {
+    "input": "abrir programa de limpieza de sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir programa de gestión de procesos",
+    "output": "htop"
+  },
+  {
+    "input": "abrir programa de optimización de sistema",
+    "output": "preload"
+  },
+  {
+    "input": "abrir programa de gestión de particiones",
+    "output": "parted"
+  },
+  {
+    "input": "abrir programa de gestión de archivos de red",
+    "output": "samba"
+  },
+  {
+    "input": "abrir programa de gestión de impresoras",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir programa de gestión de energía",
+    "output": "powertop"
+  },
+  {
+    "input": "abrir programa de gestión de memoria",
+    "output": "memtest"
+  },
+  {
+    "input": "abrir programa de gestión de monitores",
+    "output": "arandr"
+  },
+  {
+    "input": "abrir programa de monitorización de temperatura",
+    "output": "lm-sensors"
+  },
+  {
+    "input": "abrir programa de monitorización de procesadores",
+    "output": "sensors"
+  },
+  {
+    "input": "abrir programa de gestión de usuarios",
+    "output": "useradd"
+  },
+  {
+    "input": "abrir programa de gestión de permisos",
+    "output": "chmod"
+  },
+  {
+    "input": "abrir programa de gestión de grupos",
+    "output": "groupadd"
+  },
+  {
+    "input": "abrir programa de gestión de contraseñas de usuario",
+    "output": "passwd"
+  },
+  {
+    "input": "abrir programa de monitorización de red",
+    "output": "tcpdump"
+  },
+  {
+    "input": "abrir programa de edición de imágenes",
+    "output": "darktable"
+  },
+  {
+    "input": "abrir programa de edición de audio",
+    "output": "sox"
+  },
+  {
+    "input": "abrir programa de edición de video",
+    "output": "avidemux"
+  },
+  {
+    "input": "abrir programa de edición de texto",
+    "output": "jed"
+  },
+  {
+    "input": "abrir programa de edición de gráficos",
+    "output": "inkscape"
+  },
+  {
+    "input": "abrir programa de edición de fotografías",
+    "output": "shotwell"
+  },
+  {
+    "input": "abrir programa de edición de documentos",
+    "output": "abiword"
+  },
+  {
+    "input": "abrir programa de edición de tablas",
+    "output": "gnumeric"
+  },
+  {
+    "input": "abrir programa de edición de presentaciones",
+    "output": "libreoffice-impress"
+  },
+  {
+    "input": "abrir programa de edición de mapas",
+    "output": "qgis"
+  },
+  {
+    "input": "abrir programa de edición de bases de datos",
+    "output": "mysql-workbench"
+  },
+  {
+    "input": "abrir programa de análisis de datos",
+    "output": "r-base"
+  },
+  {
+    "input": "abrir programa de análisis de tráfico de red",
+    "output": "wireshark"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento del sistema",
+    "output": "sysstat"
+  },
+  {
+    "input": "abrir programa de análisis de logs",
+    "output": "logwatch"
+  },
+  {
+    "input": "abrir programa de análisis de estadísticas",
+    "output": "rrdtool"
+  },
+  {
+    "input": "abrir programa de análisis de seguridad",
+    "output": "nessus"
+  },
+  {
+    "input": "abrir programa de análisis de vulnerabilidades",
+    "output": "nmap"
+  },
+  {
+    "input": "abrir programa de análisis de dependencias",
+    "output": "ldd"
+  },
+  {
+    "input": "abrir programa de análisis de desempeño de código",
+    "output": "valgrind"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de aplicaciones",
+    "output": "apparmor"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de bases de datos",
+    "output": "mysqltuner"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de servidores",
+    "output": "loadwatch"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistemas operativos",
+    "output": "oprofile"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de sistemas de archivos",
+    "output": "diskperf"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de memoria",
+    "output": "memtest"
+  },
+  {
+    "input": "abrir programa de análisis de rendimiento de procesadores",
+    "output": "stress"
+  },
+  {
+    "input": "verificar el espacio en disco duro",
+    "output": "df -h"
+  },
+  {
+    "input": "verificar el uso de memoria",
+    "output": "free -m"
+  },
+  {
+    "input": "verificar el uso de la CPU",
+    "output": "top"
+  },
+  {
+    "input": "verificar la tabla de enrutamiento",
+    "output": "route -n"
+  },
+  {
+    "input": "verificar las conexiones de red activas",
+    "output": "netstat -tulpn"
+  },
+  {
+    "input": "verificar los procesos en segundo plano",
+    "output": "jobs -l"
+  },
+  {
+    "input": "verificar la configuración de la red",
+    "output": "ifconfig -a"
+  },
+  {
+    "input": "verificar la configuración del firewall",
+    "output": "ufw status"
+  },
+  {
+    "input": "verificar la configuración del sistema de archivos",
+    "output": "mount"
+  },
+  {
+    "input": "verificar el historial del sistema",
+    "output": "dmesg"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración",
+    "output": "gedit /etc/"
+  },
+  {
+    "input": "abrir el administrador de tareas",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir el administrador de discos",
+    "output": "gnome-disks"
+  },
+  {
+    "input": "abrir el administrador de paquetes",
+    "output": "synaptic"
+  },
+  {
+    "input": "abrir el administrador de actualizaciones del sistema",
+    "output": "update-manager"
+  },
+  {
+    "input": "abrir el administrador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor",
+    "output": "system-config-httpd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del correo",
+    "output": "system-config-mail"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del firewall",
+    "output": "system-config-firewall-tui"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de red",
+    "output": "system-config-network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la red inalámbrica",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor SSH",
+    "output": "system-config-ssh"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de impresión",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor NFS",
+    "output": "system-config-nfs"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor Samba",
+    "output": "system-config-samba"
+  },
+  {
+    "input": "abrir el administrador de tareas",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir el administrador de discos",
+    "output": "gnome-disks"
+  },
+  {
+    "input": "abrir el administrador de paquetes",
+    "output": "synaptic"
+  },
+  {
+    "input": "abrir el administrador de actualizaciones del sistema",
+    "output": "update-manager"
+  },
+  {
+    "input": "abrir el administrador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor",
+    "output": "system-config-httpd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del correo",
+    "output": "system-config-mail"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del firewall",
+    "output": "system-config-firewall-tui"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de red",
+    "output": "system-config-network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor SSH",
+    "output": "system-config-ssh"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de impresión",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor NFS",
+    "output": "system-config-nfs"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor Samba",
+    "output": "system-config-samba"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor LDAP",
+    "output": "system-config-ldap"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de DHCP",
+    "output": "system-config-dhcp"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor DNS",
+    "output": "system-config-bind"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor FTP",
+    "output": "system-config-vsftpd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor Telnet",
+    "output": "system-config-telnet"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de terminales",
+    "output": "system-config-terminal"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de tiempo",
+    "output": "system-config-date"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de red",
+    "output": "system-config-network-cmd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de archivos",
+    "output": "system-config-samba"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de autenticación",
+    "output": "system-config-authentication"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de correo",
+    "output": "system-config-mail"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de impresión",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de SSH",
+    "output": "system-config-ssh"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de tiempo",
+    "output": "system-config-date"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor web",
+    "output": "system-config-httpd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor X",
+    "output": "system-config-display"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del sistema",
+    "output": "system-config-system"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del usuario",
+    "output": "system-config-users"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de red",
+    "output": "system-config-network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de firewall",
+    "output": "system-config-firewall"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de SELinux",
+    "output": "system-config-selinux"
+  },
+  {
+    "input": "abrir el terminal",
+    "output": "gnome-terminal"
+  },
+  {
+    "input": "abrir el panel de control",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir la aplicación de correo",
+    "output": "evolution"
+  },
+  {
+    "input": "abrir el reproductor de música",
+    "output": "rhythmbox"
+  },
+  {
+    "input": "abrir el visor de imágenes",
+    "output": "eog"
+  },
+  {
+    "input": "abrir el editor de texto",
+    "output": "gedit"
+  },
+  {
+    "input": "abrir el navegador web",
+    "output": "firefox"
+  },
+  {
+    "input": "abrir el sistema de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir el monitor de recursos del sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir el panel de notificaciones",
+    "output": "gnome-shell-extension-prefs"
+  },
+  {
+    "input": "abrir el administrador de discos",
+    "output": "gnome-disks"
+  },
+  {
+    "input": "abrir el administrador de paquetes",
+    "output": "synaptic"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor web",
+    "output": "system-config-httpd"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de red",
+    "output": "system-config-network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la red inalámbrica",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor de impresión",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor NFS",
+    "output": "system-config-nfs"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor Samba",
+    "output": "system-config-samba"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del servidor SSH",
+    "output": "system-config-ssh"
+  },
+  {
+    "input": "abrir el gestor de ventanas",
+    "output": "wmctrl"
+  },
+  {
+    "input": "abrir el instalador de software",
+    "output": "software-center"
+  },
+  {
+    "input": "abrir el administrador de tareas",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir la aplicación de calendario",
+    "output": "evolution"
+  },
+  {
+    "input": "abrir el visor de PDF",
+    "output": "evince"
+  },
+  {
+    "input": "abrir el editor de imágenes",
+    "output": "gimp"
+  },
+  {
+    "input": "abrir el reproductor de vídeo",
+    "output": "totem"
+  },
+  {
+    "input": "abrir el administrador de archivos",
+    "output": "nautilus"
+  },
+  {
+    "input": "abrir el administrador de actualizaciones del sistema",
+    "output": "update-manager"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del firewall",
+    "output": "system-config-firewall-tui"
+  },
+  {
+    "input": "abrir la utilidad de creación de discos",
+    "output": "brasero"
+  },
+  {
+    "input": "abrir la utilidad de particiones",
+    "output": "gparted"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del teclado",
+    "output": "gnome-control-center keyboard"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del sonido",
+    "output": "gnome-control-center sound"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la pantalla",
+    "output": "gnome-control-center display"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del ratón",
+    "output": "gnome-control-center mouse"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la energía",
+    "output": "gnome-control-center power"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la red",
+    "output": "gnome-control-center network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la privacidad",
+    "output": "gnome-control-center privacy"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la seguridad",
+    "output": "gnome-control-center security"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la conexión a internet",
+    "output": "gnome-control-center network"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del escritorio",
+    "output": "gnome-control-center desktop"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la región y el idioma",
+    "output": "gnome-control-center region"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la pantalla de inicio",
+    "output": "gnome-control-center startup-applications"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración de la cuenta",
+    "output": "gnome-control-center user-accounts"
+  },
+  {
+    "input": "abrir el editor de archivos de configuración del sistema",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir la utilidad de copia de seguridad",
+    "output": "deja-dup-preferences"
+  },
+  {
+    "input": "abrir la utilidad de monitoreo de red",
+    "output": "gnome-nettool"
+  },
+  {
+    "input": "abrir la utilidad de optimización del sistema",
+    "output": "baobab"
+  },
+  {
+    "input": "abrir la utilidad de monitoreo del sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abrir el administrador de ventanas",
+    "output": "wmctrl"
+  },
+  {
+    "input": "abrir la utilidad de limpieza del sistema",
+    "output": "bleachbit"
+  },
+  {
+    "input": "abrir la utilidad de cifrado de archivos",
+    "output": "seahorse"
+  },
+  {
+    "input": "abrir la utilidad de creación de discos de arranque",
+    "output": "boot-repair"
+  },
+  {
+    "input": "abrir la utilidad de instalación de software",
+    "output": "ubuntu-software"
+  },
+  {
+    "input": "abrir la utilidad de recuperación del sistema",
+    "output": "boot-repair"
+  },
+  {
+    "input": "abrir la utilidad de configuración de red",
+    "output": "nm-connection-editor"
+  },
+  {
+    "input": "abrir la utilidad de configuración de impresoras",
+    "output": "system-config-printer"
+  },
+  {
+    "input": "abrir la utilidad de configuración de teclado",
+    "output": "gnome-control-center keyboard"
+  },
+  {
+    "input": "abrir la utilidad de configuración de sonido",
+    "output": "gnome-control-center sound"
+  },
+  {
+    "input": "abrir la utilidad de configuración de pantalla",
+    "output": "gnome-control-center display"
+  },
+  {
+    "input": "abrir la utilidad de configuración del ratón",
+    "output": "gnome-control-center mouse"
+  },
+  {
+    "input": "abrir la utilidad de configuración de energía",
+    "output": "gnome-control-center power"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la red",
+    "output": "gnome-control-center network"
+  },
+  {
+    "input": "abrir la utilidad de configuración de privacidad",
+    "output": "gnome-control-center privacy"
+  },
+  {
+    "input": "abrir la utilidad de configuración de seguridad",
+    "output": "gnome-control-center security"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la conexión a internet",
+    "output": "gnome-control-center network"
+  },
+  {
+    "input": "abrir la utilidad de configuración del escritorio",
+    "output": "gnome-control-center desktop"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la región y el idioma",
+    "output": "gnome-control-center region"
+  },
+  {
+    "input": "abrir el visor de eventos del sistema",
+    "output": "gnome-system-log"
+  },
+  {
+    "input": "abrir la utilidad de creación de discos de instalación",
+    "output": "gnome-disks"
+  },
+  {
+    "input": "abrir la utilidad de configuración del sistema",
+    "output": "gnome-control-center"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la pantalla táctil",
+    "output": "gnome-control-center touchscreen"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la pantalla de bloqueo",
+    "output": "gnome-screensaver-preferences"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la pantalla de inicio",
+    "output": "gnome-tweak-tool"
+  },
+  {
+    "input": "abrir la utilidad de configuración del tema del escritorio",
+    "output": "gnome-tweak-tool"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la barra de tareas",
+    "output": "gnome-tweak-tool"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la barra de menús",
+    "output": "gnome-tweak-tool"
+  },
+  {
+    "input": "abrir la utilidad de configuración de la barra de notificaciones",
+    "output": "gnome-tweak-tool"
+  }
+]
