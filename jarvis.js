@@ -6,8 +6,6 @@ const recordar = require('./memoria/cortoplazo');
 const aprender = require('./memoria/aprender');
 const path = require('path');
 const readline = require('readline');
-const Say = require('say').Say
-const say = new Say('linux')
 // Crea una instancia de NlpManager
 const manager = new NlpManager({ languages: ['es'] });
 
