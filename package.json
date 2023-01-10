@@ -1,0 +1,22 @@
+{
+  "name": "jarvis.js",
+  "version": "1.0.0",
+  "description": "jarvis ia",
+  "main": "jarvis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenvo780/jarvisIA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenvo780/jarvisIA/issues"
+  },
+  "homepage": "https://github.com/stevenvo780/jarvisIA#readme",
+  "dependencies": {
+    "google-translate-api": "^2.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "input": "recuerda el siguiente comando",
+    "output": "learn"
+  },
+  {
+    "input": "aprende este comando",
+    "output": "learn"
+  },
+  {
+    "input": "ten en cuenta este comando",
+    "output": "learn"
+  }
+]
