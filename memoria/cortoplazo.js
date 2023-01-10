@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 module.exports = async function recordar(input, output) {
-  const conocimiento = JSON.parse(fs.readFileSync(path.join(__dirname, '', 'conocimiento.json')));
+  const conocimiento = JSON.parse(fs.readFileSync(path.join(__dirname, 'recuerdos', 'ideas.json')));
   // Supongamos que nuestro JSON se encuentra en la variable 'jsonData'
   conocimiento.push({ input: input, output: output });
 
@@ -9,7 +9,7 @@ module.exports = async function recordar(input, output) {
   const jsonString = JSON.stringify(conocimiento, null, 2);
 
   // Usamos fs.writeFileSync para escribir la cadena de texto en un archivo llamado 'data.json'
-  fs.writeFileSync(path.join(__dirname, '', 'conocimiento.json'), jsonString);
+  fs.writeFileSync(path.join(__dirname, 'recuerdos', 'ideas.json'), jsonString);
 
   return conocimiento;
 }

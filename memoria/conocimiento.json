@@ -3434,5 +3434,9 @@
   {
     "input": "abrir el administrador de configuración de dispositivos de impresión del sistema",
     "output": "gnome-control-center printers"
+  },
+  {
+    "input": "hola como estas",
+    "output": "bien y tu"
   }
 ]

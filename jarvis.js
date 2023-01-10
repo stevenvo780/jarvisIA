@@ -23,7 +23,7 @@ async function predict() {
     output: process.stdout
   });
   // Realiza la predicción con el texto de entrada
-  jarvisQuestion.question('Jarvis: ', async question => {
+  jarvisQuestion.question('Jarvis $: ', async question => {
     jarvisQuestion.close();
     await medula(question);
     predict();
@@ -70,10 +70,10 @@ const recordarAction = async (question) => {
       input: process.stdin,
       output: process.stdout
     });
-    recordarRequest.question('¿Que comando debería responder a esta acción?: ', async response => {
+    recordarRequest.question("Jarvis: " + '¿Que comando debería responder a esta acción?: ', async response => {
       recordarRequest.close();
       await recordar(question, response);
-      console.log("Aprendiendo de lo recordado");
+      console.log("Jarvis: " + "Aprendiendo de lo recordado");
       await aprender();
       await manager.load();
       resolve(true);
@@ -83,13 +83,13 @@ const recordarAction = async (question) => {
 }
 
 const handleNotFount = (action) => {
-  console.log("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
+  console.log("Jarvis: " + "Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
   return new Promise((resolve, reject) => {
     const createCommandRequest = readline.createInterface({
       input: process.stdin,
       output: process.stdout
     });
-    createCommandRequest.question('¿desea crear un comando de esta acción responde Y o N? ', async responseSave => {
+    createCommandRequest.question("Jarvis: " + '¿desea crear un comando de esta acción responde Y o N? ', async responseSave => {
       createCommandRequest.close();
       if (responseSave.toLowerCase() == "y") {
         await recordarAction(action);
@@ -99,7 +99,7 @@ const handleNotFount = (action) => {
           input: process.stdin,
           output: process.stdout
         });
-        searchGoogleCommand.question('¿desea buscarlo en internet? responde con Y o N ', async responseSearch => {
+        searchGoogleCommand.question("Jarvis: " + '¿desea buscarlo en internet? responde con Y o N ', async responseSearch => {
           searchGoogleCommand.close();
           if (responseSearch.toLowerCase() == "y") {
             notFount(action);
@@ -112,17 +112,18 @@ const handleNotFount = (action) => {
 }
 
 const systemAction = (action) => {
-  console.log("Ejecutando: " + action);
   return new Promise((resolve, reject) => {
     exec(action, (error, stdout, stderr) => {
       if (error) {
-        handleNotFount(action);
-        reject(error);
+        console.log("Jarvis: " + action);
+        resolve(action);
+        //reject(error);
         return;
       }
       if (stderr) {
-        handleNotFount(action);
-        reject(error);
+        console.log("Jarvis: " + action);
+        //reject(error);
+        resolve(action);
         return;
       }
       resolve({ stdout, stderr });
