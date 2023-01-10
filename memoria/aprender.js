@@ -4,7 +4,7 @@ const manager = new NlpManager({ languages: ['es'] });
 const path = require('path');
 const dormir = require('./dormir');
 
-async function entrain() {
+module.exports = async function entrain() {
   // Array para almacenar los datos de todos los archivos JSON
   let data = [];
 
@@ -45,5 +45,3 @@ async function entrain() {
   dormir(data);
   console.log("Se han guardado los recuerdos");
 }
-
-entrain();

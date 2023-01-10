@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stevenvo780/jarvisIA#readme",
   "dependencies": {
+    "@tensorflow/tfjs-node": "^4.2.0",
     "google-translate-api": "^2.3.0"
   }
 }
