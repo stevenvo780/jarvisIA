@@ -6,7 +6,8 @@ const recordar = require('./memoria/cortoplazo');
 const aprender = require('./memoria/aprender');
 const path = require('path');
 const readline = require('readline');
-
+const Say = require('say').Say
+const say = new Say('linux')
 // Crea una instancia de NlpManager
 const manager = new NlpManager({ languages: ['es'] });
 
@@ -49,7 +50,7 @@ const medula = async (question) => {
       break;
     case "open.translate":
       const translate = await traductor(question);
-      console.log("Traducción: " + translate);
+      respuestaConversations("Traducción: " + translate);
       break;
     case "learn":
       await recordarAction(question);
@@ -70,10 +71,11 @@ const recordarAction = async (question) => {
       input: process.stdin,
       output: process.stdout
     });
+    speak("¿Que comando debería responder a esta acción?");
     recordarRequest.question("Jarvis: " + '¿Que comando debería responder a esta acción?: ', async response => {
       recordarRequest.close();
       await recordar(question, response);
-      console.log("Jarvis: " + "Aprendiendo de lo recordado");
+      respuestaConversations("Aprendiendo de lo recordado");
       await aprender();
       await manager.load();
       resolve(true);
@@ -83,12 +85,13 @@ const recordarAction = async (question) => {
 }
 
 const handleNotFount = (action) => {
-  console.log("Jarvis: " + "Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
+  //respuestaConversations("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
   return new Promise((resolve, reject) => {
     const createCommandRequest = readline.createInterface({
       input: process.stdin,
       output: process.stdout
     });
+    speak("¿desea crear un comando de esta acción responde Y o N?");
     createCommandRequest.question("Jarvis: " + '¿desea crear un comando de esta acción responde Y o N? ', async responseSave => {
       createCommandRequest.close();
       if (responseSave.toLowerCase() == "y") {
@@ -99,6 +102,7 @@ const handleNotFount = (action) => {
           input: process.stdin,
           output: process.stdout
         });
+        speak("¿desea buscarlo en internet? responde con Y o N ");
         searchGoogleCommand.question("Jarvis: " + '¿desea buscarlo en internet? responde con Y o N ', async responseSearch => {
           searchGoogleCommand.close();
           if (responseSearch.toLowerCase() == "y") {
@@ -115,13 +119,13 @@ const systemAction = (action) => {
   return new Promise((resolve, reject) => {
     exec(action, (error, stdout, stderr) => {
       if (error) {
-        console.log("Jarvis: " + action);
+        respuestaConversations(action);
         resolve(action);
         //reject(error);
         return;
       }
       if (stderr) {
-        console.log("Jarvis: " + action);
+        respuestaConversations(action);
         //reject(error);
         resolve(action);
         return;
@@ -132,7 +136,7 @@ const systemAction = (action) => {
 }
 
 const searchVideoOnYouTube = (searchTerm) => {
-  console.log("Buscando video en YouTube...");
+  respuestaConversations("Buscando video en YouTube...")
   return new Promise((resolve, reject) => {
     exec(`google-chrome "https://www.youtube.com/results?search_query=${searchTerm}"`, (error, stdout, stderr) => {
       if (error) {
@@ -151,8 +155,7 @@ const searchVideoOnYouTube = (searchTerm) => {
 }
 
 const searchGoogle = (question) => {
-  console.log("Buscando en google...");
-  console.log("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
+  respuestaConversations("Buscando en google")
   return new Promise((resolve, reject) => {
     exec(`google-chrome "http://www.google.com/search?q=${question}"`, (error, stdout, stderr) => {
       if (error) {
@@ -172,7 +175,7 @@ const searchGoogle = (question) => {
 
 // TODO: remplace for GPT3 model or similar
 const notFount = (question) => {
-  console.log("Buscando en google...");
+  respuestaConversations("Buscando en google...");
   return new Promise((resolve, reject) => {
     exec(`google-chrome "http://www.google.com/search?q=${question}"`, (error, stdout, stderr) => {
       if (error) {
@@ -183,6 +186,27 @@ const notFount = (question) => {
       if (stderr) {
         console.error(`error: ${stderr.message}`);
         reject(error);
+        return;
+      }
+      resolve({ stdout, stderr });
+    });
+  });
+}
+
+const respuestaConversations = (texto) => {
+  speak(texto);
+  console.log("Jarvis: " + texto);
+}
+
+const speak = (texto) => {
+  return new Promise((resolve, reject) => {
+    exec(`espeak -v es "${texto}"`, (error, stdout, stderr) => {
+      if (error) {
+        console.error(`error: ${error.message}`);
+        return;
+      }
+      if (stderr) {
+        console.error(`error: ${stderr.message}`);
         return;
       }
       resolve({ stdout, stderr });

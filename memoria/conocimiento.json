@@ -3438,5 +3438,9 @@
   {
     "input": "hola como estas",
     "output": "bien y tu"
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir"
   }
 ]
