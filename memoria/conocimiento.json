@@ -3494,5 +3494,93 @@
   {
     "input": "bien",
     "output": "que bien en que puedo ayudarte"
+  },
+  {
+    "input": "puedes aprender algo nuevo ?",
+    "output": "Si, siempre puedo aprender mas"
+  },
+  {
+    "input": "buscar",
+    "output": "open.search"
+  },
+  {
+    "input": "busca",
+    "output": "open.search"
+  },
+  {
+    "input": "que es",
+    "output": "open.search"
+  },
+  {
+    "input": "que significa",
+    "output": "open.search"
+  },
+  {
+    "input": "como se dice",
+    "output": "open.search"
+  },
+  {
+    "input": "como se escribe",
+    "output": "open.search"
+  },
+  {
+    "input": "como se traduce",
+    "output": "open.search"
+  },
+  {
+    "input": "traduce",
+    "output": "open.search"
+  },
+  {
+    "input": "traducir",
+    "output": "open.search"
+  },
+  {
+    "input": "que significa",
+    "output": "open.search"
+  },
+  {
+    "input": "definicion",
+    "output": "open.search"
+  },
+  {
+    "input": "quiero saber",
+    "output": "open.search"
+  },
+  {
+    "input": "quisiera saber",
+    "output": "open.search"
+  },
+  {
+    "input": "necesito saber",
+    "output": "open.search"
+  },
+  {
+    "input": "busco informacion sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "busco conocimiento sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "explicame",
+    "output": "open.search"
+  },
+  {
+    "input": "informame sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "dime sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "informacion de",
+    "output": "open.search"
+  },
+  {
+    "input": "buscar informacion sobre",
+    "output": "open.search"
   }
 ]

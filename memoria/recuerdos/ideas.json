@@ -58,5 +58,9 @@
   {
     "input": "bien",
     "output": "que bien en que puedo ayudarte"
+  },
+  {
+    "input": "puedes aprender algo nuevo ?",
+    "output": "Si, siempre puedo aprender mas"
   }
 ]

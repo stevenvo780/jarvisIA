@@ -33,18 +33,26 @@ const medula = async (question) => {
   const result = await manager.process('es', question);
   switch (result.intent) {
     case "open.music":
-      const ideas = JSON.parse(fs.readFileSync(path.join(__dirname, 'memoria/music', 'ideas.json')));;
-      let newStr = question;
-      for (let index = 0; index < ideas.length; index++) {
-        const idea = ideas[index];
+      const music = JSON.parse(fs.readFileSync(path.join(__dirname, 'memoria/music', 'ideas.json')));;
+      let musicSrt = question;
+      for (let index = 0; index < music.length; index++) {
+        const idea = music[index];
         if (question.search(idea.input) >= 0) {
-          newStr = question.toLowerCase().replace(idea.input.toLowerCase(), "");
+          musicSrt = question.toLowerCase().replace(idea.input.toLowerCase(), "");
         }
       }
-      await searchVideoOnYouTube(newStr);
+      await searchVideoOnYouTube(musicSrt);
       break;
     case "open.search":
-      await searchGoogle(question);
+      const searchGoogleData = JSON.parse(fs.readFileSync(path.join(__dirname, 'memoria/searchGoogle', 'ideas.json')));;
+      let searchGoogleStr = question;
+      for (let index = 0; index < searchGoogleData.length; index++) {
+        const idea = searchGoogleData[index];
+        if (question.search(idea.input) >= 0) {
+          searchGoogleStr = question.toLowerCase().replace(idea.input.toLowerCase(), "");
+        }
+      }
+      await searchGoogle(searchGoogleStr);
       break;
     case "open.translate":
       const translate = await traductor(question);
