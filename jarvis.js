@@ -1,22 +1,22 @@
-const fs = require('fs');
-const { NlpManager } = require('node-nlp');
-const { exec } = require('child_process');
-const traductor = require('./lobulosProcesativos/googleTraductor');
+const { notFount } = require('./corteza/cagorizacionProcessExecute');
+const { entrain, razonLearn, bodyLearn } = require('./memoria/aprender');
 const recordar = require('./memoria/cortoplazo');
-const aprender = require('./memoria/aprender');
-const path = require('path');
-const readline = require('readline');
-// Crea una instancia de NlpManager
-const manager = new NlpManager({ languages: ['es'] });
+const { respuestaConversations, speak } = require('./corteza/voz');
+const { openRootSession, openSession } = require('./corteza/osBash');
+const { actionHandler } = require('./corteza/actionsBody');
+const { pensarBody } = require('./NLP/body');
+const { pensarRazon } = require('./NLP/razon');
 
+const readline = require('readline');
 const initSystem = async () => {
   console.log("Iniciando sistemas");
-  await aprender();
+  await openSession();
+  await openRootSession();
+  await entrain();
   await predict();
 }
 async function predict() {
   // Carga el modelo guardado en el archivo model.nlp
-  await manager.load();
   const jarvisQuestion = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -30,44 +30,27 @@ async function predict() {
 }
 
 const medula = async (question) => {
-  const result = await manager.process('es', question);
-  switch (result.intent) {
-    case "open.music":
-      const music = JSON.parse(fs.readFileSync(path.join(__dirname, 'memoria/music', 'ideas.json')));;
-      let musicSrt = question;
-      for (let index = 0; index < music.length; index++) {
-        const idea = music[index];
-        if (question.search(idea.input) >= 0) {
-          musicSrt = question.toLowerCase().replace(idea.input.toLowerCase(), "");
-        }
-      }
-      await searchVideoOnYouTube(musicSrt);
-      break;
-    case "open.search":
-      const searchGoogleData = JSON.parse(fs.readFileSync(path.join(__dirname, 'memoria/searchGoogle', 'ideas.json')));;
-      let searchGoogleStr = question;
-      for (let index = 0; index < searchGoogleData.length; index++) {
-        const idea = searchGoogleData[index];
-        if (question.search(idea.input) >= 0) {
-          searchGoogleStr = question.toLowerCase().replace(idea.input.toLowerCase(), "");
-        }
-      }
-      await searchGoogle(searchGoogleStr);
-      break;
-    case "open.translate":
-      const translate = await traductor(question);
-      respuestaConversations("Traducción: " + translate);
-      break;
-    case "learn":
-      await recordarAction(question);
-      break;
-    default:
-      if (result.intent == "None") {
-        await handleNotFount(question);
+  const bodySomatic = await pensarBody(question);
+  // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
+  console.log("Certidumbre de la respuesta body: " + bodySomatic.classifications[0].score)
+  if (bodySomatic.classifications[0].score < 0.8) {
+    const razonSomatic = await pensarRazon(question);
+    // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
+    if (razonSomatic.intent == "None") {
+      await handleNotFount(question);
+    }
+    console.log("Certidumbre de la respuesta razon: " + razonSomatic.classifications[0].score)
+    if (razonSomatic.classifications[0].score > 0.5) {
+      if (razonSomatic.intent === "learn") {
+        await recordarAction(question);
       } else {
-        await systemAction(result.intent);
+        respuestaConversations(razonSomatic.intent);
       }
-      break;
+    } else {
+      await handleNotFount(question);
+    }
+  } else {
+    await actionHandler(bodySomatic.classifications[0].intent, question);
   }
 }
 
@@ -77,17 +60,38 @@ const recordarAction = async (question) => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Que comando debería responder a esta acción?");
-    recordarRequest.question("Jarvis: " + '¿Que comando debería responder a esta acción?: ', async response => {
+    speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
+    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando o conversacion: ', async response => {
       recordarRequest.close();
-      await recordar(question, response);
-      respuestaConversations("Aprendiendo de lo recordado");
-      await aprender();
-      await manager.load();
-      resolve(true);
+      if (response !== "comando" && response !== "conversacion") {
+        respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
+        resolve(false);
+      }
+      const saveRequest = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+      });
+      const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
+      speak(textQuestion);
+      saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
+        saveRequest.close();
+        if (responseSave === "cancelar") {
+          respuestaConversations("Sera a la proxima");
+          resolve(false);
+        }
+        const zona = response === "comando" ? "body" : "razon"
+        await recordar(question, responseSave, zona);
+        respuestaConversations("Estudiando lo aprendido");
+        if (zona === "body") {
+          await bodyLearn();
+        }
+        if (zona === "razon") {
+          await razonLearn();
+        }
+        resolve(true);
+      });
     });
   });
-
 }
 
 const handleNotFount = (action) => {
@@ -97,8 +101,8 @@ const handleNotFount = (action) => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿desea crear un comando de esta acción responde Y o N?");
-    createCommandRequest.question("Jarvis: " + '¿desea crear un comando de esta acción responde Y o N? ', async responseSave => {
+    speak("¿Desea crear una acción para esta pregunta? responde Y o N?");
+    createCommandRequest.question("Jarvis: " + '¿Desea crear una acción para esta pregunta? responde Y o N? ', async responseSave => {
       createCommandRequest.close();
       if (responseSave.toLowerCase() == "y") {
         await recordarAction(action);
@@ -108,8 +112,8 @@ const handleNotFount = (action) => {
           input: process.stdin,
           output: process.stdout
         });
-        speak("¿desea buscarlo en internet? responde con Y o N ");
-        searchGoogleCommand.question("Jarvis: " + '¿desea buscarlo en internet? responde con Y o N ', async responseSearch => {
+        speak("¿Desea buscarlo en internet? responde con Y o N ");
+        searchGoogleCommand.question("Jarvis: " + '¿Desea buscarlo en internet? responde con Y o N ', async responseSearch => {
           searchGoogleCommand.close();
           if (responseSearch.toLowerCase() == "y") {
             notFount(action);
@@ -117,105 +121,6 @@ const handleNotFount = (action) => {
           resolve(true);
         });
       }
-    });
-  });
-}
-
-const systemAction = (action) => {
-  return new Promise((resolve, reject) => {
-    exec(action, (error, stdout, stderr) => {
-      if (error) {
-        respuestaConversations(action);
-        resolve(action);
-        //reject(error);
-        return;
-      }
-      if (stderr) {
-        respuestaConversations(action);
-        //reject(error);
-        resolve(action);
-        return;
-      }
-      resolve({ stdout, stderr });
-    });
-  });
-}
-
-const searchVideoOnYouTube = (searchTerm) => {
-  respuestaConversations("Buscando video en YouTube...")
-  return new Promise((resolve, reject) => {
-    exec(`google-chrome "https://www.youtube.com/results?search_query=${searchTerm}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`error: ${error.message}`);
-        reject(error);
-        return;
-      }
-      if (stderr) {
-        console.error(`error: ${stderr.message}`);
-        reject(error);
-        return;
-      }
-      resolve({ stdout, stderr });
-    });
-  });
-}
-
-const searchGoogle = (question) => {
-  respuestaConversations("Buscando en google")
-  return new Promise((resolve, reject) => {
-    exec(`google-chrome "http://www.google.com/search?q=${question}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`error: ${error.message}`);
-        reject(error);
-        return;
-      }
-      if (stderr) {
-        console.error(`error: ${stderr.message}`);
-        reject(error);
-        return;
-      }
-      resolve({ stdout, stderr });
-    });
-  });
-}
-
-// TODO: remplace for GPT3 model or similar
-const notFount = (question) => {
-  respuestaConversations("Buscando en google...");
-  return new Promise((resolve, reject) => {
-    exec(`google-chrome "http://www.google.com/search?q=${question}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`error: ${error.message}`);
-        reject(error);
-        return;
-      }
-      if (stderr) {
-        console.error(`error: ${stderr.message}`);
-        reject(error);
-        return;
-      }
-      resolve({ stdout, stderr });
-    });
-  });
-}
-
-const respuestaConversations = (texto) => {
-  speak(texto);
-  console.log("Jarvis: " + texto);
-}
-
-const speak = (texto) => {
-  return new Promise((resolve, reject) => {
-    exec(`espeak -v es "${texto}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`error: ${error.message}`);
-        return;
-      }
-      if (stderr) {
-        console.error(`error: ${stderr.message}`);
-        return;
-      }
-      resolve({ stdout, stderr });
     });
   });
 }

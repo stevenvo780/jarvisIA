@@ -1,17 +1,5 @@
 [
   {
-    "input": "recuerda el siguiente comando",
-    "output": "learn"
-  },
-  {
-    "input": "aprende este comando",
-    "output": "learn"
-  },
-  {
-    "input": "ten en cuenta este comando",
-    "output": "learn"
-  },
-  {
     "input": "pon la cancion",
     "output": "open.music"
   },
@@ -3436,68 +3424,12 @@
     "output": "gnome-control-center printers"
   },
   {
-    "input": "hola como estas",
-    "output": "bien y tu"
+    "input": "suspender",
+    "output": "systemctl hibernate"
   },
   {
-    "input": "gracias",
-    "output": "Es con mucho gusto siempre para servir"
-  },
-  {
-    "input": "que me cuentas",
-    "output": "No mucho, espero tus ordenes"
-  },
-  {
-    "input": "Como estas",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "que tal",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "hola",
-    "output": "Hola, espero estes bien"
-  },
-  {
-    "input": "buenas tardes",
-    "output": "Hola, espero estes bien"
-  },
-  {
-    "input": "buenas noches",
-    "output": "Hola, espero estes bien"
-  },
-  {
-    "input": "buenos dias",
-    "output": "Hola, espero estes bien"
-  },
-  {
-    "input": "como estas",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "que haces",
-    "output": "Estoy esperando tus ordenes"
-  },
-  {
-    "input": "que tal",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "que tal",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "hola",
-    "output": "Hola, espero estes bien"
-  },
-  {
-    "input": "bien",
-    "output": "que bien en que puedo ayudarte"
-  },
-  {
-    "input": "puedes aprender algo nuevo ?",
-    "output": "Si, siempre puedo aprender mas"
+    "input": "abrir la calculadora",
+    "output": "gnome-calculator"
   },
   {
     "input": "buscar",
@@ -3513,18 +3445,6 @@
   },
   {
     "input": "que significa",
-    "output": "open.search"
-  },
-  {
-    "input": "como se dice",
-    "output": "open.search"
-  },
-  {
-    "input": "como se escribe",
-    "output": "open.search"
-  },
-  {
-    "input": "como se traduce",
     "output": "open.search"
   },
   {

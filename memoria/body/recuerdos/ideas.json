@@ -1,0 +1,10 @@
+[
+  {
+    "input": "suspender",
+    "output": "systemctl hibernate"
+  },
+  {
+    "input": "abrir la calculadora",
+    "output": "gnome-calculator"
+  }
+]

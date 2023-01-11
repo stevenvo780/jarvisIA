@@ -1,0 +1,851 @@
+{
+  "settings": {
+    "languages": [
+      "es"
+    ],
+    "autoSave": false,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "es"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "es": {
+        "settings": {
+          "locale": "es",
+          "trainByDomain": false,
+          "tag": "domain-manager-es",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "com,el,record,siguient": {
+            "intent": "learn",
+            "domain": "default"
+          },
+          "aprend,com,este": {
+            "intent": "learn",
+            "domain": "default"
+          },
+          "com,cont,en,este,ten": {
+            "intent": "learn",
+            "domain": "default"
+          },
+          "como,esta,hol": {
+            "intent": "bien y tu",
+            "domain": "default"
+          },
+          "grac": {
+            "intent": "Es con mucho gusto siempre para servir",
+            "domain": "default"
+          },
+          "cont,me,que": {
+            "intent": "No mucho, espero tus ordenes",
+            "domain": "default"
+          },
+          "como,esta": {
+            "intent": "Bien y tu",
+            "domain": "default"
+          },
+          "que,tal": {
+            "intent": "Bien y tu",
+            "domain": "default"
+          },
+          "hol": {
+            "intent": "Hola, espero estes bien",
+            "domain": "default"
+          },
+          "buen,tard": {
+            "intent": "Hola, espero estes bien",
+            "domain": "default"
+          },
+          "buen,noch": {
+            "intent": "Hola, espero estes bien",
+            "domain": "default"
+          },
+          "buen,dia": {
+            "intent": "Hola, espero estes bien",
+            "domain": "default"
+          },
+          "hac,que": {
+            "intent": "Estoy esperando tus ordenes",
+            "domain": "default"
+          },
+          "bien": {
+            "intent": "que bien en que puedo ayudarte",
+            "domain": "default"
+          },
+          "algo,aprend,nuev,pod": {
+            "intent": "Si, siempre puedo aprender mas",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "learn": "default",
+          "bien y tu": "default",
+          "Es con mucho gusto siempre para servir": "default",
+          "No mucho, espero tus ordenes": "default",
+          "Bien y tu": "default",
+          "Hola, espero estes bien": "default",
+          "Estoy esperando tus ordenes": "default",
+          "que bien en que puedo ayudarte": "default",
+          "Si, siempre puedo aprender mas": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "recuerda el siguiente comando",
+            "intent": "learn"
+          },
+          {
+            "domain": "default",
+            "utterance": "aprende este comando",
+            "intent": "learn"
+          },
+          {
+            "domain": "default",
+            "utterance": "ten en cuenta este comando",
+            "intent": "learn"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola como estas",
+            "intent": "bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "gracias",
+            "intent": "Es con mucho gusto siempre para servir"
+          },
+          {
+            "domain": "default",
+            "utterance": "que me cuentas",
+            "intent": "No mucho, espero tus ordenes"
+          },
+          {
+            "domain": "default",
+            "utterance": "Como estas",
+            "intent": "Bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal",
+            "intent": "Bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "Hola, espero estes bien"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenas tardes",
+            "intent": "Hola, espero estes bien"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenas noches",
+            "intent": "Hola, espero estes bien"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenos dias",
+            "intent": "Hola, espero estes bien"
+          },
+          {
+            "domain": "default",
+            "utterance": "como estas",
+            "intent": "Bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "que haces",
+            "intent": "Estoy esperando tus ordenes"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal",
+            "intent": "Bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal",
+            "intent": "Bien y tu"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "Hola, espero estes bien"
+          },
+          {
+            "domain": "default",
+            "utterance": "bien",
+            "intent": "que bien en que puedo ayudarte"
+          },
+          {
+            "domain": "default",
+            "utterance": "puedes aprender algo nuevo ?",
+            "intent": "Si, siempre puedo aprender mas"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "es",
+              "tag": "nlu-es",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "record": 1,
+              "el": 1,
+              "siguient": 1,
+              "com": 1,
+              "aprend": 1,
+              "este": 1,
+              "ten": 1,
+              "en": 1,
+              "cont": 1,
+              "hol": 1,
+              "como": 1,
+              "esta": 1,
+              "grac": 1,
+              "que": 1,
+              "me": 1,
+              "tal": 1,
+              "buen": 1,
+              "tard": 1,
+              "noch": 1,
+              "dia": 1,
+              "hac": 1,
+              "bien": 1,
+              "pod": 1,
+              "algo": 1,
+              "nuev": 1
+            },
+            "intents": {
+              "learn": 1,
+              "bien y tu": 1,
+              "Es con mucho gusto siempre para servir": 1,
+              "No mucho, espero tus ordenes": 1,
+              "Bien y tu": 1,
+              "Hola, espero estes bien": 1,
+              "Estoy esperando tus ordenes": 1,
+              "que bien en que puedo ayudarte": 1,
+              "Si, siempre puedo aprender mas": 1
+            },
+            "intentFeatures": {
+              "learn": {
+                "record": 1,
+                "el": 1,
+                "siguient": 1,
+                "com": 1,
+                "aprend": 1,
+                "este": 1,
+                "ten": 1,
+                "en": 1,
+                "cont": 1
+              },
+              "bien y tu": {
+                "hol": 1,
+                "como": 1,
+                "esta": 1
+              },
+              "Es con mucho gusto siempre para servir": {
+                "grac": 1
+              },
+              "No mucho, espero tus ordenes": {
+                "que": 1,
+                "me": 1,
+                "cont": 1
+              },
+              "Bien y tu": {
+                "como": 1,
+                "esta": 1,
+                "que": 1,
+                "tal": 1
+              },
+              "Hola, espero estes bien": {
+                "hol": 1,
+                "buen": 1,
+                "tard": 1,
+                "noch": 1,
+                "dia": 1
+              },
+              "Estoy esperando tus ordenes": {
+                "que": 1,
+                "hac": 1
+              },
+              "que bien en que puedo ayudarte": {
+                "bien": 1
+              },
+              "Si, siempre puedo aprender mas": {
+                "pod": 1,
+                "aprend": 1,
+                "algo": 1,
+                "nuev": 1
+              }
+            },
+            "featuresToIntent": {
+              "record": [
+                "learn"
+              ],
+              "el": [
+                "learn"
+              ],
+              "siguient": [
+                "learn"
+              ],
+              "com": [
+                "learn"
+              ],
+              "aprend": [
+                "learn",
+                "Si, siempre puedo aprender mas"
+              ],
+              "este": [
+                "learn"
+              ],
+              "ten": [
+                "learn"
+              ],
+              "en": [
+                "learn"
+              ],
+              "cont": [
+                "learn",
+                "No mucho, espero tus ordenes"
+              ],
+              "hol": [
+                "bien y tu",
+                "Hola, espero estes bien"
+              ],
+              "como": [
+                "bien y tu",
+                "Bien y tu"
+              ],
+              "esta": [
+                "bien y tu",
+                "Bien y tu"
+              ],
+              "grac": [
+                "Es con mucho gusto siempre para servir"
+              ],
+              "que": [
+                "No mucho, espero tus ordenes",
+                "Bien y tu",
+                "Estoy esperando tus ordenes"
+              ],
+              "me": [
+                "No mucho, espero tus ordenes"
+              ],
+              "tal": [
+                "Bien y tu"
+              ],
+              "buen": [
+                "Hola, espero estes bien"
+              ],
+              "tard": [
+                "Hola, espero estes bien"
+              ],
+              "noch": [
+                "Hola, espero estes bien"
+              ],
+              "dia": [
+                "Hola, espero estes bien"
+              ],
+              "hac": [
+                "Estoy esperando tus ordenes"
+              ],
+              "bien": [
+                "que bien en que puedo ayudarte"
+              ],
+              "pod": [
+                "Si, siempre puedo aprender mas"
+              ],
+              "algo": [
+                "Si, siempre puedo aprender mas"
+              ],
+              "nuev": [
+                "Si, siempre puedo aprender mas"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "es",
+                "tag": "nlu-es",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "record",
+                "el",
+                "siguient",
+                "com",
+                "aprend",
+                "este",
+                "ten",
+                "en",
+                "cont",
+                "hol",
+                "como",
+                "esta",
+                "grac",
+                "que",
+                "me",
+                "tal",
+                "buen",
+                "tard",
+                "noch",
+                "dia",
+                "hac",
+                "bien",
+                "pod",
+                "algo",
+                "nuev"
+              ],
+              "intents": [
+                "learn",
+                "bien y tu",
+                "Es con mucho gusto siempre para servir",
+                "No mucho, espero tus ordenes",
+                "Bien y tu",
+                "Hola, espero estes bien",
+                "Estoy esperando tus ordenes",
+                "que bien en que puedo ayudarte",
+                "Si, siempre puedo aprender mas"
+              ],
+              "perceptrons": [
+                [
+                  2.287973403930664,
+                  2.287973403930664,
+                  2.287973403930664,
+                  6.742246150970459,
+                  2.4096481800079346,
+                  4.454268455505371,
+                  1.0148961544036865,
+                  1.0148961544036865,
+                  0.3798582851886749,
+                  -0.8063350319862366,
+                  -0.5473806262016296,
+                  -0.5473806262016296,
+                  -0.6843481659889221,
+                  -1.059759259223938,
+                  -0.5847174525260925,
+                  -0.29946833848953247,
+                  -0.7433280944824219,
+                  -0.2508355379104614,
+                  -0.22512975335121155,
+                  -0.20027582347393036,
+                  -0.11861304193735123,
+                  -0.6795487999916077,
+                  -1.0297322273254395,
+                  -1.0297322273254395,
+                  -1.0297322273254395,
+                  0.6795491495299939
+                ],
+                [
+                  -0.015053462237119675,
+                  -0.015053462237119675,
+                  -0.015053462237119675,
+                  -0.04392500966787338,
+                  -0.03466058894991875,
+                  -0.022004880011081696,
+                  -0.005526027642190456,
+                  -0.005526027642190456,
+                  -0.09200523048639297,
+                  12.924481391906738,
+                  6.474185466766357,
+                  6.474185466766357,
+                  -0.14839835464954376,
+                  -0.2053239494562149,
+                  -0.0794772282242775,
+                  -0.08018609136343002,
+                  -0.16381703317165375,
+                  -0.05101838335394859,
+                  -0.04570408910512924,
+                  -0.040443792939186096,
+                  -0.015453246422111988,
+                  -0.018741657957434654,
+                  -0.016175933182239532,
+                  -0.016175933182239532,
+                  -0.016175933182239532,
+                  -12.586267565214492
+                ],
+                [
+                  -0.3660277724266052,
+                  -0.3660277724266052,
+                  -0.3660277724266052,
+                  -0.7851346135139465,
+                  -0.6789751052856445,
+                  -0.4191080629825592,
+                  -0.14154638350009918,
+                  -0.14154638350009918,
+                  -0.39588260650634766,
+                  -1.883221983909607,
+                  -0.9416118264198303,
+                  -0.9416118264198303,
+                  12.402488708496094,
+                  -1.3456636667251587,
+                  -0.25221842527389526,
+                  -0.5535115599632263,
+                  -1.4132499694824219,
+                  -0.47296395897865295,
+                  -0.47024843096733093,
+                  -0.4699729382991791,
+                  -0.5375592112541199,
+                  -1.8832114934921265,
+                  -0.40141427516937256,
+                  -0.40141427516937256,
+                  -0.40141427516937256,
+                  1.8832181175373792
+                ],
+                [
+                  -0.02283257059752941,
+                  -0.02283257059752941,
+                  -0.02283257059752941,
+                  -1.375920057296753,
+                  -0.06917458772659302,
+                  -1.341327428817749,
+                  -1.317989468574524,
+                  -1.317989468574524,
+                  5.389195442199707,
+                  -0.21415601670742035,
+                  -0.19981178641319275,
+                  -0.19981178641319275,
+                  -0.055814582854509354,
+                  2.2253024578094482,
+                  6.707182884216309,
+                  -2.2910759449005127,
+                  -0.2821040749549866,
+                  -0.0921907126903534,
+                  -0.0826406180858612,
+                  -0.07331670075654984,
+                  -2.1893324851989746,
+                  -0.09431187063455582,
+                  -0.04488024115562439,
+                  -0.04488024115562439,
+                  -0.04488024115562439,
+                  -0.03596851453912246
+                ],
+                [
+                  -0.3645458519458771,
+                  -0.3645458519458771,
+                  -0.3645458519458771,
+                  -0.852527916431427,
+                  -0.7056479454040527,
+                  -0.4355429708957672,
+                  -0.12516508996486664,
+                  -0.12516508996486664,
+                  -2.3827884197235107,
+                  -14.282623291015625,
+                  6.380764484405518,
+                  6.380764484405518,
+                  -1.5228556394577026,
+                  3.0129213333129883,
+                  -2.189117193222046,
+                  9.74966812133789,
+                  -1.2179203033447266,
+                  -0.4125891625881195,
+                  -0.3889850080013275,
+                  -0.3491680920124054,
+                  -4.536061763763428,
+                  -1.5230913162231445,
+                  -0.4080849885940552,
+                  -0.4080849885940552,
+                  -0.4080849885940552,
+                  1.5231382586940556
+                ],
+                [
+                  -0.6682927012443542,
+                  -0.6682927012443542,
+                  -0.6682927012443542,
+                  -1.469502568244934,
+                  -1.2148633003234863,
+                  -0.7781821489334106,
+                  -0.31830814480781555,
+                  -0.31830814480781555,
+                  -0.6682004928588867,
+                  10.872235298156738,
+                  -7.142848491668701,
+                  -7.142848491668701,
+                  -3.4134626388549805,
+                  -2.4255969524383545,
+                  -0.31967270374298096,
+                  -1.1104267835617065,
+                  8.15418529510498,
+                  2.7180593013763428,
+                  2.7180593013763428,
+                  2.718057155609131,
+                  -0.9903497099876404,
+                  -3.413470506668091,
+                  -0.7611666321754456,
+                  -0.7611666321754456,
+                  -0.7611666321754456,
+                  3.413470951244954
+                ],
+                [
+                  -0.10844189673662186,
+                  -0.10844189673662186,
+                  -0.10844189673662186,
+                  -0.23384161293506622,
+                  -0.2014997899532318,
+                  -0.12143248319625854,
+                  -0.030082406476140022,
+                  -0.030082406476140022,
+                  -2.1442573070526123,
+                  -0.5456916689872742,
+                  -0.27238959074020386,
+                  -0.27238959074020386,
+                  -0.5447256565093994,
+                  3.698948621749878,
+                  -2.099414348602295,
+                  -4.2436699867248535,
+                  -0.4090820550918579,
+                  -0.13742288947105408,
+                  -0.13595910370349884,
+                  -0.1356586217880249,
+                  10.042037010192871,
+                  -0.5447283983230591,
+                  -0.12056981772184372,
+                  -0.12056981772184372,
+                  -0.12056981772184372,
+                  0.5447237711239591
+                ],
+                [
+                  -0.3691445589065552,
+                  -0.3691445589065552,
+                  -0.3691445589065552,
+                  -0.7942809462547302,
+                  -0.6822972893714905,
+                  -0.4251357614994049,
+                  -0.14931131899356842,
+                  -0.14931131899356842,
+                  -0.3836759924888611,
+                  -1.9017084836959839,
+                  -0.950854480266571,
+                  -0.950854480266571,
+                  -1.9017032384872437,
+                  -1.3493353128433228,
+                  -0.23294797539710999,
+                  -0.562366247177124,
+                  -1.4266116619110107,
+                  -0.47637492418289185,
+                  -0.47512003779411316,
+                  -0.4750973582267761,
+                  -0.5523735880851746,
+                  12.383997917175293,
+                  -0.40647244453430176,
+                  -0.40647244453430176,
+                  -0.40647244453430176,
+                  1.9017094702045494
+                ],
+                [
+                  -0.08945965021848679,
+                  -0.08945965021848679,
+                  -0.08945965021848679,
+                  -1.463014006614685,
+                  2.5191187858581543,
+                  -1.346900224685669,
+                  -0.028702665120363235,
+                  -0.028702665120363235,
+                  -0.12645436823368073,
+                  -0.37213268876075745,
+                  -0.24660897254943848,
+                  -0.24660897254943848,
+                  -0.2832794487476349,
+                  -0.3591822683811188,
+                  -0.08603650331497192,
+                  -0.17039503157138824,
+                  -0.3482797145843506,
+                  -0.1146850511431694,
+                  -0.10302749276161194,
+                  -0.09856036305427551,
+                  -0.08245009928941727,
+                  -0.2756989896297455,
+                  3.830298662185669,
+                  3.830298662185669,
+                  3.830298662185669,
+                  0.27569917503787755
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "es",
+        "recuerda el siguiente comando"
+      ],
+      [
+        "es",
+        "aprende este comando"
+      ],
+      [
+        "es",
+        "ten en cuenta este comando"
+      ],
+      [
+        "es",
+        "hola como estas"
+      ],
+      [
+        "es",
+        "gracias"
+      ],
+      [
+        "es",
+        "que me cuentas"
+      ],
+      [
+        "es",
+        "Como estas"
+      ],
+      [
+        "es",
+        "que tal"
+      ],
+      [
+        "es",
+        "hola"
+      ],
+      [
+        "es",
+        "buenas tardes"
+      ],
+      [
+        "es",
+        "buenas noches"
+      ],
+      [
+        "es",
+        "buenos dias"
+      ],
+      [
+        "es",
+        "como estas"
+      ],
+      [
+        "es",
+        "que haces"
+      ],
+      [
+        "es",
+        "que tal"
+      ],
+      [
+        "es",
+        "que tal"
+      ],
+      [
+        "es",
+        "hola"
+      ],
+      [
+        "es",
+        "bien"
+      ],
+      [
+        "es",
+        "puedes aprender algo nuevo ?"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "es": {
+        "learn": [
+          {
+            "answer": "learn"
+          }
+        ],
+        "bien y tu": [
+          {
+            "answer": "bien y tu"
+          }
+        ],
+        "Es con mucho gusto siempre para servir": [
+          {
+            "answer": "Es con mucho gusto siempre para servir"
+          }
+        ],
+        "No mucho, espero tus ordenes": [
+          {
+            "answer": "No mucho, espero tus ordenes"
+          }
+        ],
+        "Bien y tu": [
+          {
+            "answer": "Bien y tu"
+          }
+        ],
+        "Hola, espero estes bien": [
+          {
+            "answer": "Hola, espero estes bien"
+          }
+        ],
+        "Estoy esperando tus ordenes": [
+          {
+            "answer": "Estoy esperando tus ordenes"
+          }
+        ],
+        "que bien en que puedo ayudarte": [
+          {
+            "answer": "que bien en que puedo ayudarte"
+          }
+        ],
+        "Si, siempre puedo aprender mas": [
+          {
+            "answer": "Si, siempre puedo aprender mas"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

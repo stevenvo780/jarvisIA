@@ -23,6 +23,6 @@
     "espeak": "^0.0.3",
     "google-translate-api": "^2.3.0",
     "google-tts-api": "^2.0.2",
-    "say": "^0.16.0"
+    "sudo-prompt": "^9.2.1"
   }
 }

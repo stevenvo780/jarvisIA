@@ -16,18 +16,6 @@
     "output": "open.search"
   },
   {
-    "input": "como se dice",
-    "output": "open.search"
-  },
-  {
-    "input": "como se escribe",
-    "output": "open.search"
-  },
-  {
-    "input": "como se traduce",
-    "output": "open.search"
-  },
-  {
     "input": "traduce",
     "output": "open.search"
   },
