@@ -128,15 +128,15 @@ exports.openSessionTranslateEn_Es = () => {
   childTranslate.stdout.on('data', data => {
     //console.log(`stdout chat: ${data}`);
   });
-  childTranslate.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'translateTextEn-Es.py') + '\n');
+  childTranslate.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'translateTextEn_Es.py') + '\n');
 }
 
 exports.runCommandTranslateEn_Es = async (command) => {
   childTranslate.stdin.write(command + '\n');
   return new Promise((resolve, reject) => {
-    fs.watch(path.join(__dirname, '../memoria', 'BigNLP.json'), (eventType, filename) => {
+    fs.watch(path.join(__dirname, '../memoria', 'translateEn_Es.json'), (eventType, filename) => {
       if (eventType === 'change') {
-        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
+        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEn_Es.json')));
         resolve(result);
       }
     });
@@ -154,13 +154,13 @@ exports.openSessionTranslateEs_En = () => {
   childTranslateES.stdout.on('data', data => {
     //console.log(`stdout chat: ${data}`);
   });
-  childTranslateES.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'translateTextEs-En.py') + '\n');
+  childTranslateES.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'translateTextEs_En.py') + '\n');
 }
 
 exports.runCommandTranslateEs_En = async (command) => {
   childTranslateES.stdin.write(command + '\n');
   return new Promise((resolve, reject) => {
-    fs.watch(path.join(__dirname, '../memoria', 'BigNLP.json'), (eventType, filename) => {
+    fs.watch(path.join(__dirname, '../memoria', 'translateEs_En.json'), (eventType, filename) => {
       if (eventType === 'change') {
         const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEs_En.json')));
         resolve(result);

@@ -576,10 +576,6 @@
     "output": "google-chrome \"información sobre Linux\""
   },
   {
-    "input": "qué hora es",
-    "output": "date"
-  },
-  {
     "input": "cuánto espacio libre hay en el disco",
     "output": "df -h"
   },
@@ -964,7 +960,27 @@
     "output": "google-chrome \"información sobre Linux\""
   },
   {
+    "input": "la hora",
+    "output": "date"
+  },
+  {
     "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "dime la hora",
+    "output": "date"
+  },
+  {
+    "input": "hora",
+    "output": "date"
+  },
+  {
+    "input": "mes de hoy",
+    "output": "date"
+  },
+  {
+    "input": "dia de hoy",
     "output": "date"
   },
   {
@@ -3432,75 +3448,11 @@
     "output": "gnome-calculator"
   },
   {
-    "input": "buscar",
+    "input": "buscar en google",
     "output": "open.search"
   },
   {
-    "input": "busca",
-    "output": "open.search"
-  },
-  {
-    "input": "que es",
-    "output": "open.search"
-  },
-  {
-    "input": "que significa",
-    "output": "open.search"
-  },
-  {
-    "input": "traduce",
-    "output": "open.search"
-  },
-  {
-    "input": "traducir",
-    "output": "open.search"
-  },
-  {
-    "input": "que significa",
-    "output": "open.search"
-  },
-  {
-    "input": "definicion",
-    "output": "open.search"
-  },
-  {
-    "input": "quiero saber",
-    "output": "open.search"
-  },
-  {
-    "input": "quisiera saber",
-    "output": "open.search"
-  },
-  {
-    "input": "necesito saber",
-    "output": "open.search"
-  },
-  {
-    "input": "busco informacion sobre",
-    "output": "open.search"
-  },
-  {
-    "input": "busco conocimiento sobre",
-    "output": "open.search"
-  },
-  {
-    "input": "explicame",
-    "output": "open.search"
-  },
-  {
-    "input": "informame sobre",
-    "output": "open.search"
-  },
-  {
-    "input": "dime sobre",
-    "output": "open.search"
-  },
-  {
-    "input": "informacion de",
-    "output": "open.search"
-  },
-  {
-    "input": "buscar informacion sobre",
+    "input": "buscar sobre",
     "output": "open.search"
   }
 ]

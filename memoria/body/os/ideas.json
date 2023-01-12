@@ -364,10 +364,6 @@
     "output": "google-chrome \"información sobre Linux\""
   },
   {
-    "input": "qué hora es",
-    "output": "date"
-  },
-  {
     "input": "cuánto espacio libre hay en el disco",
     "output": "df -h"
   },
@@ -752,7 +748,27 @@
     "output": "google-chrome \"información sobre Linux\""
   },
   {
+    "input": "la hora",
+    "output": "date"
+  },
+  {
     "input": "qué hora es",
+    "output": "date"
+  },
+  {
+    "input": "dime la hora",
+    "output": "date"
+  },
+  {
+    "input": "hora",
+    "output": "date"
+  },
+  {
+    "input": "mes de hoy",
+    "output": "date"
+  },
+  {
+    "input": "dia de hoy",
     "output": "date"
   },
   {

@@ -1,6 +1,6 @@
 const { runCommandRoot, runCommand } = require('./osBash');
 const chalk = require('chalk');
-exports.respuestaConversations = (texto, sentiment = {score: 0, magnitude: 0}) => {
+exports.respuestaConversations = async (texto, sentiment = { score: 0, magnitude: 0 }) => {
   this.speak(texto);
   if (sentiment.score !== 0) {
     if (sentiment.score > 0.8) {
@@ -22,6 +22,6 @@ exports.respuestaConversations = (texto, sentiment = {score: 0, magnitude: 0}) =
 };
 
 exports.speak = async (texto) => {
-  await runCommandRoot("skill $(pidof espeak)")
-  return await runCommand(`espeak -p20 -s130 -v es-la "${texto}"`)
+  runCommandRoot("skill $(pidof espeak)")
+  return runCommand(`espeak -p20 -s130 -v es-la "${texto}"`)
 }

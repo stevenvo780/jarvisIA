@@ -5,16 +5,12 @@ const { respuestaConversations, speak } = require('./corteza/voz');
 const {
   openRootSession,
   openSession,
-  openSessionGPT3,
-  openSessionGPT3Chat,
-  openSessionChatbot,
   runCommandChatbot,
-  openSessionTranslateEn_Es,
-  openSessionTranslateEs_En,
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
+const { loadLobules } = require('./corteza/loadLobulosPy');
 const { getSentiment } = require('./lobulosProcesativos/googleNLPfeelings');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
@@ -24,11 +20,7 @@ const initSystem = async () => {
   console.log("Iniciando sistemas");
   await openSession();
   await openRootSession();
-  await openSessionGPT3();
-  await openSessionGPT3Chat();
-  await openSessionChatbot();
-  await openSessionTranslateEn_Es();
-  await openSessionTranslateEs_En();
+  //await loadLobules();
   await entrain();
   await predict();
 }
@@ -49,27 +41,23 @@ async function predict() {
 const medula = async (question) => {
   const bodySomatic = await pensarBody(question);
   // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
-  console.log("Certidumbre de la respuesta body: " + bodySomatic.classifications[0].score)
-  if (bodySomatic.classifications[0].score < 0.9) {
+  console.log("Certidumbre de la respuesta body: ", bodySomatic.classifications)
+  if (bodySomatic.classifications[0].score < 1) {
     const razonSomatic = await pensarRazon(question);
     // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
-    if (razonSomatic.intent == "None") {
-      await handleNotFount(question);
-    }
-    console.log("Certidumbre de la respuesta razon: " + razonSomatic.classifications[0].score)
+
+    console.log("Certidumbre de la respuesta razon: ", razonSomatic.classifications)
     if (razonSomatic.classifications[0].score > 0.8) {
-      if (razonSomatic.intent === "learn") {
-        await recordarAction(question);
-      } else {
-        //const sentiment = await getSentiment(razonSomatic.intent)
-        respuestaConversations(razonSomatic.intent);
-      }
+      respuestaConversations(razonSomatic.intent);
     } else {
+      respuestaConversations("Pensando una respuesta");
       const translateEs_En = await runCommandTranslateEs_En(question);
-      const result = await runCommandChatbot(translateEs_En);
-      const translateEn_Es = await runCommandTranslateEn_Es(result);
-      respuestaConversations(translateEn_Es);
-      await handleNotFount(question);
+      const result = await runCommandChatbot(translateEs_En.response);
+      const translateEn_Es = await runCommandTranslateEn_Es(result.response);
+      respuestaConversations(translateEn_Es.response);
+      if (razonSomatic.intent == "None") {
+        await handleNotFount(question);
+      }
     }
   } else {
     await actionHandler(bodySomatic.classifications[0].intent, question);
@@ -123,13 +111,13 @@ const handleNotFount = (action) => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Desea crear una acción para esta pregunta? responde Y o N?");
-    createCommandRequest.question("Jarvis: " + '¿Desea crear una acción para esta pregunta? responde Y o N? ', async responseSave => {
+    speak("¿Mi respuesta fue satisfactoria?, responde Y o N");
+    createCommandRequest.question("Jarvis: " + '¿Mi respuesta fue satisfactoria?, responde Y o N ', async responseSave => {
       createCommandRequest.close();
       if (responseSave.toLowerCase() == "y") {
         await recordarAction(action);
         resolve(true);
-      } else {
+      } else if (responseSave.toLowerCase() == "n") {
         const searchGoogleCommand = readline.createInterface({
           input: process.stdin,
           output: process.stdout
@@ -139,9 +127,12 @@ const handleNotFount = (action) => {
           searchGoogleCommand.close();
           if (responseSearch.toLowerCase() == "y") {
             notFount(action);
+          } else {
+            resolve(true);
           }
-          resolve(true);
         });
+      } else {
+        resolve(true);
       }
     });
   });

@@ -14,6 +14,18 @@ model = AutoModelForSeq2SeqLM.from_pretrained(
 
 # Configura el modelo en modo evaluación
 model.eval()
+# Abre el archivo para lectura
+with open("./memoria/stateLobules.json", "r") as json_file:
+    # Carga el contenido del archivo en un diccionario de Python
+    data = json.load(json_file)
+
+# Modifica el valor del chatbot
+data["gpt3Chat"] = 1
+
+# Abre el archivo para escritura
+with open("./memoria/stateLobules.json", "w") as json_file:
+    # Serializa el diccionario de nuevo en formato JSON y escribe en el archivo
+    json.dump(data, json_file)
 while True:
     print("Escribe tu pregunta (escribe 'salir' para terminar): ")
     prompt = input()
