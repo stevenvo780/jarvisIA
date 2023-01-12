@@ -2,8 +2,20 @@ const { notFount } = require('./corteza/cagorizacionProcessExecute');
 const { entrain, razonLearn, bodyLearn } = require('./memoria/aprender');
 const recordar = require('./memoria/cortoplazo');
 const { respuestaConversations, speak } = require('./corteza/voz');
-const { openRootSession, openSession } = require('./corteza/osBash');
+const {
+  openRootSession,
+  openSession,
+  openSessionGPT3,
+  openSessionGPT3Chat,
+  openSessionChatbot,
+  runCommandChatbot,
+  openSessionTranslateEn_Es,
+  openSessionTranslateEs_En,
+  runCommandTranslateEn_Es,
+  runCommandTranslateEs_En,
+} = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
+const { getSentiment } = require('./lobulosProcesativos/googleNLPfeelings');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 
@@ -12,6 +24,11 @@ const initSystem = async () => {
   console.log("Iniciando sistemas");
   await openSession();
   await openRootSession();
+  await openSessionGPT3();
+  await openSessionGPT3Chat();
+  await openSessionChatbot();
+  await openSessionTranslateEn_Es();
+  await openSessionTranslateEs_En();
   await entrain();
   await predict();
 }
@@ -33,20 +50,25 @@ const medula = async (question) => {
   const bodySomatic = await pensarBody(question);
   // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
   console.log("Certidumbre de la respuesta body: " + bodySomatic.classifications[0].score)
-  if (bodySomatic.classifications[0].score < 0.8) {
+  if (bodySomatic.classifications[0].score < 0.9) {
     const razonSomatic = await pensarRazon(question);
     // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
     if (razonSomatic.intent == "None") {
       await handleNotFount(question);
     }
     console.log("Certidumbre de la respuesta razon: " + razonSomatic.classifications[0].score)
-    if (razonSomatic.classifications[0].score > 0.5) {
+    if (razonSomatic.classifications[0].score > 0.8) {
       if (razonSomatic.intent === "learn") {
         await recordarAction(question);
       } else {
+        //const sentiment = await getSentiment(razonSomatic.intent)
         respuestaConversations(razonSomatic.intent);
       }
     } else {
+      const translateEs_En = await runCommandTranslateEs_En(question);
+      const result = await runCommandChatbot(translateEs_En);
+      const translateEn_Es = await runCommandTranslateEn_Es(result);
+      respuestaConversations(translateEn_Es);
       await handleNotFount(question);
     }
   } else {

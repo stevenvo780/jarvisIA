@@ -23,6 +23,7 @@
     "espeak": "^0.0.3",
     "google-translate-api": "^2.3.0",
     "google-tts-api": "^2.0.2",
+    "huggingface-api": "^1.0.3",
     "sudo-prompt": "^9.2.1"
   }
 }
