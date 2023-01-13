@@ -1,0 +1,70 @@
+[
+  {
+    "input": "hola",
+    "output": "execute.razon"
+  },
+  {
+    "input": "te presento",
+    "output": "execute.razon"
+  },
+  {
+    "input": "como estas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "buenos dias",
+    "output": "execute.razon"
+  },
+  {
+    "input": "buenas tardes",
+    "output": "execute.razon"
+  },
+  {
+    "input": "buenas noches",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que onda",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que hay",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que pasa",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu dia",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu tiempo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu estado",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu dia hoy",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu tiempo hoy",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu estado hoy",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que tal tu dia hoy",
+    "output": "execute.razon"
+  }
+]

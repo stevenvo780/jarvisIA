@@ -1,0 +1,1573 @@
+{
+  "settings": {
+    "languages": [
+      "es"
+    ],
+    "autoSave": false,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "modelFileName": "model.nlp",
+    "executeActionsBeforeAnswers": false,
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "es"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "es": {
+        "settings": {
+          "locale": "es",
+          "trainByDomain": false,
+          "tag": "domain-manager-es",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "ejecut": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "abrir": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "pon": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "busc": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "inic": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "lanc": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "corr": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "com,ejecut": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "ejecut,program": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "abrir,archiv": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "abrir,aplic": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "music,pon": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "busc,en,internet": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "busc,en,googl": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "hol": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "present,te": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "como,esta": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "buen,dia": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "buen,tard": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "buen,noch": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "que,tal": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "onda,que": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "hab,que": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "pas,que": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "dia,que,tal,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "que,tal,tiemp,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "estad,que,tal,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "dia,hoy,que,tal,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "hoy,que,tal,tiemp,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "estad,hoy,que,tal,tu": {
+            "intent": "execute.razon",
+            "domain": "default"
+          },
+          "cuentam,sobr,ti": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "cuentam,de,ti": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "que,ser": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "de,dond,ser": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "como,funcion": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "hac,pod,que": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "hac,que,sab": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "cual,habil,ser,tu": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "capac,cual,ser,tu": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "cual,funcion,ser,tu": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "cual,proposit,ser,tu": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "cual,met,ser,tu": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "esper,logr,que": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "alcanc,esper,que": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "consegu,esper,que": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "esper,obten,que": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "gust,hac,que,te": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "gust,logr,que,te": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "alcanc,gust,que,te": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "consegu,gust,que,te": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          },
+          "gust,obten,que,te": {
+            "intent": "execute.intuition",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "execute.body": "default",
+          "execute.razon": "default",
+          "execute.intuition": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "ejecutar",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "ejecuta",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "abrir",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "pon",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "busca",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "iniciar",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "lanzar",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "correr",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "ejecuta comando",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "ejecutar programa",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "abrir archivo",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "abrir aplicación",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "pon música",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "busca en internet",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "buscar en Google",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "hola",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "te presento",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "como estas",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenos dias",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenas tardes",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "buenas noches",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que onda",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que hay",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que pasa",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu dia",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu tiempo",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu estado",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu dia hoy",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu tiempo hoy",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu estado hoy",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "que tal tu dia hoy",
+            "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "cuéntame sobre ti",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cuentame de ti",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que eres",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "de donde eres",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "como funcionas",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que puedes hacer",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que sabes hacer",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cuales son tus habilidades",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cuales son tus capacidades",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cuales son tus funciones",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cual es tu proposito",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "cual es tu meta",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que esperas lograr",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que esperas alcanzar",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que esperas conseguir",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que esperas obtener",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que te gustaria hacer",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que te gustaria lograr",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que te gustaria alcanzar",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que te gustaria conseguir",
+            "intent": "execute.intuition"
+          },
+          {
+            "domain": "default",
+            "utterance": "que te gustaria obtener",
+            "intent": "execute.intuition"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "es",
+              "tag": "nlu-es",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "ejecut": 1,
+              "abrir": 1,
+              "pon": 1,
+              "busc": 1,
+              "inic": 1,
+              "lanc": 1,
+              "corr": 1,
+              "com": 1,
+              "program": 1,
+              "archiv": 1,
+              "aplic": 1,
+              "music": 1,
+              "en": 1,
+              "internet": 1,
+              "googl": 1,
+              "hol": 1,
+              "te": 1,
+              "present": 1,
+              "como": 1,
+              "esta": 1,
+              "buen": 1,
+              "dia": 1,
+              "tard": 1,
+              "noch": 1,
+              "que": 1,
+              "tal": 1,
+              "onda": 1,
+              "hab": 1,
+              "pas": 1,
+              "tu": 1,
+              "tiemp": 1,
+              "estad": 1,
+              "hoy": 1,
+              "cuentam": 1,
+              "sobr": 1,
+              "ti": 1,
+              "de": 1,
+              "ser": 1,
+              "dond": 1,
+              "funcion": 1,
+              "pod": 1,
+              "hac": 1,
+              "sab": 1,
+              "cual": 1,
+              "habil": 1,
+              "capac": 1,
+              "proposit": 1,
+              "met": 1,
+              "esper": 1,
+              "logr": 1,
+              "alcanc": 1,
+              "consegu": 1,
+              "obten": 1,
+              "gust": 1
+            },
+            "intents": {
+              "execute.body": 1,
+              "execute.razon": 1,
+              "execute.intuition": 1
+            },
+            "intentFeatures": {
+              "execute.body": {
+                "ejecut": 1,
+                "abrir": 1,
+                "pon": 1,
+                "busc": 1,
+                "inic": 1,
+                "lanc": 1,
+                "corr": 1,
+                "com": 1,
+                "program": 1,
+                "archiv": 1,
+                "aplic": 1,
+                "music": 1,
+                "en": 1,
+                "internet": 1,
+                "googl": 1
+              },
+              "execute.razon": {
+                "hol": 1,
+                "te": 1,
+                "present": 1,
+                "como": 1,
+                "esta": 1,
+                "buen": 1,
+                "dia": 1,
+                "tard": 1,
+                "noch": 1,
+                "que": 1,
+                "tal": 1,
+                "onda": 1,
+                "hab": 1,
+                "pas": 1,
+                "tu": 1,
+                "tiemp": 1,
+                "estad": 1,
+                "hoy": 1
+              },
+              "execute.intuition": {
+                "cuentam": 1,
+                "sobr": 1,
+                "ti": 1,
+                "de": 1,
+                "que": 1,
+                "ser": 1,
+                "dond": 1,
+                "como": 1,
+                "funcion": 1,
+                "pod": 1,
+                "hac": 1,
+                "sab": 1,
+                "cual": 1,
+                "tu": 1,
+                "habil": 1,
+                "capac": 1,
+                "proposit": 1,
+                "met": 1,
+                "esper": 1,
+                "logr": 1,
+                "alcanc": 1,
+                "consegu": 1,
+                "obten": 1,
+                "te": 1,
+                "gust": 1
+              }
+            },
+            "featuresToIntent": {
+              "ejecut": [
+                "execute.body"
+              ],
+              "abrir": [
+                "execute.body"
+              ],
+              "pon": [
+                "execute.body"
+              ],
+              "busc": [
+                "execute.body"
+              ],
+              "inic": [
+                "execute.body"
+              ],
+              "lanc": [
+                "execute.body"
+              ],
+              "corr": [
+                "execute.body"
+              ],
+              "com": [
+                "execute.body"
+              ],
+              "program": [
+                "execute.body"
+              ],
+              "archiv": [
+                "execute.body"
+              ],
+              "aplic": [
+                "execute.body"
+              ],
+              "music": [
+                "execute.body"
+              ],
+              "en": [
+                "execute.body"
+              ],
+              "internet": [
+                "execute.body"
+              ],
+              "googl": [
+                "execute.body"
+              ],
+              "hol": [
+                "execute.razon"
+              ],
+              "te": [
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "present": [
+                "execute.razon"
+              ],
+              "como": [
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "esta": [
+                "execute.razon"
+              ],
+              "buen": [
+                "execute.razon"
+              ],
+              "dia": [
+                "execute.razon"
+              ],
+              "tard": [
+                "execute.razon"
+              ],
+              "noch": [
+                "execute.razon"
+              ],
+              "que": [
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "tal": [
+                "execute.razon"
+              ],
+              "onda": [
+                "execute.razon"
+              ],
+              "hab": [
+                "execute.razon"
+              ],
+              "pas": [
+                "execute.razon"
+              ],
+              "tu": [
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "tiemp": [
+                "execute.razon"
+              ],
+              "estad": [
+                "execute.razon"
+              ],
+              "hoy": [
+                "execute.razon"
+              ],
+              "cuentam": [
+                "execute.intuition"
+              ],
+              "sobr": [
+                "execute.intuition"
+              ],
+              "ti": [
+                "execute.intuition"
+              ],
+              "de": [
+                "execute.intuition"
+              ],
+              "ser": [
+                "execute.intuition"
+              ],
+              "dond": [
+                "execute.intuition"
+              ],
+              "funcion": [
+                "execute.intuition"
+              ],
+              "pod": [
+                "execute.intuition"
+              ],
+              "hac": [
+                "execute.intuition"
+              ],
+              "sab": [
+                "execute.intuition"
+              ],
+              "cual": [
+                "execute.intuition"
+              ],
+              "habil": [
+                "execute.intuition"
+              ],
+              "capac": [
+                "execute.intuition"
+              ],
+              "proposit": [
+                "execute.intuition"
+              ],
+              "met": [
+                "execute.intuition"
+              ],
+              "esper": [
+                "execute.intuition"
+              ],
+              "logr": [
+                "execute.intuition"
+              ],
+              "alcanc": [
+                "execute.intuition"
+              ],
+              "consegu": [
+                "execute.intuition"
+              ],
+              "obten": [
+                "execute.intuition"
+              ],
+              "gust": [
+                "execute.intuition"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "es",
+                "tag": "nlu-es",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "ejecut",
+                "abrir",
+                "pon",
+                "busc",
+                "inic",
+                "lanc",
+                "corr",
+                "com",
+                "program",
+                "archiv",
+                "aplic",
+                "music",
+                "en",
+                "internet",
+                "googl",
+                "hol",
+                "te",
+                "present",
+                "como",
+                "esta",
+                "buen",
+                "dia",
+                "tard",
+                "noch",
+                "que",
+                "tal",
+                "onda",
+                "hab",
+                "pas",
+                "tu",
+                "tiemp",
+                "estad",
+                "hoy",
+                "cuentam",
+                "sobr",
+                "ti",
+                "de",
+                "ser",
+                "dond",
+                "funcion",
+                "pod",
+                "hac",
+                "sab",
+                "cual",
+                "habil",
+                "capac",
+                "proposit",
+                "met",
+                "esper",
+                "logr",
+                "alcanc",
+                "consegu",
+                "obten",
+                "gust"
+              ],
+              "intents": [
+                "execute.body",
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "perceptrons": [
+                [
+                  6.927697658538818,
+                  6.770965576171875,
+                  6.832931995391846,
+                  6.871736526489258,
+                  6.926858901977539,
+                  6.9263386726379395,
+                  6.925656795501709,
+                  -0.0005553729715757072,
+                  0.000534866179805249,
+                  0.20572157204151154,
+                  0.20876871049404144,
+                  0.15115955471992493,
+                  0.04526999220252037,
+                  0.02209026739001274,
+                  0.024295460432767868,
+                  -7.335463047027588,
+                  -3.6763198375701904,
+                  -3.6732711791992188,
+                  -4.8546528816223145,
+                  -2.4977903366088867,
+                  -5.448688507080078,
+                  -1.9049314260482788,
+                  -1.903136134147644,
+                  -1.9021265506744385,
+                  -6.294930458068848,
+                  -1.321997046470642,
+                  -1.0580310821533203,
+                  -1.0576404333114624,
+                  -1.0571295022964478,
+                  -2.1800272464752197,
+                  -0.1576324850320816,
+                  -0.10637678951025009,
+                  -0.08327220380306244,
+                  -2.747238874435425,
+                  -1.8563487529754639,
+                  -2.747238874435425,
+                  -2.4611968994140625,
+                  -3.3199188709259033,
+                  -1.5703063011169434,
+                  -2.494582176208496,
+                  -0.3528507947921753,
+                  -0.7053412199020386,
+                  -0.3524426817893982,
+                  -1.543102502822876,
+                  -0.41720911860466003,
+                  -0.34678009152412415,
+                  -0.3098483383655548,
+                  -0.30911457538604736,
+                  -0.8480029106140137,
+                  -0.22098368406295776,
+                  -0.21005091071128845,
+                  -0.2098061740398407,
+                  -0.20954439043998718,
+                  -0.0015244079986587167,
+                  7.352964196777793
+                ],
+                [
+                  -3.569880485534668,
+                  -3.5067543983459473,
+                  -3.5058155059814453,
+                  -3.5049705505371094,
+                  -3.503368616104126,
+                  -3.5021893978118896,
+                  -3.5008838176727295,
+                  -0.3968565762042999,
+                  -0.3430584967136383,
+                  -0.6368847489356995,
+                  -0.5689563751220703,
+                  -0.7828208804130554,
+                  -0.7798603773117065,
+                  -0.4062687158584595,
+                  -0.3420511782169342,
+                  10.774853706359863,
+                  1.9757012128829956,
+                  8.801072120666504,
+                  2.480726718902588,
+                  8.294499397277832,
+                  8.954109191894531,
+                  1.6855860948562622,
+                  1.863580584526062,
+                  1.8658493757247925,
+                  4.12111234664917,
+                  6.560825824737549,
+                  6.652277946472168,
+                  6.64888858795166,
+                  6.646104335784912,
+                  -1.5399551391601562,
+                  1.6348744630813599,
+                  1.6346584558486938,
+                  -0.02837708778679371,
+                  -1.781013011932373,
+                  -1.0092554092407227,
+                  -1.781013011932373,
+                  -1.1331923007965088,
+                  -7.624054431915283,
+                  -0.36348700523376465,
+                  -5.988068580627441,
+                  -2.3776917457580566,
+                  -5.270209312438965,
+                  -2.3593597412109375,
+                  -1.2560880184173584,
+                  -0.3717593252658844,
+                  -0.2853894531726837,
+                  -0.15590330958366394,
+                  -0.10006168484687805,
+                  -4.8973493576049805,
+                  -2.8347296714782715,
+                  -2.7928566932678223,
+                  -2.781801700592041,
+                  -2.7803752422332764,
+                  -6.8253703117370605,
+                  3.510150997375134
+                ],
+                [
+                  -2.3819711208343506,
+                  -1.8886016607284546,
+                  -1.5998064279556274,
+                  -1.661499261856079,
+                  -1.3374086618423462,
+                  -1.3350772857666016,
+                  -1.3330940008163452,
+                  -0.3470957577228546,
+                  -0.29824990034103394,
+                  -0.41765162348747253,
+                  -0.36523717641830444,
+                  -0.500293493270874,
+                  -0.7073110938072205,
+                  -0.34113749861717224,
+                  -0.2750570774078369,
+                  -1.3304646015167236,
+                  1.2643436193466187,
+                  -2.649196147918701,
+                  7.938809394836426,
+                  -8.890288352966309,
+                  -1.2023595571517944,
+                  -1.4082404375076294,
+                  -0.43410003185272217,
+                  -0.3861196041107178,
+                  3.980297327041626,
+                  -5.281412601470947,
+                  -5.275851726531982,
+                  -5.269484996795654,
+                  -5.26078987121582,
+                  -1.2368816137313843,
+                  -0.9368285536766052,
+                  -0.6989334225654602,
+                  -0.4297700524330139,
+                  4.960610389709473,
+                  3.0576107501983643,
+                  4.960610389709473,
+                  3.0082736015319824,
+                  8.861917495727539,
+                  1.1040598154067993,
+                  4.344842910766602,
+                  4.89487361907959,
+                  3.976097583770752,
+                  4.8834757804870605,
+                  1.5955373048782349,
+                  3.51461124420166,
+                  3.4695091247558594,
+                  3.55466365814209,
+                  3.569711685180664,
+                  5.213989734649658,
+                  3.7366013526916504,
+                  3.7388317584991455,
+                  3.7364277839660645,
+                  3.7317025661468506,
+                  3.9137449264526367,
+                  1.362805996543546
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "es",
+        "ejecutar"
+      ],
+      [
+        "es",
+        "ejecuta"
+      ],
+      [
+        "es",
+        "abrir"
+      ],
+      [
+        "es",
+        "pon"
+      ],
+      [
+        "es",
+        "busca"
+      ],
+      [
+        "es",
+        "iniciar"
+      ],
+      [
+        "es",
+        "lanzar"
+      ],
+      [
+        "es",
+        "correr"
+      ],
+      [
+        "es",
+        "ejecuta comando"
+      ],
+      [
+        "es",
+        "ejecutar programa"
+      ],
+      [
+        "es",
+        "abrir archivo"
+      ],
+      [
+        "es",
+        "abrir aplicación"
+      ],
+      [
+        "es",
+        "pon música"
+      ],
+      [
+        "es",
+        "busca en internet"
+      ],
+      [
+        "es",
+        "buscar en Google"
+      ],
+      [
+        "es",
+        "hola"
+      ],
+      [
+        "es",
+        "te presento"
+      ],
+      [
+        "es",
+        "como estas"
+      ],
+      [
+        "es",
+        "buenos dias"
+      ],
+      [
+        "es",
+        "buenas tardes"
+      ],
+      [
+        "es",
+        "buenas noches"
+      ],
+      [
+        "es",
+        "que tal"
+      ],
+      [
+        "es",
+        "que onda"
+      ],
+      [
+        "es",
+        "que hay"
+      ],
+      [
+        "es",
+        "que pasa"
+      ],
+      [
+        "es",
+        "que tal tu dia"
+      ],
+      [
+        "es",
+        "que tal tu tiempo"
+      ],
+      [
+        "es",
+        "que tal tu estado"
+      ],
+      [
+        "es",
+        "que tal tu dia hoy"
+      ],
+      [
+        "es",
+        "que tal tu tiempo hoy"
+      ],
+      [
+        "es",
+        "que tal tu estado hoy"
+      ],
+      [
+        "es",
+        "que tal tu dia hoy"
+      ],
+      [
+        "es",
+        "cuéntame sobre ti"
+      ],
+      [
+        "es",
+        "cuentame de ti"
+      ],
+      [
+        "es",
+        "que eres"
+      ],
+      [
+        "es",
+        "de donde eres"
+      ],
+      [
+        "es",
+        "como funcionas"
+      ],
+      [
+        "es",
+        "que puedes hacer"
+      ],
+      [
+        "es",
+        "que sabes hacer"
+      ],
+      [
+        "es",
+        "cuales son tus habilidades"
+      ],
+      [
+        "es",
+        "cuales son tus capacidades"
+      ],
+      [
+        "es",
+        "cuales son tus funciones"
+      ],
+      [
+        "es",
+        "cual es tu proposito"
+      ],
+      [
+        "es",
+        "cual es tu meta"
+      ],
+      [
+        "es",
+        "que esperas lograr"
+      ],
+      [
+        "es",
+        "que esperas alcanzar"
+      ],
+      [
+        "es",
+        "que esperas conseguir"
+      ],
+      [
+        "es",
+        "que esperas obtener"
+      ],
+      [
+        "es",
+        "que te gustaria hacer"
+      ],
+      [
+        "es",
+        "que te gustaria lograr"
+      ],
+      [
+        "es",
+        "que te gustaria alcanzar"
+      ],
+      [
+        "es",
+        "que te gustaria conseguir"
+      ],
+      [
+        "es",
+        "que te gustaria obtener"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "es": {
+        "ejecutar": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "ejecuta": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "abrir": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "pon": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "busca": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "iniciar": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "lanzar": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "correr": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "ejecuta comando": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "ejecutar programa": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "abrir archivo": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "abrir aplicación": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "pon música": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "busca en internet": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "buscar en Google": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "hola": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "te presento": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "como estas": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "buenos dias": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "buenas tardes": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "buenas noches": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que onda": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que hay": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que pasa": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu dia": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu tiempo": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu estado": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu dia hoy": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu tiempo hoy": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "que tal tu estado hoy": [
+          {
+            "answer": "execute.razon"
+          }
+        ],
+        "cuéntame sobre ti": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cuentame de ti": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que eres": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "de donde eres": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "como funcionas": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que puedes hacer": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que sabes hacer": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cuales son tus habilidades": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cuales son tus capacidades": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cuales son tus funciones": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cual es tu proposito": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "cual es tu meta": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que esperas lograr": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que esperas alcanzar": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que esperas conseguir": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que esperas obtener": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que te gustaria hacer": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que te gustaria lograr": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que te gustaria alcanzar": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que te gustaria conseguir": [
+          {
+            "answer": "execute.intuition"
+          }
+        ],
+        "que te gustaria obtener": [
+          {
+            "answer": "execute.intuition"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

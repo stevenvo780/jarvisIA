@@ -961,27 +961,27 @@
   },
   {
     "input": "la hora",
-    "output": "date"
+    "output": "date +%H:%M"
   },
   {
     "input": "qué hora es",
-    "output": "date"
+    "output": "date +%H:%M"
   },
   {
     "input": "dime la hora",
-    "output": "date"
+    "output": "date +%H:%M"
   },
   {
     "input": "hora",
-    "output": "date"
+    "output": "date +%H:%M"
   },
   {
     "input": "mes de hoy",
-    "output": "date"
+    "output": "date +%m"
   },
   {
     "input": "dia de hoy",
-    "output": "date"
+    "output": "date +%d"
   },
   {
     "input": "cuánto espacio libre hay en el disco",

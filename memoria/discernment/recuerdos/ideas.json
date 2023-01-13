@@ -1,0 +1,86 @@
+[
+  {
+    "input": "cuéntame sobre ti",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuentame de ti",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "de donde eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "como funcionas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que puedes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que sabes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus habilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus funciones",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cual es tu proposito",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cual es tu meta",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que esperas lograr",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que esperas alcanzar",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que esperas conseguir",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que esperas obtener",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que te gustaria hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que te gustaria lograr",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que te gustaria alcanzar",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que te gustaria conseguir",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que te gustaria obtener",
+    "output": "execute.intuition"
+  }
+]

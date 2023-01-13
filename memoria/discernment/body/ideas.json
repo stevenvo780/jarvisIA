@@ -1,0 +1,62 @@
+[
+  {
+    "input": "ejecutar",
+    "output": "execute.body"
+  },
+  {
+    "input": "ejecuta",
+    "output": "execute.body"
+  },
+  {
+    "input": "abrir",
+    "output": "execute.body"
+  },
+  {
+    "input": "pon",
+    "output": "execute.body"
+  },
+  {
+    "input": "busca",
+    "output": "execute.body"
+  },
+  {
+    "input": "iniciar",
+    "output": "execute.body"
+  },
+  {
+    "input": "lanzar",
+    "output": "execute.body"
+  },
+  {
+    "input": "correr",
+    "output": "execute.body"
+  },
+  {
+    "input": "ejecuta comando",
+    "output": "execute.body"
+  },
+  {
+    "input": "ejecutar programa",
+    "output": "execute.body"
+  },
+  {
+    "input": "abrir archivo",
+    "output": "execute.body"
+  },
+  {
+    "input": "abrir aplicación",
+    "output": "execute.body"
+  },
+  {
+    "input": "pon música",
+    "output": "execute.body"
+  },
+  {
+    "input": "busca en internet",
+    "output": "execute.body"
+  },
+  {
+    "input": "buscar en Google",
+    "output": "execute.body"
+  }
+]

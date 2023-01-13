@@ -1111,62 +1111,97 @@
     },
     "responses": {
       "es": {
-        "learn": [
+        "recuerda el siguiente comando": [
           {
             "answer": "learn"
           }
         ],
-        "bien y tu": [
+        "aprende este comando": [
+          {
+            "answer": "learn"
+          }
+        ],
+        "ten en cuenta este comando": [
+          {
+            "answer": "learn"
+          }
+        ],
+        "hola como estas": [
           {
             "answer": "bien y tu"
           }
         ],
-        "Es con mucho gusto siempre para servir": [
+        "gracias": [
           {
             "answer": "Es con mucho gusto siempre para servir"
           }
         ],
-        "No mucho, espero tus ordenes": [
+        "que me cuentas": [
           {
             "answer": "No mucho, espero tus ordenes"
           }
         ],
-        "Bien y tu": [
+        "Como estas": [
           {
             "answer": "Bien y tu"
           }
         ],
-        "Hola, en que puedo servirte": [
+        "que tal": [
+          {
+            "answer": "Bien y tu"
+          }
+        ],
+        "hola": [
           {
             "answer": "Hola, en que puedo servirte"
           }
         ],
-        "Estoy esperando tus ordenes": [
+        "buenas tardes": [
+          {
+            "answer": "Hola, en que puedo servirte"
+          }
+        ],
+        "buenas noches": [
+          {
+            "answer": "Hola, en que puedo servirte"
+          }
+        ],
+        "buenos dias": [
+          {
+            "answer": "Hola, en que puedo servirte"
+          }
+        ],
+        "como estas": [
+          {
+            "answer": "Bien y tu"
+          }
+        ],
+        "que haces": [
           {
             "answer": "Estoy esperando tus ordenes"
           }
         ],
-        "que bien en que puedo ayudarte": [
+        "bien": [
           {
             "answer": "que bien en que puedo ayudarte"
           }
         ],
-        "Si, siempre puedo aprender mas": [
+        "puedes aprender algo nuevo ?": [
           {
             "answer": "Si, siempre puedo aprender mas"
           }
         ],
-        "Puto tu": [
+        "puto": [
           {
             "answer": "Puto tu"
           }
         ],
-        "aun estoy aprendiendo, entre mas me enseñes mejor puedo ser": [
+        "Aveces respondes muy mal": [
           {
             "answer": "aun estoy aprendiendo, entre mas me enseñes mejor puedo ser"
           }
         ],
-        "un gusto conocerle, en que puedo ayudarte": [
+        "te presento a mi esposa": [
           {
             "answer": "un gusto conocerle, en que puedo ayudarte"
           }

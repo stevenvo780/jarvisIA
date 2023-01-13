@@ -5,22 +5,25 @@ const { respuestaConversations, speak } = require('./corteza/voz');
 const {
   openRootSession,
   openSession,
-  runCommandChatbot,
+  runCommandGPT3Chat,
+  //runCommandChatbot,
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
 const { loadLobules } = require('./corteza/loadLobulosPy');
+const { somaticSentiment } = require('./lobulosProcesativos/sentiments');
 const { getSentiment } = require('./lobulosProcesativos/googleNLPfeelings');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
+const { pensarDiscernment } = require('./NLP/discernment');
 
 const readline = require('readline');
 const initSystem = async () => {
   console.log("Iniciando sistemas");
   await openSession();
   await openRootSession();
-  //await loadLobules();
+  await loadLobules();
   await entrain();
   await predict();
 }
@@ -39,29 +42,47 @@ async function predict() {
 }
 
 const medula = async (question) => {
-  const bodySomatic = await pensarBody(question);
-  // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
-  console.log("Certidumbre de la respuesta body: ", bodySomatic.classifications)
-  if (bodySomatic.classifications[0].score < 1) {
-    const razonSomatic = await pensarRazon(question);
-    // Grado de certidumbre para responder, tiene que estar bastante segura para saber si crea un nuevo comando y enriquezca la memoria
-
-    console.log("Certidumbre de la respuesta razon: ", razonSomatic.classifications)
-    if (razonSomatic.classifications[0].score > 0.8) {
-      respuestaConversations(razonSomatic.intent);
-    } else {
-      respuestaConversations("Pensando una respuesta");
-      const translateEs_En = await runCommandTranslateEs_En(question);
-      const result = await runCommandChatbot(translateEs_En.response);
-      const translateEn_Es = await runCommandTranslateEn_Es(result.response);
-      respuestaConversations(translateEn_Es.response);
-      if (razonSomatic.intent == "None") {
-        await handleNotFount(question);
-      }
-    }
-  } else {
-    await actionHandler(bodySomatic.classifications[0].intent, question);
+  const discernment = await pensarDiscernment(question);
+  console.log(discernment.intent);
+  if (discernment.intent == "None") {
+    const chatGPT = await lobuleChat(question);
+    respuestaConversations(chatGPT);
+    await handleNotFount(question);
   }
+  if (discernment.intent === "execute.body") {
+    const bodySomatic = await pensarBody(question);
+    if (bodySomatic.score < 0.8) {
+      console.log("Body", bodySomatic.score);
+      const chatGPT = await lobuleChat(question);
+      respuestaConversations(chatGPT);
+      await handleNotFount(question, chatGPT);
+    } else {
+      await actionHandler(bodySomatic.intent, question);
+    }
+  } else if (discernment.intent === "execute.razon") {
+    const razonSomatic = await pensarRazon(question);
+    if (razonSomatic.score < 0.8) {
+      console.log("Razon", razonSomatic.score);
+      const chatGPT = await lobuleChat(question);
+      respuestaConversations(chatGPT);
+      await handleNotFount(question, chatGPT);
+    } else {
+      respuestaConversations(razonSomatic.intent);
+    }
+  } else if (discernment.intent === "execute.intuition") {
+    console.log("discernment", discernment.score);
+    const chatGPT = await lobuleChat(question);
+    respuestaConversations(chatGPT);
+    await handleNotFount(question, chatGPT);
+  }
+}
+
+const lobuleChat = async (question) => {
+  respuestaConversations("Pensando una respuesta");
+  const translateEs_En = await runCommandTranslateEs_En(question);
+  const result = await runCommandGPT3Chat(translateEs_En.response);
+  const translateEn_Es = await runCommandTranslateEn_Es(result.response);
+  return translateEn_Es.response;
 }
 
 const recordarAction = async (question) => {
@@ -104,35 +125,55 @@ const recordarAction = async (question) => {
   });
 }
 
-const handleNotFount = (action) => {
+const handleNotFount = (action, intuition = null) => {
   //respuestaConversations("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
   return new Promise((resolve, reject) => {
-    const createCommandRequest = readline.createInterface({
+    const greatOrNot = readline.createInterface({
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Mi respuesta fue satisfactoria?, responde Y o N");
-    createCommandRequest.question("Jarvis: " + '¿Mi respuesta fue satisfactoria?, responde Y o N ', async responseSave => {
-      createCommandRequest.close();
-      if (responseSave.toLowerCase() == "y") {
-        await recordarAction(action);
+    speak("¿Mi respuesta fue satisfactoria?");
+    greatOrNot.question("Jarvis: " + '¿Mi respuesta fue satisfactoria? ', async responseGreat => {
+      greatOrNot.close();
+      const somaticEmotional = await getSentiment(responseGreat);
+      console.log(somaticEmotional);
+      const createCommandRequest = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+      });
+      if (somaticEmotional.score > 0) {
+        await recordar(action, intuition, "razon");
+        await razonLearn();
         resolve(true);
-      } else if (responseSave.toLowerCase() == "n") {
-        const searchGoogleCommand = readline.createInterface({
-          input: process.stdin,
-          output: process.stdout
-        });
-        speak("¿Desea buscarlo en internet? responde con Y o N ");
-        searchGoogleCommand.question("Jarvis: " + '¿Desea buscarlo en internet? responde con Y o N ', async responseSearch => {
-          searchGoogleCommand.close();
-          if (responseSearch.toLowerCase() == "y") {
-            notFount(action);
+      } else {
+        speak("¿Me puedes enseñar como responder?");
+        createCommandRequest.question("Jarvis: " + '¿Me puedes enseñar como responder? ', async responseSave => {
+          const somaticEmotional = await getSentiment(responseSave);
+          console.log(somaticEmotional);
+          createCommandRequest.close();
+          if (somaticEmotional.score > 0) {
+            await recordarAction(action);
+            resolve(true);
+          } else if (somaticEmotional.score < 0) {
+            const searchGoogleCommand = readline.createInterface({
+              input: process.stdin,
+              output: process.stdout
+            });
+            speak("¿Desea buscarlo en internet?");
+            searchGoogleCommand.question("Jarvis: " + '¿Desea buscarlo en internet? ', async responseSearch => {
+              const somaticEmotional = await getSentiment(responseSearch);
+              console.log(somaticEmotional);
+              searchGoogleCommand.close();
+              if (somaticEmotional.score > 0) {
+                notFount(action);
+              } else {
+                resolve(true);
+              }
+            });
           } else {
             resolve(true);
           }
         });
-      } else {
-        resolve(true);
       }
     });
   });

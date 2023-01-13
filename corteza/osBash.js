@@ -84,8 +84,12 @@ exports.runCommandGPT3Chat = async (command) => {
   return new Promise((resolve, reject) => {
     fs.watch(path.join(__dirname, '../memoria', 'BigNLP.json'), (eventType, filename) => {
       if (eventType === 'change') {
-        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
-        resolve(result);
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
       }
     });
   });
@@ -110,8 +114,12 @@ exports.runCommandChatbot = async (command) => {
   return new Promise((resolve, reject) => {
     fs.watch(path.join(__dirname, '../memoria', 'BigNLP.json'), (eventType, filename) => {
       if (eventType === 'change') {
-        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
-        resolve(result);
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
       }
     });
   });
@@ -136,8 +144,12 @@ exports.runCommandTranslateEn_Es = async (command) => {
   return new Promise((resolve, reject) => {
     fs.watch(path.join(__dirname, '../memoria', 'translateEn_Es.json'), (eventType, filename) => {
       if (eventType === 'change') {
-        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEn_Es.json')));
-        resolve(result);
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEn_Es.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
       }
     });
   });
@@ -162,8 +174,12 @@ exports.runCommandTranslateEs_En = async (command) => {
   return new Promise((resolve, reject) => {
     fs.watch(path.join(__dirname, '../memoria', 'translateEs_En.json'), (eventType, filename) => {
       if (eventType === 'change') {
-        const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEs_En.json')));
-        resolve(result);
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'translateEs_En.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
       }
     });
   });
