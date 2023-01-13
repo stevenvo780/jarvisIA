@@ -1,5 +1,25 @@
 [
   {
+    "input": "pon la cancion valiente de vetusta morla",
+    "output": "open.music"
+  },
+  {
+    "input": "pon la cancion elegante",
+    "output": "open.music"
+  },
+  {
+    "input": "pon elegante",
+    "output": "open.music"
+  },
+  {
+    "input": "pon valiente",
+    "output": "open.music"
+  },
+  {
+    "input": "pon",
+    "output": "open.music"
+  },
+  {
     "input": "pon la cancion",
     "output": "open.music"
   },

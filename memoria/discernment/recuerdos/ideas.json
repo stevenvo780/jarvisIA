@@ -8,10 +8,6 @@
     "output": "execute.intuition"
   },
   {
-    "input": "que eres",
-    "output": "execute.intuition"
-  },
-  {
     "input": "de donde eres",
     "output": "execute.intuition"
   },
@@ -206,5 +202,33 @@
   {
     "input": "lista las ip de los computadores mas cercanos",
     "output": "execute.body"
+  },
+  {
+    "input": "quien te creo ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que eres ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "gracias por tus respuestas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bien, que eres ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "busca sobre redes neuronales",
+    "output": "execute.body"
+  },
+  {
+    "input": "abre la calculadora",
+    "output": "execute.body"
+  },
+  {
+    "input": "mis contactos te ven, saluda",
+    "output": "execute.razon"
   }
 ]

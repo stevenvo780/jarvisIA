@@ -69,50 +69,50 @@
   },
   {
     "input": "cómo te llamas",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te presentarías",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuál es tu nombre",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "quién eres",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué haces",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué es lo que sabes hacer",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus habilidades",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus fortalezas",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus debilidades",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te describirías",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te describirían otros",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué esperas de mí",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   }
 ]

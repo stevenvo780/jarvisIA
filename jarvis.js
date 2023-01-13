@@ -98,33 +98,34 @@ const recordarAction = async (question) => {
       if (response !== "comando" && response !== "conversacion") {
         respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
         resolve(false);
+      } else {
+        const saveRequest = readline.createInterface({
+          input: process.stdin,
+          output: process.stdout
+        });
+        const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
+        speak(textQuestion);
+        saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
+          saveRequest.close();
+          if (responseSave === "cancelar") {
+            respuestaConversations("Sera a la proxima");
+            resolve(false);
+          }
+          const zona = response === "comando" ? "body" : "razon"
+          await recordar(question, responseSave, zona);
+          respuestaConversations("Estudiando lo aprendido");
+          if (zona === "body") {
+            await recordar(question, "execute.body", "discernment");
+            await bodyLearn();
+          }
+          if (zona === "razon") {
+            await recordar(question, "execute.razon", "discernment");
+            await razonLearn();
+          }
+          await discernmentLearn();
+          resolve(true);
+        });
       }
-      const saveRequest = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout
-      });
-      const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
-      speak(textQuestion);
-      saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
-        saveRequest.close();
-        if (responseSave === "cancelar") {
-          respuestaConversations("Sera a la proxima");
-          resolve(false);
-        }
-        const zona = response === "comando" ? "body" : "razon"
-        await recordar(question, responseSave, zona);
-        respuestaConversations("Estudiando lo aprendido");
-        if (zona === "body") {
-          await recordar(question, "execute.body", "discernment");
-          await bodyLearn();
-        }
-        if (zona === "razon") {
-          await recordar(question, "execute.razon", "discernment");
-          await razonLearn();
-        }
-        await discernmentLearn();
-        resolve(true);
-      });
     });
   });
 }

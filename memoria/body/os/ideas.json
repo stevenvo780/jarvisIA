@@ -749,55 +749,55 @@
   },
   {
     "input": "la hora",
-    "output": "date +%H:%M"
+    "output": "konsole --noclose -e date +%H:%M"
   },
   {
     "input": "qué hora es",
-    "output": "date +%H:%M"
+    "output": "konsole --noclose -e date +%H:%M"
   },
   {
     "input": "dime la hora",
-    "output": "date +%H:%M"
+    "output": "konsole --noclose -e date +%H:%M"
   },
   {
     "input": "hora",
-    "output": "date +%H:%M"
+    "output": "konsole --noclose -e date +%H:%M"
   },
   {
     "input": "mes de hoy",
-    "output": "date +%m"
+    "output": "konsole --noclose -e date +%m"
   },
   {
     "input": "dia de hoy",
-    "output": "date +%d"
+    "output": "konsole --noclose -e date +%d"
   },
   {
     "input": "cuánto espacio libre hay en el disco",
-    "output": "df -h"
+    "output": "konsole --noclose -e df -h"
   },
   {
     "input": "muestra los procesos en ejecución",
-    "output": "ps aux"
+    "output": "konsole --noclose -e ps aux"
   },
   {
     "input": "abrir gestor de paquetes",
-    "output": "aptitude"
+    "output": "konsole --noclose -e aptitude"
   },
   {
     "input": "instalar paquete",
-    "output": "apt-get install"
+    "output": "konsole --noclose -e apt-get install"
   },
   {
     "input": "actualizar sistema",
-    "output": "apt-get update && apt-get upgrade"
+    "output": "konsole --noclose -e apt-get update && apt-get upgrade"
   },
   {
     "input": "abrir cliente de correo",
-    "output": "thunderbird"
+    "output": "konsole --noclose -e thunderbird"
   },
   {
     "input": "enviar correo electrónico",
-    "output": "mutt"
+    "output": "konsole --noclose -e mutt"
   },
   {
     "input": "abrir reproductor de música",
@@ -1169,7 +1169,7 @@
   },
   {
     "input": "abrir programa de monitoreo de red",
-    "output": "nmap"
+    "output": "konsole --noclose -e nmap"
   },
   {
     "input": "abrir programa de gestión de contraseñas",
@@ -1181,7 +1181,7 @@
   },
   {
     "input": "abrir programa de gestión de discos",
-    "output": "gparted"
+    "output": "konsole --noclose -e gparted"
   },
   {
     "input": "abrir programa de limpieza de sistema",
@@ -1189,7 +1189,7 @@
   },
   {
     "input": "abrir programa de gestión de procesos",
-    "output": "htop"
+    "output": "konsole --noclose -e htop"
   },
   {
     "input": "abrir programa de optimización de sistema",
@@ -1201,43 +1201,35 @@
   },
   {
     "input": "abrir programa de gestión de archivos de red",
-    "output": "samba"
+    "output": "konsole --noclose -e samba"
   },
   {
     "input": "abrir programa de gestión de impresoras",
-    "output": "system-config-printer"
+    "output": "konsole --noclose -e system-config-printer"
   },
   {
     "input": "abrir programa de gestión de energía",
-    "output": "powertop"
+    "output": "konsole --noclose -e powertop"
   },
   {
     "input": "abrir programa de gestión de memoria",
-    "output": "memtest"
+    "output": "konsole --noclose -e memtest"
   },
   {
     "input": "abrir programa de gestión de monitores",
-    "output": "arandr"
+    "output": "konsole --noclose -e arandr"
   },
   {
     "input": "abrir programa de monitorización de temperatura",
-    "output": "lm-sensors"
+    "output": "konsole --noclose -e lm-sensors"
   },
   {
     "input": "abrir programa de monitorización de procesadores",
-    "output": "sensors"
+    "output": "konsole --noclose -e sensors"
   },
   {
     "input": "abrir programa de gestión de usuarios",
-    "output": "useradd"
-  },
-  {
-    "input": "abrir programa de gestión de permisos",
-    "output": "chmod"
-  },
-  {
-    "input": "abrir programa de gestión de grupos",
-    "output": "groupadd"
+    "output": "konsole --noclose -e useradd"
   },
   {
     "input": "abrir programa de gestión de contraseñas de usuario",

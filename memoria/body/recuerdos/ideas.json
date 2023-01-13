@@ -14,5 +14,13 @@
   {
     "input": "lista las ip de los computadores mas cercanos",
     "output": "konsole --noclose -e arp -a"
+  },
+  {
+    "input": "busca sobre redes neuronales",
+    "output": "open.search"
+  },
+  {
+    "input": "abre la calculadora",
+    "output": "gnome-calculator"
   }
 ]

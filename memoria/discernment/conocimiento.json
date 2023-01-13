@@ -141,51 +141,51 @@
   },
   {
     "input": "cómo te llamas",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te presentarías",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuál es tu nombre",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "quién eres",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué haces",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué es lo que sabes hacer",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus habilidades",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus fortalezas",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuáles son tus debilidades",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te describirías",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cómo te describirían otros",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "qué esperas de mí",
-    "output": "execute.intuition"
+    "output": "execute.razon"
   },
   {
     "input": "cuéntame sobre ti",
@@ -193,10 +193,6 @@
   },
   {
     "input": "cuentame de ti",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que eres",
     "output": "execute.intuition"
   },
   {
@@ -394,5 +390,33 @@
   {
     "input": "lista las ip de los computadores mas cercanos",
     "output": "execute.body"
+  },
+  {
+    "input": "quien te creo ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que eres ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "gracias por tus respuestas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bien, que eres ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "busca sobre redes neuronales",
+    "output": "execute.body"
+  },
+  {
+    "input": "abre la calculadora",
+    "output": "execute.body"
+  },
+  {
+    "input": "mis contactos te ven, saluda",
+    "output": "execute.razon"
   }
 ]
