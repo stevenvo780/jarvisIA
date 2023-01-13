@@ -1,5 +1,5 @@
 const { notFount } = require('./corteza/cagorizacionProcessExecute');
-const { entrain, razonLearn, bodyLearn } = require('./memoria/aprender');
+const { entrain, razonLearn, bodyLearn, discernmentLearn } = require('./memoria/aprender');
 const recordar = require('./memoria/cortoplazo');
 const { respuestaConversations, speak } = require('./corteza/voz');
 const {
@@ -114,11 +114,14 @@ const recordarAction = async (question) => {
         await recordar(question, responseSave, zona);
         respuestaConversations("Estudiando lo aprendido");
         if (zona === "body") {
+          await recordar(question, "execute.body", "discernment");
           await bodyLearn();
         }
         if (zona === "razon") {
+          await recordar(question, "execute.razon", "discernment");
           await razonLearn();
         }
+        await discernmentLearn();
         resolve(true);
       });
     });
@@ -136,7 +139,6 @@ const handleNotFount = (action, intuition = null) => {
     greatOrNot.question("Jarvis: " + '¿Mi respuesta fue satisfactoria? ', async responseGreat => {
       greatOrNot.close();
       const somaticEmotional = await getSentiment(responseGreat);
-      console.log(somaticEmotional);
       const createCommandRequest = readline.createInterface({
         input: process.stdin,
         output: process.stdout
@@ -148,9 +150,8 @@ const handleNotFount = (action, intuition = null) => {
       } else {
         speak("¿Me puedes enseñar como responder?");
         createCommandRequest.question("Jarvis: " + '¿Me puedes enseñar como responder? ', async responseSave => {
-          const somaticEmotional = await getSentiment(responseSave);
-          console.log(somaticEmotional);
           createCommandRequest.close();
+          const somaticEmotional = await getSentiment(responseSave);
           if (somaticEmotional.score > 0) {
             await recordarAction(action);
             resolve(true);
@@ -162,13 +163,11 @@ const handleNotFount = (action, intuition = null) => {
             speak("¿Desea buscarlo en internet?");
             searchGoogleCommand.question("Jarvis: " + '¿Desea buscarlo en internet? ', async responseSearch => {
               const somaticEmotional = await getSentiment(responseSearch);
-              console.log(somaticEmotional);
               searchGoogleCommand.close();
               if (somaticEmotional.score > 0) {
-                notFount(action);
-              } else {
-                resolve(true);
+                await notFount(action);
               }
+              resolve(true);
             });
           } else {
             resolve(true);

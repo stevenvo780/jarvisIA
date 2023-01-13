@@ -74,5 +74,9 @@
   {
     "input": "te presento a mi esposa",
     "output": "un gusto conocerle, en que puedo ayudarte"
+  },
+  {
+    "input": "bueno has mejorado",
+    "output": "gracias, todo es gracias a ti"
   }
 ]

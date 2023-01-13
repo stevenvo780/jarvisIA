@@ -128,6 +128,54 @@
     "output": "execute.razon"
   },
   {
+    "input": "cómo te llamas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te presentarías",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuál es tu nombre",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "quién eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué haces",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué es lo que sabes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus habilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus fortalezas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus debilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te describirías",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te describirían otros",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué esperas de mí",
+    "output": "execute.intuition"
+  },
+  {
     "input": "cuéntame sobre ti",
     "output": "execute.intuition"
   },
@@ -210,5 +258,121 @@
   {
     "input": "que te gustaria obtener",
     "output": "execute.intuition"
+  },
+  {
+    "input": "cuéntame sobre ti",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuentame de ti",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "de donde eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "como funcionas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que puedes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que sabes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus habilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuales son tus funciones",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cual es tu proposito",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cual es tu meta",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "que esperas lograr",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuéntame sobre tu historia",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te crearon",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "de dónde vienes",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué te motiva",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué tienes planeado hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué esperas lograr en el futuro",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te defines a ti mismo",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué te hace diferente a otras IA",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te mantienes actualizado",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te adaptas al cambio",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "haber que tal",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "ojala",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "mira",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "te cuento",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "estas por ahi ?",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "bueno has mejorado",
+    "output": "execute.razon"
   }
 ]

@@ -66,5 +66,53 @@
   {
     "input": "que tal tu dia hoy",
     "output": "execute.razon"
+  },
+  {
+    "input": "cómo te llamas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te presentarías",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuál es tu nombre",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "quién eres",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué haces",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué es lo que sabes hacer",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus habilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus fortalezas",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cuáles son tus debilidades",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te describirías",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "cómo te describirían otros",
+    "output": "execute.intuition"
+  },
+  {
+    "input": "qué esperas de mí",
+    "output": "execute.intuition"
   }
 ]
