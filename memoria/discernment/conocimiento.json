@@ -390,5 +390,9 @@
   {
     "input": "busca sobre la segunda guerra mundial",
     "output": "execute.body"
+  },
+  {
+    "input": "lista las ip de los computadores mas cercanos",
+    "output": "execute.body"
   }
 ]

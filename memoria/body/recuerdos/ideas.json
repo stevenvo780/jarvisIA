@@ -10,5 +10,9 @@
   {
     "input": "busca sobre la segunda guerra mundial",
     "output": "open.search"
+  },
+  {
+    "input": "lista las ip de los computadores mas cercanos",
+    "output": "konsole --noclose -e arp -a"
   }
 ]

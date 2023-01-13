@@ -3452,6 +3452,10 @@
     "output": "open.search"
   },
   {
+    "input": "lista las ip de los computadores mas cercanos",
+    "output": "konsole --noclose -e arp -a"
+  },
+  {
     "input": "buscar en google",
     "output": "open.search"
   },

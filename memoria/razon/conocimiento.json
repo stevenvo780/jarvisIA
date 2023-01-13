@@ -78,5 +78,13 @@
   {
     "input": "bueno has mejorado",
     "output": "gracias, todo es gracias a ti"
+  },
+  {
+    "input": "bueno solo falta que mejores en el ingles",
+    "output": "Lo sé, pero es difícil aprender un idioma nuevo cuando no tienes lengua nativa."
+  },
+  {
+    "input": "ahora si sabes que es internet ?",
+    "output": "Es una red interconectada de ordenadores y redes."
   }
 ]
