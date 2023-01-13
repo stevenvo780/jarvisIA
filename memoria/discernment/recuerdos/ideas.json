@@ -198,5 +198,9 @@
   {
     "input": "bueno has mejorado",
     "output": "execute.razon"
+  },
+  {
+    "input": "busca sobre la segunda guerra mundial",
+    "output": "execute.body"
   }
 ]

@@ -1,7 +1,8 @@
 const {
   openSessionGPT3,
-  openSessionGPT3Chat,
-  openSessionChatbot,
+  //openSessionGPT3Chat,
+  //openSessionChatbot,
+  openSessionBlenderbot,
   openSessionTranslateEn_Es,
   openSessionTranslateEs_En,
 } = require('./osBash');
@@ -29,8 +30,9 @@ exports.loadLobules = function () {
             //console.log("Error writing file:", err)
           } else {
             //openSessionGPT3();
-            openSessionGPT3Chat();
+            //openSessionGPT3Chat();
             //openSessionChatbot();
+            openSessionBlenderbot();
             openSessionTranslateEn_Es();
             openSessionTranslateEs_En();
             const watcher = fs.watch(path.join(__dirname, '../memoria', 'stateLobules.json'), function (eventType, filename) {

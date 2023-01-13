@@ -58,5 +58,17 @@
   {
     "input": "buscar en Google",
     "output": "execute.body"
+  },
+  {
+    "input": "traduce",
+    "output": "execute.body"
+  },
+  {
+    "input": "como se dice en español",
+    "output": "execute.body"
+  },
+  {
+    "input": "como se dice en ingles",
+    "output": "execute.body"
   }
 ]

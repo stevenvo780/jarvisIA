@@ -6,5 +6,21 @@
   {
     "input": "buscar sobre",
     "output": "open.search"
+  },
+  {
+    "input": "busca sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "busca sobre la",
+    "output": "open.search"
+  },
+  {
+    "input": "busca sobre el",
+    "output": "open.search"
+  },
+  {
+    "input": "buscar en internet",
+    "output": "open.search"
   }
 ]

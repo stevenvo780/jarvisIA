@@ -1,0 +1,18 @@
+[
+  {
+    "input": "traduce al español",
+    "output": "open.translate.en.es"
+  },
+  {
+    "input": "como se dice en español",
+    "output": "open.translate.en.es"
+  },
+  {
+    "input": "traduce al ingles",
+    "output": "open.translate.es.en"
+  },
+  {
+    "input": "como se dice en ingles",
+    "output": "open.translate.es.en"
+  }
+]

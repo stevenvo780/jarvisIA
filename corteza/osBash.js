@@ -9,6 +9,13 @@ let childRoot;
 exports.openRootSession = async () => {
   await sudo.exec('bash');
   childRoot = spawn('bash')
+  childRoot.stdout.on('data', data => {
+    //console.log(`stdout: ${data}`);
+  });
+
+  childRoot.stderr.on('data', data => {
+    //console.error(`stderr: ${data}`);
+  });
 }
 
 exports.runCommandRoot = async (command) => {
@@ -187,4 +194,34 @@ exports.runCommandTranslateEs_En = async (command) => {
 
 exports.closeSessionTranslateEs_En = () => {
   childTranslateES.kill('SIGINT');
+}
+
+// blenderbot commands
+let childBlenderbot;
+exports.openSessionBlenderbot = () => {
+  childBlenderbot = spawn('bash');
+  childBlenderbot.stdout.on('data', data => {
+    //console.log(`stdout chat: ${data}`);
+  });
+  childBlenderbot.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'blenderbot.py') + '\n');
+}
+
+exports.runCommandBlenderbot = async (command) => {
+  childBlenderbot.stdin.write(command + '\n');
+  return new Promise((resolve, reject) => {
+    fs.watch(path.join(__dirname, '../memoria', 'BigNLP.json'), (eventType, filename) => {
+      if (eventType === 'change') {
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'BigNLP.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
+      }
+    });
+  });
+}
+
+exports.closeSessionBlenderbot = () => {
+  childBlenderbot.kill('SIGINT');
 }

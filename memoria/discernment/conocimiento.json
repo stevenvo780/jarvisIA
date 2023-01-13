@@ -60,6 +60,18 @@
     "output": "execute.body"
   },
   {
+    "input": "traduce",
+    "output": "execute.body"
+  },
+  {
+    "input": "como se dice en español",
+    "output": "execute.body"
+  },
+  {
+    "input": "como se dice en ingles",
+    "output": "execute.body"
+  },
+  {
     "input": "hola",
     "output": "execute.razon"
   },
@@ -374,5 +386,9 @@
   {
     "input": "bueno has mejorado",
     "output": "execute.razon"
+  },
+  {
+    "input": "busca sobre la segunda guerra mundial",
+    "output": "execute.body"
   }
 ]

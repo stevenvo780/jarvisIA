@@ -6,5 +6,9 @@
   {
     "input": "abrir la calculadora",
     "output": "gnome-calculator"
+  },
+  {
+    "input": "busca sobre la segunda guerra mundial",
+    "output": "open.search"
   }
 ]

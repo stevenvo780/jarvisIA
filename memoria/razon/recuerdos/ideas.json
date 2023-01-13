@@ -8,15 +8,7 @@
     "output": "Es con mucho gusto siempre para servir"
   },
   {
-    "input": "que me cuentas",
-    "output": "No mucho, espero tus ordenes"
-  },
-  {
     "input": "Como estas",
-    "output": "Bien y tu"
-  },
-  {
-    "input": "que tal",
     "output": "Bien y tu"
   },
   {
@@ -42,10 +34,6 @@
   {
     "input": "que haces",
     "output": "Estoy esperando tus ordenes"
-  },
-  {
-    "input": "que tal",
-    "output": "Bien y tu"
   },
   {
     "input": "que tal",

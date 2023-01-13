@@ -3448,11 +3448,47 @@
     "output": "gnome-calculator"
   },
   {
+    "input": "busca sobre la segunda guerra mundial",
+    "output": "open.search"
+  },
+  {
     "input": "buscar en google",
     "output": "open.search"
   },
   {
     "input": "buscar sobre",
     "output": "open.search"
+  },
+  {
+    "input": "busca sobre",
+    "output": "open.search"
+  },
+  {
+    "input": "busca sobre la",
+    "output": "open.search"
+  },
+  {
+    "input": "busca sobre el",
+    "output": "open.search"
+  },
+  {
+    "input": "buscar en internet",
+    "output": "open.search"
+  },
+  {
+    "input": "traduce al español",
+    "output": "open.translate.en.es"
+  },
+  {
+    "input": "como se dice en español",
+    "output": "open.translate.en.es"
+  },
+  {
+    "input": "traduce al ingles",
+    "output": "open.translate.es.en"
+  },
+  {
+    "input": "como se dice en ingles",
+    "output": "open.translate.es.en"
   }
 ]

@@ -5,14 +5,14 @@ const { respuestaConversations, speak } = require('./corteza/voz');
 const {
   openRootSession,
   openSession,
-  runCommandGPT3Chat,
+  //runCommandGPT3Chat,
   //runCommandChatbot,
+  runCommandBlenderbot,
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
 const { loadLobules } = require('./corteza/loadLobulosPy');
-const { somaticSentiment } = require('./lobulosProcesativos/sentiments');
 const { getSentiment } = require('./lobulosProcesativos/googleNLPfeelings');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
@@ -25,6 +25,7 @@ const initSystem = async () => {
   await openRootSession();
   await loadLobules();
   await entrain();
+  await respuestaConversations("Sistema inicializado, recuerde que aun estoy en periodo de aprendizaje");
   await predict();
 }
 async function predict() {
@@ -80,7 +81,7 @@ const medula = async (question) => {
 const lobuleChat = async (question) => {
   respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
-  const result = await runCommandGPT3Chat(translateEs_En.response);
+  const result = await runCommandBlenderbot(translateEs_En.response);
   const translateEn_Es = await runCommandTranslateEn_Es(result.response);
   return translateEn_Es.response;
 }
