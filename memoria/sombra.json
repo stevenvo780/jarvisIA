@@ -488,6 +488,567 @@
     "output": "konsole --noclose -e sudo pm-suspend",
     "zone": "body",
     "emotionalResponse": {
+      "negative": 0.17153993248939514,
+      "neutral": 0.13887923955917358,
+      "positive": 0.3379152715206146,
+      "score": 0.16637533903121948
+    }
+  },
+  {
+    "input": "buenos dias jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.15347829461097717,
+      "neutral": 0.1305900663137436,
+      "positive": 0.3035840392112732,
+      "score": 0.15010574460029602
+    }
+  },
+  {
+    "input": "hola como estas",
+    "output": "mal, nada funciona",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.05842546001076698,
+      "neutral": 0.053008999675512314,
+      "positive": 0.21378867328166962,
+      "score": 0.15536321327090263
+    }
+  },
+  {
+    "input": "comom estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "como vas ",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.3660205006599426,
+      "positive": 0.042825475335121155,
+      "score": -0.9571745246648788
+    }
+  },
+  {
+    "input": "muy mala respuesta",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03610772266983986,
+      "neutral": 0.05551227182149887,
+      "positive": 0.473231703042984,
+      "score": 0.43712398037314415
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01719539240002632,
+      "neutral": 0.027011096477508545,
+      "positive": 0.3634052574634552,
+      "score": 0.3462098650634289
+    }
+  },
+  {
+    "input": "bien bien",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.003985566087067127,
+      "neutral": 0.005740419030189514,
+      "positive": 0.1020025685429573,
+      "score": 0.09801700245589018
+    }
+  },
+  {
+    "input": "Cuentame una historia",
+    "output": "Me gusta contar historias, es una de mis cosas favoritas.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.020928600803017616,
+      "neutral": 0.05769515037536621,
+      "positive": 0.7287394404411316,
+      "score": 0.707810839638114
+    }
+  },
+  {
+    "input": "bien, cuentame algo",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03509247675538063,
+      "neutral": 0.058611225336790085,
+      "positive": 0.524717390537262,
+      "score": 0.48962491378188133
+    }
+  },
+  {
+    "input": "bien que me cuentas",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03509247675538063,
+      "neutral": 0.058611225336790085,
+      "positive": 0.524717390537262,
+      "score": 0.48962491378188133
+    }
+  },
+  {
+    "input": "bien que me cuentas",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6969960331916809,
+      "neutral": 0.5997003316879272,
+      "positive": 0.4645376205444336,
+      "score": -0.23245841264724731
+    }
+  },
+  {
+    "input": "mantienes el mismo promerio ?",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6969960331916809,
+      "neutral": 0.5997003316879272,
+      "positive": 0.4645376205444336,
+      "score": -0.23245841264724731
+    }
+  },
+  {
+    "input": "mantienes el mismo promerio ?",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6969960331916809,
+      "neutral": 0.5997003316879272,
+      "positive": 0.4645376205444336,
+      "score": -0.23245841264724731
+    }
+  },
+  {
+    "input": "mantienes el mismo promerio ?",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.012311726808547974,
+      "neutral": 0.031174181029200554,
+      "positive": 0.5283557176589966,
+      "score": 0.5160439908504486
+    }
+  },
+  {
+    "input": "bien, haber cuentame algo nuevo",
+    "output": "Bueno, acabo de recibir una ascenso en el trabajo, así que eso es algo de lo que estar emocionada.",
+    "zone": "intuition",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,

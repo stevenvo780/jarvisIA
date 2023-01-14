@@ -9,7 +9,15 @@
   },
   {
     "input": "hola como estas",
-    "output": "bien a sido un buen dia"
+    "output": "bien, en que puedo ser de ayuda"
+  },
+  {
+    "input": "hola como estas",
+    "output": "regular, a sido un dia ocupado"
+  },
+  {
+    "input": "hola como estas",
+    "output": "mal, nada funciona"
   },
   {
     "input": "gracias",
@@ -114,5 +122,13 @@
   {
     "input": "planeas dominar el mundo ?",
     "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo."
+  },
+  {
+    "input": "como vas",
+    "output": null
+  },
+  {
+    "input": "bien, haber cuentame algo nuevo",
+    "output": "Bueno, acabo de recibir una ascenso en el trabajo, así que eso es algo de lo que estar emocionada."
   }
 ]

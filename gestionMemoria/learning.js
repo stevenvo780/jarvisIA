@@ -1,12 +1,14 @@
 const { notFount } = require('../corteza/cagorizacionProcessExecute');
-const { razonLearn, bodyLearn, discernmentLearn } = require('../memoria/aprender');
-const { recordar } = require('../memoria/cortoplazo');
-const { getSombra } = require('../memoria/cortoplazo');
+const { razonLearn, bodyLearn, discernmentLearn } = require('./aprender');
+const { recordar } = require('./cortoplazo');
+const { addIdeaSombra, getSombra } = require('./cortoplazo');
 const { respuestaConversations, speak } = require('../corteza/voz');
 const {
   runCommandSentiment
 } = require('../corteza/osBash');
 const readline = require('readline');
+const fs = require('fs');
+const path = require('path');
 
 exports.recordarAction = async (question) => {
   return new Promise((resolve, reject) => {
@@ -133,15 +135,55 @@ exports.fixLastIdea = () => {
           }
           const zona = response === "comando" ? "body" : "razon"
           console.log(question, responseSave, zona);
-          await recordar(question, responseSave, zona);
-          await respuestaConversations("Estudiando lo aprendido");
-          if (zona === "body") {
-            await recordar(question, "execute.body", "discernment");
-            await bodyLearn();
+          let dirSave = null;
+          let fileData = null
+          async function readDirectory(dir) {
+            // Lee el contenido de la carpeta
+            const files = fs.readdirSync(dir);
+            // Para cada archivo o carpeta en la carpeta actual
+            for (const file of files) {
+              // Si es una carpeta, llama recursivamente a la función con la ruta de la carpeta
+              if (fs.statSync(path.join(dir, file)).isDirectory()) {
+                readDirectory(path.join(dir, file));
+              } else {
+                // Si es un archivo JSON, lee el contenido y lo agrega al array data
+                if (file == 'ideas.json') {
+                  fileData = await JSON.parse(fs.readFileSync(path.join(dir, file)));
+                  for (const idea of fileData) {
+                    if (idea.input === question) {
+                      dirSave = dir;
+                      idea.output = responseSave;
+                    }
+                  }
+                }
+              }
+            }
           }
-          if (zona === "razon") {
-            await recordar(question, "execute.razon", "discernment");
-            await razonLearn();
+          // Inicia la lectura de la carpeta raíz
+          await readDirectory("memoria/" + zona);
+          if (dirSave) {
+            console.log(fileData);
+            console.log(path.join(__dirname, '../memoria' + zona + "/" + dirSave, 'ideas.json'));
+            fs.writeFileSync(path.join(__dirname, '../memoria' + zona + "/" + dirSave, 'ideas.json', fileData));
+            if (zona === "body") {
+              await bodyLearn();
+              await recordar(question, "execute.body", "discernment");
+            }
+            if (zona === "razon") {
+              await razonLearn();
+              await recordar(question, "execute.razon", "discernment");
+            }
+          } else {
+            await recordar(question, responseSave, zona);
+            await respuestaConversations("Estudiando lo aprendido");
+            if (zona === "body") {
+              await recordar(question, "execute.body", "discernment");
+              await bodyLearn();
+            }
+            if (zona === "razon") {
+              await recordar(question, "execute.razon", "discernment");
+              await razonLearn();
+            }
           }
           await discernmentLearn();
           resolve(true);

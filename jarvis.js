@@ -1,5 +1,5 @@
-const { entrain } = require('./memoria/aprender');
-const { addIdeaSombra, getSombra } = require('./memoria/cortoplazo');
+const { entrain } = require('./gestionMemoria/aprender');
+const { addIdeaSombra, getSombra } = require('./gestionMemoria/cortoplazo');
 const { respuestaConversations } = require('./corteza/voz');
 const {
   openSession,
@@ -12,7 +12,7 @@ const { loadLobules } = require('./corteza/loadLobulosPy');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
-const { newIdea, fixLastIdea, handleNotFount} = require('./gestionMemoria/learning');
+const { newIdea, fixLastIdea, handleNotFount } = require('./gestionMemoria/learning');
 const readline = require('readline');
 const initSystem = async () => {
   console.log("Iniciando sistemas");
@@ -20,9 +20,9 @@ const initSystem = async () => {
   await loadLobules();
   await entrain();
   await respuestaConversations("Sistema inicializado, recuerde que aun estoy en periodo de aprendizaje");
-  await predict();
+  await think();
 }
-async function predict() {
+async function think() {
   // Carga el modelo guardado en el archivo model.nlp
   const jarvisQuestion = readline.createInterface({
     input: process.stdin,
@@ -32,7 +32,7 @@ async function predict() {
   jarvisQuestion.question('Jarvis $: ', async question => {
     jarvisQuestion.close();
     await medula(question);
-    predict();
+    think();
   });
 }
 
@@ -47,48 +47,69 @@ async function promedioEmocion(score, output, zone) {
     promedioSombraQuestionSuma += response.emotionalResponse.score;
   });
   const promedioSombraQuestion = promedioSombraQuestionSuma / responses.length;
-  return promedioSombraQuestion + score;
+  const response = promedioSombraQuestion + score;
+  return response;
 }
+
+async function classificationMaxima(classifications, zone) {
+  let classificationMaxima = classifications[0];
+  let scoreMax = 0;
+  for (let classification of classifications) {
+    const scoreClassificationSombra = await promedioEmocion(classification.score, classification.intent, zone);
+    if (scoreClassificationSombra > scoreMax) {
+      scoreMax = scoreClassificationSombra + classification.score;
+      classificationMaxima = classification;
+      classificationMaxima.score = scoreMax;
+    }
+  }
+  return classificationMaxima;
+}
+
 
 const medula = async (question) => {
   const discernment = await pensarDiscernment(question);
-  if (discernment.intent == "None") {
+  const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
+  if (discernmentProm.intent == "None") {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
     addIdeaSombra(question, chatGPT, "intuition");
     await handleNotFount(question);
   }
-  if (discernment.intent == "learn.new") {
+  if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
+    addIdeaSombra(question, "learn.new", "discernment");
     await newIdea();
   }
-  if (discernment.intent == "learn.last") {
+  if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
+    addIdeaSombra(question, "learn.last", "discernment");
     await fixLastIdea();
   }
-  if (discernment.intent === "execute.body") {
+  if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
     const bodySomatic = await pensarBody(question);
-    const bodySomaticProm = await promedioEmocion(bodySomatic.classifications[0].score, bodySomatic.intent, "body");
-    if (bodySomaticProm < 0.5) {
+    const bodySomaticProm = await classificationMaxima(bodySomatic.classifications, "body");
+    if (bodySomaticProm.score < 0.5) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
+      addIdeaSombra(question, bodySomaticProm.intent, "intuition");
       addIdeaSombra(question, chatGPT, "body");
       await handleNotFount(question, chatGPT);
     } else {
-      addIdeaSombra(question, bodySomatic.intent, "body");
+      addIdeaSombra(question, bodySomaticProm.intent, "discernment");
+      addIdeaSombra(question, bodySomaticProm.intent, "body");
       await actionHandler(bodySomatic.intent, question);
     }
-  } else if (discernment.intent === "execute.razon") {
+  } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
     const razonSomatic = await pensarRazon(question);
-    const razonSomaticProm = await promedioEmocion(razonSomatic.classifications[0].score, razonSomatic.intent, "razon");
-    if (razonSomaticProm < 0.3) {
+    const razonSomaticProm = await classificationMaxima(razonSomatic.classifications, "razon");
+    if (razonSomaticProm.score < 0.3) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
       addIdeaSombra(question, chatGPT, "razon");
       await handleNotFount(question, chatGPT);
     } else {
-      addIdeaSombra(question, razonSomatic.intent, "razon");
-      await respuestaConversations(razonSomatic.intent);
+      addIdeaSombra(question, razonSomaticProm.intent, "razon");
+      await respuestaConversations(razonSomaticProm.intent);
     }
-  } else if (discernment.intent === "execute.intuition") {
+  } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
     addIdeaSombra(question, chatGPT, "intuition");

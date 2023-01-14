@@ -38,7 +38,7 @@ exports.bodyLearn = async () => {
   }
 
   // Inicia la lectura de la carpeta raíz
-  readDirectory(__dirname + "/body/");
+  readDirectory("memoria" + "/body/");
 
   for (let index = 0; index < data.length; index++) {
     const dataEntrain = data[index];
@@ -57,8 +57,8 @@ exports.bodyLearn = async () => {
   }
 
   await managerBody.train();
-  await managerBody.save(path.join(__dirname, 'body', 'body.nlp'));
-  dormir(data, "body");
+  await managerBody.save(path.join("memoria", 'body', 'body.nlp'));
+  dormir(answers, "body");
 }
 
 exports.razonLearn = async () => {
@@ -88,7 +88,7 @@ exports.razonLearn = async () => {
     }
   }
   // Inicia la lectura de la carpeta raíz
-  readDirectory(__dirname + "/razon/");
+  readDirectory("memoria" + "/razon/");
 
   for (let index = 0; index < data.length; index++) {
     const dataEntrain = data[index];
@@ -107,8 +107,8 @@ exports.razonLearn = async () => {
   }
 
   await managerRazon.train();
-  await managerRazon.save(path.join(__dirname, 'razon', 'razon.nlp'));
-  dormir(data, "razon");
+  await managerRazon.save(path.join("memoria", 'razon', 'razon.nlp'));
+  dormir(answers, "razon");
 }
 
 exports.discernmentLearn = async () => {
@@ -138,7 +138,7 @@ exports.discernmentLearn = async () => {
     }
   }
   // Inicia la lectura de la carpeta raíz
-  readDirectory(__dirname + "/discernment/");
+  readDirectory("memoria" + "/discernment/");
 
   for (let index = 0; index < data.length; index++) {
     const dataEntrain = data[index];
@@ -157,6 +157,6 @@ exports.discernmentLearn = async () => {
   }
 
   await managerDiscernment.train();
-  await managerDiscernment.save(path.join(__dirname, 'discernment', 'discernment.nlp'));
-  dormir(data, "discernment");
+  await managerDiscernment.save(path.join("memoria", 'discernment', 'discernment.nlp'));
+  dormir(answers, "discernment");
 }

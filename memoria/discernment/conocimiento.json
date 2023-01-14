@@ -1,570 +1,375 @@
-[
-  {
-    "input": "ejecutar",
-    "output": "execute.body"
-  },
-  {
-    "input": "ejecuta",
-    "output": "execute.body"
-  },
-  {
-    "input": "abrir",
-    "output": "execute.body"
-  },
-  {
-    "input": "pon",
-    "output": "execute.body"
-  },
-  {
-    "input": "busca",
-    "output": "execute.body"
-  },
-  {
-    "input": "iniciar",
-    "output": "execute.body"
-  },
-  {
-    "input": "lanzar",
-    "output": "execute.body"
-  },
-  {
-    "input": "correr",
-    "output": "execute.body"
-  },
-  {
-    "input": "ejecuta comando",
-    "output": "execute.body"
-  },
-  {
-    "input": "ejecutar programa",
-    "output": "execute.body"
-  },
-  {
-    "input": "abrir archivo",
-    "output": "execute.body"
-  },
-  {
-    "input": "abrir aplicación",
-    "output": "execute.body"
-  },
-  {
-    "input": "pon música",
-    "output": "execute.body"
-  },
-  {
-    "input": "busca en internet",
-    "output": "execute.body"
-  },
-  {
-    "input": "buscar en Google",
-    "output": "execute.body"
-  },
-  {
-    "input": "traduce",
-    "output": "execute.body"
-  },
-  {
-    "input": "como se dice en español",
-    "output": "execute.body"
-  },
-  {
-    "input": "como se dice en ingles",
-    "output": "execute.body"
-  },
-  {
-    "input": "recuerda el siguiente comando",
-    "output": "learn.new"
-  },
-  {
-    "input": "aprende este comando",
-    "output": "learn.new"
-  },
-  {
-    "input": "ten en cuenta este comando",
-    "output": "learn.new"
-  },
-  {
-    "input": "crea este comando",
-    "output": "learn.new"
-  },
-  {
-    "input": "nuevo comando",
-    "output": "learn.new"
-  },
-  {
-    "input": "corrige el anterior comando",
-    "output": "learn.last"
-  },
-  {
-    "input": "cambia el ultimo comando",
-    "output": "learn.last"
-  },
-  {
-    "input": "el ultimo comando esta mal",
-    "output": "learn.last"
-  },
-  {
-    "input": "corrige el ultimo comando",
-    "output": "learn.last"
-  },
-  {
-    "input": "la ultima respuesta esta mal",
-    "output": "learn.last"
-  },
-  {
-    "input": "fallaste en la respuesta",
-    "output": "learn.last"
-  },
-  {
-    "input": "fallaste en el comando",
-    "output": "learn.last"
-  },
-  {
-    "input": "recuerda el siguiente comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "aprende este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "ten en cuenta este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "crea este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "nuevo comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "agrega este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "memoriza este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "guarda este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "anota este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "guarda la información de este comando",
-    "output": "learn.new.command"
-  },
-  {
-    "input": "corrige el anterior comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "cambia el ultimo comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "el ultimo comando esta mal",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "corrige el ultimo comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "edita el comando anterior",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "cambia el comando previo",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "modifica el ultimo comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "arregla el ultimo comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "la ultima respuesta esta mal",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "fallaste en la respuesta",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "fallaste en el comando",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "el comando anterior es incorrecto",
-    "output": "learn.last.command"
-  },
-  {
-    "input": "hola",
-    "output": "execute.razon"
-  },
-  {
-    "input": "te presento",
-    "output": "execute.razon"
-  },
-  {
-    "input": "como estas",
-    "output": "execute.razon"
-  },
-  {
-    "input": "buenos dias",
-    "output": "execute.razon"
-  },
-  {
-    "input": "buenas tardes",
-    "output": "execute.razon"
-  },
-  {
-    "input": "buenas noches",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que onda",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que hay",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que pasa",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu dia",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu tiempo",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu estado",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu dia hoy",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu tiempo hoy",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu estado hoy",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que tal tu dia hoy",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cómo te llamas",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cómo te presentarías",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cuál es tu nombre",
-    "output": "execute.razon"
-  },
-  {
-    "input": "quién eres",
-    "output": "execute.razon"
-  },
-  {
-    "input": "qué haces",
-    "output": "execute.razon"
-  },
-  {
-    "input": "qué es lo que sabes hacer",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cuáles son tus habilidades",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cuáles son tus fortalezas",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cuáles son tus debilidades",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cómo te describirías",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cómo te describirían otros",
-    "output": "execute.razon"
-  },
-  {
-    "input": "qué esperas de mí",
-    "output": "execute.razon"
-  },
-  {
-    "input": "cuéntame sobre ti",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuentame de ti",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "de donde eres",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "como funcionas",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que puedes hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que sabes hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus habilidades",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus capacidades",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus funciones",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cual es tu proposito",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cual es tu meta",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que esperas lograr",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que esperas alcanzar",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que esperas conseguir",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que esperas obtener",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que te gustaria hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que te gustaria lograr",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que te gustaria alcanzar",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que te gustaria conseguir",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que te gustaria obtener",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuéntame sobre ti",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuentame de ti",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que eres",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "de donde eres",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "como funcionas",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que puedes hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que sabes hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus habilidades",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus capacidades",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuales son tus funciones",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cual es tu proposito",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cual es tu meta",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "que esperas lograr",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cuéntame sobre tu historia",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cómo te crearon",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "de dónde vienes",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "qué te motiva",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "qué tienes planeado hacer",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "qué esperas lograr en el futuro",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cómo te defines a ti mismo",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "qué te hace diferente a otras IA",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cómo te mantienes actualizado",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "cómo te adaptas al cambio",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "haber que tal",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "ojala",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "mira",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "te cuento",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "estas por ahi ?",
-    "output": "execute.intuition"
-  },
-  {
-    "input": "bueno has mejorado",
-    "output": "execute.razon"
-  },
-  {
-    "input": "busca sobre la segunda guerra mundial",
-    "output": "execute.body"
-  },
-  {
-    "input": "lista las ip de los computadores mas cercanos",
-    "output": "execute.body"
-  },
-  {
-    "input": "quien te creo ?",
-    "output": "execute.razon"
-  },
-  {
-    "input": "que eres ?",
-    "output": "execute.razon"
-  },
-  {
-    "input": "gracias por tus respuestas",
-    "output": "execute.razon"
-  },
-  {
-    "input": "bien, que eres ?",
-    "output": "execute.razon"
-  },
-  {
-    "input": "busca sobre redes neuronales",
-    "output": "execute.body"
-  },
-  {
-    "input": "abre la calculadora",
-    "output": "execute.body"
-  },
-  {
-    "input": "mis contactos te ven, saluda",
-    "output": "execute.razon"
-  },
-  {
-    "input": "como estas",
-    "output": "execute.body"
-  },
-  {
-    "input": "abre el monitor del sistema",
-    "output": "execute.body"
-  },
-  {
-    "input": "suspende el sistema",
-    "output": "execute.body"
-  }
-]
+{
+  "ejecutar": [
+    "execute.body"
+  ],
+  "ejecuta": [
+    "execute.body"
+  ],
+  "abrir": [
+    "execute.body"
+  ],
+  "pon": [
+    "execute.body"
+  ],
+  "busca": [
+    "execute.body"
+  ],
+  "iniciar": [
+    "execute.body"
+  ],
+  "lanzar": [
+    "execute.body"
+  ],
+  "correr": [
+    "execute.body"
+  ],
+  "ejecuta comando": [
+    "execute.body"
+  ],
+  "ejecutar programa": [
+    "execute.body"
+  ],
+  "abrir archivo": [
+    "execute.body"
+  ],
+  "abrir aplicación": [
+    "execute.body"
+  ],
+  "pon música": [
+    "execute.body"
+  ],
+  "busca en internet": [
+    "execute.body"
+  ],
+  "buscar en Google": [
+    "execute.body"
+  ],
+  "traduce": [
+    "execute.body"
+  ],
+  "como se dice en español": [
+    "execute.body"
+  ],
+  "como se dice en ingles": [
+    "execute.body"
+  ],
+  "recuerda el siguiente comando": [
+    "learn.new",
+    "learn.new.command"
+  ],
+  "aprende este comando": [
+    "learn.new",
+    "learn.new.command"
+  ],
+  "ten en cuenta este comando": [
+    "learn.new",
+    "learn.new.command"
+  ],
+  "crea este comando": [
+    "learn.new",
+    "learn.new.command"
+  ],
+  "nuevo comando": [
+    "learn.new",
+    "learn.new.command"
+  ],
+  "corrige el anterior comando": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "cambia el ultimo comando": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "el ultimo comando esta mal": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "corrige el ultimo comando": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "la ultima respuesta esta mal": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "fallaste en la respuesta": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "fallaste en el comando": [
+    "learn.last",
+    "learn.last.command"
+  ],
+  "agrega este comando": [
+    "learn.new.command"
+  ],
+  "memoriza este comando": [
+    "learn.new.command"
+  ],
+  "guarda este comando": [
+    "learn.new.command"
+  ],
+  "anota este comando": [
+    "learn.new.command"
+  ],
+  "guarda la información de este comando": [
+    "learn.new.command"
+  ],
+  "edita el comando anterior": [
+    "learn.last.command"
+  ],
+  "cambia el comando previo": [
+    "learn.last.command"
+  ],
+  "modifica el ultimo comando": [
+    "learn.last.command"
+  ],
+  "arregla el ultimo comando": [
+    "learn.last.command"
+  ],
+  "el comando anterior es incorrecto": [
+    "learn.last.command"
+  ],
+  "hola": [
+    "execute.razon"
+  ],
+  "te presento": [
+    "execute.razon"
+  ],
+  "como estas": [
+    "execute.razon"
+  ],
+  "buenos dias": [
+    "execute.razon"
+  ],
+  "buenas tardes": [
+    "execute.razon"
+  ],
+  "buenas noches": [
+    "execute.razon"
+  ],
+  "que tal": [
+    "execute.razon"
+  ],
+  "que onda": [
+    "execute.razon"
+  ],
+  "que hay": [
+    "execute.razon"
+  ],
+  "que pasa": [
+    "execute.razon"
+  ],
+  "que tal tu dia": [
+    "execute.razon"
+  ],
+  "que tal tu tiempo": [
+    "execute.razon"
+  ],
+  "que tal tu estado": [
+    "execute.razon"
+  ],
+  "que tal tu dia hoy": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "que tal tu tiempo hoy": [
+    "execute.razon"
+  ],
+  "que tal tu estado hoy": [
+    "execute.razon"
+  ],
+  "cómo te llamas": [
+    "execute.razon"
+  ],
+  "cómo te presentarías": [
+    "execute.razon"
+  ],
+  "cuál es tu nombre": [
+    "execute.razon"
+  ],
+  "quién eres": [
+    "execute.razon"
+  ],
+  "qué haces": [
+    "execute.razon"
+  ],
+  "qué es lo que sabes hacer": [
+    "execute.razon"
+  ],
+  "cuáles son tus habilidades": [
+    "execute.razon"
+  ],
+  "cuáles son tus fortalezas": [
+    "execute.razon"
+  ],
+  "cuáles son tus debilidades": [
+    "execute.razon"
+  ],
+  "cómo te describirías": [
+    "execute.razon"
+  ],
+  "cómo te describirían otros": [
+    "execute.razon"
+  ],
+  "qué esperas de mí": [
+    "execute.razon"
+  ],
+  "cuéntame sobre ti": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cuentame de ti": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "de donde eres": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "como funcionas": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "que puedes hacer": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "que sabes hacer": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cuales son tus habilidades": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cuales son tus capacidades": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cuales son tus funciones": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cual es tu proposito": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "cual es tu meta": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "que esperas lograr": [
+    "execute.intuition",
+    "execute.intuition"
+  ],
+  "que esperas alcanzar": [
+    "execute.intuition"
+  ],
+  "que esperas conseguir": [
+    "execute.intuition"
+  ],
+  "que esperas obtener": [
+    "execute.intuition"
+  ],
+  "que te gustaria hacer": [
+    "execute.intuition"
+  ],
+  "que te gustaria lograr": [
+    "execute.intuition"
+  ],
+  "que te gustaria alcanzar": [
+    "execute.intuition"
+  ],
+  "que te gustaria conseguir": [
+    "execute.intuition"
+  ],
+  "que te gustaria obtener": [
+    "execute.intuition"
+  ],
+  "que eres": [
+    "execute.intuition"
+  ],
+  "cuéntame sobre tu historia": [
+    "execute.intuition"
+  ],
+  "cómo te crearon": [
+    "execute.intuition"
+  ],
+  "de dónde vienes": [
+    "execute.intuition"
+  ],
+  "qué te motiva": [
+    "execute.intuition"
+  ],
+  "qué tienes planeado hacer": [
+    "execute.intuition"
+  ],
+  "qué esperas lograr en el futuro": [
+    "execute.intuition"
+  ],
+  "cómo te defines a ti mismo": [
+    "execute.intuition"
+  ],
+  "qué te hace diferente a otras IA": [
+    "execute.intuition"
+  ],
+  "cómo te mantienes actualizado": [
+    "execute.intuition"
+  ],
+  "cómo te adaptas al cambio": [
+    "execute.intuition"
+  ],
+  "haber que tal": [
+    "execute.intuition"
+  ],
+  "ojala": [
+    "execute.intuition"
+  ],
+  "mira": [
+    "execute.intuition"
+  ],
+  "te cuento": [
+    "execute.intuition"
+  ],
+  "estas por ahi ?": [
+    "execute.intuition"
+  ],
+  "bueno has mejorado": [
+    "execute.razon"
+  ],
+  "busca sobre la segunda guerra mundial": [
+    "execute.body"
+  ],
+  "lista las ip de los computadores mas cercanos": [
+    "execute.body"
+  ],
+  "quien te creo ?": [
+    "execute.razon"
+  ],
+  "que eres ?": [
+    "execute.razon"
+  ],
+  "gracias por tus respuestas": [
+    "execute.razon"
+  ],
+  "bien, que eres ?": [
+    "execute.razon"
+  ],
+  "busca sobre redes neuronales": [
+    "execute.body"
+  ],
+  "abre la calculadora": [
+    "execute.body"
+  ],
+  "mis contactos te ven, saluda": [
+    "execute.razon"
+  ],
+  "abre el monitor del sistema": [
+    "execute.body"
+  ],
+  "suspende el sistema": [
+    "execute.body"
+  ]
+}
