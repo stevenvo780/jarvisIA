@@ -230,5 +230,17 @@
   {
     "input": "mis contactos te ven, saluda",
     "output": "execute.razon"
+  },
+  {
+    "input": "como estas",
+    "output": "execute.body"
+  },
+  {
+    "input": "abre el monitor del sistema",
+    "output": "execute.body"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body"
   }
 ]

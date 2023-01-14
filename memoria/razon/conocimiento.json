@@ -1,19 +1,15 @@
 [
   {
-    "input": "recuerda el siguiente comando",
-    "output": "learn"
-  },
-  {
-    "input": "aprende este comando",
-    "output": "learn"
-  },
-  {
-    "input": "ten en cuenta este comando",
-    "output": "learn"
+    "input": "hola como estas",
+    "output": "bien y tu"
   },
   {
     "input": "hola como estas",
-    "output": "bien y tu"
+    "output": "bien a sido un buen dia"
+  },
+  {
+    "input": "hola como estas",
+    "output": "bien a sido un buen dia"
   },
   {
     "input": "gracias",
@@ -21,7 +17,7 @@
   },
   {
     "input": "Como estas",
-    "output": "Bien y tu"
+    "output": "Bien y tu como estas"
   },
   {
     "input": "hola",
@@ -41,7 +37,7 @@
   },
   {
     "input": "como estas",
-    "output": "Bien y tu"
+    "output": "Bien y tu que me cuentas"
   },
   {
     "input": "que haces",

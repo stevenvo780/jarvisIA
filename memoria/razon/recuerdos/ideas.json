@@ -4,12 +4,20 @@
     "output": "bien y tu"
   },
   {
+    "input": "hola como estas",
+    "output": "bien a sido un buen dia"
+  },
+  {
+    "input": "hola como estas",
+    "output": "bien a sido un buen dia"
+  },
+  {
     "input": "gracias",
     "output": "Es con mucho gusto siempre para servir"
   },
   {
     "input": "Como estas",
-    "output": "Bien y tu"
+    "output": "Bien y tu como estas"
   },
   {
     "input": "hola",
@@ -29,7 +37,7 @@
   },
   {
     "input": "como estas",
-    "output": "Bien y tu"
+    "output": "Bien y tu que me cuentas"
   },
   {
     "input": "que haces",

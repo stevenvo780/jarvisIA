@@ -22,5 +22,17 @@
   {
     "input": "abre la calculadora",
     "output": "gnome-calculator"
+  },
+  {
+    "input": "como estas",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "abre el monitor del sistema",
+    "output": "gnome-system-monitor"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "konsole --noclose -e sudo pm-suspend"
   }
 ]

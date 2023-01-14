@@ -28,8 +28,12 @@
     "google-tts-api": "^2.0.2",
     "huggingface-api": "^1.0.3",
     "natural": "^6.1.2",
+    "node-emoji": "^1.11.0",
     "node-nlp": "^4.26.1",
     "numpy": "^0.0.1",
-    "sudo-prompt": "^9.2.1"
+    "sentiment": "^5.0.2",
+    "sentiment-spanish": "^0.0.8",
+    "sudo-prompt": "^9.2.1",
+    "vader-sentiment": "^1.1.3"
   }
 }

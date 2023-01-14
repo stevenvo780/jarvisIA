@@ -102,6 +102,94 @@
             "intent": "execute.body",
             "domain": "default"
           },
+          "com,el,record,siguient": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "aprend,com,este": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,cont,en,este,ten": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,cre,este": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,nuev": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "anterior,com,correg,el": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "camb,com,el,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "com,el,esta,mal,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "com,correg,el,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "el,esta,mal,respuest,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "el,en,fall,respuest": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "com,el,en,fall": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "agreg,com,este": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,este,memoric": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,este,guard": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "anot,com,este": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "com,de,el,este,guard,inform": {
+            "intent": "learn.new.command",
+            "domain": "default"
+          },
+          "anterior,com,edit,el": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "camb,com,el,prev": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "com,el,modif,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "arregl,com,el,ultim": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
+          "anterior,com,el,incorrect,ser": {
+            "intent": "learn.last.command",
+            "domain": "default"
+          },
           "hol": {
             "intent": "execute.razon",
             "domain": "default"
@@ -111,7 +199,7 @@
             "domain": "default"
           },
           "como,esta": {
-            "intent": "execute.razon",
+            "intent": "execute.body",
             "domain": "default"
           },
           "buen,dia": {
@@ -389,10 +477,22 @@
           "contact,mis,salud,te,ven": {
             "intent": "execute.razon",
             "domain": "default"
+          },
+          "abrir,del,el,monitor,sistem": {
+            "intent": "execute.body",
+            "domain": "default"
+          },
+          "el,sistem,suspend": {
+            "intent": "execute.body",
+            "domain": "default"
           }
         },
         "intentDict": {
           "execute.body": "default",
+          "learn.new": "default",
+          "learn.last": "default",
+          "learn.new.command": "default",
+          "learn.last.command": "default",
           "execute.razon": "default",
           "execute.intuition": "default"
         },
@@ -486,6 +586,176 @@
             "domain": "default",
             "utterance": "como se dice en ingles",
             "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "recuerda el siguiente comando",
+            "intent": "learn.new"
+          },
+          {
+            "domain": "default",
+            "utterance": "aprende este comando",
+            "intent": "learn.new"
+          },
+          {
+            "domain": "default",
+            "utterance": "ten en cuenta este comando",
+            "intent": "learn.new"
+          },
+          {
+            "domain": "default",
+            "utterance": "crea este comando",
+            "intent": "learn.new"
+          },
+          {
+            "domain": "default",
+            "utterance": "nuevo comando",
+            "intent": "learn.new"
+          },
+          {
+            "domain": "default",
+            "utterance": "corrige el anterior comando",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "cambia el ultimo comando",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "el ultimo comando esta mal",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "corrige el ultimo comando",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "la ultima respuesta esta mal",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "fallaste en la respuesta",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "fallaste en el comando",
+            "intent": "learn.last"
+          },
+          {
+            "domain": "default",
+            "utterance": "recuerda el siguiente comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "aprende este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "ten en cuenta este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "crea este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "nuevo comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "agrega este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "memoriza este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "guarda este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "anota este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "guarda la información de este comando",
+            "intent": "learn.new.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "corrige el anterior comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "cambia el ultimo comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "el ultimo comando esta mal",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "corrige el ultimo comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "edita el comando anterior",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "cambia el comando previo",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "modifica el ultimo comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "arregla el ultimo comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "la ultima respuesta esta mal",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "fallaste en la respuesta",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "fallaste en el comando",
+            "intent": "learn.last.command"
+          },
+          {
+            "domain": "default",
+            "utterance": "el comando anterior es incorrecto",
+            "intent": "learn.last.command"
           },
           {
             "domain": "default",
@@ -921,6 +1191,21 @@
             "domain": "default",
             "utterance": "mis contactos te ven, saluda",
             "intent": "execute.razon"
+          },
+          {
+            "domain": "default",
+            "utterance": "como estas",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "abre el monitor del sistema",
+            "intent": "execute.body"
+          },
+          {
+            "domain": "default",
+            "utterance": "suspende el sistema",
+            "intent": "execute.body"
           }
         ],
         "domains": {
@@ -958,10 +1243,38 @@
               "dec": 1,
               "espanol": 1,
               "ingle": 1,
+              "record": 1,
+              "el": 1,
+              "siguient": 1,
+              "aprend": 1,
+              "este": 1,
+              "ten": 1,
+              "cont": 1,
+              "cre": 1,
+              "nuev": 1,
+              "correg": 1,
+              "anterior": 1,
+              "camb": 1,
+              "ultim": 1,
+              "esta": 1,
+              "mal": 1,
+              "respuest": 1,
+              "fall": 1,
+              "agreg": 1,
+              "memoric": 1,
+              "guard": 1,
+              "anot": 1,
+              "inform": 1,
+              "de": 1,
+              "edit": 1,
+              "prev": 1,
+              "modif": 1,
+              "arregl": 1,
+              "ser": 1,
+              "incorrect": 1,
               "hol": 1,
               "te": 1,
               "present": 1,
-              "esta": 1,
               "buen": 1,
               "dia": 1,
               "tard": 1,
@@ -977,11 +1290,9 @@
               "hoy": 1,
               "llam": 1,
               "cual": 1,
-              "ser": 1,
               "nombr": 1,
               "qui": 1,
               "hac": 1,
-              "el": 1,
               "sab": 1,
               "habil": 1,
               "fortalec": 1,
@@ -989,7 +1300,6 @@
               "describ": 1,
               "otro": 1,
               "esper": 1,
-              "de": 1,
               "mi": 1,
               "cuentam": 1,
               "sobr": 1,
@@ -1006,10 +1316,8 @@
               "obten": 1,
               "gust": 1,
               "histor": 1,
-              "cre": 1,
               "ven": 1,
               "motiv": 1,
-              "ten": 1,
               "plan": 1,
               "futur": 1,
               "defin": 1,
@@ -1022,10 +1330,8 @@
               "actualiz": 1,
               "adapt": 1,
               "al": 1,
-              "camb": 1,
               "ojal": 1,
               "mir": 1,
-              "cont": 1,
               "por": 1,
               "ahi": 1,
               "mejor": 1,
@@ -1038,17 +1344,24 @@
               "mas": 1,
               "cercan": 1,
               "grac": 1,
-              "respuest": 1,
               "bien": 1,
               "red": 1,
               "neuronal": 1,
               "calcul": 1,
               "mis": 1,
               "contact": 1,
-              "salud": 1
+              "salud": 1,
+              "monitor": 1,
+              "del": 1,
+              "sistem": 1,
+              "suspend": 1
             },
             "intents": {
               "execute.body": 1,
+              "learn.new": 1,
+              "learn.last": 1,
+              "learn.new.command": 1,
+              "learn.last.command": 1,
               "execute.razon": 1,
               "execute.intuition": 1
             },
@@ -1088,7 +1401,76 @@
                 "cercan": 1,
                 "red": 1,
                 "neuronal": 1,
-                "calcul": 1
+                "calcul": 1,
+                "esta": 1,
+                "monitor": 1,
+                "del": 1,
+                "sistem": 1,
+                "suspend": 1
+              },
+              "learn.new": {
+                "record": 1,
+                "el": 1,
+                "siguient": 1,
+                "com": 1,
+                "aprend": 1,
+                "este": 1,
+                "ten": 1,
+                "en": 1,
+                "cont": 1,
+                "cre": 1,
+                "nuev": 1
+              },
+              "learn.last": {
+                "correg": 1,
+                "el": 1,
+                "anterior": 1,
+                "com": 1,
+                "camb": 1,
+                "ultim": 1,
+                "esta": 1,
+                "mal": 1,
+                "respuest": 1,
+                "fall": 1,
+                "en": 1
+              },
+              "learn.new.command": {
+                "record": 1,
+                "el": 1,
+                "siguient": 1,
+                "com": 1,
+                "aprend": 1,
+                "este": 1,
+                "ten": 1,
+                "en": 1,
+                "cont": 1,
+                "cre": 1,
+                "nuev": 1,
+                "agreg": 1,
+                "memoric": 1,
+                "guard": 1,
+                "anot": 1,
+                "inform": 1,
+                "de": 1
+              },
+              "learn.last.command": {
+                "correg": 1,
+                "el": 1,
+                "anterior": 1,
+                "com": 1,
+                "camb": 1,
+                "ultim": 1,
+                "esta": 1,
+                "mal": 1,
+                "edit": 1,
+                "prev": 1,
+                "modif": 1,
+                "arregl": 1,
+                "respuest": 1,
+                "fall": 1,
+                "en": 1,
+                "ser": 1,
+                "incorrect": 1
               },
               "execute.razon": {
                 "hol": 1,
@@ -1215,7 +1597,11 @@
                 "execute.body"
               ],
               "com": [
-                "execute.body"
+                "execute.body",
+                "learn.new",
+                "learn.last",
+                "learn.new.command",
+                "learn.last.command"
               ],
               "program": [
                 "execute.body"
@@ -1231,6 +1617,10 @@
               ],
               "en": [
                 "execute.body",
+                "learn.new",
+                "learn.last",
+                "learn.new.command",
+                "learn.last.command",
                 "execute.intuition"
               ],
               "internet": [
@@ -1265,6 +1655,10 @@
               ],
               "el": [
                 "execute.body",
+                "learn.new",
+                "learn.last",
+                "learn.new.command",
+                "learn.last.command",
                 "execute.razon",
                 "execute.intuition"
               ],
@@ -1285,6 +1679,7 @@
               ],
               "de": [
                 "execute.body",
+                "learn.new.command",
                 "execute.razon",
                 "execute.intuition"
               ],
@@ -1306,6 +1701,126 @@
               "calcul": [
                 "execute.body"
               ],
+              "esta": [
+                "execute.body",
+                "learn.last",
+                "learn.last.command",
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "monitor": [
+                "execute.body"
+              ],
+              "del": [
+                "execute.body"
+              ],
+              "sistem": [
+                "execute.body"
+              ],
+              "suspend": [
+                "execute.body"
+              ],
+              "record": [
+                "learn.new",
+                "learn.new.command"
+              ],
+              "siguient": [
+                "learn.new",
+                "learn.new.command"
+              ],
+              "aprend": [
+                "learn.new",
+                "learn.new.command"
+              ],
+              "este": [
+                "learn.new",
+                "learn.new.command"
+              ],
+              "ten": [
+                "learn.new",
+                "learn.new.command",
+                "execute.intuition"
+              ],
+              "cont": [
+                "learn.new",
+                "learn.new.command",
+                "execute.intuition"
+              ],
+              "cre": [
+                "learn.new",
+                "learn.new.command",
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "nuev": [
+                "learn.new",
+                "learn.new.command"
+              ],
+              "correg": [
+                "learn.last",
+                "learn.last.command"
+              ],
+              "anterior": [
+                "learn.last",
+                "learn.last.command"
+              ],
+              "camb": [
+                "learn.last",
+                "learn.last.command",
+                "execute.intuition"
+              ],
+              "ultim": [
+                "learn.last",
+                "learn.last.command"
+              ],
+              "mal": [
+                "learn.last",
+                "learn.last.command"
+              ],
+              "respuest": [
+                "learn.last",
+                "learn.last.command",
+                "execute.razon"
+              ],
+              "fall": [
+                "learn.last",
+                "learn.last.command"
+              ],
+              "agreg": [
+                "learn.new.command"
+              ],
+              "memoric": [
+                "learn.new.command"
+              ],
+              "guard": [
+                "learn.new.command"
+              ],
+              "anot": [
+                "learn.new.command"
+              ],
+              "inform": [
+                "learn.new.command"
+              ],
+              "edit": [
+                "learn.last.command"
+              ],
+              "prev": [
+                "learn.last.command"
+              ],
+              "modif": [
+                "learn.last.command"
+              ],
+              "arregl": [
+                "learn.last.command"
+              ],
+              "ser": [
+                "learn.last.command",
+                "execute.razon",
+                "execute.intuition"
+              ],
+              "incorrect": [
+                "learn.last.command"
+              ],
               "hol": [
                 "execute.razon"
               ],
@@ -1315,10 +1830,6 @@
               ],
               "present": [
                 "execute.razon"
-              ],
-              "esta": [
-                "execute.razon",
-                "execute.intuition"
               ],
               "buen": [
                 "execute.razon"
@@ -1370,10 +1881,6 @@
                 "execute.razon",
                 "execute.intuition"
               ],
-              "ser": [
-                "execute.razon",
-                "execute.intuition"
-              ],
               "nombr": [
                 "execute.razon"
               ],
@@ -1414,19 +1921,12 @@
               "mejor": [
                 "execute.razon"
               ],
-              "cre": [
-                "execute.razon",
-                "execute.intuition"
-              ],
               "grac": [
                 "execute.razon"
               ],
               "por": [
                 "execute.razon",
                 "execute.intuition"
-              ],
-              "respuest": [
-                "execute.razon"
               ],
               "bien": [
                 "execute.razon"
@@ -1489,9 +1989,6 @@
               "motiv": [
                 "execute.intuition"
               ],
-              "ten": [
-                "execute.intuition"
-              ],
               "plan": [
                 "execute.intuition"
               ],
@@ -1528,16 +2025,10 @@
               "al": [
                 "execute.intuition"
               ],
-              "camb": [
-                "execute.intuition"
-              ],
               "ojal": [
                 "execute.intuition"
               ],
               "mir": [
-                "execute.intuition"
-              ],
-              "cont": [
                 "execute.intuition"
               ],
               "ahi": [
@@ -1578,10 +2069,38 @@
                 "dec",
                 "espanol",
                 "ingle",
+                "record",
+                "el",
+                "siguient",
+                "aprend",
+                "este",
+                "ten",
+                "cont",
+                "cre",
+                "nuev",
+                "correg",
+                "anterior",
+                "camb",
+                "ultim",
+                "esta",
+                "mal",
+                "respuest",
+                "fall",
+                "agreg",
+                "memoric",
+                "guard",
+                "anot",
+                "inform",
+                "de",
+                "edit",
+                "prev",
+                "modif",
+                "arregl",
+                "ser",
+                "incorrect",
                 "hol",
                 "te",
                 "present",
-                "esta",
                 "buen",
                 "dia",
                 "tard",
@@ -1597,11 +2116,9 @@
                 "hoy",
                 "llam",
                 "cual",
-                "ser",
                 "nombr",
                 "qui",
                 "hac",
-                "el",
                 "sab",
                 "habil",
                 "fortalec",
@@ -1609,7 +2126,6 @@
                 "describ",
                 "otro",
                 "esper",
-                "de",
                 "mi",
                 "cuentam",
                 "sobr",
@@ -1626,10 +2142,8 @@
                 "obten",
                 "gust",
                 "histor",
-                "cre",
                 "ven",
                 "motiv",
-                "ten",
                 "plan",
                 "futur",
                 "defin",
@@ -1642,10 +2156,8 @@
                 "actualiz",
                 "adapt",
                 "al",
-                "camb",
                 "ojal",
                 "mir",
-                "cont",
                 "por",
                 "ahi",
                 "mejor",
@@ -1658,356 +2170,979 @@
                 "mas",
                 "cercan",
                 "grac",
-                "respuest",
                 "bien",
                 "red",
                 "neuronal",
                 "calcul",
                 "mis",
                 "contact",
-                "salud"
+                "salud",
+                "monitor",
+                "del",
+                "sistem",
+                "suspend"
               ],
               "intents": [
                 "execute.body",
+                "learn.new",
+                "learn.last",
+                "learn.new.command",
+                "learn.last.command",
                 "execute.razon",
                 "execute.intuition"
               ],
               "perceptrons": [
                 [
-                  7.592618465423584,
-                  7.592604637145996,
-                  7.59260892868042,
-                  7.592616558074951,
-                  7.592610836029053,
-                  7.592610836029053,
-                  7.592611312866211,
-                  -0.000004973011982656317,
-                  -0.000004973042905476177,
-                  0.000008855226951709483,
-                  0.000008855202395352535,
-                  0.000004563623406284023,
-                  0.8515936732292175,
-                  -0.8515965342521667,
-                  -0.8515965342521667,
-                  7.592615127563477,
-                  -3.2859764099121094,
-                  4.01079797744751,
-                  4.01079797744751,
-                  2.0054004192352295,
-                  2.0054004192352295,
-                  -6.693099021911621,
-                  -5.171055316925049,
-                  -2.00938081741333,
-                  -3.4071247577667236,
-                  -5.113128662109375,
-                  -1.7641443014144897,
-                  -1.5967438220977783,
-                  -1.5799733400344849,
-                  -6.0315070152282715,
-                  -1.353232502937317,
-                  -0.7335783243179321,
-                  -1.144303321838379,
-                  -0.6692966222763062,
-                  -2.9742372035980225,
-                  -0.17829467356204987,
-                  -0.12032046169042587,
-                  -0.09418737143278122,
-                  -0.6237319707870483,
-                  -1.0351567268371582,
-                  -4.413695335388184,
-                  -0.4043356776237488,
-                  -2.2794055938720703,
-                  -0.6615952849388123,
-                  0.2491474449634552,
-                  -0.1906261146068573,
-                  -0.17935924232006073,
-                  -0.12577824294567108,
-                  -0.08201855421066284,
-                  -0.536486804485321,
-                  -0.18100540339946747,
-                  -1.5955674648284912,
-                  -1.9289498329162598,
-                  -0.0876263901591301,
-                  -3.1925082206726074,
-                  -1.3028216361999512,
-                  -2.846890449523926,
-                  -2.749702215194702,
-                  -3.4071245193481445,
-                  -0.0185121800750494,
+                  8.61949348449707,
+                  8.268526077270508,
+                  8.286721229553223,
+                  8.296250343322754,
+                  8.307581901550293,
+                  8.306260108947754,
+                  8.30492115020752,
+                  -0.7485460638999939,
+                  -0.3613221049308777,
+                  0.06468764692544937,
+                  0.0652518942952156,
+                  0.040297623723745346,
+                  -0.30810844898223877,
+                  0.32727357745170593,
+                  0.32698190212249756,
+                  8.282332420349121,
+                  0.23265834152698517,
+                  3.3414082527160645,
+                  3.3414082527160645,
+                  1.7092682123184204,
+                  1.6323630809783936,
+                  -1.711846947669983,
+                  -1.8052023649215698,
+                  -1.711846947669983,
+                  -0.6711309552192688,
+                  -4.661616802215576,
+                  -0.7765994071960449,
+                  -1.0386440753936768,
+                  -0.8162146806716919,
+                  -5.1874189376831055,
+                  -1.2471082210540771,
+                  -2.194958209991455,
+                  -2.0144362449645996,
+                  -3.0825629234313965,
+                  1.184780478477478,
+                  -1.5560168027877808,
+                  -3.916961193084717,
+                  -3.1592791080474854,
+                  -0.5609772801399231,
+                  -0.5557593107223511,
+                  -0.5506040453910828,
+                  -0.5453599691390991,
+                  0,
+                  -1.2303308248519897,
+                  -1.199708342552185,
+                  -1.374954342842102,
+                  -0.31474047899246216,
+                  -0.30808013677597046,
+                  -4.0140838623046875,
+                  0,
+                  -6.195629596710205,
+                  -5.015386581420898,
+                  -1.8566395044326782,
+                  -4.674540042877197,
+                  -1.6533684730529785,
+                  -1.515072226524353,
+                  -1.4460234642028809,
+                  -5.274055004119873,
+                  -1.2408370971679688,
+                  -0.9225889444351196,
+                  -1.0315862894058228,
+                  -0.8303782343864441,
+                  -2.0328290462493896,
+                  -0.15366621315479279,
+                  -0.09913771599531174,
+                  -0.06093889847397804,
+                  -1.1856969594955444,
+                  -1.0198521614074707,
+                  -0.3959030210971832,
+                  -1.9915034770965576,
+                  -0.7415271401405334,
+                  -0.06319533288478851,
+                  -0.21118012070655823,
+                  -0.1458306461572647,
+                  -0.0940975770354271,
+                  -1.0631129741668701,
+                  -0.32667914032936096,
+                  -0.6582939028739929,
+                  -0.17917151749134064,
+                  -3.1702613830566406,
+                  -0.8999663591384888,
+                  -2.676231861114502,
+                  -2.6788558959960938,
+                  -5.867273807525635,
+                  -0.08667125552892685,
                   0,
                   0,
                   0,
-                  -1.392337679862976,
-                  -0.021837051957845688,
-                  -0.010785269550979137,
-                  -0.007227689027786255,
+                  -0.18574094772338867,
+                  -0.09351523220539093,
+                  -0.08245609700679779,
+                  -0.0740833505988121,
                   0,
-                  -0.31726303696632385,
-                  -0.10783606022596359,
-                  -2.0144474506378174,
+                  -0.4686676263809204,
+                  -1.8579732179641724,
                   0,
-                  -0.0023543741554021835,
-                  -0.0023543741554021835,
-                  -1.3581669330596924,
+                  0,
+                  -0.0961395800113678,
                   0,
                   0,
                   0,
                   0,
                   0,
                   0,
+                  -0.39195021986961365,
+                  -0.39195021986961365,
                   0,
                   0,
+                  -5.866996765136719,
+                  -5.860190391540527,
+                  -3.463365316390991,
+                  -3.445464611053467,
+                  -0.21033675968647003,
+                  1.0023688077926636,
+                  1.0023688077926636,
+                  1.0023688077926636,
+                  2.327134132385254,
+                  2.327134132385254,
+                  2.327134132385254,
+                  2.327134132385254,
+                  2.327134132385254,
+                  -0.008950170129537582,
                   0,
-                  0,
-                  0,
-                  -6.693098545074463,
-                  -6.693098545074463,
-                  -1.5220462083816528,
-                  -2.0595879554748535,
-                  -1.2299487590789795,
-                  -0.43567004799842834,
-                  0.351223886013031,
-                  0.351223886013031,
-                  0.351223886013031,
-                  1.8544831275939941,
-                  1.8544831275939941,
-                  1.8544831275939941,
-                  1.8544831275939941,
-                  1.8544831275939941,
-                  -0.8296384811401367,
-                  -0.8296384811401367,
-                  0,
-                  0.651409387588501,
-                  0.651409387588501,
-                  -0.2491382360458374,
-                  -0.1347053050994873,
-                  -0.1347053050994873,
-                  -0.1347053050994873,
-                  6.693100592715917
+                  0.6068362593650818,
+                  0.6068362593650818,
+                  2.118335247039795,
+                  -0.1334887146949768,
+                  -0.1334887146949768,
+                  -0.1334887146949768,
+                  -1.2709805965423584,
+                  -1.2709805965423584,
+                  4.409780025482178,
+                  5.67996072769165,
+                  5.96579859990167
                 ],
                 [
-                  -5.361453056335449,
-                  -18.396787643432617,
-                  -5.349952697753906,
-                  -8.283037185668945,
-                  -5.349459171295166,
-                  -5.348966121673584,
-                  -5.348471641540527,
-                  -0.3121335208415985,
-                  -0.29181066155433655,
-                  -0.30284830927848816,
-                  -0.2854592204093933,
-                  -0.6044434905052185,
-                  -11.42601490020752,
-                  -0.1810523271560669,
-                  -0.14122898876667023,
-                  -5.347977638244629,
-                  0.06067368760704994,
-                  -1.3313068151474,
-                  -1.3313068151474,
-                  -0.7191036939620972,
-                  -0.6069508194923401,
-                  8.938231468200684,
-                  -5.428929805755615,
-                  14.268315315246582,
-                  8.875722885131836,
-                  10.809490203857422,
-                  -1.9087365865707397,
-                  -1.8661423921585083,
-                  -1.865193247795105,
-                  18.214454650878906,
-                  -10.907106399536133,
-                  -9.278658866882324,
-                  -10.884933471679688,
-                  -9.387295722961426,
-                  3.3232011795043945,
-                  -1.9064491987228394,
-                  -1.8993401527404785,
-                  -0.004205979406833649,
-                  14.193753242492676,
-                  10.209620475769043,
-                  -16.18388557434082,
-                  11.56978988647461,
-                  24.831443786621094,
-                  -9.429131507873535,
-                  30.011106491088867,
-                  -14.293387413024902,
-                  1.381239891052246,
-                  10.752222061157227,
-                  10.437106132507324,
-                  13.963056564331055,
-                  0.0343000628054142,
-                  -17.47833824157715,
-                  -3.2309482097625732,
-                  10.93430233001709,
-                  -3.0640106201171875,
-                  -8.46933650970459,
-                  -3.1434972286224365,
-                  -6.695675849914551,
-                  -7.577175617218018,
-                  -14.94742202758789,
-                  -7.352540016174316,
-                  -6.962396144866943,
-                  -6.750953197479248,
-                  -14.71501636505127,
-                  -6.4324750900268555,
-                  -6.428191661834717,
-                  -6.425154209136963,
-                  -13.033852577209473,
-                  -0.6989796161651611,
-                  -10.259390830993652,
-                  3.5187344551086426,
-                  -17.984113693237305,
-                  -6.9788594245910645,
-                  -6.9788594245910645,
-                  -9.688037872314453,
-                  -0.7744193077087402,
-                  -3.5343751907348633,
-                  -0.7744193077087402,
-                  -2.7370293140411377,
-                  -2.7370293140411377,
-                  -2.7370293140411377,
-                  -2.658968687057495,
-                  -2.658968687057495,
-                  -1.7434903383255005,
-                  -1.7434903383255005,
-                  -1.7434903383255005,
-                  -5.200191020965576,
-                  -5.199664115905762,
-                  -2.2301502227783203,
-                  -4.611328601837158,
-                  -9.677152633666992,
-                  9.081414222717285,
-                  -6.1527862548828125,
-                  -6.1527862548828125,
-                  -6.1527862548828125,
-                  -6.39668083190918,
-                  -6.39668083190918,
-                  -6.39668083190918,
-                  -6.39668083190918,
-                  -6.39668083190918,
-                  5.0658721923828125,
-                  5.0658721923828125,
-                  6.967713356018066,
-                  -0.2474159151315689,
-                  -0.2474159151315689,
-                  -16.91585350036621,
-                  3.605354070663452,
-                  3.605354070663452,
-                  3.605354070663452,
-                  5.37292282724534
+                  -0.7273779511451721,
+                  0,
+                  0,
+                  -0.02207895927131176,
+                  0,
+                  0,
+                  0,
+                  1.2523585557937622,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.2731190323829651,
+                  -0.01671253703534603,
+                  -0.0019809037912636995,
+                  0,
+                  -0.8396478891372681,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.11053602397441864,
+                  -3.1714043617248535,
+                  0.11053602397441864,
+                  3.2799856662750244,
+                  0.7041930556297302,
+                  1.2783681154251099,
+                  1.3837970495224,
+                  3.0265796184539795,
+                  4.568800926208496,
+                  -0.8627277612686157,
+                  -0.5252207517623901,
+                  -0.49512651562690735,
+                  -1.3384459018707275,
+                  -0.3965161144733429,
+                  -0.3965161144733429,
+                  -0.030198711901903152,
+                  -1.2682504653930664,
+                  -2.3455610275268555,
+                  -2.210458755493164,
+                  -2.1621599197387695,
+                  -1.6701457500457764,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.7893054485321045,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.26176151633262634,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.7639166116714478,
+                  -0.26176151633262634,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.26176151633262634,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.5070744489706678
                 ],
                 [
-                  -3.5819008350372314,
-                  -3.348435163497925,
-                  -3.2565252780914307,
-                  -6.606479644775391,
-                  -3.1667208671569824,
-                  -3.147228240966797,
-                  -3.1290056705474854,
-                  -0.4508399963378906,
-                  -0.3892825245857239,
-                  -0.5892181992530823,
-                  -0.5325542688369751,
-                  -0.8479943871498108,
-                  11.013503074645996,
-                  -1.6530520915985107,
-                  -1.6535060405731201,
-                  -3.0870378017425537,
-                  6.316659450531006,
-                  -5.8288774490356445,
-                  -5.8288774490356445,
-                  -2.9148213863372803,
-                  -2.9137494564056396,
-                  -3.0559844970703125,
-                  7.177271842956543,
-                  -10.68688678741455,
-                  -3.56142520904541,
-                  -4.996789455413818,
-                  -2.5019328594207764,
-                  -0.2472265511751175,
-                  -0.21000343561172485,
-                  -8.202020645141602,
-                  11.92424201965332,
-                  -3.9866788387298584,
-                  11.99348258972168,
-                  -3.258634090423584,
-                  -6.016876697540283,
-                  -2.3160908222198486,
-                  -2.155639886856079,
-                  -0.53253573179245,
-                  -10.688055038452148,
-                  -5.16508150100708,
-                  17.6822566986084,
-                  -6.947222709655762,
-                  -14.826831817626953,
-                  7.58974552154541,
-                  -31.564001083374023,
-                  17.610286712646484,
-                  6.282959938049316,
-                  -4.196030139923096,
-                  -3.820157766342163,
-                  -10.468565940856934,
-                  -1.324124813079834,
-                  17.87510108947754,
-                  -0.25872260332107544,
-                  -10.244576454162598,
-                  13.835186004638672,
-                  -0.21160221099853516,
-                  3.583265781402588,
-                  -0.07096881419420242,
-                  10.733895301818848,
-                  17.732404708862305,
-                  10.785859107971191,
-                  10.62979793548584,
-                  10.604513168334961,
-                  7.382439136505127,
-                  7.505119323730469,
-                  7.500177383422852,
-                  7.496623516082764,
-                  10.737591743469238,
-                  9.268990516662598,
-                  3.428417444229126,
-                  17.105905532836914,
-                  17.692325592041016,
-                  8.653985023498535,
-                  8.653985023498535,
-                  20.14791488647461,
-                  -0.9821887612342834,
-                  1.7984590530395508,
-                  -0.9821887612342834,
-                  2.7807281017303467,
-                  2.7807281017303467,
-                  2.7807281017303467,
-                  1.7076150178909302,
-                  1.7076150178909302,
-                  1.1379404067993164,
-                  1.1379404067993164,
-                  1.1379404067993164,
-                  16.84326934814453,
-                  16.842348098754883,
-                  9.686144828796387,
-                  8.5789794921875,
-                  11.850567817687988,
-                  -4.386680603027344,
-                  -0.8431370854377747,
-                  -0.8431370854377747,
-                  -0.8431370854377747,
-                  -1.3843599557876587,
-                  -1.3843599557876587,
-                  -1.3843599557876587,
-                  -1.3843599557876587,
-                  -1.3843599557876587,
-                  -3.270806312561035,
-                  -3.270806312561035,
-                  -6.875319957733154,
-                  -1.4202522039413452,
-                  -1.4202522039413452,
-                  -0.2904828190803528,
-                  -7.168428897857666,
-                  -7.168428897857666,
-                  -7.168428897857666,
-                  -2.7512336897589695
+                  0,
+                  0,
+                  0,
+                  -0.5920975804328918,
+                  0,
+                  0,
+                  0,
+                  -1.9322171211242676,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2.1246511936187744,
+                  -0.3253308832645416,
+                  -0.2653646767139435,
+                  0,
+                  -0.22811226546764374,
+                  -0.20665431022644043,
+                  -0.20665431022644043,
+                  -0.11404824256896973,
+                  -0.08346758037805557,
+                  -1.1243876218795776,
+                  0.97273850440979,
+                  -1.1243876218795776,
+                  -0.20025934278964996,
+                  -2.3055882453918457,
+                  -0.4249362349510193,
+                  -0.4249362349510193,
+                  -0.13765576481819153,
+                  -0.37223708629608154,
+                  0.2442014515399933,
+                  0.1351408213376999,
+                  -0.05359814688563347,
+                  -0.15269523859024048,
+                  1.2730910778045654,
+                  1.464356541633606,
+                  1.368988275527954,
+                  3.8990139961242676,
+                  -0.08880987763404846,
+                  -0.06539704650640488,
+                  -0.6878882050514221,
+                  -0.03369980305433273,
+                  -0.5991595387458801,
+                  -0.5991595387458801,
+                  -0.36451154947280884,
+                  -0.06721614301204681,
+                  -0.7587312459945679,
+                  -0.591893196105957,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.46014130115509033,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.07025538384914398,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.46014130115509033,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.46014130115509033,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.46014130115509033,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.10494969040155411,
+                  -0.030945369973778725,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.07025538384914398,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.2649907996426009
+                ],
+                [
+                  -4.092714786529541,
+                  -0.1406903713941574,
+                  -0.1271926760673523,
+                  -0.2666352689266205,
+                  -0.1078338772058487,
+                  -0.10396435111761093,
+                  -0.1002313569188118,
+                  4.2630720138549805,
+                  0,
+                  -0.01348161231726408,
+                  -0.010992971248924732,
+                  -0.013711124658584595,
+                  -1.1468095779418945,
+                  -0.06419945508241653,
+                  -0.059934455901384354,
+                  -0.024997444823384285,
+                  -0.47286146879196167,
+                  -0.044666118919849396,
+                  -0.044666118919849396,
+                  -0.019813375547528267,
+                  -0.014946055598556995,
+                  0.015238874591886997,
+                  -3.0308854579925537,
+                  0.015238874591886997,
+                  -2.170956611633301,
+                  7.890510082244873,
+                  -0.28828850388526917,
+                  -0.3333546817302704,
+                  -1.907105565071106,
+                  5.090870380401611,
+                  -1.1431257724761963,
+                  -1.4964625835418701,
+                  -1.2434771060943604,
+                  -2.084590196609497,
+                  -0.5585975050926208,
+                  -0.437479168176651,
+                  -0.0199655219912529,
+                  -0.6723141670227051,
+                  3.3403236865997314,
+                  2.849943161010742,
+                  2.6027207374572754,
+                  2.4785993099212646,
+                  1.854386568069458,
+                  1.0168564319610596,
+                  -0.434692919254303,
+                  -0.4685259163379669,
+                  -0.15704448521137238,
+                  -0.08521726727485657,
+                  -0.5065549612045288,
+                  -0.06909793615341187,
+                  -0.23020952939987183,
+                  -0.6595617532730103,
+                  -0.14168912172317505,
+                  -0.42007219791412354,
+                  -0.17908534407615662,
+                  -0.11597733944654465,
+                  -0.10353656113147736,
+                  -0.7080250382423401,
+                  -0.21563765406608582,
+                  -0.06896656006574631,
+                  -0.08874701708555222,
+                  -0.05453504994511604,
+                  -0.290527880191803,
+                  -0.0325644426047802,
+                  -0.02197580225765705,
+                  -0.017202747985720634,
+                  -0.045017343014478683,
+                  -0.12999624013900757,
+                  -0.04262317717075348,
+                  -0.20670120418071747,
+                  -0.12987680733203888,
+                  -0.0016141936648637056,
+                  -0.026127459481358528,
+                  -0.017695099115371704,
+                  -0.007456219755113125,
+                  -0.03247278556227684,
+                  -0.010302252136170864,
+                  -0.06442205607891083,
+                  -0.05368891358375549,
+                  -0.4149545133113861,
+                  -0.14693287014961243,
+                  -0.4109928011894226,
+                  -0.48926883935928345,
+                  -0.08113614469766617,
+                  -0.003956914879381657,
+                  0,
+                  0,
+                  0,
+                  -0.003138771979138255,
+                  -0.0017215594416484237,
+                  -0.0006187204271554947,
+                  -0.0003670916485134512,
+                  0,
+                  -0.0019804066978394985,
+                  -0.29282358288764954,
+                  0,
+                  -0.08310403674840927,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.14235325157642365,
+                  -0.13732345402240753,
+                  -0.0199655219912529,
+                  0,
+                  -0.009156136773526669,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.0199655219912529,
+                  0,
+                  -0.022393517196178436,
+                  -0.022393517196178436,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.26784269640943115
+                ],
+                [
+                  -2.2624173164367676,
+                  -2.2552926540374756,
+                  0,
+                  -0.9044303297996521,
+                  0,
+                  0,
+                  0,
+                  4.441277980804443,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.6223394870758057,
+                  0,
+                  0,
+                  0,
+                  -0.8746816515922546,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -4.201853275299072,
+                  6.328749179840088,
+                  -4.201853275299072,
+                  -0.8354502320289612,
+                  -2.3629581928253174,
+                  -0.904131293296814,
+                  -0.911357045173645,
+                  -0.5134969353675842,
+                  -2.147203207015991,
+                  -3.2844038009643555,
+                  -3.628586769104004,
+                  -3.2406704425811768,
+                  7.414488792419434,
+                  -1.7457724809646606,
+                  -1.165099859237671,
+                  3.218456268310547,
+                  2.597433090209961,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.0152809619903564,
+                  13.135025024414062,
+                  12.212796211242676,
+                  1.9238494634628296,
+                  1.4704838991165161,
+                  3.6038098335266113,
+                  6.527855396270752,
+                  -0.19585254788398743,
+                  -0.6666693687438965,
+                  -0.21567201614379883,
+                  -0.49025753140449524,
+                  -0.2655019164085388,
+                  -0.09508713334798813,
+                  -0.08493022620677948,
+                  -3.705919027328491,
+                  -0.44937652349472046,
+                  -0.08417811989784241,
+                  -0.11461929231882095,
+                  -0.06614727526903152,
+                  -0.6467101573944092,
+                  -0.07118447124958038,
+                  -0.04803815856575966,
+                  -0.03760446608066559,
+                  -0.061524733901023865,
+                  -0.2645561099052429,
+                  -0.05917484313249588,
+                  -0.9128491282463074,
+                  -1.7561087608337402,
+                  -1.705892562866211,
+                  -0.029836243018507957,
+                  -0.0218160692602396,
+                  -0.02140696533024311,
+                  -0.040876273065805435,
+                  -0.011697226203978062,
+                  -0.8882025480270386,
+                  0,
+                  -0.2722424566745758,
+                  -1.0772919654846191,
+                  -0.23708106577396393,
+                  -0.06901740282773972,
+                  -0.04996452480554581,
+                  0,
+                  -0.021246690303087234,
+                  -0.02096223272383213,
+                  -0.020695146173238754,
+                  -0.8882025480270386,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.007124996744096279,
+                  -0.03232874721288681,
+                  0,
+                  0,
+                  -0.8882025480270386,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.1574610471725464,
+                  -0.1574610471725464,
+                  -0.044352248311042786,
+                  -0.042539432644844055,
+                  -0.26587530970573425,
+                  -0.13806161284446716,
+                  -0.0018395648803561926,
+                  -0.9044303297996521,
+                  -0.9044303297996521,
+                  -0.9044303297996521,
+                  -0.7774548530578613,
+                  -0.7774548530578613,
+                  -0.7774548530578613,
+                  -0.7774548530578613,
+                  -0.7774548530578613,
+                  -0.061445001512765884,
+                  0,
+                  0,
+                  0,
+                  -1.551552653312683,
+                  0,
+                  0,
+                  0,
+                  -0.6040068864822388,
+                  -0.6040068864822388,
+                  -2.2780866622924805,
+                  -1.5743459463119507,
+                  -2.6715388013737984
+                ],
+                [
+                  -2.188208818435669,
+                  -7.595860004425049,
+                  -2.00630259513855,
+                  -3.7618908882141113,
+                  -1.9499671459197998,
+                  -1.939197063446045,
+                  -1.9290860891342163,
+                  -9.01471996307373,
+                  -0.28213417530059814,
+                  -0.27978092432022095,
+                  -0.24274763464927673,
+                  -0.5300315618515015,
+                  -6.744665145874023,
+                  -0.14254584908485413,
+                  -0.11243671923875809,
+                  -1.9151817560195923,
+                  0.4718433916568756,
+                  -0.5679539442062378,
+                  -0.5679539442062378,
+                  -0.3511270582675934,
+                  -0.21348115801811218,
+                  -2.1937177181243896,
+                  12.127432823181152,
+                  -2.1937177181243896,
+                  -0.17776042222976685,
+                  -1.5545622110366821,
+                  -6.034897327423096,
+                  -2.2540299892425537,
+                  -2.298459768295288,
+                  -0.3256731331348419,
+                  -1.035003423690796,
+                  -3.3590476512908936,
+                  -2.9756295680999756,
+                  -7.617042064666748,
+                  4.654449939727783,
+                  -7.617042064666748,
+                  -2.6196789741516113,
+                  -3.9706852436065674,
+                  -0.001286462415009737,
+                  0,
+                  -0.7617567777633667,
+                  0,
+                  -0.7617567777633667,
+                  -1.26909339427948,
+                  -0.9314414262771606,
+                  -1.2626616954803467,
+                  0,
+                  0,
+                  -2.2211484909057617,
+                  -1.3816559314727783,
+                  12.915732383728027,
+                  0.22361791133880615,
+                  11.87761116027832,
+                  11.481245994567871,
+                  0.7923244833946228,
+                  1.2363885641098022,
+                  1.240113615989685,
+                  8.61812686920166,
+                  -2.4420244693756104,
+                  3.845179796218872,
+                  -2.2834713459014893,
+                  3.2350316047668457,
+                  4.578769683837891,
+                  0.6684386730194092,
+                  0.6726153492927551,
+                  -0.19274947047233582,
+                  11.130439758300781,
+                  0.08608517795801163,
+                  9.878396987915039,
+                  14.57421588897705,
+                  1.6452264785766602,
+                  -11.88603401184082,
+                  -1.0170800685882568,
+                  8.072671890258789,
+                  7.44386625289917,
+                  10.371875762939453,
+                  0.297452837228775,
+                  -6.76795768737793,
+                  9.948963165283203,
+                  -3.144444227218628,
+                  -4.240250587463379,
+                  -3.049605369567871,
+                  -6.965195178985596,
+                  -7.389371871948242,
+                  -13.898000717163086,
+                  -7.399501323699951,
+                  -7.0178446769714355,
+                  -6.817663669586182,
+                  -6.949557304382324,
+                  -5.175451755523682,
+                  -5.127659797668457,
+                  -5.10052490234375,
+                  -13.733255386352539,
+                  -0.8668016791343689,
+                  3.0487802028656006,
+                  -10.570673942565918,
+                  -5.989223480224609,
+                  -1.8352829217910767,
+                  -0.767666757106781,
+                  -3.638094663619995,
+                  -0.767666757106781,
+                  -2.8465633392333984,
+                  -2.8465633392333984,
+                  -2.8465633392333984,
+                  -2.5995678901672363,
+                  -2.5995678901672363,
+                  -1.7067474126815796,
+                  -1.7067474126815796,
+                  -1.9389336109161377,
+                  -1.9271321296691895,
+                  1.442674994468689,
+                  -7.4249114990234375,
+                  3.507628917694092,
+                  -1.822806477546692,
+                  -1.822806477546692,
+                  -1.822806477546692,
+                  -2.446183919906616,
+                  -2.446183919906616,
+                  -2.446183919906616,
+                  -2.446183919906616,
+                  -2.446183919906616,
+                  8.871406555175781,
+                  6.2676520347595215,
+                  -0.2380010187625885,
+                  -0.2380010187625885,
+                  -5.930208206176758,
+                  3.109060049057007,
+                  3.109060049057007,
+                  3.109060049057007,
+                  -0.21604794263839722,
+                  -0.21604794263839722,
+                  -6.773114204406738,
+                  -6.453009605407715,
+                  1.392709386145706
+                ],
+                [
+                  -3.3022334575653076,
+                  -3.140085458755493,
+                  -3.07332181930542,
+                  -4.1843156814575195,
+                  -3.0132830142974854,
+                  -3.0000078678131104,
+                  -2.9860949516296387,
+                  -7.695737838745117,
+                  -0.3907167315483093,
+                  -0.49233508110046387,
+                  -0.44547685980796814,
+                  -0.7797914147377014,
+                  3.330821990966797,
+                  -0.5223456025123596,
+                  -0.5278282165527344,
+                  -2.965308666229248,
+                  3.2416019439697266,
+                  -3.1759636402130127,
+                  -3.1759636402130127,
+                  -1.5925590991973877,
+                  -1.5798894166946411,
+                  0,
+                  -18.177532196044922,
+                  0,
+                  -0.2983318269252777,
+                  -6.710191249847412,
+                  2.796420097351074,
+                  6.944374084472656,
+                  4.271850109100342,
+                  -0.6935837268829346,
+                  0,
+                  -0.00911021139472723,
+                  1.3761358261108398,
+                  0,
+                  -4.6407151222229,
+                  0,
+                  -3.4725263118743896,
+                  0,
+                  -0.06396324932575226,
+                  -0.048225287348032,
+                  -0.1331118792295456,
+                  -0.027949700132012367,
+                  -0.09718114137649536,
+                  0.8180218935012817,
+                  0,
+                  0,
+                  0,
+                  0,
+                  6.268802165985107,
+                  -0.00911021139472723,
+                  -2.897399663925171,
+                  5.484035015106201,
+                  -9.665687561035156,
+                  -3.6509196758270264,
+                  -2.4658589363098145,
+                  -0.17825444042682648,
+                  -0.14378340542316437,
+                  -1.914336919784546,
+                  4.969555854797363,
+                  -3.951812505722046,
+                  5.325277805328369,
+                  -3.223503828048706,
+                  -3.39544677734375,
+                  -2.28311824798584,
+                  -2.1227598190307617,
+                  -0.5241153240203857,
+                  -9.682561874389648,
+                  1.1140336990356445,
+                  -6.829197406768799,
+                  -11.916045188903809,
+                  3.157217264175415,
+                  11.841453552246094,
+                  5.237030506134033,
+                  -4.061403751373291,
+                  -3.671233892440796,
+                  -9.130282402038574,
+                  -1.3434780836105347,
+                  11.691910743713379,
+                  -10.251551628112793,
+                  9.20151424407959,
+                  1.1326158046722412,
+                  3.201448917388916,
+                  7.050881862640381,
+                  9.607436180114746,
+                  12.613993644714355,
+                  9.397873878479004,
+                  9.159756660461426,
+                  9.126733779907227,
+                  4.007375240325928,
+                  4.0638346672058105,
+                  4.047057151794434,
+                  4.04496431350708,
+                  6.367499351501465,
+                  5.776724338531494,
+                  4.238804817199707,
+                  9.146857261657715,
+                  8.735109329223633,
+                  13.489575386047363,
+                  -0.21448777616024017,
+                  1.3715733289718628,
+                  -0.21448777616024017,
+                  1.5871284008026123,
+                  1.5871284008026123,
+                  1.5871284008026123,
+                  2.070032835006714,
+                  2.070032835006714,
+                  1.3761358261108398,
+                  1.3761358261108398,
+                  12.463606834411621,
+                  12.455432891845703,
+                  6.870408535003662,
+                  10.345376968383789,
+                  -3.230397939682007,
+                  -0.807491660118103,
+                  -0.807491660118103,
+                  -0.807491660118103,
+                  -1.178599238395691,
+                  -1.178599238395691,
+                  -1.178599238395691,
+                  -1.178599238395691,
+                  -1.178599238395691,
+                  -3.4725263118743896,
+                  -6.135896682739258,
+                  -1.4748797416687012,
+                  -1.4748797416687012,
+                  -0.2699984312057495,
+                  -3.6582250595092773,
+                  -3.6582250595092773,
+                  -3.6582250595092773,
+                  -0.10572907328605652,
+                  -0.10572907328605652,
+                  -0.34380868077278137,
+                  -0.15878279507160187,
+                  1.4081351568782619
                 ]
               ]
             }
@@ -2088,6 +3223,142 @@
       [
         "es",
         "como se dice en ingles"
+      ],
+      [
+        "es",
+        "recuerda el siguiente comando"
+      ],
+      [
+        "es",
+        "aprende este comando"
+      ],
+      [
+        "es",
+        "ten en cuenta este comando"
+      ],
+      [
+        "es",
+        "crea este comando"
+      ],
+      [
+        "es",
+        "nuevo comando"
+      ],
+      [
+        "es",
+        "corrige el anterior comando"
+      ],
+      [
+        "es",
+        "cambia el ultimo comando"
+      ],
+      [
+        "es",
+        "el ultimo comando esta mal"
+      ],
+      [
+        "es",
+        "corrige el ultimo comando"
+      ],
+      [
+        "es",
+        "la ultima respuesta esta mal"
+      ],
+      [
+        "es",
+        "fallaste en la respuesta"
+      ],
+      [
+        "es",
+        "fallaste en el comando"
+      ],
+      [
+        "es",
+        "recuerda el siguiente comando"
+      ],
+      [
+        "es",
+        "aprende este comando"
+      ],
+      [
+        "es",
+        "ten en cuenta este comando"
+      ],
+      [
+        "es",
+        "crea este comando"
+      ],
+      [
+        "es",
+        "nuevo comando"
+      ],
+      [
+        "es",
+        "agrega este comando"
+      ],
+      [
+        "es",
+        "memoriza este comando"
+      ],
+      [
+        "es",
+        "guarda este comando"
+      ],
+      [
+        "es",
+        "anota este comando"
+      ],
+      [
+        "es",
+        "guarda la información de este comando"
+      ],
+      [
+        "es",
+        "corrige el anterior comando"
+      ],
+      [
+        "es",
+        "cambia el ultimo comando"
+      ],
+      [
+        "es",
+        "el ultimo comando esta mal"
+      ],
+      [
+        "es",
+        "corrige el ultimo comando"
+      ],
+      [
+        "es",
+        "edita el comando anterior"
+      ],
+      [
+        "es",
+        "cambia el comando previo"
+      ],
+      [
+        "es",
+        "modifica el ultimo comando"
+      ],
+      [
+        "es",
+        "arregla el ultimo comando"
+      ],
+      [
+        "es",
+        "la ultima respuesta esta mal"
+      ],
+      [
+        "es",
+        "fallaste en la respuesta"
+      ],
+      [
+        "es",
+        "fallaste en el comando"
+      ],
+      [
+        "es",
+        "el comando anterior es incorrecto"
       ],
       [
         "es",
@@ -2436,6 +3707,18 @@
       [
         "es",
         "mis contactos te ven, saluda"
+      ],
+      [
+        "es",
+        "como estas"
+      ],
+      [
+        "es",
+        "abre el monitor del sistema"
+      ],
+      [
+        "es",
+        "suspende el sistema"
       ]
     ]
   },
@@ -2543,6 +3826,152 @@
             "answer": "execute.body"
           }
         ],
+        "recuerda el siguiente comando": [
+          {
+            "answer": "learn.new"
+          },
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "aprende este comando": [
+          {
+            "answer": "learn.new"
+          },
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "ten en cuenta este comando": [
+          {
+            "answer": "learn.new"
+          },
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "crea este comando": [
+          {
+            "answer": "learn.new"
+          },
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "nuevo comando": [
+          {
+            "answer": "learn.new"
+          },
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "corrige el anterior comando": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "cambia el ultimo comando": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "el ultimo comando esta mal": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "corrige el ultimo comando": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "la ultima respuesta esta mal": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "fallaste en la respuesta": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "fallaste en el comando": [
+          {
+            "answer": "learn.last"
+          },
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "agrega este comando": [
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "memoriza este comando": [
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "guarda este comando": [
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "anota este comando": [
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "guarda la información de este comando": [
+          {
+            "answer": "learn.new.command"
+          }
+        ],
+        "edita el comando anterior": [
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "cambia el comando previo": [
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "modifica el ultimo comando": [
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "arregla el ultimo comando": [
+          {
+            "answer": "learn.last.command"
+          }
+        ],
+        "el comando anterior es incorrecto": [
+          {
+            "answer": "learn.last.command"
+          }
+        ],
         "hola": [
           {
             "answer": "execute.razon"
@@ -2556,6 +3985,9 @@
         "como estas": [
           {
             "answer": "execute.razon"
+          },
+          {
+            "answer": "execute.body"
           }
         ],
         "buenos dias": [
@@ -2911,6 +4343,16 @@
         "mis contactos te ven, saluda": [
           {
             "answer": "execute.razon"
+          }
+        ],
+        "abre el monitor del sistema": [
+          {
+            "answer": "execute.body"
+          }
+        ],
+        "suspende el sistema": [
+          {
+            "answer": "execute.body"
           }
         ]
       }

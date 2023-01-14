@@ -9,7 +9,7 @@ const {
 exports.actionHandler = async (result, question) => {
   switch (result) {
     case "open.music":
-      const music = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/music', 'ideas.json')));;
+      const music = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/music', 'ideas.json')));
       let musicSrt = question;
       for (let index = 0; index < music.length; index++) {
         const idea = music[index];
@@ -20,7 +20,7 @@ exports.actionHandler = async (result, question) => {
       await searchVideoOnYouTube(musicSrt);
       break;
     case "open.search":
-      const searchGoogleData = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/searchGoogle', 'ideas.json')));;
+      const searchGoogleData = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/searchGoogle', 'ideas.json')));
       let searchGoogleStr = question;
       for (let index = 0; index < searchGoogleData.length; index++) {
         const idea = searchGoogleData[index];
@@ -31,7 +31,7 @@ exports.actionHandler = async (result, question) => {
       await searchGoogle(searchGoogleStr);
       break;
     case "open.translate.es.en":
-      const translateData = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/translate', 'ideas.json')));;
+      const translateData = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/translate', 'ideas.json')));
       let translateStr = question;
       for (let index = 0; index < translateData.length; index++) {
         const idea = translateData[index];

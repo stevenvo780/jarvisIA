@@ -1,28 +1,22 @@
-const { notFount } = require('./corteza/cagorizacionProcessExecute');
-const { entrain, razonLearn, bodyLearn, discernmentLearn } = require('./memoria/aprender');
-const recordar = require('./memoria/cortoplazo');
-const { respuestaConversations, speak } = require('./corteza/voz');
+const { entrain } = require('./memoria/aprender');
+const { addIdeaSombra, getSombra } = require('./memoria/cortoplazo');
+const { respuestaConversations } = require('./corteza/voz');
 const {
-  openRootSession,
   openSession,
-  //runCommandGPT3Chat,
-  //runCommandChatbot,
   runCommandBlenderbot,
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
 const { loadLobules } = require('./corteza/loadLobulosPy');
-const { getSentiment } = require('./lobulosProcesativos/googleNLPfeelings');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
-
+const { newIdea, fixLastIdea, handleNotFount} = require('./gestionMemoria/learning');
 const readline = require('readline');
 const initSystem = async () => {
   console.log("Iniciando sistemas");
-  await openSession();
-  await openRootSession();
+  openSession();
   await loadLobules();
   await entrain();
   await respuestaConversations("Sistema inicializado, recuerde que aun estoy en periodo de aprendizaje");
@@ -42,142 +36,72 @@ async function predict() {
   });
 }
 
+async function promedioEmocion(score, output, zone) {
+  const sombra = await getSombra();
+  const responses = sombra.filter(response => (response.output == output && response.zone == zone));
+  if (responses.length === 0) {
+    return score;
+  }
+  let promedioSombraQuestionSuma = 0;
+  responses.forEach(response => {
+    promedioSombraQuestionSuma += response.emotionalResponse.score;
+  });
+  const promedioSombraQuestion = promedioSombraQuestionSuma / responses.length;
+  return promedioSombraQuestion + score;
+}
+
 const medula = async (question) => {
   const discernment = await pensarDiscernment(question);
-  //console.log("discernment", discernment.intent);
   if (discernment.intent == "None") {
     const chatGPT = await lobuleChat(question);
-    respuestaConversations(chatGPT);
+    await respuestaConversations(chatGPT);
+    addIdeaSombra(question, chatGPT, "intuition");
     await handleNotFount(question);
+  }
+  if (discernment.intent == "learn.new") {
+    await newIdea();
+  }
+  if (discernment.intent == "learn.last") {
+    await fixLastIdea();
   }
   if (discernment.intent === "execute.body") {
     const bodySomatic = await pensarBody(question);
-    //console.log("Body", bodySomatic.classifications[0].score);
-    if (bodySomatic.classifications[0].score < 0.8) {
+    const bodySomaticProm = await promedioEmocion(bodySomatic.classifications[0].score, bodySomatic.intent, "body");
+    if (bodySomaticProm < 0.5) {
       const chatGPT = await lobuleChat(question);
-      respuestaConversations(chatGPT);
+      await respuestaConversations(chatGPT);
+      addIdeaSombra(question, chatGPT, "body");
       await handleNotFount(question, chatGPT);
     } else {
+      addIdeaSombra(question, bodySomatic.intent, "body");
       await actionHandler(bodySomatic.intent, question);
     }
   } else if (discernment.intent === "execute.razon") {
     const razonSomatic = await pensarRazon(question);
-    //console.log("Razon", razonSomatic.classifications[0].score);
-    if (razonSomatic.classifications[0].score < 0.8) {
+    const razonSomaticProm = await promedioEmocion(razonSomatic.classifications[0].score, razonSomatic.intent, "razon");
+    if (razonSomaticProm < 0.3) {
       const chatGPT = await lobuleChat(question);
-      respuestaConversations(chatGPT);
+      await respuestaConversations(chatGPT);
+      addIdeaSombra(question, chatGPT, "razon");
       await handleNotFount(question, chatGPT);
     } else {
-      respuestaConversations(razonSomatic.intent);
+      addIdeaSombra(question, razonSomatic.intent, "razon");
+      await respuestaConversations(razonSomatic.intent);
     }
   } else if (discernment.intent === "execute.intuition") {
-    //console.log("discernment", discernment.classifications[0].score);
     const chatGPT = await lobuleChat(question);
-    respuestaConversations(chatGPT);
+    await respuestaConversations(chatGPT);
+    addIdeaSombra(question, chatGPT, "intuition");
     await handleNotFount(question, chatGPT);
   }
 }
 
 const lobuleChat = async (question) => {
-  respuestaConversations("Pensando una respuesta");
+  await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
   const result = await runCommandBlenderbot(translateEs_En.response);
   const translateEn_Es = await runCommandTranslateEn_Es(result.response);
   return translateEn_Es.response;
-}
-
-const recordarAction = async (question) => {
-  return new Promise((resolve, reject) => {
-    const recordarRequest = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
-    speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
-    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando o conversacion: ', async response => {
-      recordarRequest.close();
-      if (response !== "comando" && response !== "conversacion") {
-        respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
-        resolve(false);
-      } else {
-        const saveRequest = readline.createInterface({
-          input: process.stdin,
-          output: process.stdout
-        });
-        const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
-        speak(textQuestion);
-        saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
-          saveRequest.close();
-          if (responseSave === "cancelar") {
-            respuestaConversations("Sera a la proxima");
-            resolve(false);
-          }
-          const zona = response === "comando" ? "body" : "razon"
-          await recordar(question, responseSave, zona);
-          respuestaConversations("Estudiando lo aprendido");
-          if (zona === "body") {
-            await recordar(question, "execute.body", "discernment");
-            await bodyLearn();
-          }
-          if (zona === "razon") {
-            await recordar(question, "execute.razon", "discernment");
-            await razonLearn();
-          }
-          await discernmentLearn();
-          resolve(true);
-        });
-      }
-    });
-  });
-}
-
-const handleNotFount = (action, intuition = null) => {
-  //respuestaConversations("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
-  return new Promise((resolve, reject) => {
-    const greatOrNot = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
-    speak("¿Mi respuesta fue satisfactoria?");
-    greatOrNot.question("Jarvis: " + '¿Mi respuesta fue satisfactoria? ', async responseGreat => {
-      greatOrNot.close();
-      const somaticEmotional = await getSentiment(responseGreat);
-      if (somaticEmotional.score > 0) {
-        await recordar(action, intuition, "razon");
-        await razonLearn();
-        resolve(true);
-      } else {
-        const createCommandRequest = readline.createInterface({
-          input: process.stdin,
-          output: process.stdout
-        });
-        speak("¿Me puedes enseñar como responder?");
-        createCommandRequest.question("Jarvis: " + '¿Me puedes enseñar como responder? ', async responseSave => {
-          createCommandRequest.close();
-          const somaticEmotional = await getSentiment(responseSave);
-          if (somaticEmotional.score > 0) {
-            await recordarAction(action);
-            resolve(true);
-          } else if (somaticEmotional.score < 0) {
-            const searchGoogleCommand = readline.createInterface({
-              input: process.stdin,
-              output: process.stdout
-            });
-            speak("¿Desea buscarlo en internet?");
-            searchGoogleCommand.question("Jarvis: " + '¿Desea buscarlo en internet? ', async responseSearch => {
-              searchGoogleCommand.close();
-              const somaticEmotional = await getSentiment(responseSearch);
-              if (somaticEmotional.score > 0) {
-                await notFount(action);
-              }
-              resolve(true);
-            });
-          } else {
-            resolve(true);
-          }
-        });
-      }
-    });
-  });
 }
 
 initSystem();

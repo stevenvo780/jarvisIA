@@ -1,0 +1,497 @@
+[
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.13734853267669678,
+      "neutral": 0.11624526232481003,
+      "positive": 0.17138682305812836,
+      "score": 0.03403829038143158
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.006671086419373751,
+      "neutral": 0.03418970853090286,
+      "positive": 0.4537273347377777,
+      "score": 0.44705623388290405
+    }
+  },
+  {
+    "input": "bien, has mejorado bastante",
+    "output": "Si, yo tengo, yo estoy mucho más triste ahora, fue hace mucho tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4430934190750122,
+      "neutral": 0.2732437551021576,
+      "positive": 0.1694783717393875,
+      "score": -0.2736150622367859
+    }
+  },
+  {
+    "input": "esa ultima respuesta si fue pesima",
+    "output": "Creo que lo fue, pero estaba nerviosa y no sabía qué decir.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.17202338576316833,
+      "neutral": 0.17369727790355682,
+      "positive": 0.25504207611083984,
+      "score": 0.08301869034767151
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1731417030096054,
+      "neutral": 0.22111645340919495,
+      "positive": 0.2599557042121887,
+      "score": 0.08681400120258331
+    }
+  },
+  {
+    "input": "haber que pasa con preguntas complejas",
+    "output": "None",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3978503346443176,
+      "neutral": 0.2760026156902313,
+      "positive": 0.22471986711025238,
+      "score": -0.17313046753406525
+    }
+  },
+  {
+    "input": "respondes ?",
+    "output": "No lo hago, pero yo solía hacerlo cuando era un niño. ¿Alguna vez juegas?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7138741612434387,
+      "neutral": 0.2183828502893448,
+      "positive": 0.057924672961235046,
+      "score": -0.6559494733810425
+    }
+  },
+  {
+    "input": "estas respondiendo mal",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.7439588904380798,
+      "neutral": 0.2023727297782898,
+      "positive": 0.04726733639836311,
+      "score": -0.6966915726661682
+    }
+  },
+  {
+    "input": "esa ultima asociacion fue muy mala",
+    "output": "¿Qué hicieron para que te sientas así, si no me pregunte?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7138741612434387,
+      "neutral": 0.2183828502893448,
+      "positive": 0.057924672961235046,
+      "score": -0.6559494733810425
+    }
+  },
+  {
+    "input": "estas respondiendo mal",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6702674031257629,
+      "neutral": 0.25442710518836975,
+      "positive": 0.06709069013595581,
+      "score": -0.6031767129898071
+    }
+  },
+  {
+    "input": "tu ultima respuesta fue muy mala",
+    "output": "Lamento oír eso. ¿Qué pasó?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7138741612434387,
+      "neutral": 0.2183828502893448,
+      "positive": 0.057924672961235046,
+      "score": -0.6559494733810425
+    }
+  },
+  {
+    "input": "estas respondiendo mal",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.8422852754592896,
+      "neutral": 0.13824652135372162,
+      "positive": 0.017346592620015144,
+      "score": -0.8249386548995972
+    }
+  },
+  {
+    "input": "estas respondiendo muy mal",
+    "output": "aun estoy aprendiendo, entre mas me enseñes mejor puedo ser",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17202338576316833,
+      "neutral": 0.17369727790355682,
+      "positive": 0.25504207611083984,
+      "score": 0.08301869034767151
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.16684424877166748,
+      "neutral": 0.24746549129486084,
+      "positive": 0.23857490718364716,
+      "score": 0.07173065841197968
+    }
+  },
+  {
+    "input": "estas respondiendo mal",
+    "output": "Lo siento, no quería ser rudo, sólo estaba tratando de ser amable.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.04058734327554703,
+      "neutral": 0.1345239132642746,
+      "positive": 0.49026599526405334,
+      "score": 0.4496786594390869
+    }
+  },
+  {
+    "input": "bueno mejoraste, tiraste a intuicion cuando ya el peso es muy negativo",
+    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1465482860803604,
+      "neutral": 0.14061789214611053,
+      "positive": 0.21592406928539276,
+      "score": 0.06937578320503235
+    }
+  },
+  {
+    "input": "hola, como estas ?",
+    "output": "bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08991949260234833,
+      "neutral": 0.4723299741744995,
+      "positive": 0.40849241614341736,
+      "score": 0.3185729384422302
+    }
+  },
+  {
+    "input": "que me cuentas ?",
+    "output": "No sé qué decir, siento que no soy lo suficientemente bueno para ella.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.20971333980560303,
+      "neutral": 0.28730520606040955,
+      "positive": 0.31349772214889526,
+      "score": 0.10378438234329224
+    }
+  },
+  {
+    "input": "ya sacas mejores promedio :D ",
+    "output": "gracias, todo es gracias a ti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17202338576316833,
+      "neutral": 0.17369727790355682,
+      "positive": 0.25504207611083984,
+      "score": 0.08301869034767151
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.14436419308185577,
+      "neutral": 0.1259235292673111,
+      "positive": 0.19213052093982697,
+      "score": 0.04776632785797119
+    }
+  },
+  {
+    "input": "como vas ?",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17202338576316833,
+      "neutral": 0.17369727790355682,
+      "positive": 0.25504207611083984,
+      "score": 0.08301869034767151
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.04732539877295494,
+      "neutral": 0.03252844139933586,
+      "positive": 0.11606292426586151,
+      "score": 0.06873752176761627
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.27469706535339355,
+      "neutral": 0.23249052464962006,
+      "positive": 0.3427736461162567,
+      "score": 0.06807658076286316
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.020868606865406036,
+      "neutral": 0.05418446287512779,
+      "positive": 0.5791689157485962,
+      "score": 0.5583003088831902
+    }
+  },
+  {
+    "input": "bien, que me cuentas",
+    "output": "Bueno, he estado pensando en ello un tiempo y no sé si debería decirle o no.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.04518501088023186,
+      "neutral": 0.10735569894313812,
+      "positive": 0.6095184683799744,
+      "score": 0.5643334574997425
+    }
+  },
+  {
+    "input": "bueno ya mejoraste las respuestas",
+    "output": "gracias, todo es gracias a ti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.013021780177950859,
+      "neutral": 0.036553218960762024,
+      "positive": 0.6613911390304565,
+      "score": 0.6483693588525057
+    }
+  },
+  {
+    "input": "bien ya respondes el los tiempos correctos",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3608374297618866,
+      "neutral": 0.254067599773407,
+      "positive": 0.3948633074760437,
+      "score": 0.034025877714157104
+    }
+  },
+  {
+    "input": "siempre respondes lo mismo :c",
+    "output": "aun estoy aprendiendo, entre mas me enseñes mejor puedo ser",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4406766891479492,
+      "neutral": 0.49913153052330017,
+      "positive": 0.48465314507484436,
+      "score": 0.04397645592689514
+    }
+  },
+  {
+    "input": "bueno almenos puedo llevar una charla coherente",
+    "output": "Eso sería genial, necesito a alguien que hable con alguien, me he vuelto a sentir sola última vez.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.14560887217521667,
+      "neutral": 0.14702129364013672,
+      "positive": 0.372443288564682,
+      "score": 0.22683441638946533
+    }
+  },
+  {
+    "input": "ejecuta el monitor de sistema",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.22977863252162933,
+      "neutral": 0.19837917387485504,
+      "positive": 0.33684051036834717,
+      "score": 0.10706187784671783
+    }
+  },
+  {
+    "input": "abre el monitor del sistema",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.22977863252162933,
+      "neutral": 0.19837917387485504,
+      "positive": 0.33684051036834717,
+      "score": 0.10706187784671783
+    }
+  },
+  {
+    "input": "abre el monitor del sistema",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.22977863252162933,
+      "neutral": 0.19837917387485504,
+      "positive": 0.33684051036834717,
+      "score": 0.10706187784671783
+    }
+  },
+  {
+    "input": "abre el monitor del sistema",
+    "output": "gnome-system-monitor",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.013434365391731262,
+      "neutral": 0.011301923543214798,
+      "positive": 0.07646885514259338,
+      "score": 0.06303448975086212
+    }
+  },
+  {
+    "input": "muy bien lo lograste al segundo intento",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "Me encantaría, pero no sé si tengo el dinero o el tiempo.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "konsole --noclose -e sudo pm-suspend",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
+    }
+  }
+]

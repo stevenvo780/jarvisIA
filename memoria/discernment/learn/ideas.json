@@ -1,0 +1,138 @@
+[
+  {
+    "input": "recuerda el siguiente comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "aprende este comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "ten en cuenta este comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "crea este comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "nuevo comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "corrige el anterior comando",
+    "output": "learn.last"
+  },
+  {
+    "input": "cambia el ultimo comando",
+    "output": "learn.last"
+  },
+  {
+    "input": "el ultimo comando esta mal",
+    "output": "learn.last"
+  },
+  {
+    "input": "corrige el ultimo comando",
+    "output": "learn.last"
+  },
+  {
+    "input": "la ultima respuesta esta mal",
+    "output": "learn.last"
+  },
+  {
+    "input": "fallaste en la respuesta",
+    "output": "learn.last"
+  },
+  {
+    "input": "fallaste en el comando",
+    "output": "learn.last"
+  },
+  {
+    "input": "recuerda el siguiente comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "aprende este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "ten en cuenta este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "crea este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "nuevo comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "agrega este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "memoriza este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "guarda este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "anota este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "guarda la información de este comando",
+    "output": "learn.new.command"
+  },
+  {
+    "input": "corrige el anterior comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "cambia el ultimo comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "el ultimo comando esta mal",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "corrige el ultimo comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "edita el comando anterior",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "cambia el comando previo",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "modifica el ultimo comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "arregla el ultimo comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "la ultima respuesta esta mal",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "fallaste en la respuesta",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "fallaste en el comando",
+    "output": "learn.last.command"
+  },
+  {
+    "input": "el comando anterior es incorrecto",
+    "output": "learn.last.command"
+  }
+]

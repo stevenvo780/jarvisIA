@@ -225,3 +225,33 @@ exports.runCommandBlenderbot = async (command) => {
 exports.closeSessionBlenderbot = () => {
   childBlenderbot.kill('SIGINT');
 }
+
+// sentiment analysis commands
+let childSentiment;
+exports.openSessionSentiment = () => {
+  childSentiment = spawn('bash');
+  childSentiment.stdout.on('data', data => {
+    //console.log(`stdout chat: ${data}`);
+  });
+  childSentiment.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'sentiment.py') + '\n');
+}
+
+exports.runCommandSentiment = async (command) => {
+  childSentiment.stdin.write(command + '\n');
+  return new Promise((resolve, reject) => {
+    fs.watch(path.join(__dirname, '../memoria', 'sentiment.json'), (eventType, filename) => {
+      if (eventType === 'change') {
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'sentiment.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
+      }
+    });
+  });
+}
+
+exports.closeSessionSentiment = () => {
+  childSentiment.kill('SIGINT');
+}

@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-module.exports = async function recordar(input, output, zona) {
+const {
+  runCommandSentiment
+} = require('../corteza/osBash');
+exports.recordar = (input, output, zona) => {
   const conocimiento = JSON.parse(fs.readFileSync(path.join(__dirname, zona + '/recuerdos', 'ideas.json')));
   // Supongamos que nuestro JSON se encuentra en la variable 'jsonData'
   conocimiento.push({ input: input, output: output });
@@ -10,5 +13,31 @@ module.exports = async function recordar(input, output, zona) {
 
   // Usamos fs.writeFileSync para escribir la cadena de texto en un archivo llamado 'data.json'
   fs.writeFileSync(path.join(__dirname, zona + '/recuerdos', 'ideas.json'), jsonString);
+  return conocimiento;
+}
+
+exports.addIdeaSombra = async (input, output, zone) => {
+  const conocimiento = JSON.parse(fs.readFileSync(path.join(__dirname, '', 'sombra.json')));
+  // Supongamos que nuestro JSON se encuentra en la variable 'jsonData'
+  conocimiento.push({
+    input: input,
+    output: output,
+    zone: zone,
+    emotionalResponse: { "negative": 0, "neutral": 0, "positive": 0, "score": 0 }
+  });
+  const somaticEmotional = await runCommandSentiment(input);
+  if(conocimiento[conocimiento.length - 2]){
+    conocimiento[conocimiento.length - 2].emotionalResponse = somaticEmotional;
+  }
+  // Usamos JSON.stringify para convertir el JSON en una cadena de texto
+  const jsonString = JSON.stringify(conocimiento, null, 2);
+
+  // Usamos fs.writeFileSync para escribir la cadena de texto en un archivo llamado 'data.json'
+  fs.writeFileSync(path.join(__dirname, '', 'sombra.json'), jsonString);
+  return conocimiento;
+}
+
+exports.getSombra = async () => {
+  const conocimiento = JSON.parse(fs.readFileSync(path.join(__dirname, '', 'sombra.json')));
   return conocimiento;
 }

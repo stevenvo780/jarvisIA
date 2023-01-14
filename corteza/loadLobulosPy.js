@@ -2,6 +2,7 @@ const {
   openSessionGPT3,
   //openSessionGPT3Chat,
   //openSessionChatbot,
+  openSessionSentiment,
   openSessionBlenderbot,
   openSessionTranslateEn_Es,
   openSessionTranslateEs_En,
@@ -32,6 +33,7 @@ exports.loadLobules = function () {
             //openSessionGPT3();
             //openSessionGPT3Chat();
             //openSessionChatbot();
+            openSessionSentiment();
             openSessionBlenderbot();
             openSessionTranslateEn_Es();
             openSessionTranslateEs_En();
