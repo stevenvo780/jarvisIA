@@ -380,8 +380,5 @@
   ],
   "iniciar trabajo": [
     "execute.body"
-  ],
-  "google-chrome": [
-    "execute.razon"
   ]
 }

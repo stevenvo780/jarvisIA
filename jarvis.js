@@ -42,17 +42,18 @@ async function think() {
   // Realiza la predicción con el texto de entrada
   jarvisQuestion.question('Jarvis $: ', async question => {
     jarvisQuestion.close();
-    const commandExecuteValide = await commandDirect(question);
-    if (commandExecuteValide === true) {
+    if (question === 'clear') {
+      readline.cursorTo(process.stdout, 0, 0);
+      readline.clearScreenDown(process.stdout);
       think();
     } else {
-      if (question === 'clear') {
-        readline.cursorTo(process.stdout, 0, 0);
-        readline.clearScreenDown(process.stdout);
+      const commandExecuteValide = await commandDirect(question);
+      if (commandExecuteValide === true) {
+        think();
       } else {
         await medula(question);
+        think();
       }
-      think();
     }
   });
 }
