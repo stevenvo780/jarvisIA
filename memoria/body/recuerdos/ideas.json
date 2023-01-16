@@ -38,5 +38,9 @@
   {
     "input": "lita las ip de la red",
     "output": "konsole --noclose -e nmap -sn 192.168.1.0/24"
+  },
+  {
+    "input": "iniciar trabajo",
+    "output": "code && google-chrome"
   }
 ]

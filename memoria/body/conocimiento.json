@@ -1885,7 +1885,7 @@
     "gnome-control-center mouse"
   ],
   "suspender": [
-    "systemctl hibernate"
+    "systemctl suspend -i"
   ],
   "abrir la calculadora": [
     "gnome-calculator"
@@ -1913,6 +1913,9 @@
   ],
   "lita las ip de la red": [
     "konsole --noclose -e nmap -sn 192.168.1.0/24"
+  ],
+  "iniciar trabajo": [
+    "code && google-chrome"
   ],
   "buscar en google": [
     "open.search"

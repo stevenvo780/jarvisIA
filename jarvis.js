@@ -15,11 +15,21 @@ const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
 const { newIdea, fixLastIdea, handleNotFount } = require('./gestionMemoria/learning');
 const readline = require('readline');
+const { spawn } = require('child_process');
+const { systemAction } = require('./corteza/cagorizacionProcessExecute');
+
+const binaries = {
+  programs: []
+};
+
 const initSystem = async () => {
   console.log("Iniciando sistemas");
   openSession();
+  await findBinaries();
   await loadLobules();
   await entrain();
+  readline.cursorTo(process.stdout, 0, 0);
+  readline.clearScreenDown(process.stdout);
   await respuestaConversations("Sistema inicializado, recuerde que aun estoy en periodo de aprendizaje");
   await think();
 }
@@ -32,17 +42,66 @@ async function think() {
   // Realiza la predicción con el texto de entrada
   jarvisQuestion.question('Jarvis $: ', async question => {
     jarvisQuestion.close();
-    if (question === 'clear') {
-      readline.cursorTo(process.stdout, 0, 0);
-      readline.clearScreenDown(process.stdout);
+    const commandExecuteValide = await commandDirect(question);
+    if (commandExecuteValide === true) {
+      think();
     } else {
-      await medula(question);
+      if (question === 'clear') {
+        readline.cursorTo(process.stdout, 0, 0);
+        readline.clearScreenDown(process.stdout);
+      } else {
+        await medula(question);
+      }
+      think();
     }
-    think();
   });
 }
 
-async function promedioEmocion(score, output, zone) {
+async function findBinaries() {
+  return new Promise((resolve, reject) => {
+    const find = spawn("find", ["/usr/bin", "/usr/local/bin", "/usr/sbin", "/usr/local/sbin", "/sbin", "-type", "f", "-perm", "/u=x,g=x,o=x"]);
+    let dataReceived = false;
+    find.stdout.on("data", (data) => {
+      dataReceived = true;
+      const ls = data.toString().split("\n");
+      ls.forEach((line) => {
+        binaries.programs.push(line);
+      });
+      console.log("Binarios cargados", binaries.programs.length);
+    });
+    find.on('close', (code) => {
+      if (code !== 0) {
+        reject(`El proceso falló con código ${code}`);
+      }
+      if (dataReceived) {
+        console.log("Binarios cargados", binaries.programs.length);
+        resolve(binaries);
+      } else {
+        reject(`No se recibieron datos del proceso`);
+      }
+    });
+  });
+}
+
+
+async function commandDirect(command) {
+  let commandExecute = null;
+  for (let index = 0; index < binaries.programs.length; index++) {
+    const program = binaries.programs[index];
+    if (program.includes(command)) {
+      commandExecute = program;
+      break;
+    }
+  }
+  if (commandExecute !== null) {
+    await systemAction("konsole --noclose -e " + command);
+    return true;
+  } else {
+    return false;
+  }
+}
+
+async function promedioSentiment(score, output, zone) {
   const sombra = await getSombra();
   const responses = sombra.filter(response => (response.output == output && response.zone == zone));
   if (responses.length === 0) {
@@ -61,7 +120,7 @@ async function classificationMaxima(classifications, zone) {
   let classificationMaxima = classifications[0];
   let scoreMax = 0;
   for (let classification of classifications) {
-    const scoreClassificationSombra = await promedioEmocion(classification.score, classification.intent, zone);
+    const scoreClassificationSombra = await promedioSentiment(classification.score, classification.intent, zone);
     if (scoreClassificationSombra > scoreMax) {
       scoreMax = scoreClassificationSombra + classification.score;
       classificationMaxima = classification;
@@ -75,10 +134,9 @@ async function classificationMaxima(classifications, zone) {
 const medula = async (question) => {
   const discernment = await pensarDiscernment(question);
   const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
-  if (discernmentProm.intent === "None") {
+  if (discernmentProm.intent == "None") {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
-    //addIdeaSombra(question, chatGPT, "intuition");
     await handleNotFount(question, chatGPT, discernment);
   }
   if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
@@ -93,7 +151,6 @@ const medula = async (question) => {
     if (bodySomaticProm.score < 0.5) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
-      //addIdeaSombra(question, chatGPT, "intuition");
       await handleNotFount(question, chatGPT, discernment);
     } else {
       addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
@@ -106,7 +163,6 @@ const medula = async (question) => {
     if (razonSomaticProm.score < 0.3) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
-      //addIdeaSombra(question, chatGPT, "intuition");
       await handleNotFount(question, chatGPT, discernment);
     } else {
       addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
@@ -115,7 +171,10 @@ const medula = async (question) => {
   } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
-    //addIdeaSombra(question, chatGPT, "intuition");
+    await handleNotFount(question, chatGPT, discernment);
+  } else {
+    const chatGPT = await lobuleChat(question);
+    await respuestaConversations(chatGPT);
     await handleNotFount(question, chatGPT, discernment);
   }
 }

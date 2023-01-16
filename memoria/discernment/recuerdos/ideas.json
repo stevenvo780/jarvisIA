@@ -246,5 +246,9 @@
   {
     "input": "lita las ip de la red",
     "output": "execute.body"
+  },
+  {
+    "input": "iniciar trabajo",
+    "output": "execute.body"
   }
 ]

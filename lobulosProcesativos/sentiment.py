@@ -42,7 +42,7 @@ while True:
     print("Positive Score:", text[2])
     multiplicador = 0
     try:
-        multiplicador = int(os.environ["sentimental_sensitivity"])
+        multiplicador = int(os.environ["SENTIMANETAL_SENSITIVITY"])
     except (ValueError, TypeError):
         multiplicador = 0
 

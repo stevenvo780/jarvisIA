@@ -1,3 +1,8 @@
 .vscode
 node_modules/
 .env
+memoria/BigNLP.json
+memoria/sentiment.json
+memoria/stateLobules.json
+memoria/translateEn_Es.json
+memoria/translateEs_En.json

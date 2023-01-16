@@ -377,5 +377,11 @@
   ],
   "lita las ip de la red": [
     "execute.body"
+  ],
+  "iniciar trabajo": [
+    "execute.body"
+  ],
+  "google-chrome": [
+    "execute.razon"
   ]
 }

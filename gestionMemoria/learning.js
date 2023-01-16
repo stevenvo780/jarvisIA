@@ -60,8 +60,8 @@ exports.newIdea = () => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Cual es la entrada de este comando?");
-    inputRequest.question("Jarvis: " + '¿Cual es la entrada de este comando?: ', async question => {
+    speak("¿Cual es la entrada?");
+    inputRequest.question("Jarvis: " + '¿Cual es la entrada?: ', async question => {
       inputRequest.close();
       const recordarRequest = readline.createInterface({
         input: process.stdin,
