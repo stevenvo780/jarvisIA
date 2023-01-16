@@ -31,7 +31,12 @@ async function think() {
   // Realiza la predicción con el texto de entrada
   jarvisQuestion.question('Jarvis $: ', async question => {
     jarvisQuestion.close();
-    await medula(question);
+    if (question === 'clear') {
+      readline.cursorTo(process.stdout, 0, 0);
+      readline.clearScreenDown(process.stdout);
+    } else {
+      await medula(question);
+    }
     think();
   });
 }
@@ -69,18 +74,16 @@ async function classificationMaxima(classifications, zone) {
 const medula = async (question) => {
   const discernment = await pensarDiscernment(question);
   const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
-  if (discernmentProm.intent == "None") {
+  if (discernmentProm.intent === "None") {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
-    addIdeaSombra(question, chatGPT, "intuition");
-    await handleNotFount(question);
+    //addIdeaSombra(question, chatGPT, "intuition");
+    await handleNotFount(question, chatGPT, discernment);
   }
   if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
-    addIdeaSombra(question, "learn.new", "discernment");
     await newIdea();
   }
   if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
-    addIdeaSombra(question, "learn.last", "discernment");
     await fixLastIdea();
   }
   if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
@@ -89,12 +92,11 @@ const medula = async (question) => {
     if (bodySomaticProm.score < 0.5) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
-      addIdeaSombra(question, bodySomaticProm.intent, "intuition");
-      addIdeaSombra(question, chatGPT, "body");
-      await handleNotFount(question, chatGPT);
+      //addIdeaSombra(question, chatGPT, "intuition");
+      await handleNotFount(question, chatGPT, discernment);
     } else {
-      addIdeaSombra(question, bodySomaticProm.intent, "discernment");
-      addIdeaSombra(question, bodySomaticProm.intent, "body");
+      addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
+      await respuestaConversations(bodySomatic.intent);
       await actionHandler(bodySomatic.intent, question);
     }
   } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
@@ -103,17 +105,17 @@ const medula = async (question) => {
     if (razonSomaticProm.score < 0.3) {
       const chatGPT = await lobuleChat(question);
       await respuestaConversations(chatGPT);
-      addIdeaSombra(question, chatGPT, "razon");
-      await handleNotFount(question, chatGPT);
+      //addIdeaSombra(question, chatGPT, "intuition");
+      await handleNotFount(question, chatGPT, discernment);
     } else {
-      addIdeaSombra(question, razonSomaticProm.intent, "razon");
+      addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
       await respuestaConversations(razonSomaticProm.intent);
     }
   } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
-    addIdeaSombra(question, chatGPT, "intuition");
-    await handleNotFount(question, chatGPT);
+    //addIdeaSombra(question, chatGPT, "intuition");
+    await handleNotFount(question, chatGPT, discernment);
   }
 }
 

@@ -371,5 +371,11 @@
   ],
   "suspende el sistema": [
     "execute.body"
+  ],
+  "como vas": [
+    "execute.razon"
+  ],
+  "lita las ip de la red": [
+    "execute.body"
   ]
 }

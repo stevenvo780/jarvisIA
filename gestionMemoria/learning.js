@@ -1,7 +1,7 @@
 const { notFount } = require('../corteza/cagorizacionProcessExecute');
 const { razonLearn, bodyLearn, discernmentLearn } = require('./aprender');
 const { recordar } = require('./cortoplazo');
-const { addIdeaSombra, getSombra } = require('./cortoplazo');
+const { addIdeaSombra, getSombra, somaticMarkers } = require('./cortoplazo');
 const { respuestaConversations, speak } = require('../corteza/voz');
 const {
   runCommandSentiment
@@ -134,7 +134,6 @@ exports.fixLastIdea = () => {
             resolve(false);
           }
           const zona = response === "comando" ? "body" : "razon"
-          console.log(question, responseSave, zona);
           let dirSave = null;
           let fileData = null
           async function readDirectory(dir) {
@@ -162,8 +161,6 @@ exports.fixLastIdea = () => {
           // Inicia la lectura de la carpeta raíz
           await readDirectory("memoria/" + zona);
           if (dirSave) {
-            console.log(fileData);
-            console.log(path.join(__dirname, '../memoria' + zona + "/" + dirSave, 'ideas.json'));
             fs.writeFileSync(path.join(__dirname, '../memoria' + zona + "/" + dirSave, 'ideas.json', fileData));
             if (zona === "body") {
               await bodyLearn();
@@ -193,20 +190,23 @@ exports.fixLastIdea = () => {
   });
 }
 
-exports.handleNotFount = (action, intuition = null) => {
+exports.handleNotFount = (action, intuition = null, discernment) => {
   //await respuestaConversations("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     const greatOrNot = readline.createInterface({
       input: process.stdin,
       output: process.stdout
     });
     speak("¿Mi respuesta fue satisfactoria?");
+    await addIdeaSombra(action, intuition, "intuition", discernment);
     greatOrNot.question("Jarvis: " + '¿Mi respuesta fue satisfactoria? ', async responseGreat => {
       greatOrNot.close();
       const somaticEmotional = await runCommandSentiment(responseGreat);
       if (somaticEmotional.score > 0) {
         await recordar(action, intuition, "razon");
+        await recordar(action, "execute.razon", "discernment");
         await razonLearn();
+        await discernmentLearn();
         resolve(true);
       } else {
         const createCommandRequest = readline.createInterface({
@@ -239,6 +239,7 @@ exports.handleNotFount = (action, intuition = null) => {
           }
         });
       }
+      await somaticMarkers(responseGreat);
     });
   });
 }

@@ -35,5 +35,6 @@ exports.respuestaConversations = async (texto) => {
 
 exports.speak = async (texto) => {
   runCommandRoot("skill $(pidof espeak)")
-  return runCommand(`espeak -p20 -s130 -v es-la "${texto}"`)
+  //return runCommand(`espeak -p20 -s130 -v es-la "${texto}"`)
+  return;
 }

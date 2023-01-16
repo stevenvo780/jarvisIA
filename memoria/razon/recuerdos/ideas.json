@@ -130,5 +130,49 @@
   {
     "input": "bien, haber cuentame algo nuevo",
     "output": "Bueno, acabo de recibir una ascenso en el trabajo, así que eso es algo de lo que estar emocionada."
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien. ¿Qué tal tú? ¿Tienes planes para esta noche?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?"
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias por preguntarme, estoy esperando el fin de semana. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?"
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?"
   }
 ]

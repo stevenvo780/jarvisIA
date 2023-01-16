@@ -1911,6 +1911,9 @@
   "suspende el sistema": [
     "konsole --noclose -e sudo pm-suspend"
   ],
+  "lita las ip de la red": [
+    "konsole --noclose -e nmap -sn 192.168.1.0/24"
+  ],
   "buscar en google": [
     "open.search"
   ],

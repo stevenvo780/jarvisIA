@@ -238,5 +238,13 @@
   {
     "input": "suspende el sistema",
     "output": "execute.body"
+  },
+  {
+    "input": "como vas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "lita las ip de la red",
+    "output": "execute.body"
   }
 ]

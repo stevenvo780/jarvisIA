@@ -83,9 +83,22 @@
     "Me encantaría, pero no sé si tengo el dinero o el tiempo."
   ],
   "como vas": [
-    null
+    null,
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?",
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?",
+    "Estoy haciendo bien, gracias. ¿Qué tal tú?"
   ],
   "bien, haber cuentame algo nuevo": [
     "Bueno, acabo de recibir una ascenso en el trabajo, así que eso es algo de lo que estar emocionada."
+  ],
+  "como vas ?": [
+    "Estoy haciendo bien. ¿Qué tal tú? ¿Tienes planes para esta noche?",
+    "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?",
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú? ¿Tienes planes para el fin de semana?",
+    "Estoy haciendo bien, gracias por preguntarme, estoy esperando el fin de semana. ¿Qué tal tú?",
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?",
+    "Estoy haciendo bien, gracias por preguntar. ¿Qué tal tú?",
+    "Estoy haciendo bien, gracias. ¿Qué tal tú?"
   ]
 }
