@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { entrain } = require('./gestionMemoria/aprender');
 const { addIdeaSombra, getSombra } = require('./gestionMemoria/cortoplazo');
 const { respuestaConversations } = require('./corteza/voz');

@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import tensorflow as tf
 import json
@@ -5,6 +6,7 @@ import torch
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+load_dotenv()
 
 tokenizer = AutoTokenizer.from_pretrained(
     "nlptown/bert-base-multilingual-uncased-sentiment")
@@ -38,21 +40,26 @@ while True:
     print("Negative Score:", text[0])
     print("Neutral Score:", text[1])
     print("Positive Score:", text[2])
-    multiplicador = 2
+    multiplicador = 0
+    try:
+        multiplicador = int(os.environ["sentimental_sensitivity"])
+    except (ValueError, TypeError):
+        multiplicador = 0
+
     negative = text[0].item() * multiplicador
-    if(negative > 1):
+    if (negative > 1):
         negative = 1
-    elif(negative < -1):
+    elif (negative < -1):
         negative = -1
     neutral = text[1].item() * multiplicador
-    if(neutral > 1):
+    if (neutral > 1):
         neutral = 1
-    elif(neutral < -1):
+    elif (neutral < -1):
         neutral = -1
     positive = text[2].item() * multiplicador
-    if(positive > 1):
+    if (positive > 1):
         positive = 1
-    elif(positive < -1):
+    elif (positive < -1):
         positive = -1
     # Convertir el diccionario a un objeto JSON
     score = positive - negative

@@ -23,6 +23,7 @@
     "@nlpjs/lang-es": "^4.26.1",
     "@tensorflow/tfjs": "^4.2.0",
     "cmake-js": "^7.1.1",
+    "dotenv": "^16.0.3",
     "espeak": "^0.0.3",
     "google-translate-api": "^2.3.0",
     "google-tts-api": "^2.0.2",
