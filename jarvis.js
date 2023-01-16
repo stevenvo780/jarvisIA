@@ -56,7 +56,7 @@ async function think() {
     }
   });
 }
-
+// TODO: esto no termina de funcionar
 async function findBinaries() {
   return new Promise((resolve, reject) => {
     const find = spawn("find", ["/usr/bin", "/usr/local/bin", "/usr/sbin", "/usr/local/sbin", "/sbin", "-type", "f", "-perm", "/u=x,g=x,o=x"]);
