@@ -174,5 +174,17 @@
   {
     "input": "como vas",
     "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?"
+  },
+  {
+    "input": "Entiendo, aprender un idioma nuevo puede ser desafiante, especialmente si no se tiene una lengua nativa. Sin embargo, hay varias técnicas y recursos que pueden ayudar a aprender un idioma nuevo. ",
+    "output": "Lo sé, siento que no tengo la paciencia de aprender un idioma nuevo."
+  },
+  {
+    "input": "estoy listo para responder a cualquier pregunta o comentario que tengas sobre mis respuestas anteriores.",
+    "output": "Sería genial, ¿qué quieres saber de mí? Soy un buen escuchador."
+  },
+  {
+    "input": "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.",
+    "output": "Gracias, asi es siempre aprendo todos los dias"
   }
 ]

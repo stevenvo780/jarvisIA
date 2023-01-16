@@ -356,6 +356,160 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.1609296053647995,
+      "neutral": 0.07659991830587387,
+      "positive": 0.12504145503044128,
+      "score": -0.035888150334358215
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1609296053647995,
+      "neutral": 0.07659991830587387,
+      "positive": 0.12504145503044128,
+      "score": -0.035888150334358215
+    }
+  },
+  {
+    "input": "¡Hola Jarvis! ¿Cómo estás hoy?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.19122299551963806,
+      "neutral": 0.29289504885673523,
+      "positive": 0.5501191020011902,
+      "score": 0.3588961064815521
+    }
+  },
+  {
+    "input": "¡Hola Jarvis! ¿Cómo estás hoy?",
+    "output": "mal, nada funciona",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.19122299551963806,
+      "neutral": 0.29289504885673523,
+      "positive": 0.5501191020011902,
+      "score": 0.3588961064815521
+    }
+  },
+  {
+    "input": "Entiendo, lo siento escuchar eso. ¿Podrías proporcionar más detalles sobre lo que está sucediendo? Estoy aquí para ayudar en lo que pueda.",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.29328984022140503,
+      "neutral": 0.720520555973053,
+      "positive": 0.768740713596344,
+      "score": 0.47545087337493896
+    }
+  },
+  {
+    "input": "Entiendo, lo siento escuchar eso. ¿Podrías proporcionar más detalles sobre lo que está sucediendo? Estoy aquí para ayudar en lo que pueda.",
+    "output": "Lo sé, pero es difícil aprender un idioma nuevo cuando no tienes lengua nativa.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.29328984022140503,
+      "neutral": 0.720520555973053,
+      "positive": 0.768740713596344,
+      "score": 0.47545087337493896
+    }
+  },
+  {
+    "input": "Entiendo, aprender un idioma nuevo puede ser desafiante, especialmente si no se tiene una lengua nativa. Sin embargo, hay varias técnicas y recursos que pueden ayudar a aprender un idioma nuevo. ",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.022685237228870392,
+      "neutral": 0.036702487617731094,
+      "positive": 0.2387102246284485,
+      "score": 0.2160249873995781
+    }
+  },
+  {
+    "input": "Entiendo, aprender un idioma nuevo puede ser desafiante, especialmente si no se tiene una lengua nativa. Sin embargo, hay varias técnicas y recursos que pueden ayudar a aprender un idioma nuevo. ",
+    "output": "Lo sé, siento que no tengo la paciencia de aprender un idioma nuevo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.022685237228870392,
+      "neutral": 0.036702487617731094,
+      "positive": 0.2387102246284485,
+      "score": 0.2160249873995781
+    }
+  },
+  {
+    "input": "Hola Jarvis, estoy dispuesto a ayudarte en lo que necesites. Si tienes preguntas o comentarios sobre mis respuestas, estaré encantado de responderlos.",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.020917583256959915,
+      "neutral": 0.023881886154413223,
+      "positive": 0.13704518973827362,
+      "score": 0.1161276064813137
+    }
+  },
+  {
+    "input": "Hola Jarvis, estoy dispuesto a ayudarte en lo que necesites. Si tienes preguntas o comentarios sobre mis respuestas, estaré encantado de responderlos.",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.020917583256959915,
+      "neutral": 0.023881886154413223,
+      "positive": 0.13704518973827362,
+      "score": 0.1161276064813137
+    }
+  },
+  {
+    "input": "estoy listo para responder a cualquier pregunta o comentario que tengas sobre mis respuestas anteriores.",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.003925335593521595,
+      "neutral": 0.020466867834329605,
+      "positive": 0.7445123195648193,
+      "score": 0.7405869839712977
+    }
+  },
+  {
+    "input": "estoy listo para responder a cualquier pregunta o comentario que tengas sobre mis respuestas anteriores.",
+    "output": "Sería genial, ¿qué quieres saber de mí? Soy un buen escuchador.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.003925335593521595,
+      "neutral": 0.020466867834329605,
+      "positive": 0.7445123195648193,
+      "score": 0.7405869839712977
+    }
+  },
+  {
+    "input": "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.",
+    "output": "Lo sé, pero es difícil aprender un idioma nuevo cuando no tienes lengua nativa.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -363,9 +517,9 @@
     }
   },
   {
-    "input": "como estas",
-    "output": "Bien y tu que me cuentas",
-    "zone": "razon",
+    "input": "fallaste",
+    "output": "Sé que lo hice, pero me siento avergonzada. No sé qué hacer.",
+    "zone": "intuition",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

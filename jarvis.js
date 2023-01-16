@@ -139,6 +139,7 @@ const medula = async (question) => {
     const chatGPT = await lobuleChat(question);
     await respuestaConversations(chatGPT);
     await handleNotFount(question, chatGPT, discernment);
+    return;
   }
   if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
     await newIdea();
