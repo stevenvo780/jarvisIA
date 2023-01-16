@@ -262,5 +262,29 @@
   {
     "input": "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.",
     "output": "execute.razon"
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body"
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body"
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body"
+  },
+  {
+    "input": "muy bien jarvis ya aprendes de mejor manera",
+    "output": "execute.razon"
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "execute.body"
+  },
+  {
+    "input": "Abrir mera vuelta",
+    "output": "execute.body"
   }
 ]

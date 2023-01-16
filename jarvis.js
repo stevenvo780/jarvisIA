@@ -143,9 +143,11 @@ const medula = async (question) => {
   }
   if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
     await newIdea();
+    return;
   }
   if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
     await fixLastIdea();
+    return;
   }
   if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
     const bodySomatic = await pensarBody(question);
@@ -157,6 +159,12 @@ const medula = async (question) => {
     } else {
       addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
       await respuestaConversations(bodySomatic.intent);
+      if (bodySomaticProm.intent == "None") {
+        const chatGPT = await lobuleChat(question);
+        await respuestaConversations(chatGPT);
+        await handleNotFount(question, chatGPT, discernment);
+        return;
+      }
       await actionHandler(bodySomatic.intent, question);
     }
   } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
@@ -167,6 +175,12 @@ const medula = async (question) => {
       await respuestaConversations(chatGPT);
       await handleNotFount(question, chatGPT, discernment);
     } else {
+      if (razonSomaticProm.intent == "None") {
+        const chatGPT = await lobuleChat(question);
+        await respuestaConversations(chatGPT);
+        await handleNotFount(question, chatGPT, discernment);
+        return;
+      }
       addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
       await respuestaConversations(razonSomaticProm.intent);
     }

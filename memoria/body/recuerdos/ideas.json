@@ -42,5 +42,17 @@
   {
     "input": "iniciar trabajo",
     "output": "code && google-chrome"
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/"
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "open.music"
+  },
+  {
+    "input": "Abrir mera vuelta",
+    "output": "code -n /home/stev/Documentos/repos/AppDomicios/ && code -n /home/stev/Documentos/repos/ApiDomiciliosTypeScript/ && code -n /home/stev/Documentos/repos/MovilDomicilios/"
   }
 ]

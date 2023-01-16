@@ -1917,6 +1917,21 @@
   "iniciar trabajo": [
     "code && google-chrome"
   ],
+  "editar jarvis": [
+    "code -n /home/stev/Documentos/repos/jarvis/"
+  ],
+  "pon la virgen de la humanidad": [
+    "open.music"
+  ],
+  "Abrir mera vuelta": [
+    "code -n /home/stev/Documentos/repos/AppDomicios/ && code -n /home/stev/Documentos/repos/ApiDomiciliosTypeScript/ && code -n /home/stev/Documentos/repos/MovilDomicilios/"
+  ],
+  "buscar": [
+    "open.search"
+  ],
+  "busca": [
+    "open.search"
+  ],
   "buscar en google": [
     "open.search"
   ],

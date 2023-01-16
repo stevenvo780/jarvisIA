@@ -186,5 +186,9 @@
   {
     "input": "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.",
     "output": "Gracias, asi es siempre aprendo todos los dias"
+  },
+  {
+    "input": "muy bien jarvis ya aprendes de mejor manera",
+    "output": "Gracias, siempre puedo mejorar"
   }
 ]

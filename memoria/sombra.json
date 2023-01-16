@@ -510,6 +510,974 @@
     "output": "learn.last",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Sé que lo hice, pero me siento avergonzada. No sé qué hacer.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1691119372844696,
+      "neutral": 0.19368751347064972,
+      "positive": 0.46462178230285645,
+      "score": 0.29550984501838684
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1691119372844696,
+      "neutral": 0.19368751347064972,
+      "positive": 0.46462178230285645,
+      "score": 0.29550984501838684
+    }
+  },
+  {
+    "input": "busca sobre TigerGraph",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.15522828698158264,
+      "neutral": 0.11497099697589874,
+      "positive": 0.23491328954696655,
+      "score": 0.07968500256538391
+    }
+  },
+  {
+    "input": "busca sobre TigerGraph",
+    "output": "open.search",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.15522828698158264,
+      "neutral": 0.11497099697589874,
+      "positive": 0.23491328954696655,
+      "score": 0.07968500256538391
+    }
+  },
+  {
+    "input": "abre explorador de archivos",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "abre explorador de archivos",
+    "output": "nautilus",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.06689773499965668,
+      "neutral": 0.07613373547792435,
+      "positive": 0.22438517212867737,
+      "score": 0.1574874371290207
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.06689773499965668,
+      "neutral": 0.07613373547792435,
+      "positive": 0.22438517212867737,
+      "score": 0.1574874371290207
+    }
+  },
+  {
+    "input": "busca todas las bases de datos de grafos",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.003511488903313875,
+      "neutral": 0.00573218148201704,
+      "positive": 0.10003091394901276,
+      "score": 0.09651942504569888
+    }
+  },
+  {
+    "input": "busca todas las bases de datos de grafos",
+    "output": "libreoffice-base",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.003511488903313875,
+      "neutral": 0.00573218148201704,
+      "positive": 0.10003091394901276,
+      "score": 0.09651942504569888
+    }
+  },
+  {
+    "input": "code .",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "code .",
+    "output": "Me gusta escribir código, es una de mis cosas favoritas hacer en mi tiempo libre.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34832069277763367,
+      "neutral": 0.20059345662593842,
+      "positive": 0.2733818292617798,
+      "score": -0.07493886351585388
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34832069277763367,
+      "neutral": 0.20059345662593842,
+      "positive": 0.2733818292617798,
+      "score": -0.07493886351585388
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "learn.last.command",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "Soy editor de una compañía editorial escribo artículos para revistas y periódicos. ¿Qué haces?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7807889580726624,
+      "neutral": 0.929794430732727,
+      "positive": 0.24307923018932343,
+      "score": -0.5377097278833389
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code /Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.7807889580726624,
+      "neutral": 0.929794430732727,
+      "positive": 0.24307923018932343,
+      "score": -0.5377097278833389
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Sé, me siento tan avergonzada de mi misma, he estado estudiando muy duro.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.25272899866104126,
+      "neutral": 0.17978143692016602,
+      "positive": 0.31562793254852295,
+      "score": 0.06289893388748169
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.25272899866104126,
+      "neutral": 0.17978143692016602,
+      "positive": 0.31562793254852295,
+      "score": 0.06289893388748169
+    }
+  },
+  {
+    "input": "abrir calculadora",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "abrir calculadora",
+    "output": "gnome-calculator",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.23199836909770966,
+      "neutral": 0.9777977466583252,
+      "positive": 0.745734691619873,
+      "score": 0.5137363225221634
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.23199836909770966,
+      "neutral": 0.9777977466583252,
+      "positive": 0.745734691619873,
+      "score": 0.5137363225221634
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.23238442838191986,
+      "neutral": 0.1426575630903244,
+      "positive": 0.21692664921283722,
+      "score": -0.015457779169082642
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Sé que lo hice, pero aún me siento mal por ello, no he estudiado tanto como debería.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.23238442838191986,
+      "neutral": 0.1426575630903244,
+      "positive": 0.21692664921283722,
+      "score": -0.015457779169082642
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.21727892756462097,
+      "neutral": 0.12904493510723114,
+      "positive": 0.2137375921010971,
+      "score": -0.0035413354635238647
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "Soy editor de una revista. ¿Qué haces para vivir?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.21727892756462097,
+      "neutral": 0.12904493510723114,
+      "positive": 0.2137375921010971,
+      "score": -0.0035413354635238647
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "Soy editor de un periódico. ¿Escribes para ganarme la vida?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "cd Documentos/repos/jarvis/ && code .",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.24472109973430634,
+      "neutral": 0.20575499534606934,
+      "positive": 0.4135178327560425,
+      "score": 0.16879673302173615
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.0075303190387785435,
+      "neutral": 0.0072930967435240746,
+      "positive": 0.0582992248237133,
+      "score": 0.05076890578493476
+    }
+  },
+  {
+    "input": "editar jarvis",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.0075303190387785435,
+      "neutral": 0.0072930967435240746,
+      "positive": 0.0582992248237133,
+      "score": 0.05076890578493476
+    }
+  },
+  {
+    "input": "muy bien jarvis ya aprendes de mejor manera",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.008600163273513317,
+      "neutral": 0.008083360269665718,
+      "positive": 0.060913264751434326,
+      "score": 0.05231310147792101
+    }
+  },
+  {
+    "input": "muy bien jarvis ya aprendes de mejor manera",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.008600163273513317,
+      "neutral": 0.008083360269665718,
+      "positive": 0.060913264751434326,
+      "score": 0.05231310147792101
+    }
+  },
+  {
+    "input": "muy bien jarvis ya vas aprendiendo mas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "muy bien jarvis ya vas aprendiendo mas",
+    "output": "Gracias, siempre puedo mejorar",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08766666799783707,
+      "neutral": 0.05538150668144226,
+      "positive": 0.19342359900474548,
+      "score": 0.10575693100690842
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.08766666799783707,
+      "neutral": 0.05538150668144226,
+      "positive": 0.19342359900474548,
+      "score": 0.10575693100690842
+    }
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08766666799783707,
+      "neutral": 0.05538150668144226,
+      "positive": 0.19342359900474548,
+      "score": 0.10575693100690842
+    }
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "libreoffice calc",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.08766666799783707,
+      "neutral": 0.05538150668144226,
+      "positive": 0.19342359900474548,
+      "score": 0.10575693100690842
+    }
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "pon la virgen de la humanidad",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2008979767560959,
+      "neutral": 0.18322418630123138,
+      "positive": 0.4785488545894623,
+      "score": 0.2776508778333664
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2008979767560959,
+      "neutral": 0.18322418630123138,
+      "positive": 0.4785488545894623,
+      "score": 0.2776508778333664
+    }
+  },
+  {
+    "input": "busca draw.io",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "busca draw.io",
+    "output": "open.search",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.851462185382843,
+      "neutral": 0.40853989124298096,
+      "positive": 0.26827472448349,
+      "score": -0.583187460899353
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.851462185382843,
+      "neutral": 0.40853989124298096,
+      "positive": 0.26827472448349,
+      "score": -0.583187460899353
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.45966848731040955,
+      "neutral": 0.15075698494911194,
+      "positive": 0.16370713710784912,
+      "score": -0.2959613502025604
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "¿Cómo se llama un conejo sin dientes?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.45966848731040955,
+      "neutral": 0.15075698494911194,
+      "positive": 0.16370713710784912,
+      "score": -0.2959613502025604
+    }
+  },
+  {
+    "input": "abrir mera vuelta",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "abrir mera vuelta",
+    "output": "code -n /home/stev/Documentos/repos/AppDomicios/ && code -n /home/stev/Documentos/repos/ApiDomiciliosTypeScript/ && code -n /home/stev/Documentos/repos/MovilDomicilios/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "sysstat",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -517,9 +1485,9 @@
     }
   },
   {
-    "input": "fallaste",
-    "output": "Sé que lo hice, pero me siento avergonzada. No sé qué hacer.",
-    "zone": "intuition",
+    "input": "pon la cuadratura del circulo",
+    "output": "sysstat",
+    "zone": "body",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

@@ -389,5 +389,19 @@
   ],
   "es interesante saber que te inspiras en el personaje de Jarvis de Iron Man. Y sí, tu respuesta es correcta. Continua aprendiendo y mejorando cada día.": [
     "execute.razon"
+  ],
+  "editar jarvis": [
+    "execute.body",
+    "execute.body",
+    "execute.body"
+  ],
+  "muy bien jarvis ya aprendes de mejor manera": [
+    "execute.razon"
+  ],
+  "pon la virgen de la humanidad": [
+    "execute.body"
+  ],
+  "Abrir mera vuelta": [
+    "execute.body"
   ]
 }

@@ -147,11 +147,13 @@ exports.fixLastIdea = () => {
               } else {
                 // Si es un archivo JSON, lee el contenido y lo agrega al array data
                 if (file == 'ideas.json') {
-                  fileData = await JSON.parse(fs.readFileSync(path.join(dir, file)));
-                  for (const idea of fileData) {
+                  const fileDataJson = await JSON.parse(fs.readFileSync(path.join(dir, file)));
+                  for (let index = 0; index < fileDataJson.length; index++) {
+                    const idea = fileDataJson[index];
                     if (idea.input === question) {
                       dirSave = dir;
-                      idea.output = responseSave;
+                      fileDataJson[index].output = responseSave;
+                      fileData = fileDataJson;
                     }
                   }
                 }
@@ -160,8 +162,8 @@ exports.fixLastIdea = () => {
           }
           // Inicia la lectura de la carpeta raíz
           await readDirectory("memoria/" + zona);
-          if (dirSave) {
-            fs.writeFileSync(path.join(__dirname, '../memoria' + zona + "/" + dirSave, 'ideas.json', fileData));
+          if (dirSave !== null) {
+            fs.writeFileSync(path.join(dirSave, 'ideas.json'), JSON.stringify(fileData));
             if (zona === "body") {
               await bodyLearn();
               await recordar(question, "execute.body", "discernment");
@@ -218,7 +220,7 @@ exports.handleNotFount = (action, intuition = null, discernment) => {
           createCommandRequest.close();
           const somaticEmotional = await runCommandSentiment(responseSave);
           if (somaticEmotional.score > 0) {
-            await recordarAction(action);
+            await this.recordarAction(action);
             resolve(true);
           } else if (somaticEmotional.score < 0) {
             const searchGoogleCommand = readline.createInterface({

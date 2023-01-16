@@ -1,5 +1,13 @@
 [
   {
+    "input": "buscar",
+    "output": "open.search"
+  },
+  {
+    "input": "busca",
+    "output": "open.search"
+  },
+  {
     "input": "buscar en google",
     "output": "open.search"
   },
