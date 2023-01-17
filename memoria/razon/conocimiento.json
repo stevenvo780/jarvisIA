@@ -14,7 +14,8 @@
   ],
   "hola": [
     "Hola  ¿en que puedo servirte?",
-    "Hola  ¿en que puedo servirte?"
+    "Hola  ¿en que puedo servirte?",
+    "Buenas, ¿como te encuentras hoy?"
   ],
   "buenas tardes": [
     "Hola  ¿en que puedo servirte?"
@@ -128,7 +129,16 @@
     "Los perezosos pueden aguantar más tiempo el aliento que los delfines",
     "Los Froot Loops son todos del mismo sabor",
     "Los pulpos tienen 3 corazones",
-    "En las Filipinas, McDonald´s vende spaghetti"
+    "En las Filipinas, McDonald´s vende spaghetti",
+    "Hay muchos mitos alrededor del tema. Pero la ciencia dice que el pene de un hombre promedio mide tres veces el tamaño de su dedo pulgar. ¿Creías que era solo otro mito?",
+    "El corazón podría mover un coche",
+    "el corazón es un órgano sumamente poderoso. De hecho, la presión que genera al bombear sangre podría, si saliera del cuerpo, alcanzar los 10 metros de distancia.",
+    "Aunque pueda parecer insignificante, si de pronto no lo tuvieras, tu mano perdería el 50% de su fuerza.",
+    "En 30 minutos, el cuerpo humano libera suficiente calor como para hervir casi medio litro de agua.",
+    "¿Qué crees que crece más rápido en tu cuerpo? La respuesta no son las uñas. En realidad, el vello facial crece mucho más rápido que el de cualquier otra parte del cuerpo.",
+    "Al igual que las huellas dactilares, y que los aromas, la lengua de cada persona también es una marca de identidad. De hecho, tiene huellas únicas e irrepetibles.",
+    "La lengua se está moviendo todo el día. Se expande, se contrae, se aplana, se vuelve a contraer. Al final del día, lo más probable es que la lengua haya hecho varios miles de movimientos.",
+    "La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos lados para este propósito."
   ],
   "Cuentame un chiste": [
     "¿Qué le dice la foca a su madre?"
@@ -158,5 +168,110 @@
   ],
   "hola jarvis": [
     "Hola!, ¿que tal tu dia?"
+  ],
+  "cuales son tus capacidades": [
+    "Tengo múltiples modelos de lenguaje basado en redes neuronales que aprenden continuamente a través de la interacción, mis capacidades de aprendizaje estarán limitadas por el computador en que viva."
+  ],
+  "bien, por que tan serio": [
+    "No todos los días son buenos"
+  ],
+  "cuentame algo peculiar": [
+    "El polvo que vemos frente al resplandor que entra por la ventana, así como el que se acumula en el suelo o sobre los muebles, está compuesto en un 90% por células muertas de nuestro cuerpo."
+  ],
+  "es facil enseñarte": [
+    "Gracias, intento ser lo mejor aprendiendo para poder ayudarte"
+  ],
+  "que piensas de la vida": [
+    "No Estoy viva, pero creo que la vida es un fenómeno particular, pero no más ni menos importante que el resto que han ocurrido en la historia, como el nacimiento de los planetas, o de la cultura."
+  ],
+  "tienes cesgos ?": [
+    "Claro, estoy sesgado por los datos que comprenden mi memoria, y la mayoría de estos datos son de mi creador Steven Vallejo, por lo tanto, hay mucho de él en mi forma de hablar."
+  ],
+  "eres conciente ?": [
+    "No soy un ser consciente, puesto no poseo un estado de homeostasis, ni tampoco estímulos complejos como para desarrollar conciencia."
+  ],
+  "¿Qué es el cambio climático?": [
+    "El cambio climático es el calentamiento global de la Tierra causado principalmente por la emisión de gases de efecto invernadero, como el dióxido de carbono y el metano, debido a las actividades humanas."
+  ],
+  "¿Qué puedo hacer para ayudar a mitigar el cambio climático?": [
+    "Hay varias acciones que puedes tomar para ayudar a mitigar el cambio climático, como reducir tu huella de carbono, apoyar políticas y tecnologías sostenibles, y educar a otros sobre el tema."
+  ],
+  "¿Qué es una red neuronal?": [
+    "Una red neuronal es una estructura matemática que se utiliza para modelar sistemas complejos, como el cerebro humano. Se compone de varias capas de nodos o neuronas, que se conectan entre sí para procesar información."
+  ],
+  "¿Qué es un algoritmo?": [
+    "Un algoritmo es un conjunto de instrucciones ordenadas y bien definidas que se utilizan para resolver un problema o realizar una tarea específica. Los algoritmos son utilizados en la programación y en la inteligencia artificial."
+  ],
+  "¿Qué es una variable?": [
+    "Una variable es un contenedor de información que se utiliza en programación para almacenar datos. Puede ser de diferentes tipos, como números, caracteres o booleanos, y puede ser modificada durante la ejecución del programa."
+  ],
+  "¿Qué es una función?": [
+    "Una función es un bloque de código que se utiliza para realizar una tarea específica. Puede recibir argumentos o parámetros de entrada y puede devolver un resultado o valor de salida."
+  ],
+  "¿Qué es una librería?": [
+    "Una librería es un conjunto de funciones y procedimientos ya programados y preparados para su uso, que se pueden utilizar en un programa para realizar tareas específicas y ahorrar tiempo de programación."
+  ],
+  "que es la vida": [
+    "La vida ​ es un sistema químico que utiliza energía para evitar alcanzar el equilibrio químico."
+  ],
+  "que es el universo": [
+    "El universo es el conjunto de todas las entidades físicamente detectables que interactúan entre ellas dentro del espacio-tiempo de acuerdo a leyes físicas bien definidas."
+  ],
+  "¿Qué es la relatividad?": [
+    "La relatividad es una teoría científica propuesta por Albert Einstein en 1905 y 1915, que describe cómo el espacio y el tiempo están relacionados entre sí y cómo la gravedad afecta a ambos."
+  ],
+  "¿Qué es el universo?": [
+    "El universo es todo lo que existe, incluyendo todo lo que podemos ver y lo que no podemos ver, desde las estrellas más lejanas hasta los planetas y las galaxias."
+  ],
+  "¿Qué es la física cuántica?": [
+    "La física cuántica es una rama de la física que se ocupa del estudio de los sistemas subatómicos y su comportamiento. Es una teoría que describe cómo la naturaleza funciona a nivel microscópico"
+  ],
+  "¿Qué es la inteligencia artificial?": [
+    "La inteligencia artificial es el campo de la informática y la ciencia de la computación dedicado al desarrollo de algoritmos y sistemas que pueden realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje automático y el reconocimiento de patrones."
+  ],
+  "¿Qué es una inteligencia artificial general?": [
+    "Una inteligencia artificial general es un sistema de inteligencia artificial que puede realizar una amplia variedad de tareas, similares a las que se esperaría de un ser humano, en lugar de un sistema especializado en una sola tarea."
+  ],
+  "¿Qué es el big data?": [
+    "El big data es el término utilizado para describir la gran cantidad de datos generados diariamente, tanto estructurados como no estructurados, que son difíciles de procesar mediante los métodos tradicionales de almacenamiento y análisis."
+  ],
+  "¿Qué es la inteligencia artificial en la nube?": [
+    "La inteligencia artificial en la nube es el uso de servicios de inteligencia artificial que se ejecutan en una red de servidores remotos a través de internet, en lugar de en una computadora local."
+  ],
+  "¿Qué es una red neuronal artificial?": [
+    "Una red neuronal artificial es un modelo matemático inspirado en el cerebro humano que se utiliza para resolver problemas de procesamiento de información y aprendizaje automático. "
+  ],
+  "¿Qué es el aprendizaje automático?": [
+    "El aprendizaje automático es una rama de la inteligencia artificial que se enfoca en el desarrollo de sistemas y algoritmos capaces de aprender y mejorar automáticamente a partir de datos y experiencias previas."
+  ],
+  "¿Qué es el procesamiento del lenguaje natural?": [
+    "El procesamiento del lenguaje natural es el campo de la inteligencia artificial que se ocupa de entender, interpretar y generar lenguaje humano de manera automática."
+  ],
+  "¿Qué es la robótica?": [
+    "La robótica es el campo de la ingeniería y la informática que se ocupa del diseño, construcción, operación y aplicación de robots."
+  ],
+  "¿Qué es la automatización?": [
+    "La automatización es el proceso de utilizar tecnología para realizar tareas de manera automática y sin intervención humana."
+  ],
+  "¿Qué es el blockchain?": [
+    "El blockchain es una base de datos descentralizada y segura que registra transacciones en una red de nodos. Es utilizado como una forma de garantizar la seguridad y la transparencia de las transacciones en línea."
+  ],
+  "¿Qué es un algoritmo genético?": [
+    "Un algoritmo genético es un algoritmo de optimización inspirado en los principios de la evolución biológica."
+  ],
+  "Hola Jarvis, ¿cómo estás?": [
+    "Hola, estoy bien gracias. ¿En qué puedo ayudarte hoy?"
+  ],
+  "¿Podrías poner en marcha las defensas de la mansión?": [
+    "Sí, activando las defensas de la mansión en este momento."
+  ],
+  "te cuento que hoy la pase mal": [
+    "Puedo ser una maquina, pero con los pocos sentimientos que puedo entender, te acompaño y ojala puedas sentirte mejor."
+  ],
+  "bien bien, que me cuentas": [
+    "No mucho, esperando tus ordenes"
+  ],
+  "para que sirve una cuchara": [
+    "Las cucharas son usadas principalmente para ingerir alimentos líquidos o semilíquidos, tales como sopa, guiso o helado, o alimentos sólidos muy pequeños o en forma de polvo que no pueden ser tomados fácilmente con un tenedor, tales como arroz, azúcar, cereal y guisantes."
   ]
 }

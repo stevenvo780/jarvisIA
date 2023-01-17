@@ -1,4 +1,4 @@
-const { runCommandRoot, runCommand, runCommandSentiment } = require('./osBash');
+const { runCommandRoot, runCommand, runCommandSentiment, runCommandMimic } = require('./osBash');
 const chalk = require('chalk');
 const emoji = require('node-emoji')
 exports.respuestaConversations = async (texto) => {
@@ -34,10 +34,13 @@ exports.respuestaConversations = async (texto) => {
 };
 
 exports.speak = async (texto) => {
-  runCommandRoot("skill $(pidof espeak)")
-  if (process.env.speak) {
+  //runCommandRoot("skill $(pidof espeak)")
+  if (process.env.SPEACK === "espeak") {
     return runCommand(`espeak -p20 -s130 -v es-la "${texto}"`)
-  } else {
+  } else if (process.env.SPEACK === "mimic3") {
+    return runCommandMimic(texto)
+  }
+  else {
     return;
   }
 }

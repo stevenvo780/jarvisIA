@@ -1,0 +1,1 @@
+/home/stev/mycroft-core/.venv/bin/mimic3 --voice 'es_ES/m-ailabs_low' --noise-scale 1.3 --noise-w 0.5 --length-scale 1.5 --interactive

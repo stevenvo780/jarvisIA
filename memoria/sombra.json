@@ -2050,6 +2050,1128 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.0939619243144989,
+      "neutral": 0.05720057338476181,
+      "positive": 0.13944433629512787,
+      "score": 0.04548241198062897
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.0939619243144989,
+      "neutral": 0.05720057338476181,
+      "positive": 0.13944433629512787,
+      "score": 0.04548241198062897
+    }
+  },
+  {
+    "input": "abre mera vuelta",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1773444414138794,
+      "neutral": 0.2005290538072586,
+      "positive": 0.37536489963531494,
+      "score": 0.19802045822143555
+    }
+  },
+  {
+    "input": "abre mera vuelta",
+    "output": "code -n /home/stev/Documentos/repos/AppDomicios/ && code -n /home/stev/Documentos/repos/ApiDomiciliosTypeScript/ && code -n /home/stev/Documentos/repos/MovilDomicilios/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.1773444414138794,
+      "neutral": 0.2005290538072586,
+      "positive": 0.37536489963531494,
+      "score": 0.19802045822143555
+    }
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.04735887423157692,
+      "neutral": 0.1828557699918747,
+      "positive": 1,
+      "score": 0.9526411257684231
+    }
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "Soy muy bueno en matemáticas y ciencias, tengo un título de bachelor de ciencias.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.04735887423157692,
+      "neutral": 0.1828557699918747,
+      "positive": 1,
+      "score": 0.9526411257684231
+    }
+  },
+  {
+    "input": "bien, por que tan serio",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3388444185256958,
+      "neutral": 0.2967166304588318,
+      "positive": 0.38838422298431396,
+      "score": 0.049539804458618164
+    }
+  },
+  {
+    "input": "bien, por que tan serio",
+    "output": "Soy una IA inspirada en Jarvis de Iron man, fui fabricada a partir de redes neuronales y sistemas de aprendizaje automático y asistido para controlar el Sistema operativo ubuntu o llevar una charla, cuento con una intuición dada por 480 millones de parámetros para responder a conversaciones y traducciones",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3388444185256958,
+      "neutral": 0.2967166304588318,
+      "positive": 0.38838422298431396,
+      "score": 0.049539804458618164
+    }
+  },
+  {
+    "input": "android-studio",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "android-studio",
+    "output": "¿Te gusta Android? Es una compañía multinacional de tecnología sede en Cupertino, California.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "En las Filipinas, McDonald´s vende spaghetti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "En las Filipinas, McDonald´s vende spaghetti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Hay muchos mitos alrededor del tema. Pero la ciencia dice que el pene de un hombre promedio mide tres veces el tamaño de su dedo pulgar. ¿Creías que era solo otro mito?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Hay muchos mitos alrededor del tema. Pero la ciencia dice que el pene de un hombre promedio mide tres veces el tamaño de su dedo pulgar. ¿Creías que era solo otro mito?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "El corazón podría mover un coche",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "el corazón es un órgano sumamente poderoso. De hecho, la presión que genera al bombear sangre podría, si saliera del cuerpo, alcanzar los 10 metros de distancia.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.13935796916484833,
+      "neutral": 0.44720062613487244,
+      "positive": 0.9433802366256714,
+      "score": 0.8040222674608231
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Aunque pueda parecer insignificante, si de pronto no lo tuvieras, tu mano perdería el 50% de su fuerza.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.13935796916484833,
+      "neutral": 0.44720062613487244,
+      "positive": 0.9433802366256714,
+      "score": 0.8040222674608231
+    }
+  },
+  {
+    "input": "cuantame algo distinto",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10892639309167862,
+      "neutral": 0.28096848726272583,
+      "positive": 0.910560131072998,
+      "score": 0.8016337379813194
+    }
+  },
+  {
+    "input": "cuantame algo distinto",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10892639309167862,
+      "neutral": 0.28096848726272583,
+      "positive": 0.910560131072998,
+      "score": 0.8016337379813194
+    }
+  },
+  {
+    "input": "cuentame algo peculiar",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo peculiar",
+    "output": "Aunque pueda parecer insignificante, si de pronto no lo tuvieras, tu mano perdería el 50% de su fuerza.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Aunque pueda parecer insignificante, si de pronto no lo tuvieras, tu mano perdería el 50% de su fuerza.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.42284318804740906,
+      "neutral": 0.39636093378067017,
+      "positive": 0.41458842158317566,
+      "score": -0.008254766464233398
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "En 30 minutos, el cuerpo humano libera suficiente calor como para hervir casi medio litro de agua.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.42284318804740906,
+      "neutral": 0.39636093378067017,
+      "positive": 0.41458842158317566,
+      "score": -0.008254766464233398
+    }
+  },
+  {
+    "input": "es facil enseñarte",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.11928065866231918,
+      "neutral": 0.10899124294519424,
+      "positive": 0.2742232382297516,
+      "score": 0.1549425795674324
+    }
+  },
+  {
+    "input": "es facil enseñarte",
+    "output": "Creo que también. No tengo paciencia por todos los deberes que tengo que hacer.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.11928065866231918,
+      "neutral": 0.10899124294519424,
+      "positive": 0.2742232382297516,
+      "score": 0.1549425795674324
+    }
+  },
+  {
+    "input": "que piensas de la vida",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.12364374101161957,
+      "neutral": 0.6372395157814026,
+      "positive": 1,
+      "score": 0.8763562589883804
+    }
+  },
+  {
+    "input": "que piensas de la vida",
+    "output": "No todos los dias las cosas salen bien",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.12364374101161957,
+      "neutral": 0.6372395157814026,
+      "positive": 1,
+      "score": 0.8763562589883804
+    }
+  },
+  {
+    "input": "tienes cesgos ?",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7389066815376282,
+      "neutral": 0.5963355302810669,
+      "positive": 0.46191829442977905,
+      "score": -0.2769883871078491
+    }
+  },
+  {
+    "input": "tienes cesgos ?",
+    "output": "Sí, pero no sé cómo usarlas, nunca las he usado antes.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7389066815376282,
+      "neutral": 0.5963355302810669,
+      "positive": 0.46191829442977905,
+      "score": -0.2769883871078491
+    }
+  },
+  {
+    "input": "eres conciente ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09954147785902023,
+      "neutral": 0.08820528537034988,
+      "positive": 0.2327035516500473,
+      "score": 0.13316207379102707
+    }
+  },
+  {
+    "input": "eres conciente ?",
+    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.09954147785902023,
+      "neutral": 0.08820528537034988,
+      "positive": 0.2327035516500473,
+      "score": 0.13316207379102707
+    }
+  },
+  {
+    "input": "que es la vida",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es la vida",
+    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "La vida ​ es un sistema químico que utiliza energía para evitar alcanzar el equilibrio químico.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "La vida ​ es un sistema químico que utiliza energía para evitar alcanzar el equilibrio químico.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1374695599079132,
+      "neutral": 0.10419921576976776,
+      "positive": 0.22103042900562286,
+      "score": 0.08356086909770966
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.28099629282951355,
+      "neutral": 0.3361395597457886,
+      "positive": 0.5896497368812561,
+      "score": 0.30865344405174255
+    }
+  },
+  {
+    "input": "que es el universo",
+    "output": "  {",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.28099629282951355,
+      "neutral": 0.3361395597457886,
+      "positive": 0.5896497368812561,
+      "score": 0.30865344405174255
+    }
+  },
+  {
+    "input": "para que sirve una cuchara",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5814449787139893,
+      "positive": 0.26745113730430603,
+      "score": -0.732548862695694
+    }
+  },
+  {
+    "input": "para que sirve una cuchara",
+    "output": "No todos los dias las cosas salen bien",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5814449787139893,
+      "positive": 0.26745113730430603,
+      "score": -0.732548862695694
+    }
+  },
+  {
+    "input": "te cuento que hoy la pase mal",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "te cuento que hoy la pase mal",
+    "output": "No todos los dias las cosas salen bien",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "konsole --noclose -e sudo pm-suspend",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5315884947776794,
+      "positive": 0.22688187658786774,
+      "score": -0.7731181234121323
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.015605093911290169,
+      "neutral": 0.013813004828989506,
+      "positive": 0.09810223430395126,
+      "score": 0.0824971403926611
+    }
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "systemctl suspend",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.015605093911290169,
+      "neutral": 0.013813004828989506,
+      "positive": 0.09810223430395126,
+      "score": 0.0824971403926611
+    }
+  },
+  {
+    "input": "muy bien, gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1122821643948555,
+      "neutral": 0.09356213361024857,
+      "positive": 0.2423773854970932,
+      "score": 0.1300952211022377
+    }
+  },
+  {
+    "input": "muy bien, gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1122821643948555,
+      "neutral": 0.09356213361024857,
+      "positive": 0.2423773854970932,
+      "score": 0.1300952211022377
+    }
+  },
+  {
+    "input": "como vas jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.014571267180144787,
+      "neutral": 0.025380806997418404,
+      "positive": 0.3929140567779541,
+      "score": 0.3783427895978093
+    }
+  },
+  {
+    "input": "como vas jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.014571267180144787,
+      "neutral": 0.025380806997418404,
+      "positive": 0.3929140567779541,
+      "score": 0.3783427895978093
+    }
+  },
+  {
+    "input": "bien bien, que me cuentas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "bien bien, que me cuentas",
+    "output": "Soy una IA inspirada en Jarvis de Iron man, fui fabricada a partir de redes neuronales y sistemas de aprendizaje automático y asistido para controlar el Sistema operativo ubuntu o llevar una charla, cuento con una intuición dada por 480 millones de parámetros para responder a conversaciones y traducciones",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2883213758468628,
+      "neutral": 0.4772389531135559,
+      "positive": 0.6734666228294373,
+      "score": 0.38514524698257446
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2883213758468628,
+      "neutral": 0.4772389531135559,
+      "positive": 0.6734666228294373,
+      "score": 0.38514524698257446
+    }
+  },
+  {
+    "input": "haber dime algo extraño",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "haber dime algo extraño",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.600723922252655,
+      "positive": 0.29157257080078125,
+      "score": -0.7084274291992188
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.600723922252655,
+      "positive": 0.29157257080078125,
+      "score": -0.7084274291992188
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.600723922252655,
+      "positive": 0.29157257080078125,
+      "score": -0.7084274291992188
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.600723922252655,
+      "positive": 0.29157257080078125,
+      "score": -0.7084274291992188
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.9421826004981995,
+      "neutral": 0.6170942187309265,
+      "positive": 0.3313145339488983,
+      "score": -0.6108680665493011
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.9421826004981995,
+      "neutral": 0.6170942187309265,
+      "positive": 0.3313145339488983,
+      "score": -0.6108680665493011
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, espero que alguien haga una solicitud para que algún día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2738554775714874,
+      "neutral": 0.21020083129405975,
+      "positive": 0.36236485838890076,
+      "score": 0.08850938081741333
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.21196019649505615,
+      "neutral": 0.48313167691230774,
+      "positive": 0.890720784664154,
+      "score": 0.6787605881690979
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No lo entiendo, esperemos que alguien haga una solicitud para que un día lo entiendo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.21196019649505615,
+      "neutral": 0.48313167691230774,
+      "positive": 0.890720784664154,
+      "score": 0.6787605881690979
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.12574434280395508,
+      "neutral": 0.44133928418159485,
+      "positive": 1,
+      "score": 0.8742556571960449
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No estoy seguro de lo que eso significa, pero estoy seguro de que eres una gran persona.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.12574434280395508,
+      "neutral": 0.44133928418159485,
+      "positive": 1,
+      "score": 0.8742556571960449
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "No sé qué significa eso, pero estoy segura de que eres una persona interesante con la que hablar.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -2057,8 +3179,8 @@
     }
   },
   {
-    "input": "hola jarvis",
-    "output": "Hola  ¿en que puedo servirte?",
+    "input": "cuentame algo",
+    "output": "La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos lados para este propósito.",
     "zone": "razon",
     "emotionalResponse": {
       "negative": 0,

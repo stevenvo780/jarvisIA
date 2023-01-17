@@ -203,6 +203,7 @@
     "learn.new.last"
   ],
   "hola": [
+    "execute.razon",
     "execute.razon"
   ],
   "te presento": [
@@ -317,7 +318,8 @@
   ],
   "cuales son tus capacidades": [
     "execute.intuition",
-    "execute.intuition"
+    "execute.intuition",
+    "execute.razon"
   ],
   "cuales son tus funciones": [
     "execute.intuition",
@@ -441,6 +443,10 @@
     "execute.body"
   ],
   "suspende el sistema": [
+    "execute.body",
+    "execute.body",
+    "execute.body",
+    "execute.body",
     "execute.body"
   ],
   "como vas": [
@@ -496,6 +502,15 @@
     "execute.razon",
     "execute.razon",
     "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
     "execute.razon"
   ],
   "aprende algo nuevo": [
@@ -535,5 +550,45 @@
   ],
   "hola jarvis": [
     "execute.razon"
+  ],
+  "bien, por que tan serio": [
+    "execute.razon"
+  ],
+  "android-studio": [
+    "execute.body"
+  ],
+  "cuentame algo peculiar": [
+    "execute.razon"
+  ],
+  "es facil enseñarte": [
+    "execute.razon"
+  ],
+  "que piensas de la vida": [
+    "execute.razon"
+  ],
+  "tienes cesgos ?": [
+    "execute.razon"
+  ],
+  "eres conciente ?": [
+    "execute.razon"
+  ],
+  "que es la vida": [
+    "execute.razon"
+  ],
+  "que es el universo": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "para que sirve una cuchara": [
+    "execute.razon"
+  ],
+  "te cuento que hoy la pase mal": [
+    "execute.razon"
+  ],
+  "bien bien, que me cuentas": [
+    "execute.razon"
+  ],
+  "abre gmail": [
+    "execute.body"
   ]
 }

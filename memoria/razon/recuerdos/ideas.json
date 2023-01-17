@@ -270,5 +270,185 @@
   {
     "input": "hola jarvis",
     "output": "Hola!, ¿que tal tu dia?"
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?"
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "Tengo múltiples modelos de lenguaje basado en redes neuronales que aprenden continuamente a través de la interacción, mis capacidades de aprendizaje estarán limitadas por el computador en que viva."
+  },
+  {
+    "input": "bien, por que tan serio",
+    "output": "No todos los días son buenos"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Hay muchos mitos alrededor del tema. Pero la ciencia dice que el pene de un hombre promedio mide tres veces el tamaño de su dedo pulgar. ¿Creías que era solo otro mito?"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "El corazón podría mover un coche"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "el corazón es un órgano sumamente poderoso. De hecho, la presión que genera al bombear sangre podría, si saliera del cuerpo, alcanzar los 10 metros de distancia."
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Aunque pueda parecer insignificante, si de pronto no lo tuvieras, tu mano perdería el 50% de su fuerza."
+  },
+  {
+    "input": "cuentame algo peculiar",
+    "output": "El polvo que vemos frente al resplandor que entra por la ventana, así como el que se acumula en el suelo o sobre los muebles, está compuesto en un 90% por células muertas de nuestro cuerpo."
+  },
+  {
+    "input": "cuentame algo",
+    "output": "En 30 minutos, el cuerpo humano libera suficiente calor como para hervir casi medio litro de agua."
+  },
+  {
+    "input": "cuentame algo",
+    "output": "¿Qué crees que crece más rápido en tu cuerpo? La respuesta no son las uñas. En realidad, el vello facial crece mucho más rápido que el de cualquier otra parte del cuerpo."
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Al igual que las huellas dactilares, y que los aromas, la lengua de cada persona también es una marca de identidad. De hecho, tiene huellas únicas e irrepetibles."
+  },
+  {
+    "input": "cuentame algo",
+    "output": "La lengua se está moviendo todo el día. Se expande, se contrae, se aplana, se vuelve a contraer. Al final del día, lo más probable es que la lengua haya hecho varios miles de movimientos."
+  },
+  {
+    "input": "es facil enseñarte",
+    "output": "Gracias, intento ser lo mejor aprendiendo para poder ayudarte"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos lados para este propósito."
+  },
+  {
+    "input": "que piensas de la vida",
+    "output": "No Estoy viva, pero creo que la vida es un fenómeno particular, pero no más ni menos importante que el resto que han ocurrido en la historia, como el nacimiento de los planetas, o de la cultura."
+  },
+  {
+    "input": "tienes cesgos ?",
+    "output": "Claro, estoy sesgado por los datos que comprenden mi memoria, y la mayoría de estos datos son de mi creador Steven Vallejo, por lo tanto, hay mucho de él en mi forma de hablar."
+  },
+  {
+    "input": "eres conciente ?",
+    "output": "No soy un ser consciente, puesto no poseo un estado de homeostasis, ni tampoco estímulos complejos como para desarrollar conciencia."
+  },
+  {
+    "input": "¿Qué es el cambio climático?",
+    "output": "El cambio climático es el calentamiento global de la Tierra causado principalmente por la emisión de gases de efecto invernadero, como el dióxido de carbono y el metano, debido a las actividades humanas."
+  },
+  {
+    "input": "¿Qué puedo hacer para ayudar a mitigar el cambio climático?",
+    "output": "Hay varias acciones que puedes tomar para ayudar a mitigar el cambio climático, como reducir tu huella de carbono, apoyar políticas y tecnologías sostenibles, y educar a otros sobre el tema."
+  },
+  {
+    "input": "¿Qué es una red neuronal?",
+    "output": "Una red neuronal es una estructura matemática que se utiliza para modelar sistemas complejos, como el cerebro humano. Se compone de varias capas de nodos o neuronas, que se conectan entre sí para procesar información."
+  },
+  {
+    "input": "¿Qué es un algoritmo?",
+    "output": "Un algoritmo es un conjunto de instrucciones ordenadas y bien definidas que se utilizan para resolver un problema o realizar una tarea específica. Los algoritmos son utilizados en la programación y en la inteligencia artificial."
+  },
+  {
+    "input": "¿Qué es una variable?",
+    "output": "Una variable es un contenedor de información que se utiliza en programación para almacenar datos. Puede ser de diferentes tipos, como números, caracteres o booleanos, y puede ser modificada durante la ejecución del programa."
+  },
+  {
+    "input": "¿Qué es una función?",
+    "output": "Una función es un bloque de código que se utiliza para realizar una tarea específica. Puede recibir argumentos o parámetros de entrada y puede devolver un resultado o valor de salida."
+  },
+  {
+    "input": "¿Qué es una librería?",
+    "output": "Una librería es un conjunto de funciones y procedimientos ya programados y preparados para su uso, que se pueden utilizar en un programa para realizar tareas específicas y ahorrar tiempo de programación."
+  },
+  {
+    "input": "que es la vida",
+    "output": "La vida ​ es un sistema químico que utiliza energía para evitar alcanzar el equilibrio químico."
+  },
+  {
+    "input": "que es el universo",
+    "output": "El universo es el conjunto de todas las entidades físicamente detectables que interactúan entre ellas dentro del espacio-tiempo de acuerdo a leyes físicas bien definidas."
+  },
+  {
+    "input": "¿Qué es la relatividad?",
+    "output": "La relatividad es una teoría científica propuesta por Albert Einstein en 1905 y 1915, que describe cómo el espacio y el tiempo están relacionados entre sí y cómo la gravedad afecta a ambos."
+  },
+  {
+    "input": "¿Qué es el universo?",
+    "output": "El universo es todo lo que existe, incluyendo todo lo que podemos ver y lo que no podemos ver, desde las estrellas más lejanas hasta los planetas y las galaxias."
+  },
+  {
+    "input": "¿Qué es la física cuántica?",
+    "output": "La física cuántica es una rama de la física que se ocupa del estudio de los sistemas subatómicos y su comportamiento. Es una teoría que describe cómo la naturaleza funciona a nivel microscópico"
+  },
+  {
+    "input": "¿Qué es la inteligencia artificial?",
+    "output": "La inteligencia artificial es el campo de la informática y la ciencia de la computación dedicado al desarrollo de algoritmos y sistemas que pueden realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje automático y el reconocimiento de patrones."
+  },
+  {
+    "input": "¿Qué es una inteligencia artificial general?",
+    "output": "Una inteligencia artificial general es un sistema de inteligencia artificial que puede realizar una amplia variedad de tareas, similares a las que se esperaría de un ser humano, en lugar de un sistema especializado en una sola tarea."
+  },
+  {
+    "input": "¿Qué es el big data?",
+    "output": "El big data es el término utilizado para describir la gran cantidad de datos generados diariamente, tanto estructurados como no estructurados, que son difíciles de procesar mediante los métodos tradicionales de almacenamiento y análisis."
+  },
+  {
+    "input": "¿Qué es la inteligencia artificial en la nube?",
+    "output": "La inteligencia artificial en la nube es el uso de servicios de inteligencia artificial que se ejecutan en una red de servidores remotos a través de internet, en lugar de en una computadora local."
+  },
+  {
+    "input": "¿Qué es una red neuronal artificial?",
+    "output": "Una red neuronal artificial es un modelo matemático inspirado en el cerebro humano que se utiliza para resolver problemas de procesamiento de información y aprendizaje automático. "
+  },
+  {
+    "input": "¿Qué es el aprendizaje automático?",
+    "output": "El aprendizaje automático es una rama de la inteligencia artificial que se enfoca en el desarrollo de sistemas y algoritmos capaces de aprender y mejorar automáticamente a partir de datos y experiencias previas."
+  },
+  {
+    "input": "¿Qué es el procesamiento del lenguaje natural?",
+    "output": "El procesamiento del lenguaje natural es el campo de la inteligencia artificial que se ocupa de entender, interpretar y generar lenguaje humano de manera automática."
+  },
+  {
+    "input": "¿Qué es la robótica?",
+    "output": "La robótica es el campo de la ingeniería y la informática que se ocupa del diseño, construcción, operación y aplicación de robots."
+  },
+  {
+    "input": "¿Qué es la automatización?",
+    "output": "La automatización es el proceso de utilizar tecnología para realizar tareas de manera automática y sin intervención humana."
+  },
+  {
+    "input": "¿Qué es el blockchain?",
+    "output": "El blockchain es una base de datos descentralizada y segura que registra transacciones en una red de nodos. Es utilizado como una forma de garantizar la seguridad y la transparencia de las transacciones en línea."
+  },
+  {
+    "input": "¿Qué es un algoritmo genético?",
+    "output": "Un algoritmo genético es un algoritmo de optimización inspirado en los principios de la evolución biológica."
+  },
+  {
+    "input": "Hola Jarvis, ¿cómo estás?",
+    "output": "Hola, estoy bien gracias. ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "input": "¿Podrías poner en marcha las defensas de la mansión?",
+    "output": "Sí, activando las defensas de la mansión en este momento."
+  },
+  {
+    "input": "te cuento que hoy la pase mal",
+    "output": "Puedo ser una maquina, pero con los pocos sentimientos que puedo entender, te acompaño y ojala puedas sentirte mejor."
+  },
+  {
+    "input": "bien bien, que me cuentas",
+    "output": "No mucho, esperando tus ordenes"
+  },
+  {
+    "input": "para que sirve una cuchara",
+    "output": "Las cucharas son usadas principalmente para ingerir alimentos líquidos o semilíquidos, tales como sopa, guiso o helado, o alimentos sólidos muy pequeños o en forma de polvo que no pueden ser tomados fácilmente con un tenedor, tales como arroz, azúcar, cereal y guisantes."
   }
 ]

@@ -33,7 +33,7 @@
   },
   {
     "input": "suspende el sistema",
-    "output": "konsole --noclose -e sudo pm-suspend"
+    "output": "systemctl suspend"
   },
   {
     "input": "lita las ip de la red",
@@ -58,5 +58,13 @@
   {
     "input": "pon, la cuadratura del circulo",
     "output": "open.music"
+  },
+  {
+    "input": "android-studio",
+    "output": "android-studio"
+  },
+  {
+    "input": "abre gmail",
+    "output": "google-chrome https://mail.google.com/mail/u/0/#inbox"
   }
 ]

@@ -1909,7 +1909,7 @@
     "gnome-system-monitor"
   ],
   "suspende el sistema": [
-    "konsole --noclose -e sudo pm-suspend"
+    "systemctl suspend"
   ],
   "lita las ip de la red": [
     "konsole --noclose -e nmap -sn 192.168.1.0/24"
@@ -1928,6 +1928,12 @@
   ],
   "pon, la cuadratura del circulo": [
     "open.music"
+  ],
+  "android-studio": [
+    "android-studio"
+  ],
+  "abre gmail": [
+    "google-chrome https://mail.google.com/mail/u/0/#inbox"
   ],
   "buscar": [
     "open.search"

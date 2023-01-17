@@ -386,5 +386,121 @@
   {
     "input": "hola jarvis",
     "output": "execute.razon"
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuales son tus capacidades",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bien, por que tan serio",
+    "output": "execute.razon"
+  },
+  {
+    "input": "android-studio",
+    "output": "execute.body"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo peculiar",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "es facil enseñarte",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que piensas de la vida",
+    "output": "execute.razon"
+  },
+  {
+    "input": "tienes cesgos ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "eres conciente ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que es la vida",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que es el universo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "que es el universo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "para que sirve una cuchara",
+    "output": "execute.razon"
+  },
+  {
+    "input": "te cuento que hoy la pase mal",
+    "output": "execute.razon"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body"
+  },
+  {
+    "input": "suspende el sistema",
+    "output": "execute.body"
+  },
+  {
+    "input": "bien bien, que me cuentas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "abre gmail",
+    "output": "execute.body"
   }
 ]

@@ -31,11 +31,11 @@ let child;
 exports.openSession = () => {
   child = spawn('bash');
   child.stdout.on('data', data => {
-    //console.log(`stdout: ${data}`);
+    //console.log(`stdout: ${data.toString()}`);
   });
 
   child.stderr.on('data', data => {
-    //console.error(`stderr: ${data}`);
+    console.error(`stderr: ${data}`);
   });
 }
 
@@ -46,6 +46,65 @@ exports.runCommand = async (command) => {
 exports.closeSession = () => {
   child.kill('SIGINT');
 }
+
+// Betty assistant
+let childBetty;
+exports.openSessionBetty = () => {
+  childBetty = spawn('bash');
+  childBetty.stdout.on('data', data => {
+    //console.log(data.toString());
+  });
+
+  childBetty.stderr.on('data', data => {
+    //console.error(`stderr: ${data}`);
+  });
+}
+
+// mimic 3 voice
+let childMimic;
+exports.openSessionMimic = () => {
+  childMimic = spawn('bash');
+  // childMimic.stdout.on('data', data => {
+  //   console.log(data.toString());
+  // });
+
+  // childMimic.stderr.on('data', data => {
+  //   console.error(`stderr: ${data}`);
+  // });
+
+  // childMimic.on('close', (code) => {
+  //   console.log(`child process exited with code ${code}`);
+  // }
+  // );
+  childMimic.stdin.write('bash /home/stev/Documentos/repos/jarvis/corteza/sh/mimic3.sh' + '\n');
+}
+
+exports.runCommandMimic = async (command) => {
+  childMimic.stdin.write(command + '\n');
+}
+
+exports.closeSessionMimic = () => {
+  childMimic.kill('SIGINT');
+}
+
+// betty commands
+exports.runCommandBetty = async (command) => {
+  childBetty.stdin.write(`/home/stev/betty/main.rb  "${command}"` + '\n');
+  return new Promise((resolve, reject) => {
+    childBetty.stdout.on('data', data => {
+      if (data.toString().search("Betty: I don't understand. Hopefully someone will make a pull request so that one day I will understand.")) {
+        resolve(data.toString());
+      } else {
+        resolve(null);
+      }
+    });
+  });
+}
+
+exports.closeSessionBetty = () => {
+  childBetty.kill('SIGINT');
+}
+
 
 // GPT3 Commands
 let childGPT3;
