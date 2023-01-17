@@ -382,5 +382,9 @@
   {
     "input": "cuentame algo raro",
     "output": "execute.razon"
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon"
   }
 ]

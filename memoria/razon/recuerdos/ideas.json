@@ -266,5 +266,9 @@
   {
     "input": "cuentame algo raro",
     "output": "El tamaño del pene puede ser proporcional al pulgar"
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?"
   }
 ]

@@ -55,81 +55,152 @@
   ],
   "recuerda el siguiente comando": [
     "learn.new",
-    "learn.new.command"
+    "learn.new"
   ],
   "aprende este comando": [
     "learn.new",
-    "learn.new.command"
+    "learn.new"
   ],
   "ten en cuenta este comando": [
     "learn.new",
-    "learn.new.command"
+    "learn.new"
   ],
   "crea este comando": [
     "learn.new",
-    "learn.new.command"
+    "learn.new"
   ],
   "nuevo comando": [
     "learn.new",
-    "learn.new.command"
+    "learn.new"
   ],
   "corrige el anterior comando": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "cambia el ultimo comando": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "el ultimo comando esta mal": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "corrige el ultimo comando": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "la ultima respuesta esta mal": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "fallaste en la respuesta": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "fallaste en el comando": [
     "learn.last",
-    "learn.last.command"
+    "learn.last"
   ],
   "agrega este comando": [
-    "learn.new.command"
+    "learn.new"
   ],
   "memoriza este comando": [
-    "learn.new.command"
+    "learn.new"
   ],
   "guarda este comando": [
-    "learn.new.command"
+    "learn.new"
   ],
   "anota este comando": [
-    "learn.new.command"
+    "learn.new"
   ],
   "guarda la información de este comando": [
-    "learn.new.command"
+    "learn.new"
   ],
   "edita el comando anterior": [
-    "learn.last.command"
+    "learn.last"
   ],
   "cambia el comando previo": [
-    "learn.last.command"
+    "learn.last"
   ],
   "modifica el ultimo comando": [
-    "learn.last.command"
+    "learn.last"
   ],
   "arregla el ultimo comando": [
-    "learn.last.command"
+    "learn.last"
   ],
   "el comando anterior es incorrecto": [
-    "learn.last.command"
+    "learn.last"
+  ],
+  "añadir respuesta al ultimo comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta al ultimo comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "añadir respuesta al comando anterior": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta al comando anterior": [
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "añadir respuesta al anterior comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta al anterior comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "añadir respuesta al comando previo": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta al comando previo": [
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "añadir respuesta al previo comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta al previo comando": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta lo ultimo": [
+    "learn.new.last",
+    "learn.new.last"
+  ],
+  "agregar respuesta lo anterior": [
+    "learn.new.last"
+  ],
+  "agregar respuesta lo previo": [
+    "learn.new.last"
+  ],
+  "agregar respuesta al ultimo": [
+    "learn.new.last"
+  ],
+  "agregar respuesta al previo": [
+    "learn.new.last"
+  ],
+  "agregar respuesta al anterior": [
+    "learn.new.last"
   ],
   "hola": [
     "execute.razon"
@@ -460,6 +531,9 @@
     "execute.razon"
   ],
   "cuentame algo raro": [
+    "execute.razon"
+  ],
+  "hola jarvis": [
     "execute.razon"
   ]
 }

@@ -91,7 +91,6 @@ exports.addLastIdea = async () => {
   const sombra = await getSombra();
   const question = sombra[sombra.length - 2].input;
   await this.recordarAction(question);
-  resolve(true);
 }
 
 exports.fixLastIdea = () => {

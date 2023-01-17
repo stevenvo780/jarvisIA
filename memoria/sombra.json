@@ -2028,10 +2028,10 @@
     "output": "learn.new.command",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
     }
   },
   {
@@ -2039,10 +2039,32 @@
     "output": "Eso sería genial. ¿Qué te gustaría saber de mí? Me gusta aprender cosas nuevas.",
     "zone": "intuition",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
     }
   }
 ]
