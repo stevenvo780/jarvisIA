@@ -1478,10 +1478,10 @@
     "output": "execute.body",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
     }
   },
   {
@@ -1489,10 +1489,186 @@
     "output": "sysstat",
     "zone": "body",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "sysstat",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.38941439986228943,
+      "neutral": 0.5136239528656006,
+      "positive": 0.6682552099227905,
+      "score": 0.2788408100605011
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.38941439986228943,
+      "neutral": 0.5136239528656006,
+      "positive": 0.6682552099227905,
+      "score": 0.2788408100605011
+    }
+  },
+  {
+    "input": "pon, la cuadratura del circulo",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "pon, la cuadratura del circulo",
+    "output": "sysstat",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.2722240090370178,
+      "neutral": 0.358755499124527,
+      "positive": 0.6105595827102661,
+      "score": 0.3383355736732483
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10130876302719116,
+      "neutral": 0.1542448252439499,
+      "positive": 0.5540879368782043,
+      "score": 0.4527791738510132
+    }
+  },
+  {
+    "input": "pon la cuadratura del circulo",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.10130876302719116,
+      "neutral": 0.1542448252439499,
+      "positive": 0.5540879368782043,
+      "score": 0.4527791738510132
+    }
+  },
+  {
+    "input": "gracias, aunque hay que corregirte continuamente",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.0747051015496254,
+      "neutral": 0.07732925564050674,
+      "positive": 0.3269166350364685,
+      "score": 0.2522115334868431
+    }
+  },
+  {
+    "input": "gracias, aunque hay que corregirte continuamente",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.0747051015496254,
+      "neutral": 0.07732925564050674,
+      "positive": 0.3269166350364685,
+      "score": 0.2522115334868431
+    }
+  },
+  {
+    "input": "buenas noches jarvis como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.38810995221138,
+      "neutral": 0.8157517910003662,
+      "positive": 0.5737085342407227,
+      "score": 0.18559858202934265
+    }
+  },
+  {
+    "input": "buenas noches jarvis como vas",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.38810995221138,
+      "neutral": 0.8157517910003662,
+      "positive": 0.5737085342407227,
+      "score": 0.18559858202934265
+    }
+  },
+  {
+    "input": "has mejorado mucho me respondes a las preguntas comunes depronto hacen falta mas preguntas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08731435984373093,
+      "neutral": 0.4090140163898468,
+      "positive": 1,
+      "score": 0.9126856401562691
+    }
+  },
+  {
+    "input": "has mejorado mucho me respondes a las preguntas comunes depronto hacen falta mas preguntas",
+    "output": "gracias, todo es gracias a ti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08731435984373093,
+      "neutral": 0.4090140163898468,
+      "positive": 1,
+      "score": 0.9126856401562691
+    }
+  },
+  {
+    "input": "añade una nueva respuesta",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
+    }
+  },
+  {
+    "input": "añade una nueva respuesta",
+    "output": "Lo sé, pero no quiero arruinar la amistad que tengo con ella.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
     }
   }
 ]

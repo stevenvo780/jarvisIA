@@ -286,5 +286,9 @@
   {
     "input": "Abrir mera vuelta",
     "output": "execute.body"
+  },
+  {
+    "input": "pon, la cuadratura del circulo",
+    "output": "execute.body"
   }
 ]

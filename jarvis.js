@@ -157,15 +157,15 @@ const medula = async (question) => {
       await respuestaConversations(chatGPT);
       await handleNotFount(question, chatGPT, discernment);
     } else {
-      addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
-      await respuestaConversations(bodySomatic.intent);
       if (bodySomaticProm.intent == "None") {
         const chatGPT = await lobuleChat(question);
         await respuestaConversations(chatGPT);
         await handleNotFount(question, chatGPT, discernment);
         return;
       }
-      await actionHandler(bodySomatic.intent, question);
+      addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
+      await respuestaConversations(bodySomaticProm.intent);
+      await actionHandler(bodySomaticProm.intent, question);
     }
   } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
     const razonSomatic = await pensarRazon(question);

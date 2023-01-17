@@ -1926,6 +1926,9 @@
   "Abrir mera vuelta": [
     "code -n /home/stev/Documentos/repos/AppDomicios/ && code -n /home/stev/Documentos/repos/ApiDomiciliosTypeScript/ && code -n /home/stev/Documentos/repos/MovilDomicilios/"
   ],
+  "pon, la cuadratura del circulo": [
+    "open.music"
+  ],
   "buscar": [
     "open.search"
   ],

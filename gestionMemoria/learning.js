@@ -17,9 +17,9 @@ exports.recordarAction = async (question) => {
       output: process.stdout
     });
     speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
-    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando o conversacion: ', async response => {
+    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando, conversacion o un discernimiento: ', async response => {
       recordarRequest.close();
-      if (response !== "comando" && response !== "conversacion") {
+      if (response !== "comando" && response !== "conversacion" && response !== "discernimiento") {
         await respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
         resolve(false);
       } else {
@@ -35,7 +35,16 @@ exports.recordarAction = async (question) => {
             await respuestaConversations("Sera a la proxima");
             resolve(false);
           }
-          const zona = response === "comando" ? "body" : "razon"
+          let zona = null;
+          if (response === "comando") {
+            zona = "body";
+          }
+          if (response === "conversacion") {
+            zona = "razon";
+          }
+          if (response === "discernimiento") {
+            zona = "discernment";
+          }
           await recordar(question, responseSave, zona);
           await respuestaConversations("Estudiando lo aprendido");
           if (zona === "body") {
