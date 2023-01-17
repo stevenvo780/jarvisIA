@@ -49,90 +49,246 @@
   },
   {
     "input": "recuerda el siguiente comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "aprende este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "ten en cuenta este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "crea este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "nuevo comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "agrega este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "memoriza este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "guarda este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "anota este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "guarda la información de este comando",
-    "output": "learn.new.command"
+    "output": "learn.new"
   },
   {
     "input": "corrige el anterior comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "cambia el ultimo comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "el ultimo comando esta mal",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "corrige el ultimo comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "edita el comando anterior",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "cambia el comando previo",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "modifica el ultimo comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "arregla el ultimo comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "la ultima respuesta esta mal",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "fallaste en la respuesta",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "fallaste en el comando",
-    "output": "learn.last.command"
+    "output": "learn.last"
   },
   {
     "input": "el comando anterior es incorrecto",
-    "output": "learn.last.command"
+    "output": "learn.last"
+  },
+  {
+    "input": "añadir respuesta al ultimo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al ultimo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al anterior comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al anterior comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al previo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al previo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al ultimo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al ultimo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al anterior comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al anterior comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "añadir respuesta al previo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta lo ultimo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al previo comando",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta lo ultimo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta lo anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta lo previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al ultimo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando anterior",
+    "output": "learn.new.last"
+  },
+  {
+    "input": "agregar respuesta al comando previo",
+    "output": "learn.new.last"
   }
 ]

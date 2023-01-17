@@ -290,5 +290,97 @@
   {
     "input": "pon, la cuadratura del circulo",
     "output": "execute.body"
+  },
+  {
+    "input": "añade un nuevo comando",
+    "output": "learn.new"
+  },
+  {
+    "input": "bien, siempre que empezamos una conversacion empizas bien pero luego fallas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "tan pendejo yo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "por que de mal humor jarvis",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "learn.new"
+  },
+  {
+    "input": "Cuentame un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "dime un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "dime un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "te enseñare una nueva respuesta",
+    "output": "learn.new"
+  },
+  {
+    "input": "dame un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "dato curioso",
+    "output": "execute.razon"
+  },
+  {
+    "input": "dime algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "hay mas formas de responder",
+    "output": "learn.new"
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cuentame algo raro",
+    "output": "execute.razon"
   }
 ]

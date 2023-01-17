@@ -406,5 +406,60 @@
   ],
   "pon, la cuadratura del circulo": [
     "execute.body"
+  ],
+  "añade un nuevo comando": [
+    "learn.new"
+  ],
+  "bien, siempre que empezamos una conversacion empizas bien pero luego fallas": [
+    "execute.razon"
+  ],
+  "tan pendejo yo": [
+    "execute.razon"
+  ],
+  "por que de mal humor jarvis": [
+    "execute.razon"
+  ],
+  "cuentame algo": [
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon",
+    "execute.razon"
+  ],
+  "aprende algo nuevo": [
+    "learn.new"
+  ],
+  "Cuentame un chiste": [
+    "execute.razon"
+  ],
+  "cuentame un chiste": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "dime un chiste": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "te enseñare una nueva respuesta": [
+    "learn.new"
+  ],
+  "dame un chiste": [
+    "execute.razon"
+  ],
+  "dato curioso": [
+    "execute.razon"
+  ],
+  "dime algo": [
+    "execute.razon"
+  ],
+  "hay mas formas de responder": [
+    "learn.new"
+  ],
+  "cuentame algo interesante": [
+    "execute.razon"
+  ],
+  "cuentame algo raro": [
+    "execute.razon"
   ]
 }

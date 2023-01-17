@@ -13,7 +13,7 @@ const { loadLobules } = require('./corteza/loadLobulosPy');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
-const { newIdea, fixLastIdea, handleNotFount } = require('./gestionMemoria/learning');
+const { newIdea, fixLastIdea, addLastIdea, handleNotFount } = require('./gestionMemoria/learning');
 const readline = require('readline');
 const { spawn } = require('child_process');
 const { systemAction } = require('./corteza/cagorizacionProcessExecute');
@@ -147,6 +147,10 @@ const medula = async (question) => {
   }
   if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
     await fixLastIdea();
+    return;
+  }
+  if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
+    await addLastIdea();
     return;
   }
   if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {

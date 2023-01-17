@@ -16,7 +16,7 @@ exports.recordarAction = async (question) => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
+    speak("¿Esto es un comando o una conversación?");
     recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando, conversacion o un discernimiento: ', async response => {
       recordarRequest.close();
       if (response !== "comando" && response !== "conversacion" && response !== "discernimiento") {
@@ -27,7 +27,16 @@ exports.recordarAction = async (question) => {
           input: process.stdin,
           output: process.stdout
         });
-        const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
+        let textQuestion = null;
+        if (response === "comando") {
+          textQuestion = '¿Que comando debería responder a esta acción?: ';
+        }
+        if (response === "conversacion") {
+          textQuestion = '¿Que conversación debería responder a esta acción?: ';
+        }
+        if (response === "discernimiento") {
+          textQuestion = '¿Que discernimiento debería responder a esta acción?: ';
+        }
         speak(textQuestion);
         saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
           saveRequest.close();
@@ -72,47 +81,17 @@ exports.newIdea = () => {
     speak("¿Cual es la entrada?");
     inputRequest.question("Jarvis: " + '¿Cual es la entrada?: ', async question => {
       inputRequest.close();
-      const recordarRequest = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout
-      });
-      speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
-      recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando o conversacion: ', async response => {
-        recordarRequest.close();
-        if (response !== "comando" && response !== "conversacion") {
-          await respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
-          resolve(false);
-        } else {
-          const saveRequest = readline.createInterface({
-            input: process.stdin,
-            output: process.stdout
-          });
-          const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
-          speak(textQuestion);
-          saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
-            saveRequest.close();
-            if (responseSave === "cancelar") {
-              await respuestaConversations("Sera a la proxima");
-              resolve(false);
-            }
-            const zona = response === "comando" ? "body" : "razon"
-            await recordar(question, responseSave, zona);
-            await respuestaConversations("Estudiando lo aprendido");
-            if (zona === "body") {
-              await recordar(question, "execute.body", "discernment");
-              await bodyLearn();
-            }
-            if (zona === "razon") {
-              await recordar(question, "execute.razon", "discernment");
-              await razonLearn();
-            }
-            await discernmentLearn();
-            resolve(true);
-          });
-        }
-      });
+      await this.recordarAction(question);
+      resolve(true);
     });
   });
+}
+
+exports.addLastIdea = async () => {
+  const sombra = await getSombra();
+  const question = sombra[sombra.length - 2].input;
+  await this.recordarAction(question);
+  resolve(true);
 }
 
 exports.fixLastIdea = () => {
@@ -123,10 +102,10 @@ exports.fixLastIdea = () => {
       input: process.stdin,
       output: process.stdout
     });
-    speak("¿Esto es un comando o una conversación?, responde comando o conversacion");
-    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando o conversacion: ', async response => {
+    speak("¿Esto es un comando o una conversación?");
+    recordarRequest.question("Jarvis: " + '¿Esto es un comando o una conversación?, responde comando, conversacion o un discernimiento: ', async response => {
       recordarRequest.close();
-      if (response !== "comando" && response !== "conversacion") {
+      if (response !== "comando" && response !== "conversacion" && response !== "discernimiento") {
         await respuestaConversations("Recuerda que entre mas me corrijas mas puedo aprender");
         resolve(false);
       } else {
@@ -134,7 +113,16 @@ exports.fixLastIdea = () => {
           input: process.stdin,
           output: process.stdout
         });
-        const textQuestion = response === "comando" ? '¿Que comando debería responder a esta acción?: ' : '¿Que conversación debería responder a esta acción?: ';
+        let textQuestion = null;
+        if (response === "comando") {
+          textQuestion = '¿Que comando debería responder a esta acción?: ';
+        }
+        if (response === "conversacion") {
+          textQuestion = '¿Que conversación debería responder a esta acción?: ';
+        }
+        if (response === "discernimiento") {
+          textQuestion = '¿Que discernimiento debería responder a esta acción?: ';
+        }
         speak(textQuestion);
         saveRequest.question("Jarvis: " + textQuestion, async responseSave => {
           saveRequest.close();
@@ -142,7 +130,15 @@ exports.fixLastIdea = () => {
             await respuestaConversations("Sera a la proxima");
             resolve(false);
           }
-          const zona = response === "comando" ? "body" : "razon"
+          if (response === "comando") {
+            zona = "body";
+          }
+          if (response === "conversacion") {
+            zona = "razon";
+          }
+          if (response === "discernimiento") {
+            zona = "discernment";
+          }
           let dirSave = null;
           let fileData = null
           async function readDirectory(dir) {
@@ -202,7 +198,6 @@ exports.fixLastIdea = () => {
 }
 
 exports.handleNotFount = (action, intuition = null, discernment) => {
-  //await respuestaConversations("Lo siento no existe esa acción en el sistema o mal interprete la pregunta")
   return new Promise(async (resolve, reject) => {
     const greatOrNot = readline.createInterface({
       input: process.stdin,

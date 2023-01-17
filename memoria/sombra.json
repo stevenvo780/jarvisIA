@@ -1654,6 +1654,380 @@
     "output": "None",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.3823528289794922,
+      "neutral": 0.35206669569015503,
+      "positive": 0.38975825905799866,
+      "score": 0.00740543007850647
+    }
+  },
+  {
+    "input": "añade una nueva respuesta",
+    "output": "Lo sé, pero no quiero arruinar la amistad que tengo con ella.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3823528289794922,
+      "neutral": 0.35206669569015503,
+      "positive": 0.38975825905799866,
+      "score": 0.00740543007850647
+    }
+  },
+  {
+    "input": "que piensas jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.15089502930641174,
+      "neutral": 0.17172835767269135,
+      "positive": 0.4150048792362213,
+      "score": 0.26410984992980957
+    }
+  },
+  {
+    "input": "que piensas jarvis",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.15089502930641174,
+      "neutral": 0.17172835767269135,
+      "positive": 0.4150048792362213,
+      "score": 0.26410984992980957
+    }
+  },
+  {
+    "input": "añade un nuevo comando",
+    "output": "learn.new.command",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10340219736099243,
+      "neutral": 0.4113565683364868,
+      "positive": 1,
+      "score": 0.8965978026390076
+    }
+  },
+  {
+    "input": "añade un nuevo comando",
+    "output": "Lo sé, pero no quiero pasar con él, no sé si puedo hacerlo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.10340219736099243,
+      "neutral": 0.4113565683364868,
+      "positive": 1,
+      "score": 0.8965978026390076
+    }
+  },
+  {
+    "input": "añade un nuevo comando",
+    "output": "learn.new.command",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.04526399448513985,
+      "neutral": 0.22000117599964142,
+      "positive": 1,
+      "score": 0.9547360055148602
+    }
+  },
+  {
+    "input": "añade un nuevo comando",
+    "output": "Estoy de acuerdo, pero no creo que pueda hacerlo esta vez.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.04526399448513985,
+      "neutral": 0.22000117599964142,
+      "positive": 1,
+      "score": 0.9547360055148602
+    }
+  },
+  {
+    "input": "bien, siempre que empezamos una conversacion empizas bien pero luego fallas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.768557071685791,
+      "neutral": 0.4891485571861267,
+      "positive": 0.36923539638519287,
+      "score": -0.39932167530059814
+    }
+  },
+  {
+    "input": "bien, siempre que empezamos una conversacion empizas bien pero luego fallas",
+    "output": "Soy una IA inspirada en Jarvis de Iron man, fui fabricada a partir de redes neuronales y sistemas de aprendizaje automático y asistido para controlar el Sistema operativo ubuntu o llevar una charla, cuento con una intuición dada por 480 millones de parámetros para responder a conversaciones y traducciones",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.768557071685791,
+      "neutral": 0.4891485571861267,
+      "positive": 0.36923539638519287,
+      "score": -0.39932167530059814
+    }
+  },
+  {
+    "input": "tan pendejo yo",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.9490989446640015,
+      "neutral": 0.6176153421401978,
+      "positive": 0.25663062930107117,
+      "score": -0.6924683153629303
+    }
+  },
+  {
+    "input": "tan pendejo yo",
+    "output": "¿Te gusta Pende Juan? Era un cantante americano, compositor y actor.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.9490989446640015,
+      "neutral": 0.6176153421401978,
+      "positive": 0.25663062930107117,
+      "score": -0.6924683153629303
+    }
+  },
+  {
+    "input": "por que de mal humor jarvis",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "por que de mal humor jarvis",
+    "output": "Lamento oír eso, espero que te sientas mejor. ¿Qué está pasando?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "bien",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "bien",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.235530823469162,
+      "neutral": 0.2627907395362854,
+      "positive": 0.5519281625747681,
+      "score": 0.3163973391056061
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "Me gusta contar historias, decirme algo de ti misma. ¿Te gusta contar historias?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "Si, siempre puedo aprender mas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08051129430532455,
+      "neutral": 0.06954330205917358,
+      "positive": 0.21107804775238037,
+      "score": 0.13056675344705582
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "bien",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "bien",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "Si, siempre puedo aprender mas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo  nuevo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "aprende algo  nuevo",
+    "output": "Si, siempre puedo aprender mas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "Si, siempre puedo aprender mas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.028757691383361816,
+      "neutral": 0.05580201372504234,
+      "positive": 0.3750886619091034,
+      "score": 0.3463309705257416
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.026886221021413803,
+      "neutral": 0.05190347507596016,
+      "positive": 0.3505326509475708,
+      "score": 0.323646429926157
+    }
+  },
+  {
+    "input": "aprende algo nuevo",
+    "output": "Si, siempre puedo aprender mas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.026886221021413803,
+      "neutral": 0.05190347507596016,
+      "positive": 0.3505326509475708,
+      "score": 0.323646429926157
+    }
+  },
+  {
+    "input": "te enseñare una nueva respuesta",
+    "output": "learn.new.command",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 1,
       "neutral": 0.5961400866508484,
       "positive": 0.27887168526649475,
@@ -1661,8 +2035,8 @@
     }
   },
   {
-    "input": "añade una nueva respuesta",
-    "output": "Lo sé, pero no quiero arruinar la amistad que tengo con ella.",
+    "input": "te enseñare una nueva respuesta",
+    "output": "Eso sería genial. ¿Qué te gustaría saber de mí? Me gusta aprender cosas nuevas.",
     "zone": "intuition",
     "emotionalResponse": {
       "negative": 1,
