@@ -168,7 +168,7 @@ async function classificationMaxima(classifications, zone) {
 const intuitionResponse = async (question, discernment) => {
   await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
-  const betty = await runCommandBetty(translateEs_En.response);
+  const betty = await bettyIntent(translateEs_En.response);
   let translateEn_Es = null;
   if (betty != null) {
     translateEn_Es = await runCommandTranslateEn_Es(bettyIntent);
@@ -180,7 +180,6 @@ const intuitionResponse = async (question, discernment) => {
     } else {
       const result = await runCommandBlenderbot(translateEs_En.response);
       translateEn_Es = await runCommandTranslateEn_Es(result.response);
-      await respuestaConversations(translateEn_Es.response);
     }
     await respuestaConversations(translateEn_Es.response);
     return;

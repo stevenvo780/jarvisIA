@@ -3502,6 +3502,50 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "que eres",
+    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.012767323292791843,
+      "neutral": 0.02974560484290123,
+      "positive": 0.5340906977653503,
+      "score": 0.5213233744725585
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.012767323292791843,
+      "neutral": 0.02974560484290123,
+      "positive": 0.5340906977653503,
+      "score": 0.5213233744725585
+    }
+  },
+  {
+    "input": "bien, bueno vamos a probar tu cadencia",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -3509,8 +3553,8 @@
     }
   },
   {
-    "input": "que eres",
-    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "input": "bien, bueno vamos a probar tu cadencia",
+    "output": "que bien ¿en que puedo ayudarte?",
     "zone": "razon",
     "emotionalResponse": {
       "negative": 0,
