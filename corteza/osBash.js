@@ -314,3 +314,31 @@ exports.runCommandSentiment = async (command) => {
 exports.closeSessionSentiment = () => {
   childSentiment.kill('SIGINT');
 }
+
+// mycroft commands
+let childMycroft;
+exports.openSessionMycroft = () => {
+  childMycroft = spawn('bash');
+  childMycroft.stdout.on('data', data => {
+    //console.log(`stdout chat: ${data}`);
+  });
+  childMycroft.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroftCommandLine.py') + '\n');
+  childMycroftListener = spawn('bash');
+  childMycroft.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroft.py') + '\n');
+}
+
+exports.runCommandMycroft = async (command) => {
+  childMycroft.stdin.write(command + '\n');
+  return new Promise((resolve, reject) => {
+    fs.watch(path.join(__dirname, '../memoria', 'mycroft.json'), (eventType, filename) => {
+      if (eventType === 'change') {
+        try {
+          const result = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria', 'mycroft.json')));
+          resolve(result);
+        } catch (error) {
+          // aveces falla la lectura
+        }
+      }
+    });
+  });
+}

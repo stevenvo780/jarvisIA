@@ -5,6 +5,8 @@ const {
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
   runCommandBetty,
+  runCommandMycroft,
+  runCommandSentiment
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
 const { pensarBody } = require('./NLP/body');
@@ -72,6 +74,18 @@ exports.medula = async (question) => {
   }
   if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
     await newIdea();
+    return;
+  }
+  if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
+    const mycroft = await runCommandMycroft(translateEs_En.response);
+    const sentiment = await runCommandSentiment(mycroft);
+    if (sentiment.score > 0) {
+      translateEn_Es = await runCommandTranslateEn_Es(mycroft);
+      await respuestaConversations(translateEn_Es.response);
+      return;
+    } else {
+      await intuitionResponse(question, discernmentProm);
+    }
     return;
   }
   if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
@@ -155,9 +169,17 @@ const intuitionResponse = async (question, discernment) => {
     translateEn_Es = await runCommandTranslateEn_Es(bettyIntent);
     await respuestaConversations(translateEn_Es.response);
   } else {
-    const result = await runCommandBlenderbot(translateEs_En.response);
-    translateEn_Es = await runCommandTranslateEn_Es(result.response);
-    await respuestaConversations(translateEn_Es.response);
+    const mycroft = await runCommandMycroft(translateEs_En.response);
+    const sentiment = await runCommandSentiment(mycroft);
+    if (sentiment.score > 0) {
+      translateEn_Es = await runCommandTranslateEn_Es(mycroft);
+      await respuestaConversations(translateEn_Es.response);
+      return;
+    } else {
+      const result = await runCommandBlenderbot(translateEs_En.response);
+      translateEn_Es = await runCommandTranslateEn_Es(result.response);
+      await respuestaConversations(translateEn_Es.response);
+    }
   }
   await handleNotFount(question, translateEn_Es.response, discernment);
   return translateEn_Es?.response;

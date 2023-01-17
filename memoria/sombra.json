@@ -3172,6 +3172,94 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.13872893154621124,
+      "neutral": 0.12729769945144653,
+      "positive": 0.25314462184906006,
+      "score": 0.11441569030284882
+    }
+  },
+  {
+    "input": "cuentame algo",
+    "output": "La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos lados para este propósito.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.13872893154621124,
+      "neutral": 0.12729769945144653,
+      "positive": 0.25314462184906006,
+      "score": 0.11441569030284882
+    }
+  },
+  {
+    "input": "que haces jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "que haces jarvis",
+    "output": "Estoy esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.012295312248170376,
+      "neutral": 0.0100356200709939,
+      "positive": 0.05345755070447922,
+      "score": 0.04116223845630884
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.012295312248170376,
+      "neutral": 0.0100356200709939,
+      "positive": 0.05345755070447922,
+      "score": 0.04116223845630884
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.9625237584114075,
+      "neutral": 0.4653625786304474,
+      "positive": 0.31885212659835815,
+      "score": -0.6436716318130493
+    }
+  },
+  {
+    "input": "soy del imalaya",
+    "output": "Es genial. ¿Qué haces para vivir? ¿Tienes algún hobbie?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.9625237584114075,
+      "neutral": 0.4653625786304474,
+      "positive": 0.31885212659835815,
+      "score": -0.6436716318130493
+    }
+  },
+  {
+    "input": "pon una alarma para dentro de 5 minutos",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -3179,9 +3267,9 @@
     }
   },
   {
-    "input": "cuentame algo",
-    "output": "La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos lados para este propósito.",
-    "zone": "razon",
+    "input": "pon una alarma para dentro de 5 minutos",
+    "output": "gnome-terminal --window-with-profile=Root",
+    "zone": "body",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

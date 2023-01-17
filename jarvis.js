@@ -4,7 +4,8 @@ const { respuestaConversations } = require('./corteza/voz');
 const {
   openSession,
   openSessionBetty,
-  openSessionMimic
+  openSessionMimic,
+  openSessionMycroft
 } = require('./corteza/osBash');
 const { loadLobules } = require('./corteza/loadLobulosPy');
 const { findBinaries, commandDirect, medula } = require('./ego');
@@ -16,6 +17,9 @@ const initSystem = async () => {
   openSessionBetty();
   if (process.env.SPEACK === "mimic3") {
     openSessionMimic();
+  }
+  if (process.env.MYCROFT) {
+    openSessionMycroft();
   }
   await findBinaries();
   await loadLobules();

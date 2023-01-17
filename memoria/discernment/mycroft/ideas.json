@@ -1,0 +1,378 @@
+[
+  {
+    "input": "¿qué hora es?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿qué día es hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿qué día es mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿qué día es pasado mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "despiértame en dos horas",
+    "output": "mycroft"
+  },
+  {
+    "input": "despiértame a las 22:23",
+    "output": "mycroft"
+  },
+  {
+    "input": "poner una alarma para dos horas",
+    "output": "mycroft"
+  },
+  {
+    "input": "poner una alarma para las 3pm",
+    "output": "mycroft"
+  },
+  {
+    "input": "crear alarmas para cada día de la semana a las 6",
+    "output": "mycroft"
+  },
+  {
+    "input": "iniciar una alarma repetitiva para los viernes a las 9:30 p. m.",
+    "output": "mycroft"
+  },
+  {
+    "input": "configurar una alarma",
+    "output": "mycroft"
+  },
+  {
+    "input": "dormitar durante 15 minutos",
+    "output": "mycroft"
+  },
+  {
+    "input": "dame 2 horas mas",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué tiempo hace hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo para mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la temperatura actual?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la temperatura para esta noche?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cómo está el tráfico en la ciudad?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo para el fin de semana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la hora?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué día es hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué fecha es hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la fecha de mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la fecha de pasado mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué tiempo hace?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cómo está el clima?",
+    "output": "mycroft"
+  },
+  {
+    "input": "detener la alarma",
+    "output": "mycroft"
+  },
+  {
+    "input": "borre la alarma del martes para las 9",
+    "output": "mycroft"
+  },
+  {
+    "input": "eliminar todas las alarmas",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿cuándo es la próxima alarma?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuáles son las alarmas para hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "cambiar el sonido de la alarma",
+    "output": "mycroft"
+  },
+  {
+    "input": "Registra audio",
+    "output": "mycroft"
+  },
+  {
+    "input": "comienza a grabar",
+    "output": "mycroft"
+  },
+  {
+    "input": "grábame durante 6 segundos",
+    "output": "mycroft"
+  },
+  {
+    "input": "reproduce grabación",
+    "output": "mycroft"
+  },
+  {
+    "input": "reproduce el audio grabado",
+    "output": "mycroft"
+  },
+  {
+    "input": "reproduce la grabación",
+    "output": "mycroft"
+  },
+  {
+    "input": "borra el audio",
+    "output": "mycroft"
+  },
+  {
+    "input": "borra la grabación",
+    "output": "mycroft"
+  },
+  {
+    "input": "limpia la grabación",
+    "output": "mycroft"
+  },
+  {
+    "input": "la hora ahora por favor",
+    "output": "mycroft"
+  },
+  {
+    "input": "Cual sera el clima en 2 horas",
+    "output": "mycroft"
+  },
+  {
+    "input": "dime la hora dentro de 6 horas en París?",
+    "output": "mycroft"
+  },
+  {
+    "input": "mostrar el tiempo",
+    "output": "mycroft"
+  },
+  {
+    "input": "mostrar la hora en París",
+    "output": "mycroft"
+  },
+  {
+    "input": "dime la hora en",
+    "output": "mycroft"
+  },
+  {
+    "input": "dime la hora en España",
+    "output": "mycroft"
+  },
+  {
+    "input": "cual es la hora en estados unidos",
+    "output": "mycroft"
+  },
+  {
+    "input": "que hora es en Australia",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿cuándo es el próximo año bisiesto?",
+    "output": "mycroft"
+  },
+  {
+    "input": "cuando es primero de julio",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la fecha de hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "cuando fue el ultimo fin de semana",
+    "output": "mycroft"
+  },
+  {
+    "input": "Cual es mi ip",
+    "output": "mycroft"
+  },
+  {
+    "input": "dime la dirección de red",
+    "output": "mycroft"
+  },
+  {
+    "input": "Dime la ip",
+    "output": "mycroft"
+  },
+  {
+    "input": "a que red estoy conectado",
+    "output": "mycroft"
+  },
+  {
+    "input": "en que SSID estoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "que red wifi estoy usando?",
+    "output": "mycroft"
+  },
+  {
+    "input": "que wiki estoy",
+    "output": "mycroft"
+  },
+  {
+    "input": "Cuéntame un chiste",
+    "output": "mycroft"
+  },
+  {
+    "input": "Hazme reír",
+    "output": "mycroft"
+  },
+  {
+    "input": "Alegra mi ida con un chiste de chuck Norris",
+    "output": "mycroft"
+  },
+  {
+    "input": "Cuéntame un chiste ofensivo",
+    "output": "mycroft"
+  },
+  {
+    "input": "Cuales son nas noticias de hoy",
+    "output": "mycroft"
+  },
+  {
+    "input": "hola, mycroft",
+    "output": "mycroft"
+  },
+  {
+    "input": "mycroft",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué tiempo hace hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo para mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la temperatura actual?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la temperatura para esta noche?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cómo está el tráfico en la ciudad?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo para el fin de semana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la hora?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué día es hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué fecha es hoy?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la fecha de mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es la fecha de pasado mañana?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué tiempo hace?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cuál es el pronóstico del tiempo?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Cómo está el clima?",
+    "output": "mycroft"
+  },
+  {
+    "input": "¿Qué hora es en otro pais?",
+    "output": "mycroft"
+  },
+  {
+    "input": "Reproduce una canción",
+    "output": "mycroft"
+  },
+  {
+    "input": "Abre Spotify",
+    "output": "mycroft"
+  },
+  {
+    "input": "Agrega un evento a mi calendario",
+    "output": "mycroft"
+  },
+  {
+    "input": "Busca información sobre un tema específico",
+    "output": "mycroft"
+  },
+  {
+    "input": "Traduce una frase al inglés",
+    "output": "mycroft"
+  },
+  {
+    "input": "Define una palabra",
+    "output": "mycroft"
+  },
+  {
+    "input": "Da una cita de un autor específico",
+    "output": "mycroft"
+  },
+  {
+    "input": "Encuentra un restaurante cercano",
+    "output": "mycroft"
+  },
+  {
+    "input": "Encuentra un hotel en una ciudad específica",
+    "output": "mycroft"
+  },
+  {
+    "input": "pausa",
+    "output": "mycroft"
+  }
+]
