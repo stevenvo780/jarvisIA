@@ -502,5 +502,17 @@
   {
     "input": "abre gmail",
     "output": "execute.body"
+  },
+  {
+    "input": "como sumo matrices",
+    "output": "mycroft"
+  },
+  {
+    "input": "buena respuesta",
+    "output": "mycroft"
+  },
+  {
+    "input": "que eres",
+    "output": "execute.razon"
   }
 ]

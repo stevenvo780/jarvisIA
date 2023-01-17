@@ -5,14 +5,13 @@ const {
   runCommandTranslateEn_Es,
   runCommandTranslateEs_En,
   runCommandBetty,
-  runCommandMycroft,
-  runCommandSentiment
+  runCommandMycroft
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
-const { newIdea, fixLastIdea, addLastIdea, handleNotFount } = require('./gestionMemoria/learning');
+const { newIdea, fixLastIdea, addLastIdea, rememberLastResponse, handleNotFount } = require('./gestionMemoria/learning');
 const { spawn } = require('child_process');
 const { systemAction } = require('./corteza/cagorizacionProcessExecute');
 
@@ -76,18 +75,6 @@ exports.medula = async (question) => {
     await newIdea();
     return;
   }
-  if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
-    const mycroft = await runCommandMycroft(translateEs_En.response);
-    const sentiment = await runCommandSentiment(mycroft);
-    if (sentiment.score > 0) {
-      translateEn_Es = await runCommandTranslateEn_Es(mycroft);
-      await respuestaConversations(translateEn_Es.response);
-      return;
-    } else {
-      await intuitionResponse(question, discernmentProm);
-    }
-    return;
-  }
   if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
     await fixLastIdea();
     return;
@@ -95,6 +82,25 @@ exports.medula = async (question) => {
   if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
     await addLastIdea();
     return;
+  }
+  if (discernmentProm.intent == "learn.last.remember" && discernmentProm.score > 0.5) {
+    await rememberLastResponse();
+    return;
+  }
+  if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
+    await respuestaConversations("Preguntando a mycroft");
+    const translateEs_En = await runCommandTranslateEs_En(question);
+    const mycroft = await runCommandMycroft(translateEs_En.response);
+    const discernmentFalied = await pensarDiscernment(mycroft.response);
+    const discernmentFaliedProm = await classificationMaxima(discernmentFalied.classifications, "discernment");
+    if (discernmentFaliedProm.intent == "mycroft.fail") {
+      await intuitionResponse(question, discernmentProm);
+      return;
+    } else {
+      translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
+      await respuestaConversations(translateEn_Es.response);
+      return;
+    }
   }
   if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
     const bodySomatic = await pensarBody(question);
@@ -162,25 +168,51 @@ async function classificationMaxima(classifications, zone) {
 const intuitionResponse = async (question, discernment) => {
   await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
-  // betty intent
-  const bettyIntent = await runCommandBetty(translateEs_En.response);
+  const betty = await runCommandBetty(translateEs_En.response);
   let translateEn_Es = null;
-  if (bettyIntent != null) {
+  if (betty != null) {
     translateEn_Es = await runCommandTranslateEn_Es(bettyIntent);
     await respuestaConversations(translateEn_Es.response);
   } else {
-    const mycroft = await runCommandMycroft(translateEs_En.response);
-    const sentiment = await runCommandSentiment(mycroft);
-    if (sentiment.score > 0) {
-      translateEn_Es = await runCommandTranslateEn_Es(mycroft);
-      await respuestaConversations(translateEn_Es.response);
-      return;
+    const mycroft = await mycroftIntent(translateEs_En.response);
+    if (mycroft !== null) {
+      translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
     } else {
       const result = await runCommandBlenderbot(translateEs_En.response);
       translateEn_Es = await runCommandTranslateEn_Es(result.response);
       await respuestaConversations(translateEn_Es.response);
     }
+    await respuestaConversations(translateEn_Es.response);
+    return;
   }
   await handleNotFount(question, translateEn_Es.response, discernment);
   return translateEn_Es?.response;
+}
+
+const bettyIntent = async (question) => {
+  if (process.env.BETTY) {
+    const bettyIntent = await runCommandBetty(question);
+    if (bettyIntent != null) {
+      return bettyIntent;
+    } else {
+      return null;
+    }
+  } else {
+    return null;
+  }
+}
+
+const mycroftIntent = async (question) => {
+  if (process.env.MYCROFT) {
+    const mycroft = await runCommandMycroft(question);
+    const discernmentFailed = await pensarDiscernment(mycroft.response);
+    const discernmentFailedProm = await classificationMaxima(discernmentFailed.classifications, "discernment");
+    if (discernmentFailedProm.intent !== "mycroft.fail") {
+      return mycroft;
+    } else {
+      return null;
+    }
+  } else {
+    return null;
+  }
 }

@@ -374,5 +374,49 @@
   {
     "input": "pausa",
     "output": "mycroft"
+  },
+  {
+    "input": "Sorry, I don't understand",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "I'm sorry, I don't understand",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "Sorry, I didn't catch that",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "Please rephrase your request",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "I don't know what that means",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "Sorry, I don't understand",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "I'm not sure I understood you",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "I don't know what that means",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "You might have to say that a different way",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "I'm not sure I understood you",
+    "output": "mycroft.fail"
+  },
+  {
+    "input": "You might have to say that a different way",
+    "output": "mycroft.fail"
   }
 ]

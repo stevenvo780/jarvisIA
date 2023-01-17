@@ -93,6 +93,14 @@ exports.addLastIdea = async () => {
   await this.recordarAction(question);
 }
 
+exports.rememberLastResponse = async () => {
+  const sombra = await getSombra();
+  const idea = sombra[sombra.length - 2];
+  await recordar(idea.input, idea.output, "razon");
+  await razonLearn();
+  await discernmentLearn();
+}
+
 exports.fixLastIdea = () => {
   return new Promise(async (resolve, reject) => {
     const sombra = await getSombra();

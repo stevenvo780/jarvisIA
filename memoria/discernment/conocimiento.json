@@ -202,6 +202,312 @@
   "agregar respuesta al anterior": [
     "learn.new.last"
   ],
+  "recuerda eso ultimo": [
+    "learn.last.remember"
+  ],
+  "Muy bien lo ultimo que dijiste": [
+    "learn.last.remember"
+  ],
+  "Excelente la ultima respuesta": [
+    "learn.last.remember"
+  ],
+  "Recuerda esto para más tarde": [
+    "learn.remember"
+  ],
+  "Ten en cuenta esto": [
+    "learn.remember"
+  ],
+  "Anota esto": [
+    "learn.remember"
+  ],
+  "Guarda esta información": [
+    "learn.remember"
+  ],
+  "Memoriza esto": [
+    "learn.remember"
+  ],
+  "Aprende esto": [
+    "learn.remember"
+  ],
+  "¿qué hora es?": [
+    "mycroft"
+  ],
+  "¿qué día es hoy?": [
+    "mycroft"
+  ],
+  "¿qué día es mañana?": [
+    "mycroft"
+  ],
+  "¿qué día es pasado mañana?": [
+    "mycroft"
+  ],
+  "despiértame en dos horas": [
+    "mycroft"
+  ],
+  "despiértame a las 22:23": [
+    "mycroft"
+  ],
+  "poner una alarma para dos horas": [
+    "mycroft"
+  ],
+  "poner una alarma para las 3pm": [
+    "mycroft"
+  ],
+  "crear alarmas para cada día de la semana a las 6": [
+    "mycroft"
+  ],
+  "iniciar una alarma repetitiva para los viernes a las 9:30 p. m.": [
+    "mycroft"
+  ],
+  "configurar una alarma": [
+    "mycroft"
+  ],
+  "dormitar durante 15 minutos": [
+    "mycroft"
+  ],
+  "dame 2 horas mas": [
+    "mycroft"
+  ],
+  "¿Qué tiempo hace hoy?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es el pronóstico del tiempo para mañana?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es la temperatura actual?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es la temperatura para esta noche?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cómo está el tráfico en la ciudad?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es el pronóstico del tiempo para el fin de semana?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es la hora?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Qué día es hoy?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Qué fecha es hoy?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es la fecha de mañana?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es la fecha de pasado mañana?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Qué tiempo hace?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cuál es el pronóstico del tiempo?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "¿Cómo está el clima?": [
+    "mycroft",
+    "mycroft"
+  ],
+  "detener la alarma": [
+    "mycroft"
+  ],
+  "borre la alarma del martes para las 9": [
+    "mycroft"
+  ],
+  "eliminar todas las alarmas": [
+    "mycroft"
+  ],
+  "¿cuándo es la próxima alarma?": [
+    "mycroft"
+  ],
+  "¿Cuáles son las alarmas para hoy?": [
+    "mycroft"
+  ],
+  "cambiar el sonido de la alarma": [
+    "mycroft"
+  ],
+  "Registra audio": [
+    "mycroft"
+  ],
+  "comienza a grabar": [
+    "mycroft"
+  ],
+  "grábame durante 6 segundos": [
+    "mycroft"
+  ],
+  "reproduce grabación": [
+    "mycroft"
+  ],
+  "reproduce el audio grabado": [
+    "mycroft"
+  ],
+  "reproduce la grabación": [
+    "mycroft"
+  ],
+  "borra el audio": [
+    "mycroft"
+  ],
+  "borra la grabación": [
+    "mycroft"
+  ],
+  "limpia la grabación": [
+    "mycroft"
+  ],
+  "la hora ahora por favor": [
+    "mycroft"
+  ],
+  "Cual sera el clima en 2 horas": [
+    "mycroft"
+  ],
+  "dime la hora dentro de 6 horas en París?": [
+    "mycroft"
+  ],
+  "mostrar el tiempo": [
+    "mycroft"
+  ],
+  "mostrar la hora en París": [
+    "mycroft"
+  ],
+  "dime la hora en": [
+    "mycroft"
+  ],
+  "dime la hora en España": [
+    "mycroft"
+  ],
+  "cual es la hora en estados unidos": [
+    "mycroft"
+  ],
+  "que hora es en Australia": [
+    "mycroft"
+  ],
+  "¿cuándo es el próximo año bisiesto?": [
+    "mycroft"
+  ],
+  "cuando es primero de julio": [
+    "mycroft"
+  ],
+  "¿Cuál es la fecha de hoy?": [
+    "mycroft"
+  ],
+  "cuando fue el ultimo fin de semana": [
+    "mycroft"
+  ],
+  "Cual es mi ip": [
+    "mycroft"
+  ],
+  "dime la dirección de red": [
+    "mycroft"
+  ],
+  "Dime la ip": [
+    "mycroft"
+  ],
+  "a que red estoy conectado": [
+    "mycroft"
+  ],
+  "en que SSID estoy?": [
+    "mycroft"
+  ],
+  "que red wifi estoy usando?": [
+    "mycroft"
+  ],
+  "que wiki estoy": [
+    "mycroft"
+  ],
+  "Cuéntame un chiste": [
+    "mycroft"
+  ],
+  "Hazme reír": [
+    "mycroft"
+  ],
+  "Alegra mi ida con un chiste de chuck Norris": [
+    "mycroft"
+  ],
+  "Cuéntame un chiste ofensivo": [
+    "mycroft"
+  ],
+  "Cuales son nas noticias de hoy": [
+    "mycroft"
+  ],
+  "hola, mycroft": [
+    "mycroft"
+  ],
+  "mycroft": [
+    "mycroft"
+  ],
+  "¿Qué hora es en otro pais?": [
+    "mycroft"
+  ],
+  "Reproduce una canción": [
+    "mycroft"
+  ],
+  "Abre Spotify": [
+    "mycroft"
+  ],
+  "Agrega un evento a mi calendario": [
+    "mycroft"
+  ],
+  "Busca información sobre un tema específico": [
+    "mycroft"
+  ],
+  "Traduce una frase al inglés": [
+    "mycroft"
+  ],
+  "Define una palabra": [
+    "mycroft"
+  ],
+  "Da una cita de un autor específico": [
+    "mycroft"
+  ],
+  "Encuentra un restaurante cercano": [
+    "mycroft"
+  ],
+  "Encuentra un hotel en una ciudad específica": [
+    "mycroft"
+  ],
+  "pausa": [
+    "mycroft"
+  ],
+  "Sorry, I don't understand": [
+    "mycroft.fail",
+    "mycroft.fail"
+  ],
+  "I'm sorry, I don't understand": [
+    "mycroft.fail"
+  ],
+  "Sorry, I didn't catch that": [
+    "mycroft.fail"
+  ],
+  "Please rephrase your request": [
+    "mycroft.fail"
+  ],
+  "I don't know what that means": [
+    "mycroft.fail",
+    "mycroft.fail"
+  ],
+  "I'm not sure I understood you": [
+    "mycroft.fail",
+    "mycroft.fail"
+  ],
+  "You might have to say that a different way": [
+    "mycroft.fail",
+    "mycroft.fail"
+  ],
   "hola": [
     "execute.razon",
     "execute.razon"
@@ -362,7 +668,8 @@
     "execute.intuition"
   ],
   "que eres": [
-    "execute.intuition"
+    "execute.intuition",
+    "execute.razon"
   ],
   "cuéntame sobre tu historia": [
     "execute.intuition"
@@ -590,5 +897,11 @@
   ],
   "abre gmail": [
     "execute.body"
+  ],
+  "como sumo matrices": [
+    "mycroft"
+  ],
+  "buena respuesta": [
+    "mycroft"
   ]
 }

@@ -3260,6 +3260,248 @@
     "output": "execute.body",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.3089880049228668,
+      "neutral": 0.26406481862068176,
+      "positive": 0.3500981330871582,
+      "score": 0.04111012816429138
+    }
+  },
+  {
+    "input": "pon una alarma para dentro de 5 minutos",
+    "output": "gnome-terminal --window-with-profile=Root",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.3089880049228668,
+      "neutral": 0.26406481862068176,
+      "positive": 0.3500981330871582,
+      "score": 0.04111012816429138
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3085907995700836,
+      "neutral": 0.24000397324562073,
+      "positive": 0.2933807075023651,
+      "score": -0.015210092067718506
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "El Monte Everest es la montaña más elevada del nivel del mar del mundo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3085907995700836,
+      "neutral": 0.24000397324562073,
+      "positive": 0.2933807075023651,
+      "score": -0.015210092067718506
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09954147785902023,
+      "neutral": 0.08820528537034988,
+      "positive": 0.2327035516500473,
+      "score": 0.13316207379102707
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "Es la montaña más alta del mundo, es la montaña más elevada del nivel del mar.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.09954147785902023,
+      "neutral": 0.08820528537034988,
+      "positive": 0.2327035516500473,
+      "score": 0.13316207379102707
+    }
+  },
+  {
+    "input": "que es la vida",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.16720694303512573,
+      "neutral": 0.15723350644111633,
+      "positive": 0.33947688341140747,
+      "score": 0.17226994037628174
+    }
+  },
+  {
+    "input": "que es la vida",
+    "output": "La vida ​ es un sistema químico que utiliza energía para evitar alcanzar el equilibrio químico.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.16720694303512573,
+      "neutral": 0.15723350644111633,
+      "positive": 0.33947688341140747,
+      "score": 0.17226994037628174
+    }
+  },
+  {
+    "input": "como sumo matrices",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01740451157093048,
+      "neutral": 0.02365877851843834,
+      "positive": 0.28494206070899963,
+      "score": 0.26753754913806915
+    }
+  },
+  {
+    "input": "como sumo matrices",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01740451157093048,
+      "neutral": 0.02365877851843834,
+      "positive": 0.28494206070899963,
+      "score": 0.26753754913806915
+    }
+  },
+  {
+    "input": "buena respuesta",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.28841519355773926,
+      "neutral": 0.6474542021751404,
+      "positive": 0.7746912837028503,
+      "score": 0.4862760901451111
+    }
+  },
+  {
+    "input": "buena respuesta",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.28841519355773926,
+      "neutral": 0.6474542021751404,
+      "positive": 0.7746912837028503,
+      "score": 0.4862760901451111
+    }
+  },
+  {
+    "input": "cuantos humanos hay",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.18034964799880981,
+      "neutral": 0.14044077694416046,
+      "positive": 0.2602982521057129,
+      "score": 0.07994860410690308
+    }
+  },
+  {
+    "input": "cuantos humanos hay",
+    "output": "No estoy segura, pero sé que los humanos han estado aquí mucho tiempo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.18034964799880981,
+      "neutral": 0.14044077694416046,
+      "positive": 0.2602982521057129,
+      "score": 0.07994860410690308
+    }
+  },
+  {
+    "input": "hola jarvis como estas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola jarvis como estas",
+    "output": "Hola, estoy bien gracias. ¿En qué puedo ayudarte hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.02038567326962948,
+      "neutral": 0.04841513931751251,
+      "positive": 0.33952194452285767,
+      "score": 0.3191362712532282
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.02038567326962948,
+      "neutral": 0.04841513931751251,
+      "positive": 0.33952194452285767,
+      "score": 0.3191362712532282
+    }
+  },
+  {
+    "input": "cual es la profunidad del sistema",
+    "output": "None",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.0035751210525631905,
+      "neutral": 0.0071723731234669685,
+      "positive": 0.14796768128871918,
+      "score": 0.144392560236156
+    }
+  },
+  {
+    "input": "cual es la profunidad del sistema",
+    "output": "Es la Prowecty del Sistema. Es un sistema que se utiliza para monitorear y vigilar las señales eléctricas.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.0035751210525631905,
+      "neutral": 0.0071723731234669685,
+      "positive": 0.14796768128871918,
+      "score": 0.144392560236156
+    }
+  },
+  {
+    "input": "mycroft cual es la profundidad de la fosa de las marianas",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3978308141231537,
+      "neutral": 0.2812034487724304,
+      "positive": 0.37826842069625854,
+      "score": -0.01956239342689514
+    }
+  },
+  {
+    "input": "mycroft cual es la profundidad de la fosa de las marianas",
+    "output": "Me gusta el ganchillo, es uno de mis favoritos hobbies.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3978308141231537,
+      "neutral": 0.2812034487724304,
+      "positive": 0.37826842069625854,
+      "score": -0.01956239342689514
+    }
+  },
+  {
+    "input": "que eres",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -3267,9 +3509,9 @@
     }
   },
   {
-    "input": "pon una alarma para dentro de 5 minutos",
-    "output": "gnome-terminal --window-with-profile=Root",
-    "zone": "body",
+    "input": "que eres",
+    "output": "Soy una inteligencia artificial inspirada en Jarvis de Iron man el personaje de marvel, fui creada con redes neuronales y aprendizaje automático para ser cada dia mejor",
+    "zone": "razon",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

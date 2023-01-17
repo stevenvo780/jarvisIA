@@ -290,5 +290,41 @@
   {
     "input": "agregar respuesta al comando previo",
     "output": "learn.new.last"
+  },
+  {
+    "input": "recuerda eso ultimo",
+    "output": "learn.last.remember"
+  },
+  {
+    "input": "Muy bien lo ultimo que dijiste",
+    "output": "learn.last.remember"
+  },
+  {
+    "input": "Excelente la ultima respuesta",
+    "output": "learn.last.remember"
+  },
+  {
+    "input": "Recuerda esto para más tarde",
+    "output": "learn.remember"
+  },
+  {
+    "input": "Ten en cuenta esto",
+    "output": "learn.remember"
+  },
+  {
+    "input": "Anota esto",
+    "output": "learn.remember"
+  },
+  {
+    "input": "Guarda esta información",
+    "output": "learn.remember"
+  },
+  {
+    "input": "Memoriza esto",
+    "output": "learn.remember"
+  },
+  {
+    "input": "Aprende esto",
+    "output": "learn.remember"
   }
 ]
