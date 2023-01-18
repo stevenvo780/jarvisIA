@@ -931,6 +931,12 @@
   "dime la raiz cuadrada de 15": [
     "wolfram"
   ],
+  "jarvis, cuentame un chiste": [
+    "execute.razon"
+  ],
+  "cual es la altura del monte everest": [
+    "mycroft"
+  ],
   "Busca en wolfram": [
     "wolfram"
   ],

@@ -4316,6 +4316,226 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "bueno ya mas mejorado bastante",
+    "output": "gracias, todo es gracias a ti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1056208610534668,
+      "neutral": 0.09431078284978867,
+      "positive": 0.20210054516792297,
+      "score": 0.09647968411445618
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1056208610534668,
+      "neutral": 0.09431078284978867,
+      "positive": 0.20210054516792297,
+      "score": 0.09647968411445618
+    }
+  },
+  {
+    "input": "abre la calculadora",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.026838185265660286,
+      "neutral": 0.02940189465880394,
+      "positive": 0.16955921053886414,
+      "score": 0.14272102527320385
+    }
+  },
+  {
+    "input": "abre la calculadora",
+    "output": "gnome-calculator",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.026838185265660286,
+      "neutral": 0.02940189465880394,
+      "positive": 0.16955921053886414,
+      "score": 0.14272102527320385
+    }
+  },
+  {
+    "input": "pon valiente",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.02477341890335083,
+      "neutral": 0.029241612181067467,
+      "positive": 0.16912516951560974,
+      "score": 0.1443517506122589
+    }
+  },
+  {
+    "input": "pon valiente",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.02477341890335083,
+      "neutral": 0.029241612181067467,
+      "positive": 0.16912516951560974,
+      "score": 0.1443517506122589
+    }
+  },
+  {
+    "input": "mycrof pon valiente",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.532198429107666,
+      "neutral": 0.2866467535495758,
+      "positive": 0.3340335190296173,
+      "score": -0.1981649100780487
+    }
+  },
+  {
+    "input": "mycrof pon valiente",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.532198429107666,
+      "neutral": 0.2866467535495758,
+      "positive": 0.3340335190296173,
+      "score": -0.1981649100780487
+    }
+  },
+  {
+    "input": "jarvis, cuentame un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3090105652809143,
+      "neutral": 0.25351396203041077,
+      "positive": 0.4383344352245331,
+      "score": 0.12932386994361877
+    }
+  },
+  {
+    "input": "jarvis, cuentame un chiste",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3090105652809143,
+      "neutral": 0.25351396203041077,
+      "positive": 0.4383344352245331,
+      "score": 0.12932386994361877
+    }
+  },
+  {
+    "input": "jarvis dime un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.4471009075641632,
+      "neutral": 0.22513563930988312,
+      "positive": 0.3392343521118164,
+      "score": -0.1078665554523468
+    }
+  },
+  {
+    "input": "jarvis dime un chiste",
+    "output": "Cariño, creo que estás obsesionado con el fútbol y me haces falta. ¡¿Qué falta?! ¡¿Qué falta?! ¡Si no te he tocado!",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4471009075641632,
+      "neutral": 0.22513563930988312,
+      "positive": 0.3392343521118164,
+      "score": -0.1078665554523468
+    }
+  },
+  {
+    "input": "dame un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3090105652809143,
+      "neutral": 0.25351396203041077,
+      "positive": 0.4383344352245331,
+      "score": 0.12932386994361877
+    }
+  },
+  {
+    "input": "dame un chiste",
+    "output": "¿Qué pasa si tiras un pato al agua?. -- Nada.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3090105652809143,
+      "neutral": 0.25351396203041077,
+      "positive": 0.4383344352245331,
+      "score": 0.12932386994361877
+    }
+  },
+  {
+    "input": "jarvis dime un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.07169448584318161,
+      "neutral": 0.10770325362682343,
+      "positive": 0.5657877326011658,
+      "score": 0.49409324675798416
+    }
+  },
+  {
+    "input": "jarvis dime un chiste",
+    "output": "Cariño, creo que estás obsesionado con el fútbol y me haces falta. ¡¿Qué falta?! ¡¿Qué falta?! ¡Si no te he tocado!",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.07169448584318161,
+      "neutral": 0.10770325362682343,
+      "positive": 0.5657877326011658,
+      "score": 0.49409324675798416
+    }
+  },
+  {
+    "input": "dame un dato curioso",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "dame un dato curioso",
+    "output": "El cuerpo humano es una estructura compleja, pero absolutamente fascinante. A pesar de que la ciencia estudia cada parte del cuerpo desde hace siglos, nunca se lo termina de conocer del todo. ¡Es que es una infinita fuente de asombro!",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -4323,9 +4543,9 @@
     }
   },
   {
-    "input": "bueno ya mas mejorado bastante",
-    "output": "gracias, todo es gracias a ti",
-    "zone": "razon",
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

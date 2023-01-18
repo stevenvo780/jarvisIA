@@ -582,5 +582,13 @@
   {
     "input": "hola",
     "output": "execute.razon"
+  },
+  {
+    "input": "jarvis, cuentame un chiste",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "mycroft"
   }
 ]

@@ -470,5 +470,9 @@
   {
     "input": "hola",
     "output": "Hola, como estas ?"
+  },
+  {
+    "input": "jarvis, cuentame un chiste",
+    "output": "Cariño, creo que estás obsesionado con el fútbol y me haces falta. ¡¿Qué falta?! ¡¿Qué falta?! ¡Si no te he tocado!"
   }
 ]

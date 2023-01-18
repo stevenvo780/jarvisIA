@@ -66,80 +66,83 @@ exports.commandDirect = async (command) => {
 }
 
 exports.medula = async (question) => {
-  setTimeout(() => {
-    return;
-  }, 20000);
-  const discernment = await pensarDiscernment(question);
-  const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
-  if (discernmentProm.intent == "None") {
-    await intuitionResponse(question, discernmentProm);
-    return;
-  }
-  if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
-    await newIdea();
-    return;
-  }
-  if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
-    await fixLastIdea();
-    return;
-  }
-  if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
-    await addLastIdea();
-    return;
-  }
-  if (discernmentProm.intent == "learn.last.remember" && discernmentProm.score > 0.5) {
-    await rememberLastResponse();
-    return;
-  }
-  if (discernmentProm.intent == "wolfram" && discernmentProm.score > 0.5) {
-    await wolframIntent(question);
-    return;
-  }
-  if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
-    await respuestaConversations("Preguntando a mycroft");
-    const translateEs_En = await runCommandTranslateEs_En(question);
-    const mycroft = await mycroftIntent(translateEs_En.response);
-    if (mycroft === null) {
+  return new Promise(async (resolve, reject) => {
+    setTimeout(() => {
+      resolve(false);
+    }, 20000);
+    const discernment = await pensarDiscernment(question);
+    const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
+    if (discernmentProm.intent == "None") {
       await intuitionResponse(question, discernmentProm);
       return;
-    } else {
-      translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
-      await respuestaConversations(translateEn_Es.response);
+    }
+    if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
+      await newIdea();
       return;
     }
-  }
-  if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
-    const bodySomatic = await pensarBody(question);
-    const bodySomaticProm = await classificationMaxima(bodySomatic.classifications, "body");
-    if (bodySomaticProm.score < 0.5) {
-      await intuitionResponse(question, discernmentProm);
-    } else {
-      if (bodySomaticProm.intent == "None") {
+    if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
+      await fixLastIdea();
+      return;
+    }
+    if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
+      await addLastIdea();
+      return;
+    }
+    if (discernmentProm.intent == "learn.last.remember" && discernmentProm.score > 0.5) {
+      await rememberLastResponse();
+      return;
+    }
+    if (discernmentProm.intent == "wolfram" && discernmentProm.score > 0.5) {
+      await wolframIntent(question);
+      return;
+    }
+    if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
+      await respuestaConversations("Preguntando a mycroft");
+      const translateEs_En = await runCommandTranslateEs_En(question);
+      const mycroft = await mycroftIntent(translateEs_En.response);
+      if (mycroft === null) {
         await intuitionResponse(question, discernmentProm);
         return;
-      }
-      addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
-      await respuestaConversations(bodySomaticProm.intent);
-      await actionHandler(bodySomaticProm.intent, question);
-    }
-  } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
-    const razonSomatic = await pensarRazon(question);
-    const razonSomaticProm = await classificationMaxima(razonSomatic.classifications, "razon");
-    if (razonSomaticProm.score < 0.3) {
-      await intuitionResponse(question, discernmentProm);
-    } else {
-      if (razonSomaticProm.intent == "None") {
-        await intuitionResponse(question, discernmentProm);
+      } else {
+        translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
+        await respuestaConversations(translateEn_Es.response);
         return;
       }
-      addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
-      await respuestaConversations(razonSomaticProm.intent);
     }
-  } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
-    await intuitionResponse(question, discernmentProm);
-  } else {
-    await intuitionResponse(question, discernmentProm);
-  }
+    if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
+      const bodySomatic = await pensarBody(question);
+      const bodySomaticProm = await classificationMaxima(bodySomatic.classifications, "body");
+      if (bodySomaticProm.score < 0.5) {
+        await intuitionResponse(question, discernmentProm);
+      } else {
+        if (bodySomaticProm.intent == "None") {
+          await intuitionResponse(question, discernmentProm);
+          return;
+        }
+        addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
+        await respuestaConversations(bodySomaticProm.intent);
+        await actionHandler(bodySomaticProm.intent, question);
+      }
+    } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
+      const razonSomatic = await pensarRazon(question);
+      const razonSomaticProm = await classificationMaxima(razonSomatic.classifications, "razon");
+      if (razonSomaticProm.score < 0.3) {
+        await intuitionResponse(question, discernmentProm);
+      } else {
+        if (razonSomaticProm.intent == "None") {
+          await intuitionResponse(question, discernmentProm);
+          return;
+        }
+        addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
+        await respuestaConversations(razonSomaticProm.intent);
+      }
+    } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
+      await intuitionResponse(question, discernmentProm);
+    } else {
+      await intuitionResponse(question, discernmentProm);
+    }
+    resolve(true);
+  });
 }
 
 async function promedioSentiment(score, output, zone) {
