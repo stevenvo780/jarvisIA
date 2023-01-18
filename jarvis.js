@@ -47,7 +47,11 @@ async function think() {
       if (commandExecuteValide === true) {
         think();
       } else {
-        await medula(question);
+        try {
+          await medula(question);
+        } catch (error) {
+          //console.log(error);
+        }
         think();
       }
     }

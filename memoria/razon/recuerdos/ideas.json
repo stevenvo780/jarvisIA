@@ -510,5 +510,9 @@
   {
     "input": "Hola, que tal ?",
     "output": "Bien y usted, como se encuentra hoy ?"
+  },
+  {
+    "input": "Cual es el sentido de la vida",
+    "output": "El sentido de tu vida lo defines tu, pero el sentido del fenomeno de la vida, es un misterio"
   }
 ]

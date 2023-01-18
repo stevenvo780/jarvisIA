@@ -5702,6 +5702,28 @@
     "output": "execute.body",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -5709,9 +5731,9 @@
     }
   },
   {
-    "input": "editar",
-    "output": "code -n /home/stev/Documentos/repos/jarvis/",
-    "zone": "body",
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

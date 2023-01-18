@@ -64,27 +64,10 @@ exports.commandDirect = async (command) => {
     return false;
   }
 }
-let timerId;
-
-function startTimer(stop = false) {
-  return new Promise((resolve, reject) => {
-    if (stop) {
-      clearTimeout(timerId);
-      return reject();
-    }
-    timerId = setTimeout(() => {
-      resolve();
-    }, 20000);
-  });
-}
 
 
 exports.medula = async (question) => {
   return new Promise(async (resolve, reject) => {
-    startTimer().then(() => {
-      resolve(true);
-      return;
-    });
     const discernment = await pensarDiscernment(question);
     const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
     if (discernmentProm.intent == "None") {
@@ -203,7 +186,7 @@ async function classificationMaxima(classifications, zone) {
 }
 
 const intuitionResponse = async (question, discernment) => {
-  startTimer(true);
+  
   await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
   const betty = await bettyIntent(translateEs_En.response);
