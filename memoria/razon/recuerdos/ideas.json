@@ -502,5 +502,13 @@
   {
     "input": "bueno jarvis, aprendes lento",
     "output": "Perdona, procurare seguir mejorando"
+  },
+  {
+    "input": "eres torpe",
+    "output": "dale al comando edit y podras corregirme, suerte mirando mis organos"
+  },
+  {
+    "input": "Hola, que tal ?",
+    "output": "Bien y usted, como se encuentra hoy ?"
   }
 ]

@@ -618,5 +618,17 @@
   {
     "input": "bueno jarvis, aprendes lento",
     "output": "execute.razon"
+  },
+  {
+    "input": "eres torpe",
+    "output": "execute.razon"
+  },
+  {
+    "input": "eres torpe",
+    "output": "execute.razon"
+  },
+  {
+    "input": "Hola, que tal ?",
+    "output": "execute.razon"
   }
 ]

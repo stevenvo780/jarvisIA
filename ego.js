@@ -64,43 +64,57 @@ exports.commandDirect = async (command) => {
     return false;
   }
 }
+let timerId;
+
+function startTimer(stop = false) {
+  return new Promise((resolve, reject) => {
+    if (stop) {
+      clearTimeout(timerId);
+      return reject();
+    }
+    timerId = setTimeout(() => {
+      resolve();
+    }, 20000);
+  });
+}
+
 
 exports.medula = async (question) => {
   return new Promise(async (resolve, reject) => {
-    setTimeout(() => {
-      resolve(false);
+    startTimer().then(() => {
+      resolve(true);
       return;
-    }, 20000);
+    });
     const discernment = await pensarDiscernment(question);
     const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
     if (discernmentProm.intent == "None") {
       await intuitionResponse(question, discernmentProm);
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
       await newIdea();
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
       await fixLastIdea();
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
       await addLastIdea();
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "learn.last.remember" && discernmentProm.score > 0.5) {
       await rememberLastResponse();
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "wolfram" && discernmentProm.score > 0.5) {
       await wolframIntent(question);
-      resolve(false);
+      resolve(true);
       return;
     }
     if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
@@ -124,12 +138,14 @@ exports.medula = async (question) => {
       } else {
         if (bodySomaticProm.intent == "None") {
           await intuitionResponse(question, discernmentProm);
-          resolve(false);
+          resolve(true);
           return;
         }
         addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
         await respuestaConversations(bodySomaticProm.intent);
         await actionHandler(bodySomaticProm.intent, question);
+        resolve(true);
+        return;
       }
     } else if (discernmentProm.intent === "execute.razon" && discernmentProm.score > 0.5) {
       const razonSomatic = await pensarRazon(question);
@@ -139,11 +155,13 @@ exports.medula = async (question) => {
       } else {
         if (razonSomaticProm.intent == "None") {
           await intuitionResponse(question, discernmentProm);
-          resolve(false);
+          resolve(true);
           return;
         }
         addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
         await respuestaConversations(razonSomaticProm.intent);
+        resolve(true);
+        return;
       }
     } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
       await intuitionResponse(question, discernmentProm);
@@ -185,6 +203,7 @@ async function classificationMaxima(classifications, zone) {
 }
 
 const intuitionResponse = async (question, discernment) => {
+  startTimer(true);
   await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
   const betty = await bettyIntent(translateEs_En.response);

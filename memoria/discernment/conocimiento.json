@@ -956,6 +956,13 @@
   "bueno jarvis, aprendes lento": [
     "execute.razon"
   ],
+  "eres torpe": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "Hola, que tal ?": [
+    "execute.razon"
+  ],
   "Busca en wolfram": [
     "wolfram"
   ],

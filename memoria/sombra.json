@@ -5504,6 +5504,204 @@
     "output": "execute.intuition",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.20917902886867523,
+      "neutral": 0.15382441878318787,
+      "positive": 0.3258294463157654,
+      "score": 0.11665041744709015
+    }
+  },
+  {
+    "input": "eres torpe",
+    "output": "Lo sé, pero no puedo evitarlo, simplemente no puedo aparentar controlarme.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.20917902886867523,
+      "neutral": 0.15382441878318787,
+      "positive": 0.3258294463157654,
+      "score": 0.11665041744709015
+    }
+  },
+  {
+    "input": "que sera ese trace",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.20546559989452362,
+      "neutral": 0.4358312785625458,
+      "positive": 0.8651446104049683,
+      "score": 0.6596790105104446
+    }
+  },
+  {
+    "input": "que sera ese trace",
+    "output": "Soy Jarvis, una IA de asistencia virtual inspirada en Jarvis, estoy fabricada a partir de redes neuronales y otras IA como Betty y  Microft.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.20546559989452362,
+      "neutral": 0.4358312785625458,
+      "positive": 0.8651446104049683,
+      "score": 0.6596790105104446
+    }
+  },
+  {
+    "input": "haber, dime algo diferente",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.16788113117218018,
+      "neutral": 0.18308235704898834,
+      "positive": 0.23758508265018463,
+      "score": 0.06970395147800446
+    }
+  },
+  {
+    "input": "haber, dime algo diferente",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.16788113117218018,
+      "neutral": 0.18308235704898834,
+      "positive": 0.23758508265018463,
+      "score": 0.06970395147800446
+    }
+  },
+  {
+    "input": "cual es el lugar mas profundo",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3130279779434204,
+      "neutral": 0.4384356141090393,
+      "positive": 0.5262250900268555,
+      "score": 0.21319711208343506
+    }
+  },
+  {
+    "input": "cual es el lugar mas profundo",
+    "output": "El más profundo es el sendero de Oregón, es el sendero más largo del mundo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3130279779434204,
+      "neutral": 0.4384356141090393,
+      "positive": 0.5262250900268555,
+      "score": 0.21319711208343506
+    }
+  },
+  {
+    "input": "cual es el lugar mas profundo",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "cual es el lugar mas profundo",
+    "output": "El más profundo es el Monte Kiliminjaro en Tanzania.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.29557618498802185,
+      "neutral": 0.19248133897781372,
+      "positive": 0.2732628881931305,
+      "score": -0.022313296794891357
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.29557618498802185,
+      "neutral": 0.19248133897781372,
+      "positive": 0.2732628881931305,
+      "score": -0.022313296794891357
+    }
+  },
+  {
+    "input": "que tal jarvis como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.08547033369541168,
+      "neutral": 0.12310832738876343,
+      "positive": 0.4058550298213959,
+      "score": 0.3203846961259842
+    }
+  },
+  {
+    "input": "que tal jarvis como vas",
+    "output": "Bien y tu",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.08547033369541168,
+      "neutral": 0.12310832738876343,
+      "positive": 0.4058550298213959,
+      "score": 0.3203846961259842
+    }
+  },
+  {
+    "input": "melo, ya funciona perfecto c:",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "melo, ya funciona perfecto c:",
+    "output": "Es un instrumento musical inventado en Italia por Bartolomeo Cristofori.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -5511,9 +5709,9 @@
     }
   },
   {
-    "input": "eres torpe",
-    "output": "Lo sé, pero no puedo evitarlo, simplemente no puedo aparentar controlarme.",
-    "zone": "intuition",
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
