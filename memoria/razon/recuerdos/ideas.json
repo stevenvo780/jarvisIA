@@ -474,5 +474,33 @@
   {
     "input": "jarvis, cuentame un chiste",
     "output": "Cariño, creo que estás obsesionado con el fútbol y me haces falta. ¡¿Qué falta?! ¡¿Qué falta?! ¡Si no te he tocado!"
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "La elevación del Monte Everest es de 8849 metros por encima del nivel del mar."
+  },
+  {
+    "input": "bien, que hay de nuevo",
+    "output": "Por aqui atento para aprender mas"
+  },
+  {
+    "input": "bueno aveces tienes ciertas fallas",
+    "output": "Lo siento, sigo mejorando dia a dia"
+  },
+  {
+    "input": "bueno vamos a trabajar",
+    "output": "Vamos, con toda, aqui estoy para apoyarte"
+  },
+  {
+    "input": "vamos a trabajar",
+    "output": "Con toda, aqui estoy para ayudar"
+  },
+  {
+    "input": "bueno jarvis, hay que enseñarte mucho voy a gastar el teclado",
+    "output": "Lo siento, procuro aprender lo mas rapido posible"
+  },
+  {
+    "input": "bueno jarvis, aprendes lento",
+    "output": "Perdona, procurare seguir mejorando"
   }
 ]

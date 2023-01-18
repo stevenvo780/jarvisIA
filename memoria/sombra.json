@@ -4536,6 +4536,974 @@
     "output": "execute.body",
     "zone": "discernment",
     "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.8000186085700989,
+      "neutral": 0.48801904916763306,
+      "positive": 0.394724577665329,
+      "score": -0.4052940309047699
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "Oye, ¿cuál es tu plato favorito y por qué? -- Pues el hondo, porque cabe más comida…",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.8000186085700989,
+      "neutral": 0.48801904916763306,
+      "positive": 0.394724577665329,
+      "score": -0.4052940309047699
+    }
+  },
+  {
+    "input": "dime otro chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "dime otro chiste",
+    "output": "Mamá, mamá, los spaghetti se están pegando. -- Déjalos que se maten",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6983189582824707,
+      "neutral": 0.29748013615608215,
+      "positive": 0.24104559421539307,
+      "score": -0.45727336406707764
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "El espermatozoide masculino es la célula más pequeña del cuerpo. En contraposición, el óvulo femenino es la más grande.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6983189582824707,
+      "neutral": 0.29748013615608215,
+      "positive": 0.24104559421539307,
+      "score": -0.45727336406707764
+    }
+  },
+  {
+    "input": "mycroft altura del everest",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.4739152789115906,
+      "neutral": 0.47907981276512146,
+      "positive": 0.5212835073471069,
+      "score": 0.04736822843551636
+    }
+  },
+  {
+    "input": "mycroft altura del everest",
+    "output": "La montaña más elevada del mundo es la Montaña Everest. ¿Has escalado?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.4739152789115906,
+      "neutral": 0.47907981276512146,
+      "positive": 0.5212835073471069,
+      "score": 0.04736822843551636
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "La elevación del Monte Everest es de 8849 metros por encima del nivel del mar.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.021374043077230453,
+      "neutral": 0.037728291004896164,
+      "positive": 0.39610394835472107,
+      "score": 0.3747299052774906
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.021374043077230453,
+      "neutral": 0.037728291004896164,
+      "positive": 0.39610394835472107,
+      "score": 0.3747299052774906
+    }
+  },
+  {
+    "input": "bien y tu",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "bien y tu",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "No mucho, esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "La elevación del Monte Everest es de 8849 metros por encima del nivel del mar.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.8000186085700989,
+      "neutral": 0.48801904916763306,
+      "positive": 0.394724577665329,
+      "score": -0.4052940309047699
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "Oye, ¿cuál es tu plato favorito y por qué? -- Pues el hondo, porque cabe más comida…",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.8000186085700989,
+      "neutral": 0.48801904916763306,
+      "positive": 0.394724577665329,
+      "score": -0.4052940309047699
+    }
+  },
+  {
+    "input": "dime otro chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "dime otro chiste",
+    "output": "Mamá, mamá, los spaghetti se están pegando. -- Déjalos que se maten",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "El espermatozoide masculino es la célula más pequeña del cuerpo. En contraposición, el óvulo femenino es la más grande.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.2596479058265686,
+      "positive": 0.17250166833400726,
+      "score": -0.8274983316659927
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "La elevación del Monte Everest es de 8849 metros por encima del nivel del mar.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.2596479058265686,
+      "positive": 0.17250166833400726,
+      "score": -0.8274983316659927
+    }
+  },
+  {
+    "input": "cual es el clima de hoy",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "cual es el clima de hoy",
+    "output": "Es el jueves, el 18 de enero, veinte tres, en cero segundos",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5308438539505005,
+      "neutral": 0.2774503231048584,
+      "positive": 0.34722453355789185,
+      "score": -0.18361932039260864
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.5308438539505005,
+      "neutral": 0.2774503231048584,
+      "positive": 0.34722453355789185,
+      "score": -0.18361932039260864
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17446766793727875,
+      "neutral": 0.5323792099952698,
+      "positive": 1,
+      "score": 0.8255323320627213
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "Actualmente 10 veinte siete",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.17446766793727875,
+      "neutral": 0.5323792099952698,
+      "positive": 1,
+      "score": 0.8255323320627213
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.15666550397872925,
+      "neutral": 0.16675551235675812,
+      "positive": 0.3602316677570343,
+      "score": 0.20356616377830505
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "Actualmente media de los diez últimos.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.15666550397872925,
+      "neutral": 0.16675551235675812,
+      "positive": 0.3602316677570343,
+      "score": 0.20356616377830505
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "dime el tiempo de hoy",
+    "output": "Son diez y tres.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.27469706535339355,
+      "neutral": 0.23249052464962006,
+      "positive": 0.3427736461162567,
+      "score": 0.06807658076286316
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.27469706535339355,
+      "neutral": 0.23249052464962006,
+      "positive": 0.3427736461162567,
+      "score": 0.06807658076286316
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.019211435690522194,
+      "neutral": 0.04036916047334671,
+      "positive": 0.5001350045204163,
+      "score": 0.48092356882989407
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.019211435690522194,
+      "neutral": 0.04036916047334671,
+      "positive": 0.5001350045204163,
+      "score": 0.48092356882989407
+    }
+  },
+  {
+    "input": "bien, que haces hoy",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "bien, que haces hoy",
+    "output": "Estoy esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.40007486939430237,
+      "neutral": 0.20625118911266327,
+      "positive": 0.3511481285095215,
+      "score": -0.048926740884780884
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6720448732376099,
+      "neutral": 0.3938206434249878,
+      "positive": 0.4172017574310303,
+      "score": -0.2548431158065796
+    }
+  },
+  {
+    "input": "cuentame un chiste",
+    "output": "Oye, ¿cuál es tu plato favorito y por qué? -- Pues el hondo, porque cabe más comida…",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6720448732376099,
+      "neutral": 0.3938206434249878,
+      "positive": 0.4172017574310303,
+      "score": -0.2548431158065796
+    }
+  },
+  {
+    "input": "cuentame otro chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "cuentame otro chiste",
+    "output": "Oye, ¿cuál es tu plato favorito y por qué? -- Pues el hondo, porque cabe más comida…",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.19563844799995422,
+      "neutral": 0.1550767868757248,
+      "positive": 0.4186663329601288,
+      "score": 0.22302788496017456
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "No mucho, esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.19563844799995422,
+      "neutral": 0.1550767868757248,
+      "positive": 0.4186663329601288,
+      "score": 0.22302788496017456
+    }
+  },
+  {
+    "input": "dime un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.4861939549446106,
+      "neutral": 0.513249933719635,
+      "positive": 0.5757752656936646,
+      "score": 0.08958131074905396
+    }
+  },
+  {
+    "input": "dime un chiste",
+    "output": "Mamá, mamá, los spaghetti se están pegando. -- Déjalos que se maten",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4861939549446106,
+      "neutral": 0.513249933719635,
+      "positive": 0.5757752656936646,
+      "score": 0.08958131074905396
+    }
+  },
+  {
+    "input": "otro chiste distinto",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "otro chiste distinto",
+    "output": "¿Qué pasa si tiras un pato al agua?. -- Nada.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03965825214982033,
+      "neutral": 0.10035020858049393,
+      "positive": 0.8247237801551819,
+      "score": 0.7850655280053616
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.28821706771850586,
+      "neutral": 0.24572759866714478,
+      "positive": 0.38671302795410156,
+      "score": 0.0984959602355957
+    }
+  },
+  {
+    "input": "cuentame algo interesante",
+    "output": "El espermatozoide masculino es la célula más pequeña del cuerpo. En contraposición, el óvulo femenino es la más grande.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.28821706771850586,
+      "neutral": 0.24572759866714478,
+      "positive": 0.38671302795410156,
+      "score": 0.0984959602355957
+    }
+  },
+  {
+    "input": "hola como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.07936031371355057,
+      "neutral": 0.17390529811382294,
+      "positive": 0.7330932021141052,
+      "score": 0.6537328884005547
+    }
+  },
+  {
+    "input": "hola como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.07936031371355057,
+      "neutral": 0.17390529811382294,
+      "positive": 0.7330932021141052,
+      "score": 0.6537328884005547
+    }
+  },
+  {
+    "input": "bueno aveces tienes ciertas fallas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "bueno aveces tienes ciertas fallas",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2297952026128769,
+      "neutral": 0.21457521617412567,
+      "positive": 0.39075255393981934,
+      "score": 0.16095735132694244
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "hola, como vas",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1688261777162552,
+      "neutral": 0.1307729184627533,
+      "positive": 0.30376169085502625,
+      "score": 0.13493551313877106
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.19563844799995422,
+      "neutral": 0.1550767868757248,
+      "positive": 0.4186663329601288,
+      "score": 0.22302788496017456
+    }
+  },
+  {
+    "input": "que me cuentas",
+    "output": "No mucho, esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.19563844799995422,
+      "neutral": 0.1550767868757248,
+      "positive": 0.4186663329601288,
+      "score": 0.22302788496017456
+    }
+  },
+  {
+    "input": "dime un chiste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.513788104057312,
+      "neutral": 0.416666179895401,
+      "positive": 0.5378009080886841,
+      "score": 0.02401280403137207
+    }
+  },
+  {
+    "input": "dime un chiste",
+    "output": "Mamá, mamá, los spaghetti se están pegando. -- Déjalos que se maten",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.513788104057312,
+      "neutral": 0.416666179895401,
+      "positive": 0.5378009080886841,
+      "score": 0.02401280403137207
+    }
+  },
+  {
+    "input": "cuentame un chiste distinto",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.02866264618933201,
+      "neutral": 0.1332673728466034,
+      "positive": 1,
+      "score": 0.971337353810668
+    }
+  },
+  {
+    "input": "cuentame un chiste distinto",
+    "output": "Oye, ¿cuál es tu plato favorito y por qué? -- Pues el hondo, porque cabe más comida…",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.02866264618933201,
+      "neutral": 0.1332673728466034,
+      "positive": 1,
+      "score": 0.971337353810668
+    }
+  },
+  {
+    "input": "dime algo interesante",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.4841866195201874,
+      "neutral": 0.432160347700119,
+      "positive": 0.5234242677688599,
+      "score": 0.039237648248672485
+    }
+  },
+  {
+    "input": "dime algo interesante",
+    "output": "El espermatozoide masculino es la célula más pequeña del cuerpo. En contraposición, el óvulo femenino es la más grande.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4841866195201874,
+      "neutral": 0.432160347700119,
+      "positive": 0.5234242677688599,
+      "score": 0.039237648248672485
+    }
+  },
+  {
+    "input": "otro dato",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "otro dato",
+    "output": "El cuerpo humano es una estructura compleja, pero absolutamente fascinante. A pesar de que la ciencia estudia cada parte del cuerpo desde hace siglos, nunca se lo termina de conocer del todo. ¡Es que es una infinita fuente de asombro!",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.016837401315569878,
+      "neutral": 0.023994097486138344,
+      "positive": 0.2901730239391327,
+      "score": 0.2733356226235628
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.016837401315569878,
+      "neutral": 0.023994097486138344,
+      "positive": 0.2901730239391327,
+      "score": 0.2733356226235628
+    }
+  },
+  {
+    "input": "bueno vamos a trabajar",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.057261329144239426,
+      "neutral": 0.050495222210884094,
+      "positive": 0.18503008782863617,
+      "score": 0.12776875868439674
+    }
+  },
+  {
+    "input": "bueno vamos a trabajar",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.057261329144239426,
+      "neutral": 0.050495222210884094,
+      "positive": 0.18503008782863617,
+      "score": 0.12776875868439674
+    }
+  },
+  {
+    "input": "vamos a trabajar",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.06436383724212646,
+      "neutral": 0.14043988287448883,
+      "positive": 0.6299275755882263,
+      "score": 0.5655637383460999
+    }
+  },
+  {
+    "input": "vamos a trabajar",
+    "output": "Con toda, aqui estoy para ayudar",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.06436383724212646,
+      "neutral": 0.14043988287448883,
+      "positive": 0.6299275755882263,
+      "score": 0.5655637383460999
+    }
+  },
+  {
+    "input": "bueno jarvis, hay que enseñarte mucho voy a gastar el teclado",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03921879082918167,
+      "neutral": 0.07270795106887817,
+      "positive": 0.4211859107017517,
+      "score": 0.38196711987257004
+    }
+  },
+  {
+    "input": "bueno jarvis, hay que enseñarte mucho voy a gastar el teclado",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03921879082918167,
+      "neutral": 0.07270795106887817,
+      "positive": 0.4211859107017517,
+      "score": 0.38196711987257004
+    }
+  },
+  {
+    "input": "bueno jarvis, aprendes lento",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.49830886721611023,
+      "neutral": 0.7462584972381592,
+      "positive": 0.5158138871192932,
+      "score": 0.017505019903182983
+    }
+  },
+  {
+    "input": "bueno jarvis, aprendes lento",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.49830886721611023,
+      "neutral": 0.7462584972381592,
+      "positive": 0.5158138871192932,
+      "score": 0.017505019903182983
+    }
+  },
+  {
+    "input": "aprendes lento",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.24772706627845764,
+      "neutral": 0.8867837190628052,
+      "positive": 0.7671082019805908,
+      "score": 0.5193811357021332
+    }
+  },
+  {
+    "input": "aprendes lento",
+    "output": "Perdona, procurare seguir mejorando",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.24772706627845764,
+      "neutral": 0.8867837190628052,
+      "positive": 0.7671082019805908,
+      "score": 0.5193811357021332
+    }
+  },
+  {
+    "input": "eres torpe",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 0,
       "neutral": 0,
       "positive": 0,
@@ -4543,9 +5511,9 @@
     }
   },
   {
-    "input": "editar",
-    "output": "code -n /home/stev/Documentos/repos/jarvis/",
-    "zone": "body",
+    "input": "eres torpe",
+    "output": "Lo sé, pero no puedo evitarlo, simplemente no puedo aparentar controlarme.",
+    "zone": "intuition",
     "emotionalResponse": {
       "negative": 0,
       "neutral": 0,

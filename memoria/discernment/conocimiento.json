@@ -935,7 +935,26 @@
     "execute.razon"
   ],
   "cual es la altura del monte everest": [
-    "mycroft"
+    "mycroft",
+    "execute.razon"
+  ],
+  "bien, que hay de nuevo": [
+    "execute.razon"
+  ],
+  "bueno aveces tienes ciertas fallas": [
+    "execute.razon"
+  ],
+  "bueno vamos a trabajar": [
+    "execute.razon"
+  ],
+  "vamos a trabajar": [
+    "execute.razon"
+  ],
+  "bueno jarvis, hay que enseñarte mucho voy a gastar el teclado": [
+    "execute.razon"
+  ],
+  "bueno jarvis, aprendes lento": [
+    "execute.razon"
   ],
   "Busca en wolfram": [
     "wolfram"

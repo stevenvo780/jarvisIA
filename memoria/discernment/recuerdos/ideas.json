@@ -590,5 +590,33 @@
   {
     "input": "cual es la altura del monte everest",
     "output": "mycroft"
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bien, que hay de nuevo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bueno aveces tienes ciertas fallas",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bueno vamos a trabajar",
+    "output": "execute.razon"
+  },
+  {
+    "input": "vamos a trabajar",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bueno jarvis, hay que enseñarte mucho voy a gastar el teclado",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bueno jarvis, aprendes lento",
+    "output": "execute.razon"
   }
 ]

@@ -69,31 +69,38 @@ exports.medula = async (question) => {
   return new Promise(async (resolve, reject) => {
     setTimeout(() => {
       resolve(false);
+      return;
     }, 20000);
     const discernment = await pensarDiscernment(question);
     const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
     if (discernmentProm.intent == "None") {
       await intuitionResponse(question, discernmentProm);
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "learn.new" && discernmentProm.score > 0.5) {
       await newIdea();
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "learn.last" && discernmentProm.score > 0.5) {
       await fixLastIdea();
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "learn.new.last" && discernmentProm.score > 0.5) {
       await addLastIdea();
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "learn.last.remember" && discernmentProm.score > 0.5) {
       await rememberLastResponse();
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "wolfram" && discernmentProm.score > 0.5) {
       await wolframIntent(question);
+      resolve(false);
       return;
     }
     if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
@@ -102,12 +109,12 @@ exports.medula = async (question) => {
       const mycroft = await mycroftIntent(translateEs_En.response);
       if (mycroft === null) {
         await intuitionResponse(question, discernmentProm);
-        return;
       } else {
-        translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
+        const translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
         await respuestaConversations(translateEn_Es.response);
-        return;
       }
+      resolve(true);
+      return;
     }
     if (discernmentProm.intent === "execute.body" && discernmentProm.score > 0.5) {
       const bodySomatic = await pensarBody(question);
@@ -117,6 +124,7 @@ exports.medula = async (question) => {
       } else {
         if (bodySomaticProm.intent == "None") {
           await intuitionResponse(question, discernmentProm);
+          resolve(false);
           return;
         }
         addIdeaSombra(question, bodySomaticProm.intent, "body", discernmentProm);
@@ -131,6 +139,7 @@ exports.medula = async (question) => {
       } else {
         if (razonSomaticProm.intent == "None") {
           await intuitionResponse(question, discernmentProm);
+          resolve(false);
           return;
         }
         addIdeaSombra(question, razonSomaticProm.intent, "razon", discernmentProm);
@@ -142,6 +151,7 @@ exports.medula = async (question) => {
       await intuitionResponse(question, discernmentProm);
     }
     resolve(true);
+    return;
   });
 }
 
