@@ -211,24 +211,6 @@
   "Excelente la ultima respuesta": [
     "learn.last.remember"
   ],
-  "Recuerda esto para más tarde": [
-    "learn.remember"
-  ],
-  "Ten en cuenta esto": [
-    "learn.remember"
-  ],
-  "Anota esto": [
-    "learn.remember"
-  ],
-  "Guarda esta información": [
-    "learn.remember"
-  ],
-  "Memoriza esto": [
-    "learn.remember"
-  ],
-  "Aprende esto": [
-    "learn.remember"
-  ],
   "¿qué hora es?": [
     "mycroft"
   ],
@@ -510,6 +492,7 @@
   ],
   "hola": [
     "execute.razon",
+    "wolfram",
     "execute.razon"
   ],
   "te presento": [
@@ -920,6 +903,32 @@
     "wolfram"
   ],
   "raiz de 15": [
+    "wolfram"
+  ],
+  "wolfram cual es la montaña mas alta": [
+    "wolfram"
+  ],
+  "25 / 8": [
+    "wolfram"
+  ],
+  "28x2": [
+    "wolfram"
+  ],
+  "25x2": [
+    "wolfram"
+  ],
+  "28 x 3": [
+    "wolfram"
+  ],
+  "dame la raiz de 15": [
+    "wolfram",
+    "execute.razon",
+    "execute.razon"
+  ],
+  "dime la raiz de 15": [
+    "wolfram"
+  ],
+  "dime la raiz cuadrada de 15": [
     "wolfram"
   ],
   "Busca en wolfram": [

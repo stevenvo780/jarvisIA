@@ -6,6 +6,7 @@ exports.consumeWolfram = async (question) => {
     url: 'http://api.wolframalpha.com/v1/result',
     params: {
       i: question,
+      lang: "es",
       appid: process.env.API_WOLFRAM
     }
   };

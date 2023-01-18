@@ -223,12 +223,10 @@ const mycroftIntent = async (question) => {
 
 const wolframIntent = async (question) => {
   if (process.env.API_WOLFRAM) {
-    const translateEs_En = await runCommandTranslateEs_En(question);
-    const wolfram = await consumeWolfram(translateEs_En.response);
+    const wolfram = await consumeWolfram(question);
     if (wolfram != null) {
-      translateEn_Es = await runCommandTranslateEn_Es(wolfram);
-      await respuestaConversations(translateEn_Es.response);
-      return translateEn_Es;
+      await respuestaConversations(wolfram);
+      return wolfram;
     } else {
       return null;
     }

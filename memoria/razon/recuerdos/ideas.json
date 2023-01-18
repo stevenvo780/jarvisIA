@@ -466,5 +466,9 @@
   {
     "input": "5+5",
     "output": "¿Crees que el 55 es un buen número?"
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?"
   }
 ]

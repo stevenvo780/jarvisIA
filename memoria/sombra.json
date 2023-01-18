@@ -3986,10 +3986,10 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.3345012068748474,
-      "positive": 0.17880326509475708,
-      "score": -0.8211967349052429
+      "negative": 0.005704212002456188,
+      "neutral": 0.003177810460329056,
+      "positive": 0.007736449595540762,
+      "score": 0.0020322375930845737
     }
   },
   {
@@ -3997,54 +3997,340 @@
     "output": "Buenas, ¿como te encuentras hoy?",
     "zone": "razon",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.3345012068748474,
-      "positive": 0.17880326509475708,
-      "score": -0.8211967349052429
+      "negative": 0.005704212002456188,
+      "neutral": 0.003177810460329056,
+      "positive": 0.007736449595540762,
+      "score": 0.0020322375930845737
     }
   },
   {
-    "input": "wolfram cual es la raiz cuadrada de 15",
+    "input": "5+5",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.017193064093589783,
+      "neutral": 0.02084950916469097,
+      "positive": 0.09395307302474976,
+      "score": 0.07676000893115997
+    }
+  },
+  {
+    "input": "5+5",
+    "output": "¿Crees que el 55 es un buen número?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.017193064093589783,
+      "neutral": 0.02084950916469097,
+      "positive": 0.09395307302474976,
+      "score": 0.07676000893115997
+    }
+  },
+  {
+    "input": "8*8",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7458195090293884,
+      "neutral": 0.5873879790306091,
+      "positive": 0.35259199142456055,
+      "score": -0.3932275176048279
+    }
+  },
+  {
+    "input": "8*8",
+    "output": "¿Le gusta el número 8? Es uno de mis números favoritos.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7458195090293884,
+      "neutral": 0.5873879790306091,
+      "positive": 0.35259199142456055,
+      "score": -0.3932275176048279
+    }
+  },
+  {
+    "input": "28x2",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "28x2",
+    "output": "Tengo mucho dinero en el mercado de valores. ¿Sabes algo del valor del dinero?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2134740799665451,
+      "neutral": 0.43897491693496704,
+      "positive": 0.8664451837539673,
+      "score": 0.6529711037874222
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2134740799665451,
+      "neutral": 0.43897491693496704,
+      "positive": 0.8664451837539673,
+      "score": 0.6529711037874222
+    }
+  },
+  {
+    "input": "dame la raiz de 15",
     "output": "mycroft",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 0.20749075710773468,
-      "neutral": 0.23135478794574738,
-      "positive": 0.43673112988471985,
-      "score": 0.22924037277698517
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
     }
   },
   {
-    "input": "wolfram cual es la raiz cuadrada de 15",
-    "output": "Nunca he oído hablar de eso. ¿Qué es?",
+    "input": "dame la raiz de 15",
+    "output": "No sé qué es eso, pero te lo daré si quieres.",
     "zone": "intuition",
     "emotionalResponse": {
-      "negative": 0.20749075710773468,
-      "neutral": 0.23135478794574738,
-      "positive": 0.43673112988471985,
-      "score": 0.22924037277698517
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
     }
   },
   {
-    "input": "raiz de 15",
-    "output": "mycroft",
+    "input": "hola jarvis",
+    "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
     }
   },
   {
-    "input": "raiz de 15",
-    "output": "Trabajo en un hospital como técnico radiológico. ¿Sabes mucho de radiología?",
-    "zone": "intuition",
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, como estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.27469706535339355,
+      "neutral": 0.23249052464962006,
+      "positive": 0.3427736461162567,
+      "score": 0.06807658076286316
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.27469706535339355,
+      "neutral": 0.23249052464962006,
+      "positive": 0.3427736461162567,
+      "score": 0.06807658076286316
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "como estas ?",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "bien",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.04065987467765808,
+      "neutral": 0.15684747695922852,
+      "positive": 0.7711866497993469,
+      "score": 0.7305267751216888
+    }
+  },
+  {
+    "input": "bien",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.04065987467765808,
+      "neutral": 0.15684747695922852,
+      "positive": 0.7711866497993469,
+      "score": 0.7305267751216888
+    }
+  },
+  {
+    "input": "bueno ya mas mejorado bastante",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
+    }
+  },
+  {
+    "input": "bueno ya mas mejorado bastante",
+    "output": "gracias, todo es gracias a ti",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
     }
   }
 ]
