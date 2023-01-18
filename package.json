@@ -19,13 +19,16 @@
   "dependencies": {
     "@nlpjs/basic": "^4.26.1",
     "@nlpjs/lang-es": "^4.26.1",
+    "axios": "^1.2.3",
     "dotenv": "^16.0.3",
     "espeak": "^0.0.3",
     "huggingface-api": "^1.0.3",
     "node-emoji": "^1.11.0",
+    "node-fetch": "^3.3.0",
     "node-nlp": "^4.26.1",
     "numpy": "^0.0.1",
     "readline-sync": "^1.4.10",
-    "sudo-prompt": "^9.2.1"
+    "sudo-prompt": "^9.2.1",
+    "wolfram-alpha-api": "^0.2.1"
   }
 }

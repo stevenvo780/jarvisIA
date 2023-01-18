@@ -1935,6 +1935,12 @@
   "abre gmail": [
     "google-chrome https://mail.google.com/mail/u/0/#inbox"
   ],
+  "pausa la musica": [
+    "mycroft"
+  ],
+  "dime la raíz cuadrada de 15": [
+    "mycroft"
+  ],
   "buscar": [
     "open.search"
   ],

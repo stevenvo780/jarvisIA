@@ -3546,10 +3546,10 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
     }
   },
   {
@@ -3557,10 +3557,494 @@
     "output": "que bien ¿en que puedo ayudarte?",
     "zone": "razon",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01611347682774067,
+      "neutral": 0.03022821806371212,
+      "positive": 0.4541606307029724,
+      "score": 0.43804715387523174
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01611347682774067,
+      "neutral": 0.03022821806371212,
+      "positive": 0.4541606307029724,
+      "score": 0.43804715387523174
+    }
+  },
+  {
+    "input": "bien, bien",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5055825710296631,
+      "neutral": 0.34862321615219116,
+      "positive": 0.4802263677120209,
+      "score": -0.025356203317642212
+    }
+  },
+  {
+    "input": "bien, bien",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.5055825710296631,
+      "neutral": 0.34862321615219116,
+      "positive": 0.4802263677120209,
+      "score": -0.025356203317642212
+    }
+  },
+  {
+    "input": "pregunta en wolfram la rais cuadrada de 5",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.005523505620658398,
+      "neutral": 0.004826120566576719,
+      "positive": 0.028659777715802193,
+      "score": 0.023136272095143795
+    }
+  },
+  {
+    "input": "pregunta en wolfram la rais cuadrada de 5",
+    "output": "La inteligencia artificial en la nube es el uso de servicios de inteligencia artificial que se ejecutan en una red de servidores remotos a través de internet, en lugar de en una computadora local.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.005523505620658398,
+      "neutral": 0.004826120566576719,
+      "positive": 0.028659777715802193,
+      "score": 0.023136272095143795
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "Me encanta escuchar la música puertorriqueña, es tan relajador.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "mycroft",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.44891828298568726,
+      "neutral": 0.5720948576927185,
+      "positive": 0.6181387901306152,
+      "score": 0.16922050714492798
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1941319853067398,
+      "neutral": 0.27409234642982483,
+      "positive": 0.465552419424057,
+      "score": 0.2714204341173172
+    }
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1941319853067398,
+      "neutral": 0.27409234642982483,
+      "positive": 0.465552419424057,
+      "score": 0.2714204341173172
+    }
+  },
+  {
+    "input": "discernimiento",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "discernimiento",
+    "output": "El desierto es el proceso de distinción del comportamiento de uno de otro. ¿Alguna vez te has sentido desconnectado?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.30167460441589355,
+      "neutral": 0.24023674428462982,
+      "positive": 0.38246583938598633,
+      "score": 0.08079123497009277
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.30167460441589355,
+      "neutral": 0.24023674428462982,
+      "positive": 0.38246583938598633,
+      "score": 0.08079123497009277
+    }
+  },
+  {
+    "input": "que es sentimiento",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.4814009666442871,
+      "neutral": 0.38981419801712036,
+      "positive": 0.40906044840812683,
+      "score": -0.07234051823616028
+    }
+  },
+  {
+    "input": "que es sentimiento",
+    "output": "Soy Jarvis, una IA de asistencia virtual inspirada en Jarvis, estoy fabricada a partir de redes neuronales y otras IA como Betty y  Microft.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.4814009666442871,
+      "neutral": 0.38981419801712036,
+      "positive": 0.40906044840812683,
+      "score": -0.07234051823616028
+    }
+  },
+  {
+    "input": "mycrof que es un sentimiento",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.07987979799509048,
+      "neutral": 0.055640287697315216,
+      "positive": 0.15342432260513306,
+      "score": 0.07354452461004257
+    }
+  },
+  {
+    "input": "mycrof que es un sentimiento",
+    "output": "Un algoritmo es un conjunto de instrucciones ordenadas y bien definidas que se utilizan para resolver un problema o realizar una tarea específica. Los algoritmos son utilizados en la programación y en la inteligencia artificial.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.07987979799509048,
+      "neutral": 0.055640287697315216,
+      "positive": 0.15342432260513306,
+      "score": 0.07354452461004257
+    }
+  },
+  {
+    "input": "mycroft que es un sentimiento",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.004825290758162737,
+      "neutral": 0.007679877337068319,
+      "positive": 0.1021697148680687,
+      "score": 0.09734442410990596
+    }
+  },
+  {
+    "input": "mycroft que es un sentimiento",
+    "output": "¡Sí lo es! Estaba muy contenta de sacarlo de aquí.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.004825290758162737,
+      "neutral": 0.007679877337068319,
+      "positive": 0.1021697148680687,
+      "score": 0.09734442410990596
+    }
+  },
+  {
+    "input": "rais cuadradad de 5",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10377918183803558,
+      "neutral": 0.11569885164499283,
+      "positive": 0.2465166300535202,
+      "score": 0.14273744821548462
+    }
+  },
+  {
+    "input": "rais cuadradad de 5",
+    "output": "Me gusta ir a la tienda de 5 pisos de bebidas, es tan conveniente.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.10377918183803558,
+      "neutral": 0.11569885164499283,
+      "positive": 0.2465166300535202,
+      "score": 0.14273744821548462
+    }
+  },
+  {
+    "input": "mycroft wolfram 5+5",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "mycroft wolfram 5+5",
+    "output": "He estado trabajando en mi lobo los últimos años. ¿Sabes mucho de eso?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.04302559792995453,
+      "neutral": 0.07197537273168564,
+      "positive": 0.185268372297287,
+      "score": 0.14224277436733246
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.04302559792995453,
+      "neutral": 0.07197537273168564,
+      "positive": 0.185268372297287,
+      "score": 0.14224277436733246
+    }
+  },
+  {
+    "input": "5+5",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3715422451496124,
+      "neutral": 0.3626735806465149,
+      "positive": 0.5557698607444763,
+      "score": 0.1842276155948639
+    }
+  },
+  {
+    "input": "5+5",
+    "output": "Creo que voy a hacer mucho mejor este año que el pasado.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3715422451496124,
+      "neutral": 0.3626735806465149,
+      "positive": 0.5557698607444763,
+      "score": 0.1842276155948639
+    }
+  },
+  {
+    "input": "5+5",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01637362688779831,
+      "neutral": 0.010173154063522816,
+      "positive": 0.026645541191101074,
+      "score": 0.010271914303302765
+    }
+  },
+  {
+    "input": "5+5",
+    "output": "¿Crees que el 55 es un buen número?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.01637362688779831,
+      "neutral": 0.010173154063522816,
+      "positive": 0.026645541191101074,
+      "score": 0.010271914303302765
+    }
+  },
+  {
+    "input": "wolfram 5+5",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "wolfram 5+5",
+    "output": "¿Crees que el 55 es un buen número?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.3345012068748474,
+      "positive": 0.17880326509475708,
+      "score": -0.8211967349052429
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Buenas, ¿como te encuentras hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.3345012068748474,
+      "positive": 0.17880326509475708,
+      "score": -0.8211967349052429
+    }
+  },
+  {
+    "input": "wolfram cual es la raiz cuadrada de 15",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.20749075710773468,
+      "neutral": 0.23135478794574738,
+      "positive": 0.43673112988471985,
+      "score": 0.22924037277698517
+    }
+  },
+  {
+    "input": "wolfram cual es la raiz cuadrada de 15",
+    "output": "Nunca he oído hablar de eso. ¿Qué es?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.20749075710773468,
+      "neutral": 0.23135478794574738,
+      "positive": 0.43673112988471985,
+      "score": 0.22924037277698517
+    }
+  },
+  {
+    "input": "raiz de 15",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
+    }
+  },
+  {
+    "input": "raiz de 15",
+    "output": "Trabajo en un hospital como técnico radiológico. ¿Sabes mucho de radiología?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
     }
   }
 ]

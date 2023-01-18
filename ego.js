@@ -8,6 +8,7 @@ const {
   runCommandMycroft
 } = require('./corteza/osBash');
 const { actionHandler } = require('./corteza/actionsBody');
+const { consumeWolfram } = require('./corteza/apis');
 const { pensarBody } = require('./NLP/body');
 const { pensarRazon } = require('./NLP/razon');
 const { pensarDiscernment } = require('./NLP/discernment');
@@ -65,6 +66,9 @@ exports.commandDirect = async (command) => {
 }
 
 exports.medula = async (question) => {
+  setTimeout(() => {
+    return;
+  }, 20000);
   const discernment = await pensarDiscernment(question);
   const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
   if (discernmentProm.intent == "None") {
@@ -87,13 +91,15 @@ exports.medula = async (question) => {
     await rememberLastResponse();
     return;
   }
+  if (discernmentProm.intent == "wolfram" && discernmentProm.score > 0.5) {
+    await wolframIntent(question);
+    return;
+  }
   if (discernmentProm.intent == "mycroft" && discernmentProm.score > 0.5) {
     await respuestaConversations("Preguntando a mycroft");
     const translateEs_En = await runCommandTranslateEs_En(question);
-    const mycroft = await runCommandMycroft(translateEs_En.response);
-    const discernmentFalied = await pensarDiscernment(mycroft.response);
-    const discernmentFaliedProm = await classificationMaxima(discernmentFalied.classifications, "discernment");
-    if (discernmentFaliedProm.intent == "mycroft.fail") {
+    const mycroft = await mycroftIntent(translateEs_En.response);
+    if (mycroft === null) {
       await intuitionResponse(question, discernmentProm);
       return;
     } else {
@@ -182,7 +188,6 @@ const intuitionResponse = async (question, discernment) => {
       translateEn_Es = await runCommandTranslateEn_Es(result.response);
     }
     await respuestaConversations(translateEn_Es.response);
-    return;
   }
   await handleNotFount(question, translateEn_Es.response, discernment);
   return translateEn_Es?.response;
@@ -208,6 +213,22 @@ const mycroftIntent = async (question) => {
     const discernmentFailedProm = await classificationMaxima(discernmentFailed.classifications, "discernment");
     if (discernmentFailedProm.intent !== "mycroft.fail") {
       return mycroft;
+    } else {
+      return null;
+    }
+  } else {
+    return null;
+  }
+}
+
+const wolframIntent = async (question) => {
+  if (process.env.API_WOLFRAM) {
+    const translateEs_En = await runCommandTranslateEs_En(question);
+    const wolfram = await consumeWolfram(translateEs_En.response);
+    if (wolfram != null) {
+      translateEn_Es = await runCommandTranslateEn_Es(wolfram);
+      await respuestaConversations(translateEn_Es.response);
+      return translateEn_Es;
     } else {
       return null;
     }

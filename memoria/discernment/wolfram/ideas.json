@@ -1,0 +1,150 @@
+[
+  {
+    "input": "Busca en wolfram",
+    "output": "wolfram"
+  },
+  {
+    "input": "wolfram",
+    "output": "wolfram"
+  },
+  {
+    "input": "Wolfram",
+    "output": "wolfram"
+  },
+  {
+    "input": "+",
+    "output": "wolfram"
+  },
+  {
+    "input": "-",
+    "output": "wolfram"
+  },
+  {
+    "input": "/",
+    "output": "wolfram"
+  },
+  {
+    "input": "*",
+    "output": "wolfram"
+  },
+  {
+    "input": "resta",
+    "output": "wolfram"
+  },
+  {
+    "input": "suma",
+    "output": "wolfram"
+  },
+  {
+    "input": "multiplica",
+    "output": "wolfram"
+  },
+  {
+    "input": "divide",
+    "output": "wolfram"
+  },
+  {
+    "input": "raíz cuadrada",
+    "output": "wolfram"
+  },
+  {
+    "input": "raiz cuadrada",
+    "output": "wolfram"
+  },
+  {
+    "input": "raíz",
+    "output": "wolfram"
+  },
+  {
+    "input": "raiz",
+    "output": "wolfram"
+  },
+  {
+    "input": "cuadrada",
+    "output": "wolfram"
+  },
+  {
+    "input": "cubo",
+    "output": "wolfram"
+  },
+  {
+    "input": "cúbico",
+    "output": "wolfram"
+  },
+  {
+    "input": "cubico",
+    "output": "wolfram"
+  },
+  {
+    "input": "potencia",
+    "output": "wolfram"
+  },
+  {
+    "input": "potencia de",
+    "output": "wolfram"
+  },
+  {
+    "input": "potencia de",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado a",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada a",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado al",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada al",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado a la",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada a la",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado al cubo",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada al cubo",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado al cuadrado",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada al cuadrado",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado al cubo",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevada al cubo",
+    "output": "wolfram"
+  },
+  {
+    "input": "elevado a la potencia",
+    "output": "wolfram"
+  }
+]

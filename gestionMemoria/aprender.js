@@ -12,7 +12,7 @@ exports.entrain = async () => {
 }
 
 exports.bodyLearn = async () => {
-  const managerBody = new NlpManager({ languages: ['es'], autoSave: false });
+  const managerBody = new NlpManager({ languages: ['es'], autoSave: false, nlu: { log: false } });
   let answers = {};
   // Array para almacenar los datos de todos los archivos JSON
   let data = [];
@@ -62,7 +62,7 @@ exports.bodyLearn = async () => {
 }
 
 exports.razonLearn = async () => {
-  const managerRazon = new NlpManager({ languages: ['es'], autoSave: false });
+  const managerRazon = new NlpManager({ languages: ['es'], autoSave: false, nlu: { log: false } });
   let answers = {};
 
   // Array para almacenar los datos de todos los archivos JSON
@@ -112,7 +112,7 @@ exports.razonLearn = async () => {
 }
 
 exports.discernmentLearn = async () => {
-  const managerDiscernment = new NlpManager({ languages: ['es'], autoSave: false });
+  const managerDiscernment = new NlpManager({ languages: ['es'], autoSave: false, nlu: { log: false } });
   let answers = {};
 
   // Array para almacenar los datos de todos los archivos JSON

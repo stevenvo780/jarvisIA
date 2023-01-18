@@ -458,5 +458,13 @@
   {
     "input": "que eres",
     "output": "Soy Jarvis, una IA de asistencia virtual inspirada en Jarvis, estoy fabricada a partir de redes neuronales y otras IA como Betty y  Microft."
+  },
+  {
+    "input": "cuantas pulgadas hay en un metro",
+    "output": "1 metros equivale a una longitud de alrededor de 3.28 pies"
+  },
+  {
+    "input": "5+5",
+    "output": "¿Crees que el 55 es un buen número?"
   }
 ]

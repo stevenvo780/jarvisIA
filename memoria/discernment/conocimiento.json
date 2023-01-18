@@ -903,5 +903,128 @@
   ],
   "buena respuesta": [
     "mycroft"
+  ],
+  "pausa la musica": [
+    "execute.body"
+  ],
+  "dime la raíz cuadrada de 15": [
+    "mycroft"
+  ],
+  "cuantas pulgadas hay en un metro": [
+    "execute.razon"
+  ],
+  "5+5": [
+    "execute.razon"
+  ],
+  "wolfram 5+5": [
+    "wolfram"
+  ],
+  "raiz de 15": [
+    "wolfram"
+  ],
+  "Busca en wolfram": [
+    "wolfram"
+  ],
+  "wolfram": [
+    "wolfram"
+  ],
+  "Wolfram": [
+    "wolfram"
+  ],
+  "+": [
+    "wolfram"
+  ],
+  "-": [
+    "wolfram"
+  ],
+  "/": [
+    "wolfram"
+  ],
+  "*": [
+    "wolfram"
+  ],
+  "resta": [
+    "wolfram"
+  ],
+  "suma": [
+    "wolfram"
+  ],
+  "multiplica": [
+    "wolfram"
+  ],
+  "divide": [
+    "wolfram"
+  ],
+  "raíz cuadrada": [
+    "wolfram"
+  ],
+  "raiz cuadrada": [
+    "wolfram"
+  ],
+  "raíz": [
+    "wolfram"
+  ],
+  "raiz": [
+    "wolfram"
+  ],
+  "cuadrada": [
+    "wolfram"
+  ],
+  "cubo": [
+    "wolfram"
+  ],
+  "cúbico": [
+    "wolfram"
+  ],
+  "cubico": [
+    "wolfram"
+  ],
+  "potencia": [
+    "wolfram"
+  ],
+  "potencia de": [
+    "wolfram",
+    "wolfram"
+  ],
+  "elevado a": [
+    "wolfram"
+  ],
+  "elevada a": [
+    "wolfram"
+  ],
+  "elevado": [
+    "wolfram"
+  ],
+  "elevada": [
+    "wolfram"
+  ],
+  "elevado al": [
+    "wolfram"
+  ],
+  "elevada al": [
+    "wolfram"
+  ],
+  "elevado a la": [
+    "wolfram"
+  ],
+  "elevada a la": [
+    "wolfram"
+  ],
+  "elevado al cubo": [
+    "wolfram",
+    "wolfram"
+  ],
+  "elevada al cubo": [
+    "wolfram",
+    "wolfram"
+  ],
+  "elevado al cuadrado": [
+    "wolfram"
+  ],
+  "elevada al cuadrado": [
+    "wolfram"
+  ],
+  "elevado a la potencia": [
+    "wolfram"
   ]
 }

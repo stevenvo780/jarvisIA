@@ -66,5 +66,13 @@
   {
     "input": "abre gmail",
     "output": "google-chrome https://mail.google.com/mail/u/0/#inbox"
+  },
+  {
+    "input": "pausa la musica",
+    "output": "mycroft"
+  },
+  {
+    "input": "dime la raíz cuadrada de 15",
+    "output": "mycroft"
   }
 ]
