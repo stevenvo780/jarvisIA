@@ -634,5 +634,53 @@
   {
     "input": "Cual es el sentido de la vida",
     "output": "execute.razon"
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cual es el estudio de las palabras",
+    "output": "execute.razon"
+  },
+  {
+    "input": "cual es el estudio de las palabras",
+    "output": "execute.razon"
+  },
+  {
+    "input": "Hola",
+    "output": "execute.razon"
+  },
+  {
+    "input": "haber intenta algo mucho mas complicado",
+    "output": "intuition"
+  },
+  {
+    "input": "500+500+500",
+    "output": "wolfram"
+  },
+  {
+    "input": "fallaste",
+    "output": "learn.last"
+  },
+  {
+    "input": "85*3",
+    "output": "wolfram"
+  },
+  {
+    "input": "85x2",
+    "output": "wolfram"
+  },
+  {
+    "input": "85*9",
+    "output": "wolfram"
+  },
+  {
+    "input": "que me cuentas jarvis",
+    "output": "execute.razon"
+  },
+  {
+    "input": "ahora es muy fluido hablar contigo",
+    "output": "execute.razon"
   }
 ]

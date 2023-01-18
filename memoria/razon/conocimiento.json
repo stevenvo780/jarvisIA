@@ -16,7 +16,8 @@
     "Hola  ¿en que puedo servirte?",
     "Hola  ¿en que puedo servirte?",
     "Buenas, ¿como te encuentras hoy?",
-    "Hola, como estas ?"
+    "Hola, como estas ?",
+    "Hola, que tal estas ?"
   ],
   "buenas tardes": [
     "Hola  ¿en que puedo servirte?"
@@ -319,5 +320,20 @@
   ],
   "Cual es el sentido de la vida": [
     "El sentido de tu vida lo defines tu, pero el sentido del fenomeno de la vida, es un misterio"
+  ],
+  "cual es el estudio de las palabras": [
+    "La semántica trata del significado de las palabras en sí mientras que el lenguaje refiere a la capacidad del ser humano de expresar pensamientos y sentimientos por medio de la palabra"
+  ],
+  "Hola": [
+    "Hola, como se encuentra el dia de hoy ?"
+  ],
+  "500+500+500": [
+    "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?"
+  ],
+  "que me cuentas jarvis": [
+    "Una de las cosas más intrigantes de viajar es descubrir por qué las cosas son como son hoy. Desde secretos ocultos hasta extraños fenómenos, a continuación le presentamos 16 datos sobre el mundo que pueden parecer absurdas al principio, pero que en realidad se han demostrado como hechos reales."
+  ],
+  "ahora es muy fluido hablar contigo": [
+    "Gracias, seguire mejorando !"
   ]
 }

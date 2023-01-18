@@ -31,7 +31,7 @@ exports.actionHandler = async (result, question) => {
       await searchGoogle(searchGoogleStr);
       break;
     case "open.translate.es.en":
-      const translateData = JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/translate', 'ideas.json')));
+      let translateData = await JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/translate', 'ideas.json')));
       let translateStr = question;
       for (let index = 0; index < translateData.length; index++) {
         const idea = translateData[index];
@@ -43,6 +43,7 @@ exports.actionHandler = async (result, question) => {
       respuestaConversations(translateEs_En.response);
       break;
     case "open.translate.en.es":
+      translateData = await JSON.parse(fs.readFileSync(path.join(__dirname, '../memoria/body/translate', 'ideas.json')));
       translateStr = question;
       for (let index = 0; index < translateData.length; index++) {
         const idea = translateData[index];

@@ -514,5 +514,29 @@
   {
     "input": "Cual es el sentido de la vida",
     "output": "El sentido de tu vida lo defines tu, pero el sentido del fenomeno de la vida, es un misterio"
+  },
+  {
+    "input": "hola",
+    "output": "Hola, que tal estas ?"
+  },
+  {
+    "input": "cual es el estudio de las palabras",
+    "output": "La semántica trata del significado de las palabras en sí mientras que el lenguaje refiere a la capacidad del ser humano de expresar pensamientos y sentimientos por medio de la palabra"
+  },
+  {
+    "input": "Hola",
+    "output": "Hola, como se encuentra el dia de hoy ?"
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?"
+  },
+  {
+    "input": "que me cuentas jarvis",
+    "output": "Una de las cosas más intrigantes de viajar es descubrir por qué las cosas son como son hoy. Desde secretos ocultos hasta extraños fenómenos, a continuación le presentamos 16 datos sobre el mundo que pueden parecer absurdas al principio, pero que en realidad se han demostrado como hechos reales."
+  },
+  {
+    "input": "ahora es muy fluido hablar contigo",
+    "output": "Gracias, seguire mejorando !"
   }
 ]

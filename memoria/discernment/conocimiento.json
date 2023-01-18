@@ -493,6 +493,7 @@
   "hola": [
     "execute.razon",
     "wolfram",
+    "execute.razon",
     "execute.razon"
   ],
   "te presento": [
@@ -966,6 +967,37 @@
   "Cual es el sentido de la vida": [
     "execute.razon"
   ],
+  "cual es el estudio de las palabras": [
+    "execute.razon",
+    "execute.razon"
+  ],
+  "Hola": [
+    "execute.razon"
+  ],
+  "haber intenta algo mucho mas complicado": [
+    "intuition"
+  ],
+  "500+500+500": [
+    "wolfram"
+  ],
+  "fallaste": [
+    "learn.last"
+  ],
+  "85*3": [
+    "wolfram"
+  ],
+  "85x2": [
+    "wolfram"
+  ],
+  "85*9": [
+    "wolfram"
+  ],
+  "que me cuentas jarvis": [
+    "execute.razon"
+  ],
+  "ahora es muy fluido hablar contigo": [
+    "execute.razon"
+  ],
   "Busca en wolfram": [
     "wolfram"
   ],
@@ -981,7 +1013,7 @@
   "-": [
     "wolfram"
   ],
-  "/": [
+  "5/2": [
     "wolfram"
   ],
   "*": [

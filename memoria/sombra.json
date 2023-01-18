@@ -5724,10 +5724,10 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
     }
   },
   {
@@ -5735,10 +5735,714 @@
     "output": "Hola, como estas ?",
     "zone": "razon",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.34404677152633667,
+      "neutral": 0.34739455580711365,
+      "positive": 0.5100841522216797,
+      "score": 0.16603738069534302
+    }
+  },
+  {
+    "input": "hola",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.28872838616371155,
+      "neutral": 0.2518470585346222,
+      "positive": 0.38426104187965393,
+      "score": 0.09553265571594238
+    }
+  },
+  {
+    "input": "hola",
+    "output": "Hola, que tal estas ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.28872838616371155,
+      "neutral": 0.2518470585346222,
+      "positive": 0.38426104187965393,
+      "score": 0.09553265571594238
+    }
+  },
+  {
+    "input": "como vas ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.0632239282131195,
+      "neutral": 0.07879002392292023,
+      "positive": 0.4352903664112091,
+      "score": 0.3720664381980896
+    }
+  },
+  {
+    "input": "como vas ?",
+    "output": "Estoy haciendo bien, gracias. ¿Qué tal tú?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.0632239282131195,
+      "neutral": 0.07879002392292023,
+      "positive": 0.4352903664112091,
+      "score": 0.3720664381980896
+    }
+  },
+  {
+    "input": "bueno, no veo que falles",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "bueno, no veo que falles",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3476930856704712,
+      "neutral": 0.32227593660354614,
+      "positive": 0.45234769582748413,
+      "score": 0.10465461015701294
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.11617401242256165,
+      "neutral": 0.10290496051311493,
+      "positive": 0.22220119833946228,
+      "score": 0.10602718591690063
+    }
+  },
+  {
+    "input": "cual es la altura del monte everest",
+    "output": "La elevación del Monte Everest es de 8849 metros por encima del nivel del mar.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.11617401242256165,
+      "neutral": 0.10290496051311493,
+      "positive": 0.22220119833946228,
+      "score": 0.10602718591690063
+    }
+  },
+  {
+    "input": "pausa la alarma",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4688117802143097,
+      "positive": 0.1997448205947876,
+      "score": -0.8002551794052124
+    }
+  },
+  {
+    "input": "pausa la alarma",
+    "output": "Creo que es hora de ir a la cama, he despertado toda la noche.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4688117802143097,
+      "positive": 0.1997448205947876,
+      "score": -0.8002551794052124
+    }
+  },
+  {
+    "input": "suspende el pc",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17153993248939514,
+      "neutral": 0.13887923955917358,
+      "positive": 0.3379152715206146,
+      "score": 0.16637533903121948
+    }
+  },
+  {
+    "input": "suspende el pc",
+    "output": "systemctl suspend -i",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17153993248939514,
+      "neutral": 0.13887923955917358,
+      "positive": 0.3379152715206146,
+      "score": 0.16637533903121948
+    }
+  },
+  {
+    "input": "buenos dias jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.02952059544622898,
+      "neutral": 0.02512958273291588,
+      "positive": 0.13018552958965302,
+      "score": 0.10066493414342403
+    }
+  },
+  {
+    "input": "buenos dias jarvis",
+    "output": "Hola  ¿en que puedo servirte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.02952059544622898,
+      "neutral": 0.02512958273291588,
+      "positive": 0.13018552958965302,
+      "score": 0.10066493414342403
+    }
+  },
+  {
+    "input": "como estas hoy",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.011056427843868732,
+      "neutral": 0.022832471877336502,
+      "positive": 0.4538624882698059,
+      "score": 0.4428060604259372
+    }
+  },
+  {
+    "input": "como estas hoy",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.011056427843868732,
+      "neutral": 0.022832471877336502,
+      "positive": 0.4538624882698059,
+      "score": 0.4428060604259372
+    }
+  },
+  {
+    "input": "bien bien, bueno despausa la musica",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.20549863576889038,
+      "neutral": 0.2725785970687866,
+      "positive": 0.5810858011245728,
+      "score": 0.3755871653556824
+    }
+  },
+  {
+    "input": "bien bien, bueno despausa la musica",
+    "output": "que bien ¿en que puedo ayudarte?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.20549863576889038,
+      "neutral": 0.2725785970687866,
+      "positive": 0.5810858011245728,
+      "score": 0.3755871653556824
+    }
+  },
+  {
+    "input": "cual es el estudio de las palabras",
+    "output": "mycroft",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.9392860531806946,
+      "neutral": 0.4264168441295624,
+      "positive": 0.3339286148548126,
+      "score": -0.605357438325882
+    }
+  },
+  {
+    "input": "cual es el estudio de las palabras",
+    "output": "El estudio de la palabra se llama lingüística, es un estudio de la lengua.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.9392860531806946,
+      "neutral": 0.4264168441295624,
+      "positive": 0.3339286148548126,
+      "score": -0.605357438325882
+    }
+  },
+  {
+    "input": "traduce al español This utterance: \"/\" contains only stop words",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.9392860531806946,
+      "neutral": 0.4264168441295624,
+      "positive": 0.3339286148548126,
+      "score": -0.605357438325882
+    }
+  },
+  {
+    "input": "traduce al español This utterance: \"/\" contains only stop words",
+    "output": "open.translate.en.es",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.9392860531806946,
+      "neutral": 0.4264168441295624,
+      "positive": 0.3339286148548126,
+      "score": -0.605357438325882
+    }
+  },
+  {
+    "input": "traduce al español This utterance: \"/\" contains only stop words",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.004546972457319498,
+      "neutral": 0.008308801800012589,
+      "positive": 0.1325106918811798,
+      "score": 0.1279637194238603
+    }
+  },
+  {
+    "input": "traduce al español This utterance: \"/\" contains only stop words",
+    "output": "open.translate.en.es",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.004546972457319498,
+      "neutral": 0.008308801800012589,
+      "positive": 0.1325106918811798,
+      "score": 0.1279637194238603
+    }
+  },
+  {
+    "input": "sudo uwf",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7228826284408569,
+      "neutral": 0.591657817363739,
+      "positive": 0.4065611958503723,
+      "score": -0.3163214325904846
+    }
+  },
+  {
+    "input": "sudo uwf",
+    "output": "Me gusta el sushi, es una de mis comidas favoritas. ¿Te gusta?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.7228826284408569,
+      "neutral": 0.591657817363739,
+      "positive": 0.4065611958503723,
+      "score": -0.3163214325904846
+    }
+  },
+  {
+    "input": "intetna algo mas complicado",
+    "output": "intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "intetna algo mas complicado",
+    "output": "Sé, no sé qué hacer, no quiero dejarme sola.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4578434228897095,
+      "positive": 0.1593174785375595,
+      "score": -0.8406825214624405
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.172128826379776,
+      "neutral": 0.548393189907074,
+      "positive": 0.9649587273597717,
+      "score": 0.7928299009799957
+    }
+  },
+  {
+    "input": "fallaste",
+    "output": "Lo siento, sigo mejorando dia a dia",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.172128826379776,
+      "neutral": 0.548393189907074,
+      "positive": 0.9649587273597717,
+      "score": 0.7928299009799957
+    }
+  },
+  {
+    "input": "piensa algo raro",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "piensa algo raro",
+    "output": "El tamaño del pene puede ser proporcional al pulgar",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.10802406817674637,
+      "neutral": 0.08260073512792587,
+      "positive": 0.16923265159130096,
+      "score": 0.061208583414554596
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "500+500+500",
+    "output": "Vaya, eso es mucho dinero. ¿Cuánto tardaste en ganar tanto?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6561821699142456,
+      "neutral": 0.6280806064605713,
+      "positive": 0.5173420310020447,
+      "score": -0.13884013891220093
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6561821699142456,
+      "neutral": 0.6280806064605713,
+      "positive": 0.5173420310020447,
+      "score": -0.13884013891220093
+    }
+  },
+  {
+    "input": "85*3",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.21945753693580627,
+      "neutral": 0.1829916089773178,
+      "positive": 0.33391067385673523,
+      "score": 0.11445313692092896
+    }
+  },
+  {
+    "input": "85*3",
+    "output": "¿Sabes que el 85° es el punto más alto del Sistema Solar?",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.21945753693580627,
+      "neutral": 0.1829916089773178,
+      "positive": 0.33391067385673523,
+      "score": 0.11445313692092896
+    }
+  },
+  {
+    "input": "que me cuentas jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.017415417358279228,
+      "neutral": 0.03291726112365723,
+      "positive": 0.20260298252105713,
+      "score": 0.1851875651627779
+    }
+  },
+  {
+    "input": "que me cuentas jarvis",
+    "output": "No mucho, esperando tus ordenes",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.017415417358279228,
+      "neutral": 0.03291726112365723,
+      "positive": 0.20260298252105713,
+      "score": 0.1851875651627779
+    }
+  },
+  {
+    "input": "ahora es muy fluido hablar contigo",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
+    }
+  },
+  {
+    "input": "ahora es muy fluido hablar contigo",
+    "output": "Sí, supongo que sí, pero no estoy segura si quiero hacerlo de nuevo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
     }
   }
 ]
