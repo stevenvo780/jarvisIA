@@ -69,10 +69,38 @@
   },
   {
     "input": "pausa la musica",
-    "output": "mycroft"
+    "output": "playerctl pause"
   },
   {
     "input": "dime la raíz cuadrada de 15",
     "output": "mycroft"
+  },
+  {
+    "input": "despausa la musica",
+    "output": "playerctl play"
+  },
+  {
+    "input": "deten la musica",
+    "output": "playerctl previous"
+  },
+  {
+    "input": "siguiente cancion",
+    "output": "playerctl next"
+  },
+  {
+    "input": "repetir cancion",
+    "output": "playerctl previous"
+  },
+  {
+    "input": "reproduce mi musica favorita",
+    "output": "google-chrome https://www.youtube.com/watch?v=oEG9MGjVQWE&list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH&index=1"
+  },
+  {
+    "input": "jarvis, pon mi musica favorita",
+    "output": "https://youtube.com/playlist?list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH"
+  },
+  {
+    "input": "reproduce la musica",
+    "output": "playerctl play"
   }
 ]

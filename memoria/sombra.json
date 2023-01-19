@@ -6428,10 +6428,10 @@
     "output": "execute.intuition",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.17901545763015747,
+      "neutral": 0.2804619073867798,
+      "positive": 0.6531909108161926,
+      "score": 0.47417545318603516
     }
   },
   {
@@ -6439,10 +6439,318 @@
     "output": "Sí, supongo que sí, pero no estoy segura si quiero hacerlo de nuevo.",
     "zone": "intuition",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.17901545763015747,
+      "neutral": 0.2804619073867798,
+      "positive": 0.6531909108161926,
+      "score": 0.47417545318603516
+    }
+  },
+  {
+    "input": "bueno jarvis termine mi trabajo porfin",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "bueno jarvis termine mi trabajo porfin",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "mycroft",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7244153618812561,
+      "neutral": 0.6624791622161865,
+      "positive": 0.3157239854335785,
+      "score": -0.4086913764476776
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "playerctl pause",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.7244153618812561,
+      "neutral": 0.6624791622161865,
+      "positive": 0.3157239854335785,
+      "score": -0.4086913764476776
+    }
+  },
+  {
+    "input": "despausa la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03383259102702141,
+      "neutral": 0.051746465265750885,
+      "positive": 0.28962087631225586,
+      "score": 0.25578828528523445
+    }
+  },
+  {
+    "input": "despausa la musica",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.03383259102702141,
+      "neutral": 0.051746465265750885,
+      "positive": 0.28962087631225586,
+      "score": 0.25578828528523445
+    }
+  },
+  {
+    "input": "deten la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5899496674537659,
+      "neutral": 0.4714111387729645,
+      "positive": 0.45828673243522644,
+      "score": -0.13166293501853943
+    }
+  },
+  {
+    "input": "deten la musica",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.5899496674537659,
+      "neutral": 0.4714111387729645,
+      "positive": 0.45828673243522644,
+      "score": -0.13166293501853943
+    }
+  },
+  {
+    "input": "repetir cancion",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.015445548109710217,
+      "neutral": 0.02012217417359352,
+      "positive": 0.12300623208284378,
+      "score": 0.10756068397313356
+    }
+  },
+  {
+    "input": "repetir cancion",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.015445548109710217,
+      "neutral": 0.02012217417359352,
+      "positive": 0.12300623208284378,
+      "score": 0.10756068397313356
+    }
+  },
+  {
+    "input": "reproduce mi musica favorita",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.016408780589699745,
+      "neutral": 0.018953962251544,
+      "positive": 0.12119568139314651,
+      "score": 0.10478690080344677
+    }
+  },
+  {
+    "input": "reproduce mi musica favorita",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.016408780589699745,
+      "neutral": 0.018953962251544,
+      "positive": 0.12119568139314651,
+      "score": 0.10478690080344677
+    }
+  },
+  {
+    "input": "pon mi musica favorita",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.024970678612589836,
+      "neutral": 0.03373890370130539,
+      "positive": 0.1493159383535385,
+      "score": 0.12434525974094868
+    }
+  },
+  {
+    "input": "pon mi musica favorita",
+    "output": "google-chrome https://www.youtube.com/watch?v=oEG9MGjVQWE&list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH&index=1",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.024970678612589836,
+      "neutral": 0.03373890370130539,
+      "positive": 0.1493159383535385,
+      "score": 0.12434525974094868
+    }
+  },
+  {
+    "input": "jarvis, pon mi musica favorita",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "jarvis, pon mi musica favorita",
+    "output": "google-chrome https://www.youtube.com/watch?v=oEG9MGjVQWE&list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH&index=1",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.5817853212356567,
+      "neutral": 0.7428237199783325,
+      "positive": 0.47121503949165344,
+      "score": -0.1105702817440033
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03807993605732918,
+      "neutral": 0.05563903599977493,
+      "positive": 0.29406094551086426,
+      "score": 0.2559810094535351
+    }
+  },
+  {
+    "input": "pausa la musica",
+    "output": "playerctl pause",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.03807993605732918,
+      "neutral": 0.05563903599977493,
+      "positive": 0.29406094551086426,
+      "score": 0.2559810094535351
+    }
+  },
+  {
+    "input": "reproduce la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7244153618812561,
+      "neutral": 0.6624791622161865,
+      "positive": 0.3157239854335785,
+      "score": -0.4086913764476776
+    }
+  },
+  {
+    "input": "reproduce la musica",
+    "output": "open.music",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.7244153618812561,
+      "neutral": 0.6624791622161865,
+      "positive": 0.3157239854335785,
+      "score": -0.4086913764476776
+    }
+  },
+  {
+    "input": "despausa la musica",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "despausa la musica",
+    "output": "playerctl play",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.17686744034290314,
+      "neutral": 0.15093182027339935,
+      "positive": 0.3808135688304901,
+      "score": 0.20394612848758698
+    }
+  },
+  {
+    "input": "editar",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
+    }
+  },
+  {
+    "input": "editar",
+    "output": "code -n /home/stev/Documentos/repos/jarvis/",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0,
+      "neutral": 0,
+      "positive": 0,
+      "score": 0
     }
   }
 ]

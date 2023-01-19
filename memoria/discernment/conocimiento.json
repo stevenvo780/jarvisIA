@@ -889,6 +889,7 @@
     "mycroft"
   ],
   "pausa la musica": [
+    "execute.body",
     "execute.body"
   ],
   "dime la raíz cuadrada de 15": [
@@ -997,6 +998,34 @@
   ],
   "ahora es muy fluido hablar contigo": [
     "execute.razon"
+  ],
+  "bueno jarvis termine mi trabajo porfin": [
+    "execute.razon"
+  ],
+  "despausa la musica": [
+    "execute.body"
+  ],
+  "deten la musica": [
+    "execute.body",
+    "execute.body"
+  ],
+  "siguiente cancion": [
+    "execute.body"
+  ],
+  "repetir cancion": [
+    "execute.body"
+  ],
+  "reproduce mi musica favorita": [
+    "execute.body"
+  ],
+  "jarvis, pon mi musica favorita": [
+    "execute.body"
+  ],
+  "reproduce la musica": [
+    "execute.body"
+  ],
+  "pon un nuevo recordatorio de entrenar a jarvis": [
+    "mycroft"
   ],
   "Busca en wolfram": [
     "wolfram"

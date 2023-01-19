@@ -682,5 +682,49 @@
   {
     "input": "ahora es muy fluido hablar contigo",
     "output": "execute.razon"
+  },
+  {
+    "input": "bueno jarvis termine mi trabajo porfin",
+    "output": "execute.razon"
+  },
+  {
+    "input": "pausa la musica",
+    "output": "execute.body"
+  },
+  {
+    "input": "despausa la musica",
+    "output": "execute.body"
+  },
+  {
+    "input": "deten la musica",
+    "output": "execute.body"
+  },
+  {
+    "input": "siguiente cancion",
+    "output": "execute.body"
+  },
+  {
+    "input": "deten la musica",
+    "output": "execute.body"
+  },
+  {
+    "input": "repetir cancion",
+    "output": "execute.body"
+  },
+  {
+    "input": "reproduce mi musica favorita",
+    "output": "execute.body"
+  },
+  {
+    "input": "jarvis, pon mi musica favorita",
+    "output": "execute.body"
+  },
+  {
+    "input": "reproduce la musica",
+    "output": "execute.body"
+  },
+  {
+    "input": "pon un nuevo recordatorio de entrenar a jarvis",
+    "output": "mycroft"
   }
 ]

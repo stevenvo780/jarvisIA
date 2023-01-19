@@ -1936,10 +1936,31 @@
     "google-chrome https://mail.google.com/mail/u/0/#inbox"
   ],
   "pausa la musica": [
-    "mycroft"
+    "playerctl pause"
   ],
   "dime la raíz cuadrada de 15": [
     "mycroft"
+  ],
+  "despausa la musica": [
+    "playerctl play"
+  ],
+  "deten la musica": [
+    "playerctl previous"
+  ],
+  "siguiente cancion": [
+    "playerctl next"
+  ],
+  "repetir cancion": [
+    "playerctl previous"
+  ],
+  "reproduce mi musica favorita": [
+    "google-chrome https://www.youtube.com/watch?v=oEG9MGjVQWE&list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH&index=1"
+  ],
+  "jarvis, pon mi musica favorita": [
+    "https://youtube.com/playlist?list=PLekxmxbonZ4SbOPqW4imFM7xkY6sZl8aH"
+  ],
+  "reproduce la musica": [
+    "playerctl play"
   ],
   "buscar": [
     "open.search"

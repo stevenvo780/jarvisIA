@@ -538,5 +538,9 @@
   {
     "input": "ahora es muy fluido hablar contigo",
     "output": "Gracias, seguire mejorando !"
+  },
+  {
+    "input": "bueno jarvis termine mi trabajo porfin",
+    "output": "Que bien, quieres divertirte ahora ?"
   }
 ]
