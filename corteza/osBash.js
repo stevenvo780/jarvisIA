@@ -322,9 +322,9 @@ exports.openSessionMycroft = () => {
   childMycroft.stdout.on('data', data => {
     //console.log(`stdout chat: ${data}`);
   });
-  childMycroft.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroftCommandLine.py') + '\n');
+  childMycroft.stdin.write('python3 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroftCommandLine.py') + '\n');
   childMycroftListener = spawn('bash');
-  childMycroft.stdin.write('python3.10 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroft.py') + '\n');
+  childMycroftListener.stdin.write('python3 ' + path.join(__dirname, '../lobulosProcesativos', 'mycroft.py') + '\n');
 }
 
 exports.runCommandMycroft = async (command) => {

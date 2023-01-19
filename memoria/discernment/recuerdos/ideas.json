@@ -754,5 +754,9 @@
   {
     "input": "pausa",
     "output": "execute.body"
+  },
+  {
+    "input": "bajale",
+    "output": "execute.body"
   }
 ]

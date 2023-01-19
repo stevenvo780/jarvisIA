@@ -7,6 +7,7 @@ const {
   openSessionTranslateEn_Es,
   openSessionTranslateEs_En,
 } = require('./osBash');
+const readline = require('readline');
 const path = require('path');
 const fs = require('fs');
 exports.loadLobules = function () {
@@ -49,6 +50,8 @@ exports.loadLobules = function () {
                       validate = validate - 1
                     }
                   }
+                  readline.cursorTo(process.stdout, 0, 0);
+                  readline.clearScreenDown(process.stdout);
                   console.log(result)
                   //console.log(validate);
                   if (validate === 0) {

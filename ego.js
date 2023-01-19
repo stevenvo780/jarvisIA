@@ -15,7 +15,7 @@ const { pensarDiscernment } = require('./NLP/discernment');
 const { newIdea, fixLastIdea, addLastIdea, rememberLastResponse, handleNotFount } = require('./gestionMemoria/learning');
 const { spawn } = require('child_process');
 const { systemAction } = require('./corteza/cagorizacionProcessExecute');
-
+const readline = require('readline');
 const binaries = {
   programs: []
 };
@@ -31,6 +31,8 @@ exports.findBinaries = () => {
       ls.forEach((line) => {
         binaries.programs.push(line);
       });
+      readline.cursorTo(process.stdout, 0, 0);
+      readline.clearScreenDown(process.stdout);
       console.log("Binarios cargados", binaries.programs.length);
     });
     find.on('close', (code) => {

@@ -7066,10 +7066,10 @@
     "output": "execute.body",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
     }
   },
   {
@@ -7077,10 +7077,120 @@
     "output": "playerctl next",
     "zone": "body",
     "emotionalResponse": {
-      "negative": 0,
-      "neutral": 0,
-      "positive": 0,
-      "score": 0
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.03846127539873123,
+      "neutral": 0.031794413924217224,
+      "positive": 0.1456497311592102,
+      "score": 0.10718845576047897
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1656782478094101,
+      "neutral": 0.20474018156528473,
+      "positive": 0.4989093244075775,
+      "score": 0.3332310765981674
+    }
+  },
+  {
+    "input": "como estas",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1656782478094101,
+      "neutral": 0.20474018156528473,
+      "positive": 0.4989093244075775,
+      "score": 0.3332310765981674
+    }
+  },
+  {
+    "input": "subele",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "subele",
+    "output": "amixer sset Master 10%+ ",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.059173472225666046,
+      "neutral": 0.0987841784954071,
+      "positive": 0.29674282670021057,
+      "score": 0.23756935447454453
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.059173472225666046,
+      "neutral": 0.0987841784954071,
+      "positive": 0.29674282670021057,
+      "score": 0.23756935447454453
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "No sé qué hacer con ella, lo he tenido durante mucho tiempo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5961400866508484,
+      "positive": 0.27887168526649475,
+      "score": -0.7211283147335052
     }
   }
 ]

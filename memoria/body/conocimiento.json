@@ -1980,6 +1980,9 @@
   "pausa": [
     "playerctl stop"
   ],
+  "bajale": [
+    "amixer sset Master 10%-"
+  ],
   "buscar": [
     "open.search"
   ],

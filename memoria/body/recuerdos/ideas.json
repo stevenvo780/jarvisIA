@@ -126,5 +126,9 @@
   {
     "input": "pausa",
     "output": "playerctl stop"
+  },
+  {
+    "input": "bajale",
+    "output": "amixer sset Master 10%-"
   }
 ]
