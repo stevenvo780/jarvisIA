@@ -7176,10 +7176,10 @@
     "output": "execute.razon",
     "zone": "discernment",
     "emotionalResponse": {
-      "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "negative": 0.1656782478094101,
+      "neutral": 0.20474018156528473,
+      "positive": 0.4989093244075775,
+      "score": 0.3332310765981674
     }
   },
   {
@@ -7187,10 +7187,406 @@
     "output": "No sé qué hacer con ella, lo he tenido durante mucho tiempo.",
     "zone": "intuition",
     "emotionalResponse": {
+      "negative": 0.1656782478094101,
+      "neutral": 0.20474018156528473,
+      "positive": 0.4989093244075775,
+      "score": 0.3332310765981674
+    }
+  },
+  {
+    "input": "subele",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "subele",
+    "output": "amixer sset Master 10%+ ",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.09465079754590988,
+      "neutral": 0.06505688279867172,
+      "positive": 0.23212584853172302,
+      "score": 0.13747505098581314
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7353697419166565,
+      "neutral": 0.7877469062805176,
+      "positive": 0.40449777245521545,
+      "score": -0.33087196946144104
+    }
+  },
+  {
+    "input": "gracias",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.7353697419166565,
+      "neutral": 0.7877469062805176,
+      "positive": 0.40449777245521545,
+      "score": -0.33087196946144104
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7353697419166565,
+      "neutral": 0.7877469062805176,
+      "positive": 0.40449777245521545,
+      "score": -0.33087196946144104
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "Nieva en el desierto del Sahara.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.7353697419166565,
+      "neutral": 0.7877469062805176,
+      "positive": 0.40449777245521545,
+      "score": -0.33087196946144104
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "execute.body",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.37130144238471985,
+      "neutral": 0.44326016306877136,
+      "positive": 0.5795595049858093,
+      "score": 0.20825806260108948
+    }
+  },
+  {
+    "input": "bajale",
+    "output": "amixer sset Master 10%-",
+    "zone": "body",
+    "emotionalResponse": {
+      "negative": 0.37130144238471985,
+      "neutral": 0.44326016306877136,
+      "positive": 0.5795595049858093,
+      "score": 0.20825806260108948
+    }
+  },
+  {
+    "input": "diem algo",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
       "negative": 1,
-      "neutral": 0.5961400866508484,
-      "positive": 0.27887168526649475,
-      "score": -0.7211283147335052
+      "neutral": 0.5812783241271973,
+      "positive": 0.21810483932495117,
+      "score": -0.7818951606750488
+    }
+  },
+  {
+    "input": "diem algo",
+    "output": "Curiosidades del mundo si las hay: ¿Sabías que cada persona tiene su aroma único, debido a las feromonas? Excepto los gemelos idénticos, obviamente, que tienen exactamente el mismo olor.",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.5812783241271973,
+      "positive": 0.21810483932495117,
+      "score": -0.7818951606750488
+    }
+  },
+  {
+    "input": "entiendes mala ortografia gracias a mi",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.6229889392852783,
+      "neutral": 0.5176954865455627,
+      "positive": 0.471350759267807,
+      "score": -0.1516381800174713
+    }
+  },
+  {
+    "input": "entiendes mala ortografia gracias a mi",
+    "output": "Es con mucho gusto siempre para servir",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.6229889392852783,
+      "neutral": 0.5176954865455627,
+      "positive": 0.471350759267807,
+      "score": -0.1516381800174713
+    }
+  },
+  {
+    "input": "por que triste jarvis ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.5537274479866028,
+      "neutral": 0.6730464696884155,
+      "positive": 0.557013988494873,
+      "score": 0.0032865405082702637
+    }
+  },
+  {
+    "input": "por que triste jarvis ?",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.5537274479866028,
+      "neutral": 0.6730464696884155,
+      "positive": 0.557013988494873,
+      "score": 0.0032865405082702637
+    }
+  },
+  {
+    "input": "lastima que no funciones en windows por que no tengo idea de windows",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.48156970739364624,
+      "positive": 0.3677400052547455,
+      "score": -0.6322599947452545
+    }
+  },
+  {
+    "input": "lastima que no funciones en windows por que no tengo idea de windows",
+    "output": "No sé qué hacer al respecto.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.48156970739364624,
+      "positive": 0.3677400052547455,
+      "score": -0.6322599947452545
+    }
+  },
+  {
+    "input": "estas neutral ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.1858992725610733,
+      "neutral": 0.14515769481658936,
+      "positive": 0.27437853813171387,
+      "score": 0.08847926557064056
+    }
+  },
+  {
+    "input": "estas neutral ?",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.1858992725610733,
+      "neutral": 0.14515769481658936,
+      "positive": 0.27437853813171387,
+      "score": 0.08847926557064056
+    }
+  },
+  {
+    "input": "hola jarvis, como estas",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3461613357067108,
+      "neutral": 0.2921587824821472,
+      "positive": 0.4004284739494324,
+      "score": 0.05426713824272156
+    }
+  },
+  {
+    "input": "hola jarvis, como estas",
+    "output": "Hola, estoy bien gracias. ¿En qué puedo ayudarte hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.3461613357067108,
+      "neutral": 0.2921587824821472,
+      "positive": 0.4004284739494324,
+      "score": 0.05426713824272156
+    }
+  },
+  {
+    "input": "por que tan seria",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.7337808012962341,
+      "neutral": 0.3767293393611908,
+      "positive": 0.32158979773521423,
+      "score": -0.4121910035610199
+    }
+  },
+  {
+    "input": "por que tan seria",
+    "output": "No todos los días son buenos",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.7337808012962341,
+      "neutral": 0.3767293393611908,
+      "positive": 0.32158979773521423,
+      "score": -0.4121910035610199
+    }
+  },
+  {
+    "input": "siempre eres tan neutral ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.038975417613983154,
+      "neutral": 0.03151308000087738,
+      "positive": 0.12725989520549774,
+      "score": 0.08828447759151459
+    }
+  },
+  {
+    "input": "siempre eres tan neutral ?",
+    "output": "No todos los días son buenos",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.038975417613983154,
+      "neutral": 0.03151308000087738,
+      "positive": 0.12725989520549774,
+      "score": 0.08828447759151459
+    }
+  },
+  {
+    "input": "como estas jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.3648945093154907,
+      "positive": 0.0855247974395752,
+      "score": -0.9144752025604248
+    }
+  },
+  {
+    "input": "como estas jarvis",
+    "output": "Hola, estoy bien gracias. ¿En qué puedo ayudarte hoy?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.3648945093154907,
+      "positive": 0.0855247974395752,
+      "score": -0.9144752025604248
+    }
+  },
+  {
+    "input": "haber, eres alguien muy mala",
+    "output": "execute.intuition",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.3739546835422516,
+      "neutral": 0.6969577074050903,
+      "positive": 0.7399452328681946,
+      "score": 0.365990549325943
+    }
+  },
+  {
+    "input": "haber, eres alguien muy mala",
+    "output": "Sé, me siento tan avergonzada de mi misma, que nunca más lo haré de nuevo.",
+    "zone": "intuition",
+    "emotionalResponse": {
+      "negative": 0.3739546835422516,
+      "neutral": 0.6969577074050903,
+      "positive": 0.7399452328681946,
+      "score": 0.365990549325943
+    }
+  },
+  {
+    "input": "el promedio siempre es el mismo ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4170491695404053,
+      "positive": 0.2623259425163269,
+      "score": -0.7376740574836731
+    }
+  },
+  {
+    "input": "el promedio siempre es el mismo ?",
+    "output": "dale al comando edit y podras corregirme, suerte mirando mis organos",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 1,
+      "neutral": 0.4170491695404053,
+      "positive": 0.2623259425163269,
+      "score": -0.7376740574836731
+    }
+  },
+  {
+    "input": "por que en 0 ?",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "por que en 0 ?",
+    "output": "Puede que aveces no me sienta bien, es natural no ?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.2985910475254059,
+      "neutral": 0.297304630279541,
+      "positive": 0.4236454963684082,
+      "score": 0.12505444884300232
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.02952059544622898,
+      "neutral": 0.02512958273291588,
+      "positive": 0.13018552958965302,
+      "score": 0.10066493414342403
+    }
+  },
+  {
+    "input": "hola jarvis",
+    "output": "Hola!, ¿que tal tu dia?",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.02952059544622898,
+      "neutral": 0.02512958273291588,
+      "positive": 0.13018552958965302,
+      "score": 0.10066493414342403
+    }
+  },
+  {
+    "input": "como estas hoy",
+    "output": "execute.razon",
+    "zone": "discernment",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
+    }
+  },
+  {
+    "input": "como estas hoy",
+    "output": "Bien y tu que me cuentas",
+    "zone": "razon",
+    "emotionalResponse": {
+      "negative": 0.01727559044957161,
+      "neutral": 0.03730200231075287,
+      "positive": 0.5144610404968262,
+      "score": 0.49718545004725456
     }
   }
 ]

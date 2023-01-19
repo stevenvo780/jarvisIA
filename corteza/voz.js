@@ -1,29 +1,35 @@
-const { runCommandRoot, runCommand, runCommandSentiment, runCommandMimic } = require('./osBash');
+const { runCommandRoot, runCommand, runCommandMimic } = require('./osBash');
 const chalk = require('chalk');
 const emoji = require('node-emoji')
+const { getSombra } = require('../gestionMemoria/cortoplazo');
 exports.respuestaConversations = async (texto) => {
-  const somaticResponseJarvis = await runCommandSentiment(texto);
-  //console.log(somaticResponseJarvis);
+  const sombra = await getSombra();
+  let promedioSombraQuestionSuma = 0;
+  for (let index = (sombra.length - process.env.SENTIMENTAL_REMEMBER); index < sombra.length; index++) {
+    const response = sombra[index];
+    promedioSombraQuestionSuma += response.emotionalResponse.score;
+  }
+  const somaticResponseJarvis = promedioSombraQuestionSuma / process.env.SENTIMENTAL_REMEMBER;
   let stateJarvis = "Jarvis: "
-  if (somaticResponseJarvis.score > 0.8) {
+  if (somaticResponseJarvis > 0.8) {
     stateJarvis = "Jarvis " + emoji.get('satisfied') + ": ";
     console.log(stateJarvis + chalk.blue(texto));
-  } else if (somaticResponseJarvis.score > 0.5 && somaticResponseJarvis.score < 0.8) {
+  } else if (somaticResponseJarvis > 0.5 && somaticResponseJarvis < 0.8) {
     stateJarvis = "Jarvis " + emoji.get('sunglasses') + ": ";
     console.log(stateJarvis + chalk.blue(texto));
-  } else if (somaticResponseJarvis.score > 0 && somaticResponseJarvis.score < 0.5) {
+  } else if (somaticResponseJarvis > 0 && somaticResponseJarvis < 0.5) {
     stateJarvis = "Jarvis " + emoji.get('smile') + ": ";
     console.log(stateJarvis + chalk.green(texto));
-  } else if (somaticResponseJarvis.score < 0 && somaticResponseJarvis.score > -0.3) {
+  } else if (somaticResponseJarvis < 0 && somaticResponseJarvis > -0.3) {
     stateJarvis = "Jarvis " + emoji.get('expressionless') + ": ";
     console.log(stateJarvis + chalk.yellow(texto));
-  } else if (somaticResponseJarvis.score > -0.5 && somaticResponseJarvis.score < -0.3) {
+  } else if (somaticResponseJarvis > -0.5 && somaticResponseJarvis < -0.3) {
     stateJarvis = "Jarvis " + emoji.get('sweat') + ": ";
     console.log(stateJarvis + chalk.yellow(texto));
-  } else if (somaticResponseJarvis.score > -0.8 && somaticResponseJarvis.score < -0.5) {
+  } else if (somaticResponseJarvis > -0.8 && somaticResponseJarvis < -0.5) {
     stateJarvis = "Jarvis " + emoji.get('cry') + ": ";
     console.log(stateJarvis + chalk.red(texto));
-  } else if (somaticResponseJarvis.score > -1 && somaticResponseJarvis.score < 0.8) {
+  } else if (somaticResponseJarvis > -1 && somaticResponseJarvis < 0.8) {
     stateJarvis = "Jarvis " + emoji.get('rage') + ": ";
     console.log(stateJarvis + chalk.red(texto));
   } else {

@@ -79,6 +79,6 @@ exports.somaticMarkers = async (responseGreat) => {
 }
 
 exports.getSombra = async () => {
-  const conocimiento = JSON.parse(fs.readFileSync(path.join("memoria", '', 'sombra.json')));
+  const conocimiento = await JSON.parse(fs.readFileSync(path.join("memoria", '', 'sombra.json')));
   return conocimiento;
 }

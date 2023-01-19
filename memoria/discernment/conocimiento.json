@@ -1045,7 +1045,24 @@
     "execute.body"
   ],
   "bajale": [
+    "execute.body",
+    "execute.razon",
     "execute.body"
+  ],
+  "que puedo hacer para consolar a mi esposa": [
+    "execute.razon"
+  ],
+  "diem algo": [
+    "execute.razon"
+  ],
+  "por que triste jarvis ?": [
+    "execute.razon"
+  ],
+  "lastima que no funciones en windows por que no tengo idea de windows": [
+    "execute.razon"
+  ],
+  "eres muy linda": [
+    "execute.razon"
   ],
   "Busca en wolfram": [
     "wolfram"

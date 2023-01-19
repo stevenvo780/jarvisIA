@@ -758,5 +758,33 @@
   {
     "input": "bajale",
     "output": "execute.body"
+  },
+  {
+    "input": "que puedo hacer para consolar a mi esposa",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bajale",
+    "output": "execute.razon"
+  },
+  {
+    "input": "bajale",
+    "output": "execute.body"
+  },
+  {
+    "input": "diem algo",
+    "output": "execute.razon"
+  },
+  {
+    "input": "por que triste jarvis ?",
+    "output": "execute.razon"
+  },
+  {
+    "input": "lastima que no funciones en windows por que no tengo idea de windows",
+    "output": "execute.razon"
+  },
+  {
+    "input": "eres muy linda",
+    "output": "execute.razon"
   }
 ]

@@ -542,5 +542,29 @@
   {
     "input": "bueno jarvis termine mi trabajo porfin",
     "output": "Que bien, quieres divertirte ahora ?"
+  },
+  {
+    "input": "que puedo hacer para consolar a mi esposa",
+    "output": "Lamento oír eso. ¿Qué está pasando con tu esposa?"
+  },
+  {
+    "input": "bajale",
+    "output": "Nieva en el desierto del Sahara."
+  },
+  {
+    "input": "diem algo",
+    "output": "Puede que pienses que la Coca Cola es algo que puedes encontrar en cualquier parte del mundo, pero estos dos países han estado sometidos a embargos comerciales estadounidenses de larga duración: Corea del Norte desde 1950 y Cuba desde 1962."
+  },
+  {
+    "input": "por que triste jarvis ?",
+    "output": "Puede que aveces no me sienta bien, es natural no ?"
+  },
+  {
+    "input": "lastima que no funciones en windows por que no tengo idea de windows",
+    "output": "No sé qué hacer al respecto."
+  },
+  {
+    "input": "eres muy linda",
+    "output": "Intento ser, pero no siempre soy el mejor en ello."
   }
 ]
