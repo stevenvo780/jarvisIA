@@ -463,7 +463,8 @@
     "mycroft"
   ],
   "pausa": [
-    "mycroft"
+    "mycroft",
+    "execute.body"
   ],
   "Sorry, I don't understand": [
     "mycroft.fail",
@@ -1026,6 +1027,22 @@
   ],
   "pon un nuevo recordatorio de entrenar a jarvis": [
     "mycroft"
+  ],
+  "sube el volumen": [
+    "execute.body"
+  ],
+  "baja el volumen": [
+    "execute.body"
+  ],
+  "ultima cancion": [
+    "execute.body"
+  ],
+  "jarvis  subele": [
+    "execute.body"
+  ],
+  "reproduce": [
+    "execute.body",
+    "execute.body"
   ],
   "Busca en wolfram": [
     "wolfram"

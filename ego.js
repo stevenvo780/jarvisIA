@@ -91,7 +91,6 @@ exports.medula = async (question) => {
     const discernment = await pensarDiscernment(question);
     const discernmentProm = await classificationMaxima(discernment.classifications, "discernment");
     if (discernmentProm.intent == "None") {
-      startTimer(true);
       await intuitionResponse(question, discernmentProm);
       resolve(true);
       return;
@@ -131,7 +130,6 @@ exports.medula = async (question) => {
       const translateEs_En = await runCommandTranslateEs_En(question);
       const mycroft = await mycroftIntent(translateEs_En.response);
       if (mycroft === null) {
-        startTimer(true);
         await intuitionResponse(question, discernmentProm);
       } else {
         const translateEn_Es = await runCommandTranslateEn_Es(mycroft.response);
@@ -145,11 +143,9 @@ exports.medula = async (question) => {
       const bodySomatic = await pensarBody(question);
       const bodySomaticProm = await classificationMaxima(bodySomatic.classifications, "body");
       if (bodySomaticProm.score < 0.5) {
-        startTimer(true);
         await intuitionResponse(question, discernmentProm);
       } else {
         if (bodySomaticProm.intent == "None") {
-          startTimer(true);
           await intuitionResponse(question, discernmentProm);
           resolve(true);
           return;
@@ -165,11 +161,9 @@ exports.medula = async (question) => {
       const razonSomatic = await pensarRazon(question);
       const razonSomaticProm = await classificationMaxima(razonSomatic.classifications, "razon");
       if (razonSomaticProm.score < 0.3) {
-        startTimer(true);
         await intuitionResponse(question, discernmentProm);
       } else {
         if (razonSomaticProm.intent == "None") {
-          startTimer(true);
           await intuitionResponse(question, discernmentProm);
           resolve(true);
           return;
@@ -181,10 +175,8 @@ exports.medula = async (question) => {
         return;
       }
     } else if (discernmentProm.intent === "execute.intuition" && discernmentProm.score > 0.5) {
-      startTimer(true);
       await intuitionResponse(question, discernmentProm);
     } else {
-      startTimer(true);
       await intuitionResponse(question, discernmentProm);
     }
     startTimer(true);
@@ -223,7 +215,6 @@ async function classificationMaxima(classifications, zone) {
 }
 
 const intuitionResponse = async (question, discernment) => {
-  startTimer(true);
   await respuestaConversations("Pensando una respuesta");
   const translateEs_En = await runCommandTranslateEs_En(question);
   const betty = await bettyIntent(translateEs_En.response);
@@ -241,6 +232,7 @@ const intuitionResponse = async (question, discernment) => {
     }
     await respuestaConversations(translateEn_Es.response);
   }
+  startTimer(true);
   await handleNotFount(question, translateEn_Es.response, discernment);
   return translateEn_Es?.response;
 }

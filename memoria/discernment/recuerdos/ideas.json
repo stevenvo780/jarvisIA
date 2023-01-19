@@ -726,5 +726,33 @@
   {
     "input": "pon un nuevo recordatorio de entrenar a jarvis",
     "output": "mycroft"
+  },
+  {
+    "input": "sube el volumen",
+    "output": "execute.body"
+  },
+  {
+    "input": "baja el volumen",
+    "output": "execute.body"
+  },
+  {
+    "input": "ultima cancion",
+    "output": "execute.body"
+  },
+  {
+    "input": "jarvis  subele",
+    "output": "execute.body"
+  },
+  {
+    "input": "reproduce",
+    "output": "execute.body"
+  },
+  {
+    "input": "reproduce",
+    "output": "execute.body"
+  },
+  {
+    "input": "pausa",
+    "output": "execute.body"
   }
 ]

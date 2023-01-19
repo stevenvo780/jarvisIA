@@ -1962,6 +1962,24 @@
   "reproduce la musica": [
     "playerctl play"
   ],
+  "sube el volumen": [
+    "amixer sset Master 10%+ "
+  ],
+  "baja el volumen": [
+    "amixer sset Master 10%-"
+  ],
+  "ultima cancion": [
+    "playerctl previous"
+  ],
+  "jarvis  subele": [
+    "amixer sset Master 10%+ "
+  ],
+  "reproduce": [
+    "playerctl stop"
+  ],
+  "pausa": [
+    "playerctl stop"
+  ],
   "buscar": [
     "open.search"
   ],

@@ -102,5 +102,29 @@
   {
     "input": "reproduce la musica",
     "output": "playerctl play"
+  },
+  {
+    "input": "sube el volumen",
+    "output": "amixer sset Master 10%+ "
+  },
+  {
+    "input": "baja el volumen",
+    "output": "amixer sset Master 10%-"
+  },
+  {
+    "input": "ultima cancion",
+    "output": "playerctl previous"
+  },
+  {
+    "input": "jarvis  subele",
+    "output": "amixer sset Master 10%+ "
+  },
+  {
+    "input": "reproduce",
+    "output": "playerctl stop"
+  },
+  {
+    "input": "pausa",
+    "output": "playerctl stop"
   }
 ]
